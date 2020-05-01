@@ -15,14 +15,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/docs/content/blog`,
+        path: `${__dirname}/content/blog`,
         name: `blog`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/docs/content/assets`,
+        path: `${__dirname}/content/assets`,
         name: `assets`,
       },
     },
@@ -66,7 +66,7 @@ module.exports = {
         background_color: `#061e3e`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `docs/content/assets/gatsby-icon.png`,
+        icon: `content/assets/gatsby-icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
