@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `احسان گازار`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `احسان گازار`,
+      summary: `برنامه نویس، بلاگر و صخره نورد`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است`,
+    siteUrl: `https://fa.ehsangazar.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `ehsangazar`,
     },
   },
   plugins: [
@@ -60,10 +60,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `احسان گازار`,
+        short_name: `احسان گازار`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#061e3e`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,

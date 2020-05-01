@@ -4,13 +4,13 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Video from "../components/video"
 import { rhythm, scale } from "../utils/typography"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
-
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
@@ -37,12 +37,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             {post.frontmatter.date}
           </p>
         </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
+        <Video
+          videoSourceURL={post.frontmatter.videoSourceURL}
+          videoTitle={post.frontmatter.videoTitle}
         />
+        <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <footer>
           <Bio />
         </footer>
@@ -94,7 +93,9 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        description
+        description,
+        videoSourceURL,
+        videoTitle,
       }
     }
   }

@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Parastoo;
+    src: url('http://fonts.codearena.ir/rastikerdar/parastoo/parastoo.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/parastoo/parastoo.eot?#iefix') format('embedded-opentype'),
+        url('http://fonts.codearena.ir/rastikerdar/parastoo/parastoo.woff') format('woff'),
+        url('http://fonts.codearena.ir/rastikerdar/parastoo/parastoo.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: Jadidbold;
+    src: url('http://fonts.codearena.ir/b/jadidbold/jadidbold.eot');
+    src: url('http://fonts.codearena.ir/b/jadidbold/jadidbold.eot?#iefix') format('embedded-opentype'),
+        url('http://fonts.codearena.ir/b/jadidbold/jadidbold.woff') format('woff'),
+        url('http://fonts.codearena.ir/b/jadidbold/jadidbold.ttf') format('truetype');
+    font-weight: normal;
+}
+* {
+    font-family: Parastoo;
+}
+html, body {
+    direction: rtl;
+    
+}
+h1, h1 a {
+    font-family: Jadidbold;
+}
+h2, h2 a {
+    font-family: Jadidbold;
+}
+h3, h3 a {
+    font-family: Jadidbold;
+}
+a {
+    box-shadow: none;
+    color: #129281;
+    text-decoration: none;
+}
+.posts {
+    height: 300px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;   
+}
+.blogPost {
+    position: relative;
+    height: 100%;
+    cursor: pointer;
+    max-width: 300px;
+}
+.blogPost img {
+    margin: 0;
+    height: 170px;
+    object-fit: cover;
+}
+.blogPost header {
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    height: 170px;
+    top: 0px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    color: white;
+}
+.blogPost header a {
+    color: white;
+}
+.blogPost:hover header{ 
+    opacity: 1;
+    transition-duration: 1s;
+}

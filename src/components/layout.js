@@ -58,10 +58,24 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+      <footer className="footer">
+        <div style={{
+          fontSize: '10px',
+        }}>
+          <a href="https://twitter.com/ehsangazar">Twitter</a>
+          <span> | </span>
+          <a href="https://instageram.com/ehsangazar">Instagram</a>
+          <span> | </span>
+          <a href="https://ehsangazar.com">English Blog</a>
+        </div>
+        <div style={{
+          direction: 'ltr',
+          fontSize: '10px',
+        }}>
+          © {new Date().getFullYear()}, Built with
+          {` `}
+            <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </div>
       </footer>
     </div>
   )
