@@ -39,6 +39,9 @@ const Bio = () => {
         display: `flex`,
         marginBottom: rhythm(2.5),
         alignItems: 'center',
+        marginLeft: `auto`,
+        marginRight: `auto`,
+        maxWidth: rhythm(24),
       }}
     >
       <Image
