@@ -12,7 +12,7 @@ if (typeof window !== "undefined") {
             search: '',
         },
         history: {
-            pushState = () => {}
+            pushState: () => {}
         }
     };
 }
