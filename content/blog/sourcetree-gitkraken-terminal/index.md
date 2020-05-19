@@ -5,4 +5,5 @@ description: "برنامه نویسی - آموزش - آشنایی با SourceTre
 videoSourceURL: https://www.youtube.com/embed/gBPGcnUmduA
 videoTitle: "برنامه نویسی - آموزش - آشنایی با SourceTree, GitKraken و کار مقدماتی با Terminal"
 cover: cover.jpg
+category: git
 ---

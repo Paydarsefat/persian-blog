@@ -51,7 +51,8 @@ export const pageQuery = graphql`
                   ...GatsbyImageSharpFluid
                 }
               }
-            }
+            },
+            category
           }
         }
       }

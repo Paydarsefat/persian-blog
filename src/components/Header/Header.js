@@ -16,7 +16,7 @@ const Header = () => (
       </Link>
     </div>
     <div className="menuContainer">
-      <ul className="menu">
+      <ul className="menuEnglish">
         <li>
           <a href="https://ehsangazar.com">English</a>
         </li>
