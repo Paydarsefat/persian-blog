@@ -4,6 +4,6 @@ date: "2020-05-20"
 description: "معرفی Git و سایت‌های BitBucket, Github و GitLab"
 videoSourceURL: https://www.youtube.com/embed/JPGH0KwVl8M
 videoTitle: "معرفی Git و سایت‌های BitBucket, Github و GitLab"
-cover: cover.png
+cover: cover.jpg
 category: git
 ---
