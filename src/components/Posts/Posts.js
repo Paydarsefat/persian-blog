@@ -34,6 +34,11 @@ const Posts = ({ posts }) => {
               گیت
             </button>
           </li>
+          <li className={chosenCategory === 'react-basic' ? 'selected' : ''}>
+            <button onClick={() => changeSearchParams('react-basic')}>
+              دوره React مقدماتی
+            </button>
+          </li>
         </ul>
       </div>
       <div className="posts">
