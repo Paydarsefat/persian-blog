@@ -7,3 +7,7 @@ videoTitle: "آموزش کار با gitlab و gitkraken "
 cover: cover.jpg
 category: git
 ---
+
+خب در این ویدئو بررسی می‌کند که سایت Gitlab چطور کار می‌کند و شما را نیز همچنین با GitKraken آشنا می‌کنم.
+
+احتمالا از ظاهر GitKraken خوشتان بیاید

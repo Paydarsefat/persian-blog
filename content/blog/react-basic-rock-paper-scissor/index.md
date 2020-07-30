@@ -1,9 +1,13 @@
 ---
-title: کلاس آنلاین بررسی و Refactoring برای یک نمونه کد Timer
-date: "2020-06-20"
-description: "کلاس آنلاین بررسی و Refactoring برای یک نمونه کد Timer"
-videoSourceURL: https://www.youtube.com/embed/IhL6kLfXPqI
-videoTitle: "کلاس آنلاین بررسی و Refactoring برای یک نمونه کد Timer"
+title: کلاس آنلاین برای بررسی کد سنگ کاغذ قیچی
+date: "2020-06-30"
+description: "کلاس آنلاین برای بررسی کد سنگ کاغذ قیچی"
+videoSourceURL: https://www.youtube.com/embed/ckWm5rnsmGM
+videoTitle: "کلاس آنلاین برای بررسی کد سنگ کاغذ قیچی"
 cover: cover.png
 category: react-basic
 ---
+
+این نمونه‌ی جلسه‌ی دیگری است که برای دوره مقدماتی React در سایت Designwich برگزار کردم.
+
+سوالات دوستان به مراتب جذاب تر شده‌اند و من در این کلاس در تلاش بودم تا خودشان را به جواب برسانم.

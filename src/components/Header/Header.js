@@ -1,28 +1,33 @@
 import React from 'react'
-import { Link } from "gatsby"
-import profileSrc from './profile.png'
+import profileImage from './profile.png'
+import { Link } from 'gatsby'
 
 const Header = () => (
-  <div className="header">
-    <div className="header-title">
-      <Link to={`/`} className="no-link">
-        <div>
-          <img src={profileSrc} />
+  <header className="theme-default">
+    <div className="container">
+      <div className="header-wrapper">
+        <div className="header__name">
+          <Link to="/" className="header__logo">
+            <img src={profileImage} alt="Logo" />
+          </Link>
+          <div>
+            <h1>احسان گازار</h1>
+            <p>برنامه نویس، مدرس، بلاگر و صخره نورد</p>
+          </div>
         </div>
-        <div>
-          <h3 className="shabnam">احسان گازار</h3>
-          <h4 className="serif">برنامه نویس، بلاگر و صخره نورد</h4>
-        </div>
-      </Link>
+        <nav>
+          <ul>
+            <li className="nav-item active">
+              <Link to={"/"}>خانه</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/about">درباره</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <div className="menuContainer">
-      <ul className="menuEnglish">
-        <li>
-          <a href="https://ehsangazar.com">English</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+  </header>
 )
 
 export default Header 

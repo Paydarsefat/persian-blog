@@ -1,227 +1,82 @@
 @font-face {
-    font-family: Shabnam;
-    src: url('./fonts/shabnam.eot');
-    src: url('./fonts/shabnam.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/shabnam.woff') format('woff'),
-        url('./fonts/shabnam.ttf') format('truetype');
-    font-weight: normal;
+  font-family: Anjoman;
+  src: url('./fonts/AnjomanFaNum-Regular.eot');
+  src: url('./fonts/AnjomanFaNum-Regular.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/AnjomanFaNum-Regular.woff2') format('woff2'),
+       url('./fonts/AnjomanFaNum-Regular.woff') format('woff'),
+       url('./fonts/AnjomanFaNum-Regular.ttf') format('truetype');
+  font-weight: normal;
 }
-* {
-    font-family: Shabnam;
+
+@font-face {
+  font-family: Anjoman;
+  src: url('./fonts/AnjomanFaNum-Bold.eot');
+  src: url('./fonts/AnjomanFaNum-Bold.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/AnjomanFaNum-Bold.woff2') format('woff2'),
+       url('./fonts/AnjomanFaNum-Bold.woff') format('woff'),
+       url('./fonts/AnjomanFaNum-Bold.ttf') format('truetype');
+  font-weight: bold;
 }
-h1, h2, h3, h4, h5 {
-    margin: 0;
-    color: #222222;
+
+@font-face {
+  font-family: Anjoman;
+  src: url('./fonts/AnjomanFaNum-SemiBold.eot');
+  src: url('./fonts/AnjomanFaNum-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/AnjomanFaNum-SemiBold.woff2') format('woff2'),
+       url('./fonts/AnjomanFaNum-SemiBold.woff') format('woff'),
+       url('./fonts/AnjomanFaNum-SemiBold.ttf') format('truetype');
+  font-weight: 500;
 }
-.shabnam, .shabnam * {
-    font-family: Shabnam;
+@font-face {
+  font-family: Anjoman;
+  src: url('./fonts/AnjomanFaNum-SemiBold.eot');
+  src: url('./fonts/AnjomanFaNum-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/AnjomanFaNum-SemiBold.woff2') format('woff2'),
+       url('./fonts/AnjomanFaNum-SemiBold.woff') format('woff'),
+       url('./fonts/AnjomanFaNum-SemiBold.ttf') format('truetype');
+  font-weight: 600;
 }
-a {
-    font-family: Shabnam;
-    text-decoration: none;
-    color: #cccccc;
-    box-shadow: none;
-}
-a:hover {
-    color: #222222;
-}
-.serif, .serif * {
-    font-family: serif;
-}
-html, body {
+html,body {
+    font-family: Anjoman !important;
     direction: rtl;
-}
-.header {
-    max-width: 960px;
-    margin: 0 auto;
-    display: flex;
-    min-height: 100px;
-    padding: 0 16px;
-    justify-content: space-between;
-}
-.header h4, .header h3 {
     margin: 0;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-.header h3 {
-    margin-bottom: 8px;
+h1 {
+    font-size: 1.375em;
+    font-weight: 700;
+    line-height: 1.375em;
 }
-.header .header-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+p {
+  font-size: 0.9em;
+  line-height: 1.73333em
 }
-.header .header-title a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: none;
-}
-.header .header-title img {
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    margin: 0;
-    margin-left: 12px;
-}
-.no-link {
-    color: #000000;
-}
-.menuContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-@media (max-width : 480px) {
-    .menuContainer {
-        display: none;
-    }
-}
-.menuEnglish {
-    list-style: none;
-    margin: 0;
-}
-.menuEnglish li {
-    margin: 0;
-}
-.menuEnglish li a {
-    text-decoration: none;
-    border: none;
-    box-shadow: none;
-    color: #cccccc;
-    transition-duration: 400ms;
-}
-.menuEnglish li a:hover {
-    color: #000000;
+
+.space-up {
+  padding-top: 2.5em;
 }
 .banner {
-    background-color: #060503;
+  width: 100%;
 }
 .banner img {
-    width: 100%;
-    object-fit: cover;
-    max-height: 56vh;
-    margin: 0;
+  max-height: 70vh;
+  width: 100%;
+  object-fit: cover;
 }
-.posts {
-    margin: 0;
-    max-width: 960px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.blog-masonry {
+  display: flex;
+  flex-wrap: wrap;
 }
-.posts article {
-    max-width: 288px;    
-    margin: 12px;
+iframe {
+  width: 100%;
+  min-height: 200px;
 }
-.posts article .blogPost {
-    min-height: 230px;
-    border-bottom: 5px solid #222222;
-    transition-duration: 400ms;
+.content {
+  padding: 1em;
 }
-.posts article .blogPost:hover {
-    border-color: #cccccc;
-}
-.posts article .blogPost .imgContainer {
-    position: relative;
-    height: 162px;
-}
-.posts article .blogPost .imgContainer::after {
-    content: ' ';
-    position: absolute;
-    height: 100%;
-    top: 0;
-    right: 0;
-    width: 100%;
-    background-color: rgba(0,0,0,0);
-}
-.posts article .blogPost:hover .imgContainer::after {
-    background-color: rgba(0,0,0,0.5);
-    transition-duration: 400ms;
-}
-.posts article .blogPost img {
-    width: 100%;
-    height: 162px;
-    object-fit: cover;
-    margin: 0;
-    position: relative;
-    transition-duration: 400ms;
-}
-
-.posts article .blogPost header {
-    margin: 0;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.posts article .blogPost header h4 {
-    letter-spacing: 0;
-    text-align: center;
-    line-height: 24px;
-}
-
-.footer {
-    margin-top: 200px;
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    border-top: 1px solid #cccccc;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.footer h2 {
-    direction: ltr;
-}
-.footer .footer-icons {
-    margin-top: 12px
-}
-.footer .footer-icons a {
-    padding: 12px;
-}
-.singleBlogPost {
-    margin: 0 auto;
-    max-width: 960px;
-    margin-top: 100px;
-}
-.singleBlogPost header {
-    padding: 24px;
-}
-.Video {
-    width: 100%;
-}
-.Video iframe {
-    width: 100%;
-    min-height: 48vw;
-}
-.singleBlogPost section {
-    padding: 0 24px;
-}
-.menu {    
-    display: flex;
-    background-color: #060503;
-    margin-bottom: 20px;
-}
-.menu ul {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    max-width: 900px;
-    padding-top: 10px;
-}
-.menu ul li {
-    padding: 10px 15px;
-    list-style: none;;
-}
-.menu ul li button {
-    border: none;
-    background: none;
-    cursor: pointer;
-    color: white;
-}
-.menu ul li button:hover {
-    color: #e3944b;
-}
-.menu ul li.selected button {
-    color: #e3944b;
+.about-us img {
+  width: 100%;
 }
