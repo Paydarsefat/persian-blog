@@ -643,7 +643,6 @@ function plyrInit() {
       poster: "../images/backgrounds/trending-post-1.png",
     };
     let videoTitle = $(item.elements.container).siblings("a");
-    console.log(videoTitle);
     if (videoTitle) {
       item.on("playing", (event) => {
         videoTitle.hide();

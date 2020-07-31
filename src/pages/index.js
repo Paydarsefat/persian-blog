@@ -1,15 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Posts from "../components/Posts/Posts"
-import '../app/assets/css/elegant.css'
-import '../app/assets/css/custom_bootstrap.css'
-import '../app/assets/css/slick.css'
-import '../app/assets/css/plyr.min.css'
-import '../app/assets/css/style.css'
-import './index.css'
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title

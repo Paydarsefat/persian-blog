@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/Header/Header"
@@ -9,7 +8,6 @@ import Video from "../components/Video/Video"
 const BlogPost = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
-  console.log("post", post)
   return (
     <Layout location={location} title={siteTitle}>
       <Header />
