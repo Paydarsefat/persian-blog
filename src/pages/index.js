@@ -9,7 +9,7 @@ const BlogIndex = ({ data, location }) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={siteTitle} page="homepage">
       <SEO title={data.site.siteMetadata.author.summary} />
       <Posts posts={posts} />      
     </Layout>

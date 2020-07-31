@@ -12,7 +12,7 @@ import aboutProfile from './about.png'
 
 const About = ({ location }) => {
   return (
-    <Layout location={location} title={"درباره"}>
+    <Layout location={location} title={"درباره"} page="about">
       <SEO title={"درباره احسان گازار"} />
       {/* <Banner /> */}
       <div class="no-pd" id="content">
