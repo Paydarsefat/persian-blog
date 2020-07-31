@@ -9,6 +9,7 @@ import Video from "../components/Video/Video"
 const BlogPost = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
+  console.log("post", post)
   return (
     <Layout location={location} title={siteTitle}>
       <Header />
@@ -29,41 +30,36 @@ const BlogPost = ({ data, location }) => {
             </ul>
           </div>
           <div class="about-us">
-            <div class="row align-items-center">
+            <div class="row content-container">
               {post.frontmatter.videoSourceURL && (
-                <>
-                  <div class="col-12 col-md-4 col-lg-4">
-                    <Video
-                      videoSourceURL={post.frontmatter.videoSourceURL}
-                      videoTitle={post.frontmatter.videoTitle}
-                    />
-                  </div>
-                  <div class="col-12 col-md-8 col-lg-8 content">
-                    <h1>{post.frontmatter.title}</h1>
-                    <br />
-                    <br />
-                    <section dangerouslySetInnerHTML={{ __html: post.html }} />
-                  </div>
-                </>
+                <div class="col-12 col-md-4 col-lg-4 content-video">
+                  <Video
+                    videoSourceURL={post.frontmatter.videoSourceURL}
+                    videoTitle={post.frontmatter.videoTitle}
+                  />
+                </div>
               )}
+              {!post.frontmatter.videoSourceURL && (
+                <div class="col-12 col-md-4 col-lg-4 content-image">
+                  <img
+                    src={
+                      post.frontmatter.cover &&
+                      post.frontmatter.cover.childImageSharp.fluid.src
+                    }
+                    alt={post.frontmatter.title}
+                  />
+                </div>
+              )}
+              <div class="col-12 col-md-8 col-lg-8 content">
+                <h1>{post.frontmatter.title}</h1>
+                <br />
+                <br />
+                <section dangerouslySetInnerHTML={{ __html: post.html }} />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="singleBlogPost">
-        <article>
-          <header>
-            <h1 className="shabnam">
-              {post.frontmatter.title}
-            </h1>        
-          </header>
-          <Video          
-            videoSourceURL={post.frontmatter.videoSourceURL}
-            videoTitle={post.frontmatter.videoTitle}
-          />
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        </article>
-      </div> */}
     </Layout>
   )
 }
@@ -71,24 +67,31 @@ const BlogPost = ({ data, location }) => {
 export default BlogPost
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
-      excerpt(pruneLength: 160)
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-        description,
-        videoSourceURL,
-        category,
-        videoTitle,
-      }
-    }
-  }
-`
+         query BlogPostBySlug($slug: String!) {
+           site {
+             siteMetadata {
+               title
+             }
+           }
+           markdownRemark(fields: { slug: { eq: $slug } }) {
+             id
+             excerpt(pruneLength: 160)
+             html
+             frontmatter {
+               title
+               date(formatString: "MMMM DD, YYYY")
+               description
+               videoSourceURL
+               category
+               videoTitle
+               cover {
+                 childImageSharp {
+                   fluid(maxWidth: 800) {
+                     ...GatsbyImageSharpFluid
+                   }
+                 }
+               }
+             }
+           }
+         }
+       `

@@ -52,7 +52,7 @@ h1 {
 
 p {
   font-size: 0.9em;
-  line-height: 1.73333em
+  line-height: 2em
 }
 
 .space-up {
@@ -79,4 +79,42 @@ iframe {
 }
 .about-us img {
   width: 100%;
+}
+.content h3,.content h4,.content h2,.content h1 {
+    margin: 1em 0
+}
+.content-container {
+  position: relative;
+  align-items: flex-start;
+}
+.content-image {
+  display: flex;  
+  position: sticky;
+  top: 9em;
+}
+.content-video {
+  display: flex;  
+  position: sticky;
+  top: 9em;
+}
+.Video {
+  width: 100%;;
+}
+.content li {
+    list-style: disc;
+    list-style-position: inside;
+    margin: 1em 0;
+    padding: 1em;
+}
+.content section h2,.content section h3,.content section h4 {
+    margin: 1em 0;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+@media only screen and (max-width: 768px) {
+  .content-video, .content-image {
+    position: static;
+    margin: 1em 0;
+  }
 }

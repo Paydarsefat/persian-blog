@@ -12,7 +12,10 @@ const Posts = ({ posts }) => {
               <div className="post-card -center">
                 <Link to={node.fields.slug} className="card__cover">
                   <img
-                    src={node.frontmatter.cover.childImageSharp.fluid.src}
+                    src={
+                      node.frontmatter.cover && node.frontmatter
+                        .cover.childImageSharp.fluid.src
+                    }
                     alt={title}
                   />
                 </Link>
