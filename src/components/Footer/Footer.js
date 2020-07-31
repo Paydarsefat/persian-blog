@@ -1,4 +1,5 @@
 import React from 'react'
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const Footer = () => (
   <footer>
@@ -27,7 +28,7 @@ const Footer = () => (
               </div>
               <div className="feature-post-block">
                 <div className="post-card -tiny">
-                  <a
+                  <OutboundLink
                     className="card__cover"
                     href="https://designwich.com/courses/react-basic/"
                   >
@@ -35,14 +36,14 @@ const Footer = () => (
                       src="https://designwich.com/wp-content/uploads/2020/04/React-Site-thumb-3.jpg"
                       alt="دوره React JS مقدماتی"
                     />
-                  </a>
+                  </OutboundLink>
                   <div className="card__content">
-                    <a
+                    <OutboundLink
                       className="card__content-title"
                       href="https://designwich.com/courses/react-basic/"
                     >
                       دوره React JS مقدماتی
-                    </a>
+                    </OutboundLink>
                     <p>
                       دوره‌ای که در آن با مقدمات برنامه‌نویسی وب آشنا‌ می‌شوید و
                       یاد میگیرید با React وب‌سایت بنویسید
@@ -50,7 +51,7 @@ const Footer = () => (
                   </div>
                 </div>
                 <div className="post-card -tiny">
-                  <a
+                  <OutboundLink
                     className="card__cover"
                     href="https://designwich.com/courses/react-basic/"
                   >
@@ -58,14 +59,14 @@ const Footer = () => (
                       src="https://designwich.com/wp-content/uploads/2020/05/React-Site-thumb-2-1.png"
                       alt="دوره React JS پیشرفته"
                     />
-                  </a>
+                  </OutboundLink>
                   <div className="card__content">
-                    <a
+                    <OutboundLink
                       className="card__content-title"
                       href="https://designwich.com/courses/react-advanced/"
                     >
                       دوره React JS پیشرفته
-                    </a>
+                    </OutboundLink>
                     <p>
                       برای برنامه‌نویسی FrontEnd نیازمندید به صورت حرفه‌ای
                       React,Next JS, Webpack و تکنولوژی‌های دیگری مثل GraphQL و
@@ -85,9 +86,9 @@ const Footer = () => (
                   </div>
                   <p className="contact-method">
                     اگر می‌خواهید با من در ارتباط باشید پیامی به{" "}
-                    <a href="https://www.instagram.com/ehsangazar/">
+                    <OutboundLink href="https://www.instagram.com/ehsangazar/">
                       اینستاگرام
-                    </a>{" "}
+                    </OutboundLink>{" "}
                     من، یا ایمیلی به me@ehsangazar.com بفرستید.
                   </p>
                 </div>
@@ -96,19 +97,19 @@ const Footer = () => (
                     <h5>من را در صفحات اجتماعی دنبال کنید</h5>
                   </div>
                   <div className="social-block">
-                    <a href="https://www.facebook.com/ehsangazarcom">
+                    <OutboundLink href="https://www.facebook.com/ehsangazarcom">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://twitter.com/ehsangazar">
+                    </OutboundLink>
+                    <OutboundLink href="https://twitter.com/ehsangazar">
                       <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://www.instagram.com/ehsangazar/">
+                    </OutboundLink>
+                    <OutboundLink href="https://www.instagram.com/ehsangazar/">
                       <i className="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://github.com/ehsangazar">
+                    </OutboundLink>
+                    <OutboundLink href="https://github.com/ehsangazar">
                       <i className="fab fa-github"></i>
-                    </a>
-                    <a href="http://ehsangazar.com">EN</a>
+                    </OutboundLink>
+                    <OutboundLink href="http://ehsangazar.com">EN</OutboundLink>
                   </div>
                 </div>
               </div>
