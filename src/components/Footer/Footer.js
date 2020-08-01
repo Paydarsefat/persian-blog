@@ -30,7 +30,7 @@ const Footer = () => (
               </div>
               <div className="feature-post-block">
                 <div className="post-card -tiny">
-                  <OutboundLink
+                  <OutboundLink rel="noopener noreferrer" target="_blank"
                     className="card__cover"
                     href="https://designwich.com/courses/react-basic/"
                   >
@@ -40,7 +40,7 @@ const Footer = () => (
                     />
                   </OutboundLink>
                   <div className="card__content">
-                    <OutboundLink
+                    <OutboundLink rel="noopener noreferrer" target="_blank"
                       className="card__content-title"
                       href="https://designwich.com/courses/react-basic/"
                     >
@@ -53,7 +53,7 @@ const Footer = () => (
                   </div>
                 </div>
                 <div className="post-card -tiny">
-                  <OutboundLink
+                  <OutboundLink rel="noopener noreferrer" target="_blank"
                     className="card__cover"
                     href="https://designwich.com/courses/react-basic/"
                   >
@@ -63,7 +63,7 @@ const Footer = () => (
                     />
                   </OutboundLink>
                   <div className="card__content">
-                    <OutboundLink
+                    <OutboundLink rel="noopener noreferrer" target="_blank"
                       className="card__content-title"
                       href="https://designwich.com/courses/react-advanced/"
                     >
@@ -87,8 +87,8 @@ const Footer = () => (
                     <h5>تماس با من</h5>
                   </div>
                   <p className="contact-method">
-                    اگر می‌خواهید با من در ارتباط باشید پیامی به{" "}
-                    <OutboundLink href="https://www.instagram.com/ehsangazar/">
+                    اگر می‌خواهید با من در ارتباط باشید پیامی به{` `}
+                    <OutboundLink rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/ehsangazar/">
                       اینستاگرام
                     </OutboundLink>{" "}
                     من، یا ایمیلی به me@ehsangazar.com بفرستید.
@@ -99,19 +99,22 @@ const Footer = () => (
                     <h5>من را در صفحات اجتماعی دنبال کنید</h5>
                   </div>
                   <div className="social-block">
-                    <OutboundLink href="https://www.facebook.com/ehsangazarcom">
+                    <OutboundLink rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/ehsangazarcom">
                       <i className="fab fa-facebook-f"></i>
                     </OutboundLink>
-                    <OutboundLink href="https://twitter.com/ehsangazar">
+                    <OutboundLink rel="noopener noreferrer" target="_blank" href="https://twitter.com/ehsangazar">
                       <i className="fab fa-twitter"></i>
                     </OutboundLink>
-                    <OutboundLink href="https://www.instagram.com/ehsangazar/">
+                    <OutboundLink rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/ehsangazar/">
                       <i className="fab fa-instagram"></i>
                     </OutboundLink>
-                    <OutboundLink href="https://github.com/ehsangazar">
+                    <OutboundLink rel="noopener noreferrer" target="_blank" href="https://github.com/ehsangazar">
                       <i className="fab fa-github"></i>
                     </OutboundLink>
-                    <OutboundLink href="http://ehsangazar.com">EN</OutboundLink>
+                    <OutboundLink rel="noopener noreferrer" target="_blank" href="https://t.me/ehsangazar">
+                      <i className="fab fa-telegram"></i>
+                    </OutboundLink>
+                    <OutboundLink rel="noopener noreferrer" target="_blank" href="http://ehsangazar.com">EN</OutboundLink>
                   </div>
                 </div>
               </div>
