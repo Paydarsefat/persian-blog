@@ -2,6 +2,7 @@ import React from 'react'
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 import reactBasicImage from './React-Basic.png'
 import reactAdvancedImage from './React-Advanced.png'
+import { Link } from 'gatsby'
 
 const Footer = () => (
   <footer>
@@ -30,22 +31,22 @@ const Footer = () => (
               </div>
               <div className="feature-post-block">
                 <div className="post-card -tiny">
-                  <OutboundLink rel="noopener noreferrer" target="_blank"
+                  <Link
                     className="card__cover"
-                    href="https://designwich.com/courses/react-basic/"
+                    to="/react-basic-course"
                   >
                     <img
                       src={reactBasicImage}
                       alt="دوره React JS مقدماتی"
                     />
-                  </OutboundLink>
+                  </Link>
                   <div className="card__content">
-                    <OutboundLink rel="noopener noreferrer" target="_blank"
+                    <Link
                       className="card__content-title"
-                      href="https://designwich.com/courses/react-basic/"
+                      to="/react-basic-course"
                     >
                       دوره React JS مقدماتی
-                    </OutboundLink>
+                    </Link>
                     <p>
                       دوره‌ای که در آن با مقدمات برنامه‌نویسی وب آشنا‌ می‌شوید و
                       یاد میگیرید با React وب‌سایت بنویسید
@@ -53,22 +54,22 @@ const Footer = () => (
                   </div>
                 </div>
                 <div className="post-card -tiny">
-                  <OutboundLink rel="noopener noreferrer" target="_blank"
+                  <Link
                     className="card__cover"
-                    href="https://designwich.com/courses/react-basic/"
+                    to="/react-advanced-course"
                   >
                     <img
                       src={reactAdvancedImage}
                       alt="دوره React JS پیشرفته"
                     />
-                  </OutboundLink>
+                  </Link>
                   <div className="card__content">
-                    <OutboundLink rel="noopener noreferrer" target="_blank"
+                    <Link
                       className="card__content-title"
-                      href="https://designwich.com/courses/react-advanced/"
+                      to="/react-advanced-course"
                     >
                       دوره React JS پیشرفته
-                    </OutboundLink>
+                    </Link>
                     <p>
                       برای برنامه‌نویسی FrontEnd نیازمندید به صورت حرفه‌ای
                       React,Next JS, Webpack و تکنولوژی‌های دیگری مثل GraphQL و
