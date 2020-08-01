@@ -1,7 +1,7 @@
 ---
-title: دوره آنلاین مقدماتی React JS
+title: دوره آنلاین React JS مقدماتی
 date: "2020-07-31"
-description: "دوره آنلاین مقدماتی React JS"
+description: "دوره آنلاین React JS مقدماتی"
 cover: cover.jpg
 category: react-basic
 ---
@@ -53,4 +53,4 @@ category: react-basic
 اگر خارج ایران هستید، میتوانید از Paypal برای پرداخت استفاده کنید، فقط کافی است مبلغ ۵۹ دلار آمریکا (TAX اضافه شده است) برای من واریز کنید و سپس مسیجی در تلگرام یا اینستاگرام من بفرستید تا اکانتتان در سایت active شود.(لینک)
 
 ### لینک دوره
-- [دوره آنلاین مقدماتی React JS](https://designwich.com/courses/react-basic/ "دوره آنلاین مقدماتی React JS")
+- [دوره آنلاین React JS مقدماتی](https://designwich.com/courses/react-basic/ "دوره آنلاین React JS مقدماتی")

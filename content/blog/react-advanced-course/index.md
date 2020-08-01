@@ -1,7 +1,7 @@
 ---
-title: دوره آنلاین پیشرفته React JS
+title: دوره آنلاین React JS پیشرفته
 date: "2020-08-01"
-description: "دوره آنلاین پیشرفته React JS"
+description: "دوره آنلاین React JS پیشرفته"
 cover: cover.png
 category: react-advanced
 ---
@@ -40,4 +40,4 @@ category: react-advanced
 اگر خارج ایران هستید، میتوانید از Paypal برای پرداخت استفاده کنید، فقط کافی است مبلغ پیغامی در شبکه‌های اجتماعی به من بدهید.
 
 ### لینک دوره
-- [دوره آنلاین مقدماتی React JS](https://designwich.com/courses/react-advanced/ "دوره آنلاین پیشرفته React JS")
+- [دوره آنلاین مقدماتی React JS](https://designwich.com/courses/react-advanced/ "دوره آنلاین React JS پیشرفته")
