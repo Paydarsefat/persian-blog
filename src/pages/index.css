@@ -55,6 +55,15 @@ p {
   line-height: 2em
 }
 
+a {
+  color: #e49c85;
+  text-decoration: underline;
+  transition: 0.2s ease-in-out;
+}
+a:hover {
+  color: #333;
+}
+
 .space-up {
   padding-top: 2.5em;
 }

@@ -1,5 +1,7 @@
 import React from 'react'
 import { OutboundLink } from "gatsby-plugin-google-analytics"
+import reactBasicImage from './React-Basic.png'
+import reactAdvancedImage from './React-Advanced.png'
 
 const Footer = () => (
   <footer>
@@ -33,7 +35,7 @@ const Footer = () => (
                     href="https://designwich.com/courses/react-basic/"
                   >
                     <img
-                      src="https://designwich.com/wp-content/uploads/2020/04/React-Site-thumb-3.jpg"
+                      src={reactBasicImage}
                       alt="دوره React JS مقدماتی"
                     />
                   </OutboundLink>
@@ -56,7 +58,7 @@ const Footer = () => (
                     href="https://designwich.com/courses/react-basic/"
                   >
                     <img
-                      src="https://designwich.com/wp-content/uploads/2020/05/React-Site-thumb-2-1.png"
+                      src={reactAdvancedImage}
                       alt="دوره React JS پیشرفته"
                     />
                   </OutboundLink>
