@@ -114,12 +114,17 @@ iframe {
     list-style-position: inside;
     margin: 1em 0;
     padding: 1em;
+    line-height: 2em;
 }
 .content section h2,.content section h3,.content section h4 {
     margin: 1em 0;
     background-color: #333;
     color: white;
     padding: 1em;
+}
+pre.language-javascript {
+    background-color: #eee !important;
+    direction: ltr !important;
 }
 @media only screen and (max-width: 768px) {
   .content-video, .content-image {

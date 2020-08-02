@@ -14,6 +14,10 @@ const BlogPost = ({ data, location }) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
+        image={
+          post.frontmatter.cover &&
+          post.frontmatter.cover.childImageSharp.fluid.src
+        }
       />
       <div class="no-pd" id="content">
         <div class="container">
