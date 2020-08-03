@@ -40,4 +40,4 @@ category: react-advanced
 اگر خارج ایران هستید، میتوانید از Paypal برای پرداخت استفاده کنید، فقط کافی است مبلغ پیغامی در شبکه‌های اجتماعی به من بدهید.
 
 ### لینک دوره
-- [دوره آنلاین مقدماتی React JS](https://designwich.com/courses/react-advanced/ "دوره آنلاین React JS پیشرفته")
+- [دوره آنلاین React JS پیشرفته](https://designwich.com/courses/react-advanced/ "دوره آنلاین React JS پیشرفته")
