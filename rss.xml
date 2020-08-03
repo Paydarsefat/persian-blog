@@ -1,4 +1,122 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 02 Aug 2020 03:54:37 GMT</lastBuildDate><item><title><![CDATA[Progressive Web App یا PWA چیست؟ و چگونه آن را برنامه‌نویسی کنیم]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/progressive-web-app/</link><guid isPermaLink="false">https://fa.ehsangazar.com/progressive-web-app/</guid><pubDate>Sun, 02 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt; برخوردار شده است. یکی از مهم‌ترین مسائلی هم که با آن روبرو شده ایم شاید تولید یک برنامه‌ با بهترین تجربه‌ی کاربری باشد.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 03 Aug 2020 04:26:27 GMT</lastBuildDate><item><title><![CDATA[مدل اندازه‌گیری و طراحی واکنش‌های وب‌سایت RAIL]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/rail-response-time-design/</link><guid isPermaLink="false">https://fa.ehsangazar.com/rail-response-time-design/</guid><pubDate>Mon, 03 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/72a81f5fdebe9b6ca1dc78cc6b568dc2/f1c64/rail.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 36.486486486486484%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAAsSAAALEgHS3X78AAABkUlEQVQY002Oyy8DURSHZ2kj8Y9YWFtaiEhshHiEioQtC0m9iUdC2CBNqaZBo1WEKBlURUwpaZSOR7wWqh6tjmrU3M6j995j2lr4JefkS06+Xw4DAFIm8C/RaDQWi2lAKdW2qqoY4ywLgsBxnCzLGjPavIcjd/cPGBOSvoKYSAwNDpz5fJkemkTic/BJUSSgJN0rCBd8QEToT6YEp6Q4UDXjQiQeZznuM5HIfiEpWFSwBoSk5fDrm9vJIjEjP0bo+hls83TDT3whgPsbwjpTeyzeXCPXN6mwV+ZnlCuzdGmCD/+B8Gi6dU2eb5of9i/jIcZ+QkvHSbWBlI2pXSxg6+xPeQnSVaDKEsVoEt262AjzvZAvjDDg0Zcez+Ta6wu2O3NsdX38CmPz0ioDabWSBqPavwvqogU1VidbmlFTjWKZE3drv0aZb0fhpyZzbcVHxjy7rsg9nGOr7w44mIsgTLmo5ZAaXHjnDqj/VJ6eVObN8vQE9nrV4Bbi9ElPB/K009D+0st5b8DRz6/2BJa5j9tfXDZSBYA3XZkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;مدل اندازه‌گیری و طراحی واکنش‌های وب‌سایت RAIL&quot;
+        src=&quot;/static/72a81f5fdebe9b6ca1dc78cc6b568dc2/fcda8/rail.png&quot;
+        srcset=&quot;/static/72a81f5fdebe9b6ca1dc78cc6b568dc2/12f09/rail.png 148w,
+/static/72a81f5fdebe9b6ca1dc78cc6b568dc2/e4a3f/rail.png 295w,
+/static/72a81f5fdebe9b6ca1dc78cc6b568dc2/fcda8/rail.png 590w,
+/static/72a81f5fdebe9b6ca1dc78cc6b568dc2/efc66/rail.png 885w,
+/static/72a81f5fdebe9b6ca1dc78cc6b568dc2/c83ae/rail.png 1180w,
+/static/72a81f5fdebe9b6ca1dc78cc6b568dc2/f1c64/rail.png 1390w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;تا به حال سوالی برایتان مطرح شده است که چگونه اجزای صفحه را طراحی کنید که برای کاربران قابل فهم‌تر باشد؟ و آیا منبع علمی برای آن وجود دارد؟&lt;/p&gt;
+&lt;p&gt;هدف بازدهی بیشتر متناسب با کاربران است که اکثرا از روش ثابتی استفاده می‌کنند و انتظارات مشخصی دارند.&lt;/p&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/00a66a219392fbf51f7dfde561382c1e/3fe45/table.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.24324324324324%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAACKElEQVQoz0VSSW/TQBidP02FuLH02iJx6QIXSv8ApBxAJEVNKwWkIppAVq+zeo33JHaKeLZJsd6M33wz3/ZmyP7p+YuTd8DTo7fPj8+AZ0dn+6/Pn7x68+jgeO/wZO+gwWGNf5aGPH55St73+heX191vP74MbjEDn2++f+oPPn69+dDtd7pX2AXHfHGJGcarTq/f6V33BrckiKIwjrPVqsE6X6891+OMK6mkFIzS+icEBmcMRsG5lJJz7ns+CeI0TFI/ih8wW2jD4ehuOBr9Hg9Hv37eDcFBxpPpZDqbzuaT2RxnuFREej5Qu8VJC0S2KWVcWDblQjLOsQITUqVZnqRZkqQgZbUlBmWaZcM5iBMgjBP4GaZpmJZp2QBIy3Xd0A1zoeFvarqBKGSZZkDrWTsnqVQKaZDW9fwsL+ImDxDFCfgDimJFdMoWpiVcD55e07MXhFI5yoFvgIGeWl5V22p7D2zv/wCbsiJTTZ+gFJsGkK1JjvYMC19d8ELTsGkYJgaWNmUYADgiklqqZfS/5yRFS+PxZL7Q7KZyHEJiISVjENgBoCKMxWpNULPFhcm4txMcO1BWyrbYcAl7EIbLJWassAbx/QB7hDuu8gMg2CUXyoHgOJEVRStVi2xHoBakBiEz3dBsCtkElGk0Q891w809oT1KOWLZDN0y9Iz7l47b1k/SvEjyHID27SNFbQ4qRizUhuKC0HXxZH0YlXLwQsqyWm/Kzab8C+2A3/1tG/GAAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;مدل اندازه‌گیری و طراحی واکنش‌های وب‌سایت RAIL&quot;
+        src=&quot;/static/00a66a219392fbf51f7dfde561382c1e/fcda8/table.png&quot;
+        srcset=&quot;/static/00a66a219392fbf51f7dfde561382c1e/12f09/table.png 148w,
+/static/00a66a219392fbf51f7dfde561382c1e/e4a3f/table.png 295w,
+/static/00a66a219392fbf51f7dfde561382c1e/fcda8/table.png 590w,
+/static/00a66a219392fbf51f7dfde561382c1e/3fe45/table.png 699w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;این جدول توضیح می‌دهد که انتظار کاربران از هر واکنشی که در صفحه انجام می‌دهد تقریبا چه چیزی است:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;فاصله‌ی بین ۰ تا ۱۶ میلی ثانیه:
+در این فاصله زمانی آن‌ها هیچ انتظاری ندارند و مرورگر می‌تواند به راحتی فریم‌های انیمیشنی را بارگذاری کند.&lt;/li&gt;
+&lt;li&gt;فاصله‌ی بین ۰ تا ۱۰۰ میلی ثانیه:
+کاربر در این فاصله‌ی زمانی فکر می‌کند هر ریسپانسی از صفحه خوب و با سرعت است.&lt;/li&gt;
+&lt;li&gt;فاصله‌ی بین ۱۰۰ تا ۳۰۰ میلی ثانیه:
+در این فاصله کاربر شروع به حس تاخیر می‌کند.&lt;/li&gt;
+&lt;li&gt;فاصله‌ی بین ۳۰۰ میلی‌ثانیه تا یک ثانیه:
+کاربر از روند طبیعی خود خارج شده است، کاربر می‌تواند انتظار لود شدن صفحه‌ی جدید داشته باشد.&lt;/li&gt;
+&lt;li&gt;فاصله‌ی بیشتر از یک ثانیه:
+کاربر منحرف شده است و تمرکزش را از دست داده است&lt;/li&gt;
+&lt;li&gt;فاصله‌ی بیشتر از ده ثانیه:
+کاربر خسته شده و ممکن است کاملا برود یا کار را به بعد بسپارد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;ابزار‌ها:&lt;/h3&gt;
+&lt;p&gt;برای اندازه‌گیری این روند‌ها مانند لود صفحه‌ی اول وب‌سایت می‌توانید از ابزاراتی مثل Chrome DevTools, Lighthouse یا WebPageTest استفاده کنید.&lt;/p&gt;
+&lt;p&gt;این مثالی است که من از سایتی که روی آن کار می‌کنم به دست آورده‌ام:&lt;/p&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e49568a61e06827d005914edd036ac54/3d4b6/performance.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 104.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAACXBIWXMAAAsSAAALEgHS3X78AAADaElEQVQ4y21U227cNhDVS9H8gF9ir7Qih7pRd5FaidqLbGs3dprABlKgDVLEQJ/yZhvFFkiMZO3am0Wd3oDmpegf+CfdkdYOEqAHR8MRwbmQnKEGAAxAMrCBmpTajFacACUmhcimI44j/lHwAHyglAIFFjPmM1Q00zR9PyjK0kV4XlmqsSqyTKBNKUUzUsCYbdl5VQiV27ZNCIlk7HCXmEQLw1DIPJO553lojo487nPOHcfxOPd4gIrjOtwPfB6s13ge91zPd10tz4udZrq902C0NE2TJE7iOEvTTk/WCkr0hzmzDrhT17Zzx9Esy5L5AJ3jlO04+Gt3wHjdaK0HBC6gnwMAje1MyEyIUikhZJx0ATMMJta5pEkbGycxeQyLvtcBUNfiOL65uTk6OtrY2EC7UVUVg4Eqywq/ohiiLMvJZKzKYjwajYZDZF3X6BsT0ZRSt7e3q9VK07Sfjl8tz9/88/eHq8Wbj3+urpfvfl0u/rq+vF6e/7G6+PD+/Lf3i6vF2b8ff9+bzQzD0MrO+HK5/OrrB77v4U6+m+0+nYyf7daHO/Xhdv1kUk1zsVfmzUDsl7Ip5MGo4paNN65x13119OJgtpMHrmMxDwzW16lhgGEQQ4d+v6/rpqEbhq530mihE2K2aVuUbAf+U1UeTsZ7WfaY6jmWQd9MzDumHa1+nxgGbT0apmH0dB3danhj3+5/88Phs+cHhy+Qj598PxweDIePqmrv/7hfVY1qIaTUoih6ffZ2cXn17uKXt+cXZ4vFz/P56enpcceTz3j8iScn8/n8x5cvNbztMEryQqVZnrb3nBFKNx8+3Fpjc3PrXuv1evo9t3o93IjmuG7dTOtmlkmJVe0HoYuVHYRBGAYBilaugYXNPsFqhYZNM1HVo0k9HY1n40nTyaGQoY+OgjSMtsNoN4p243ji84JBabGBxQLGIjTGtGUUqThVWJiWFVCaAAtxFnuVEJSC0pS0zCgIYMgUWACQAUYGSKQUhUL6URzEiRuEZlv2dxAWm/p3bDhMPahdKGyY2Z1xmslBqbC3irIajusUXwJK1pbtMwI0cjs6NA4hESxKGOfM96E1DiM8Y5GkGZ4P9jqexBedR8Ek97QYcRnxUAKNrdY4CKMQn4A0w9PGndIvAZTeZQCdblLmMnBw3+w/Y08EIiEj/XMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;مدل اندازه‌گیری و طراحی واکنش‌های وب‌سایت RAIL&quot;
+        src=&quot;/static/e49568a61e06827d005914edd036ac54/fcda8/performance.png&quot;
+        srcset=&quot;/static/e49568a61e06827d005914edd036ac54/12f09/performance.png 148w,
+/static/e49568a61e06827d005914edd036ac54/e4a3f/performance.png 295w,
+/static/e49568a61e06827d005914edd036ac54/fcda8/performance.png 590w,
+/static/e49568a61e06827d005914edd036ac54/3d4b6/performance.png 712w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;همانطور که در عکس می‌بینید تقریبا ۶ الی ۸ ثانیه طول می کشد تا کاربر چیزی با معنی ببینید! و ۱۵ ثانیه طول می‌کشد تا منو‌ها و جاوا اسکریپت به درستی لود شوند که کمی برای کاربر خسته کننده است.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Progressive Web App یا PWA چیست؟ و چگونه آن را برنامه‌نویسی کنیم]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/progressive-web-app/</link><guid isPermaLink="false">https://fa.ehsangazar.com/progressive-web-app/</guid><pubDate>Sun, 02 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt; برخوردار شده است. یکی از مهم‌ترین مسائلی هم که با آن روبرو شده ایم شاید تولید یک برنامه‌ با بهترین تجربه‌ی کاربری باشد.&lt;/p&gt;
 &lt;p&gt;یکی از اسم‌هایی که امروزه می‌شنویم Progressive Web App یا PWA است. شاید بدانید که مثلا VS Code یا Slack یا حتی طی خبری تازه Microsoft 360 به همین طریق نوشته شده و در اصل یک PWA هستند.&lt;/p&gt;
 &lt;p&gt;می‌توانید دموی اپلیکیشنی که آماده کرده‌ام را در آدرس زیر ببینید:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://mazda-pwa-qmtrcvydqz.now.sh&quot;&gt;https://mazda-pwa-qmtrcvydqz.now.sh&lt;/a&gt;&lt;/p&gt;
@@ -30,7 +148,7 @@
 خب این مورد واضحی است و منظور به آن است که برای صفحات اجتماعی نیز بهینه شده باشد و در صورت نیاز لینک اشتراک گذاری برای صفحات اجتماعی نیز در آن تهیه شده باشد.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;کار کردن با Service Worker برای آفلاین کردن وب‌سایت&lt;/h3&gt;
-&lt;p&gt;شکل بالا نمایانگر نحوه‌ی عملکردش است که در اصل همانند یک لایه‌ی میانی بین ارسال ریکوئست به سرور عمل می‌کند و می‌توانید بر اساس آن هر چه را که می‌خواهید کش (cache) کنید.&lt;/p&gt;
+&lt;p&gt;در اصل Service Worker ها نقش میانی بین سایت و سرور بازی می‌کند و با کنترل کردن request ها قبل از ارسال می‌توانید در صورت نیاز آن‌ها را از Cache بخوانید یا واقعا از سرور اطلاعات را بگیرید.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;برای Register کردن:
 ابتدا می‌بایست مطمئن شوید که serviceWorker در navigator موجود باشد که به معنی پشتیبانی مرورگر است.&lt;/li&gt;
