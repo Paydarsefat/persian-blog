@@ -6,10 +6,10 @@ const Posts = ({ posts }) => {
     <div id="content">
       <div className="container">
         <div className="blog-masonry">
-          {posts.map(({ node }) => {
+          {posts.map(({ node }, index) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
-              <div className="post-card -center">
+              <div className="post-card -center" key={`post-${index}`}>
                 <Link to={node.fields.slug} className="card__cover">
                   <img
                     src={

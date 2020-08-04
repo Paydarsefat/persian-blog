@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { Disqus, CommentCount } from "gatsby-plugin-disqus"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/Header/Header"
@@ -8,6 +9,11 @@ import Video from "../components/Video/Video"
 const BlogPost = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
+  const disqusConfig = {
+    url: `http://fa.ehsangazar.com/${location.pathname}`,
+    identifier: data.markdownRemark.id,
+    title: data.markdownRemark.title,
+  }
   return (
     <Layout location={location} title={siteTitle}>
       <Header />
@@ -19,22 +25,22 @@ const BlogPost = ({ data, location }) => {
           post.frontmatter.cover.childImageSharp.fluid.src
         }
       />
-      <div class="no-pd" id="content">
-        <div class="container">
-          <div class="breadcrumb">
+      <div className="no-pd" id="content">
+        <div className="container">
+          <div className="breadcrumb">
             <ul>
               <li>
                 <Link to={"/"}>
-                  <i class="fas fa-home"></i>خانه
+                  <i className="fas fa-home"></i>خانه
                 </Link>
               </li>
-              <li class="active">{post.frontmatter.title}</li>
+              <li className="active">{post.frontmatter.title}</li>
             </ul>
           </div>
-          <div class="about-us">
-            <div class="row content-container">
+          <div className="about-us">
+            <div className="row content-container">
               {post.frontmatter.videoSourceURL && (
-                <div class="col-12 col-md-4 col-lg-4 content-video">
+                <div className="col-12 col-md-4 col-lg-4 content-video">
                   <Video
                     videoSourceURL={post.frontmatter.videoSourceURL}
                     videoTitle={post.frontmatter.videoTitle}
@@ -42,7 +48,7 @@ const BlogPost = ({ data, location }) => {
                 </div>
               )}
               {!post.frontmatter.videoSourceURL && (
-                <div class="col-12 col-md-4 col-lg-4 content-image">
+                <div className="col-12 col-md-4 col-lg-4 content-image">
                   <img
                     src={
                       post.frontmatter.cover &&
@@ -52,11 +58,13 @@ const BlogPost = ({ data, location }) => {
                   />
                 </div>
               )}
-              <div class="col-12 col-md-8 col-lg-8 content">
+              <div className="col-12 col-md-8 col-lg-8 content">
                 <h1>{post.frontmatter.title}</h1>
                 <br />
                 <br />
                 <section dangerouslySetInnerHTML={{ __html: post.html }} />
+                <br />
+                <Disqus config={disqusConfig} />
               </div>
             </div>
           </div>

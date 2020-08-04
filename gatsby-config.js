@@ -76,5 +76,11 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `persian-ehsangazar`,
+      },
+    },
   ],
 }
