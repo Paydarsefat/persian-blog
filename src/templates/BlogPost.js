@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { Disqus, CommentCount } from "gatsby-plugin-disqus"
+import { Disqus } from "gatsby-plugin-disqus"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/Header/Header"
@@ -63,6 +63,12 @@ const BlogPost = ({ data, location }) => {
                 <br />
                 <br />
                 <section dangerouslySetInnerHTML={{ __html: post.html }} />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
                 <br />
                 <Disqus config={disqusConfig} />
               </div>
