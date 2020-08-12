@@ -36,6 +36,13 @@ const SEO = ({ description, lang, meta, title, image }) => {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      link={[
+        {
+          rel: 'icon',
+          type: "image/png",
+          href:'https://fa.ehsangazar.com/favicon.png'
+        }
+      ]}
       meta={[
         {
           name: `description`,

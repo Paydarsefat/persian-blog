@@ -16,10 +16,6 @@ export default function HTML(props) {
           href="https://kit-pro.fontawesome.com/releases/v5.13.0/css/pro.min.css"
         />
 
-        <link rel="icon"
-          type="image/png"
-          href="http://fa.ehsangazar.com/favicon.png"></link>
-
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>

@@ -72,8 +72,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#061e3e`,
         theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        display: `minimal-ui`
       },
     },
     {
