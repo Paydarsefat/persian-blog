@@ -2834,7 +2834,8 @@ footer {
 .breadcrumb {
   padding: 3.125rem 0 4.375rem; }
   .breadcrumb ul > li {
-    display: inline-block; }
+    display: inline-block; 
+    padding: 10px;}
     .breadcrumb ul > li > a {
       color: #111;
       font-size: 0.9375em;
