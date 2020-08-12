@@ -81,7 +81,7 @@ a:hover {
 }
 iframe {
   width: 100%;
-  min-height: 200px;
+  min-height: 400px;
 }
 .content {
   padding: 1em;
@@ -103,10 +103,11 @@ iframe {
 }
 .content-video {
   display: flex;  
-  position: sticky;
-  top: 9em;
+  width: 100%;
+  height: 400px;
 }
 .Video {
+  height: 400px;
   width: 100%;;
 }
 .content li {
@@ -122,12 +123,20 @@ iframe {
     color: white;
     padding: 1em;
 }
+.space-2 {
+  width: 100%;
+  height: 20px;
+}
+.space-8 {
+  width: 100%;
+  height: 100px;
+}
 pre.language-javascript {
     background-color: #eee !important;
     direction: ltr !important;
 }
 @media only screen and (max-width: 768px) {
-  .content-video, .content-image {
+  .content-image {
     position: static;
     margin: 1em 0;
   }

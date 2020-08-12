@@ -38,38 +38,30 @@ const BlogPost = ({ data, location }) => {
             </ul>
           </div>
           <div className="about-us">
-            <div className="row content-container">
-              {post.frontmatter.videoSourceURL && (
-                <div className="col-12 col-md-4 col-lg-4 content-video">
-                  <Video
-                    videoSourceURL={post.frontmatter.videoSourceURL}
-                    videoTitle={post.frontmatter.videoTitle}
-                  />
-                </div>
-              )}
-              {!post.frontmatter.videoSourceURL && (
-                <div className="col-12 col-md-4 col-lg-4 content-image">
-                  <img
-                    src={
-                      post.frontmatter.cover &&
-                      post.frontmatter.cover.childImageSharp.fluid.src
-                    }
-                    alt={post.frontmatter.title}
-                  />
-                </div>
-              )}
+            <div className="row content-container">              
+              <div className="col-12 col-md-4 col-lg-4 content-image">
+                <img
+                  src={
+                    post.frontmatter.cover &&
+                    post.frontmatter.cover.childImageSharp.fluid.src
+                  }
+                  alt={post.frontmatter.title}
+                />
+              </div>
               <div className="col-12 col-md-8 col-lg-8 content">
                 <h1>{post.frontmatter.title}</h1>
-                <br />
-                <br />
+
+                {post.frontmatter.videoSourceURL && (
+                  <div className="content-video">
+                    <Video
+                      videoSourceURL={post.frontmatter.videoSourceURL}
+                      videoTitle={post.frontmatter.videoTitle}
+                    />
+                  </div>
+                )}
+                <div className="space-2" />
                 <section dangerouslySetInnerHTML={{ __html: post.html }} />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+                <div className="space-8" />
                 <Disqus config={disqusConfig} />
               </div>
             </div>
