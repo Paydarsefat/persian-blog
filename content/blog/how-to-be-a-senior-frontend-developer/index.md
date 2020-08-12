@@ -4,10 +4,9 @@ date: "2020-08-12"
 description: "چطور می‌توان یک برنامه‌نویس ارشد FrontEnd شد"
 cover: cover.jpg
 category: FrontEnd
-videoSourceURL: https://youtu.be/RDUmfhjLg5U
+videoSourceURL: https://www.youtube.com/embed/RDUmfhjLg5U
 videoTitle: "چطور می‌توان یک برنامه‌نویس ارشد FrontEnd شد"
 ---
-
 
 یکی از سوالاتی که از من در جاهای مختلف توسط دوستان شده است که چه لازم است تا برنامه‌نویسی را شروع کنیم و یا چه لازم است که Senior FrontEnd Engineer باشیم.
 
