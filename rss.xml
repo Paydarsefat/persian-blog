@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 15 Aug 2020 22:57:36 GMT</lastBuildDate><item><title><![CDATA[چطور می‌توان یک برنامه‌نویس ارشد FrontEnd شد]]></title><description><![CDATA[یکی از سوالاتی که از من در جاهای مختلف توسط دوستان شده است که چه لازم است تا برنامه‌نویسی را شروع کنیم و یا چه لازم است که Senior FrontEnd…]]></description><link>https://fa.ehsangazar.com/how-to-be-a-senior-frontend-developer/</link><guid isPermaLink="false">https://fa.ehsangazar.com/how-to-be-a-senior-frontend-developer/</guid><pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از سوالاتی که از من در جاهای مختلف توسط دوستان شده است که چه لازم است تا برنامه‌نویسی را شروع کنیم و یا چه لازم است که Senior FrontEnd Engineer باشیم.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 15 Aug 2020 23:21:43 GMT</lastBuildDate><item><title><![CDATA[چطور می‌توان یک برنامه‌نویس ارشد FrontEnd شد]]></title><description><![CDATA[یکی از سوالاتی که از من در جاهای مختلف توسط دوستان شده است که چه لازم است تا برنامه‌نویسی را شروع کنیم و یا چه لازم است که Senior FrontEnd…]]></description><link>https://fa.ehsangazar.com/how-to-be-a-senior-frontend-developer/</link><guid isPermaLink="false">https://fa.ehsangazar.com/how-to-be-a-senior-frontend-developer/</guid><pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از سوالاتی که از من در جاهای مختلف توسط دوستان شده است که چه لازم است تا برنامه‌نویسی را شروع کنیم و یا چه لازم است که Senior FrontEnd Engineer باشیم.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
@@ -473,7 +473,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;چطور در Gatsby JS یک پروژه جدید را شروع کنیم&lt;/li&gt;
 &lt;li&gt;برنامه‌نویسی بلاگ خودم یا fa.ehsangazar.com با پروژه Gatsby&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;آموزش Webpack &lt;span class=&quot;red&quot;&gt;( آپلود شده در تاریخ ۲۳ مرداد ۱۳۹۹)&lt;/span&gt;&lt;/h2&gt;
+&lt;h2&gt;آموزش Webpack &lt;span className=&quot;red&quot;&gt;( آپلود شده در تاریخ ۲۳ مرداد ۱۳۹۹)&lt;/span&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;معرفی Webpack و چرایی استفاده‌ از آن&lt;/li&gt;
 &lt;li&gt;شروع برنامه‌نویسی با Webpack برای یک پروژه‌ ساده&lt;/li&gt;
@@ -486,7 +486,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;پیاده سازی Code Splitting و Hot Module Reloading یا HMR در Webpack&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;خرید دوره&lt;/h1&gt;
-&lt;div class=&quot;alert&quot;&gt;
+&lt;div className=&quot;alert&quot;&gt;
  به مناسبت بازگشایی دوره در سایت فارسی خودم، تا تاریخ ۵ شهریور هزینه‌ی دوره برابر با 1,488,000  به تومان خواهد بود که یعنی ۴۰ درصد تخفیف
 &lt;/div&gt;
 &lt;p&gt;لطفا برای خرید دوره مبلغ
