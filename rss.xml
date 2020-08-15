@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 12 Aug 2020 10:44:55 GMT</lastBuildDate><item><title><![CDATA[چطور می‌توان یک برنامه‌نویس ارشد FrontEnd شد]]></title><description><![CDATA[یکی از سوالاتی که از من در جاهای مختلف توسط دوستان شده است که چه لازم است تا برنامه‌نویسی را شروع کنیم و یا چه لازم است که Senior FrontEnd…]]></description><link>https://fa.ehsangazar.com/how-to-be-a-senior-frontend-developer/</link><guid isPermaLink="false">https://fa.ehsangazar.com/how-to-be-a-senior-frontend-developer/</guid><pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از سوالاتی که از من در جاهای مختلف توسط دوستان شده است که چه لازم است تا برنامه‌نویسی را شروع کنیم و یا چه لازم است که Senior FrontEnd Engineer باشیم.&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 15 Aug 2020 22:57:36 GMT</lastBuildDate><item><title><![CDATA[چطور می‌توان یک برنامه‌نویس ارشد FrontEnd شد]]></title><description><![CDATA[یکی از سوالاتی که از من در جاهای مختلف توسط دوستان شده است که چه لازم است تا برنامه‌نویسی را شروع کنیم و یا چه لازم است که Senior FrontEnd…]]></description><link>https://fa.ehsangazar.com/how-to-be-a-senior-frontend-developer/</link><guid isPermaLink="false">https://fa.ehsangazar.com/how-to-be-a-senior-frontend-developer/</guid><pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از سوالاتی که از من در جاهای مختلف توسط دوستان شده است که چه لازم است تا برنامه‌نویسی را شروع کنیم و یا چه لازم است که Senior FrontEnd Engineer باشیم.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
@@ -32,7 +31,6 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;
 &lt;h1&gt;چگونه برنامه‌نویسی را شروع کنیم؟&lt;/h1&gt;
 &lt;p&gt;برای شروع لازم است که با اینترنت آشنا باشید و سپس بدانید HTML, CSS و JavaScript چه هستند و چه نقشی در صفحه‌ی یک وب‌سایت دارند، همان‌طور که در ویدئو توضیح دادم ساختار وب‌سایت توسط این سه تکنولوژی برنامه‌نویسی می‌شود.&lt;/p&gt;
 &lt;h1&gt;چگونه برنامه‌نویس Junior یا Mid-Level در FrontEnd شویم؟&lt;/h1&gt;
@@ -43,8 +41,7 @@
 &lt;p&gt;اما Senior شدن تنها به کسب دانش ختم نمی‌شود. رزومه‌ی شما، تعداد پروژه‌هایی که توسعه‌ داده‌اید و تیم‌هایی که در آن‌ها کار کرده‌اید نقش اساسی‌ای دارند.&lt;/p&gt;
 &lt;p&gt;سپس برای آن‌که برنامه‌نویس بهتری باشید می‌بایست به مباحثی مثل Clean Coding و Software Architecture نیز مسلط شوید که امیدوارم در ویدئو‌های بعدی بیشتر بتوانم آن‌ها را توضیح دهیم.&lt;/p&gt;
 &lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
-&lt;p&gt;اگر اینجا‌ هستید، خوشحال می‌شوم نظرتان را بدانم و مطمئنا به دوستان خواننده نیز کمکی خواهید کرد.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[مدل اندازه‌گیری و طراحی واکنش‌های وب‌سایت RAIL]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/rail-response-time-design/</link><guid isPermaLink="false">https://fa.ehsangazar.com/rail-response-time-design/</guid><pubDate>Mon, 03 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;span
+&lt;p&gt;اگر اینجا‌ هستید، خوشحال می‌شوم نظرتان را بدانم و مطمئنا به دوستان خواننده نیز کمکی خواهید کرد.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[مدل اندازه‌گیری و طراحی واکنش‌های وب‌سایت RAIL]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/rail-response-time-design/</link><guid isPermaLink="false">https://fa.ehsangazar.com/rail-response-time-design/</guid><pubDate>Mon, 03 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
@@ -76,10 +73,8 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;
 &lt;p&gt;تا به حال سوالی برایتان مطرح شده است که چگونه اجزای صفحه را طراحی کنید که برای کاربران قابل فهم‌تر باشد؟ و آیا منبع علمی برای آن وجود دارد؟&lt;/p&gt;
 &lt;p&gt;هدف بازدهی بیشتر متناسب با کاربران است که اکثرا از روش ثابتی استفاده می‌کنند و انتظارات مشخصی دارند.&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
@@ -110,7 +105,6 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;
 &lt;p&gt;این جدول توضیح می‌دهد که انتظار کاربران از هر واکنشی که در صفحه انجام می‌دهد تقریبا چه چیزی است:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;فاصله‌ی بین ۰ تا ۱۶ میلی ثانیه:
@@ -126,10 +120,9 @@
 &lt;li&gt;فاصله‌ی بیشتر از ده ثانیه:
 کاربر خسته شده و ممکن است کاملا برود یا کار را به بعد بسپارد&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;ابزار‌ها:&lt;/h3&gt;
+&lt;h1&gt;ابزار‌ها:&lt;/h1&gt;
 &lt;p&gt;برای اندازه‌گیری این روند‌ها مانند لود صفحه‌ی اول وب‌سایت می‌توانید از ابزاراتی مثل Chrome DevTools, Lighthouse یا WebPageTest استفاده کنید.&lt;/p&gt;
 &lt;p&gt;این مثالی است که من از سایتی که روی آن کار می‌کنم به دست آورده‌ام:&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
@@ -160,17 +153,16 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;
 &lt;p&gt;همانطور که در عکس می‌بینید تقریبا ۶ الی ۸ ثانیه طول می کشد تا کاربر چیزی با معنی ببینید! و ۱۵ ثانیه طول می‌کشد تا منو‌ها و جاوا اسکریپت به درستی لود شوند که کمی برای کاربر خسته کننده است.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Progressive Web App یا PWA چیست؟ و چگونه آن را برنامه‌نویسی کنیم]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/progressive-web-app/</link><guid isPermaLink="false">https://fa.ehsangazar.com/progressive-web-app/</guid><pubDate>Sun, 02 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt; برخوردار شده است. یکی از مهم‌ترین مسائلی هم که با آن روبرو شده ایم شاید تولید یک برنامه‌ با بهترین تجربه‌ی کاربری باشد.&lt;/p&gt;
 &lt;p&gt;یکی از اسم‌هایی که امروزه می‌شنویم Progressive Web App یا PWA است. شاید بدانید که مثلا VS Code یا Slack یا حتی طی خبری تازه Microsoft 360 به همین طریق نوشته شده و در اصل یک PWA هستند.&lt;/p&gt;
 &lt;p&gt;می‌توانید دموی اپلیکیشنی که آماده کرده‌ام را در آدرس زیر ببینید:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://mazda-pwa-qmtrcvydqz.now.sh&quot;&gt;https://mazda-pwa-qmtrcvydqz.now.sh&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;همچنین برای دیدن کد اپلیکیشن:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/ehsangazar/mazda-pwa&quot;&gt;https://github.com/ehsangazar/mazda-pwa&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;تعریف برنامه‌ی تحت وب پیش‌رو چیست؟&lt;/h3&gt;
+&lt;h1&gt;تعریف برنامه‌ی تحت وب پیش‌رو چیست؟&lt;/h1&gt;
 &lt;p&gt;این ترجمه‌ای است که ویکی‌پدیا ارائه می‌کند:&lt;/p&gt;
 &lt;p&gt;برنامه‌ی تحت وب پیش‌رو یک نمونه وب‌سایت تحت وب است که تجربه‌ی کاربری‌ای همانند برنامه‌های گوشی/دسکتاپ (native) ارائه می کند. این برنامه‌ها از آخرین امکانات مرورگر‌ها استفاده می‌کنند تا بهترین تجربه را به همراه بیاورند.&lt;/p&gt;
-&lt;h3&gt;PWA ها می‌بایست چه ویژگی‌هایی داشته باشند؟&lt;/h3&gt;
+&lt;h1&gt;PWA ها می‌بایست چه ویژگی‌هایی داشته باشند؟&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Cross Browser Accessibility
 یعنی می‌بایست مطمئن شد که در تمامی مرورگرهای معروف و پراستفاده کار‌میکنند و ساپورت خوبی از مرورگرها در موبایل‌ها و تبلت داشته باشد.&lt;/li&gt;
@@ -192,7 +184,7 @@
 &lt;li&gt;قابلیت اشتراک‌گذاری دارد:
 خب این مورد واضحی است و منظور به آن است که برای صفحات اجتماعی نیز بهینه شده باشد و در صورت نیاز لینک اشتراک گذاری برای صفحات اجتماعی نیز در آن تهیه شده باشد.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;کار کردن با Service Worker برای آفلاین کردن وب‌سایت&lt;/h3&gt;
+&lt;h1&gt;کار کردن با Service Worker برای آفلاین کردن وب‌سایت&lt;/h1&gt;
 &lt;p&gt;در اصل Service Worker ها نقش میانی بین سایت و سرور بازی می‌کند و با کنترل کردن request ها قبل از ارسال می‌توانید در صورت نیاز آن‌ها را از Cache بخوانید یا واقعا از سرور اطلاعات را بگیرید.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;برای Register کردن:
@@ -244,7 +236,7 @@ self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class
     &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;توجه کنید که service-worker.js بخشی از جاوااسکریپت صفحه نمی‌باشد، در نتیجه دسترسی به DOM ندارد و در صورتی که میخواهید صفحه را آپدیت کنید لازم است جاوا اسکریپت جدایی آن را انجام دهد.&lt;/p&gt;
-&lt;h3&gt;کار کردن با Background Sync برای آپدیت کردن اطلاعات وقتی کاربر مشغول کار دیگری است&lt;/h3&gt;
+&lt;h1&gt;کار کردن با Background Sync برای آپدیت کردن اطلاعات وقتی کاربر مشغول کار دیگری است&lt;/h1&gt;
 &lt;p&gt;هر چند باید دقت کنید که Service Worker های خود را آپدیت کنید، وگرنه همچنان همیشه سایت به صورت قدیمی لود خواهد شد.&lt;/p&gt;
 &lt;p&gt;در این قسمت قصد دارم در مورد Background Sync که یکی از API های Service Worker است صحبت کنم که در صورتی که کاربر تب مرورگر خود را نبسته باشد و اینترنتش قطع شده باشد می‌توانید از آن برای تشخیص آنلاین شدن استفاده کنید و در صورت لزوم کاری کنید.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;navigator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;serviceWorker&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ready&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;swRegistration&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -253,7 +245,7 @@ self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class
 &lt;p&gt;اگر این قسمت کد را در service-worker.js خود قرار دهید می‌تواانید در صورت آنلاین شدن تابع myFirstSync را Register کنید و مثلا Notification ای بفرستید.&lt;/p&gt;
 &lt;p&gt;توجه داشته باشید Background Sync، در صورت بسته بودن تب مرورگر کار نمی‌کند و Browser ها اکثرا پس از مدتی جلوی فعالیت‌ Service Worker ها را میگیرند.&lt;/p&gt;
 &lt;p&gt;اما اگر Desktop Application می‌نویسید یا Progressive Web Application ای که کاربر مداوم به سایت شما رجوع می‌کند این ویژگی Experimental یا آزمایشی به کارتان می‌آید.&lt;/p&gt;
-&lt;h3&gt;چگونه تشخصی دهیم کاربر آفلاین است؟ یا اینترنت کاربر قطع شده است؟&lt;/h3&gt;
+&lt;h1&gt;چگونه تشخصی دهیم کاربر آفلاین است؟ یا اینترنت کاربر قطع شده است؟&lt;/h1&gt;
 &lt;p&gt;فرض کنید از لپ تاپ استفاده می‌کنید و اتصال شما به اینترنت برای لحظه‌ای قطع می‌شود در حالیکه لازم است اطلاعات را به صورت Real Time نمایش دهید. در این صورت لازم است که پیغامی به کاربر نشان دهید و در صورت تغییر وضعیت سایت را آپدیت کنید&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;online&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;  updateOnlineStatus&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;offline&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; updateOnlineStatus&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -263,7 +255,7 @@ window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
   document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;body&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;className &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; condition&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;با استفاده از این Event می‌توانید به راحتی تشخصی دهید که کاربر online یا offline است و در صورت نیاز تغییری در صفحه دهید یا اطلاعات قدیمی‌تر را به کاربر نمایش دهید.&lt;/p&gt;
-&lt;h3&gt;ارسال Notification به کاربر‌ها&lt;/h3&gt;
+&lt;h1&gt;ارسال Notification به کاربر‌ها&lt;/h1&gt;
 &lt;p&gt;در این قسمت لازم که شما با استفاده‌ از کد‌های ساده‌ای به API های مرورگر متصل شوید و در صورت نیاز Notification ها را نمایش دهید.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;resolve&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; reject&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Notification&quot;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; window&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -288,7 +280,7 @@ window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;کد بالا خیلی راحت به شما کمک می‌کند که مرورگر را برای نمایش Notification ها آماده کنید و سپس با کد زیر می‌توانید در صورت نیاز یک Notification را فعال و ایونت مربوطه را صدا کنید.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;registration&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;showNotification&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Sync event fired!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;ایجاد Manifest برای دسترسی کاربران به سایت&lt;/h3&gt;
+&lt;h1&gt;ایجاد Manifest برای دسترسی کاربران به سایت&lt;/h1&gt;
 &lt;p&gt;این فایل ساده این امکان را به کاربر می‌دهد تا اپلیکیشن را در دستگاه خود نصب کند.
 کافی است فایلی با نام manifest.json در فولدر پابلیک خود قرار دهید و این کد را در آن قرار داده و ویرایش کنید.
 ‍&lt;/p&gt;
@@ -314,7 +306,7 @@ window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;و سپس این را در HTML خود قرار دهید&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;link href&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/manifest.json&quot;&lt;/span&gt; rel&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;manifest&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;بهینه سازی برای صفحات اجتماعی&lt;/h3&gt;
+&lt;h1&gt;بهینه سازی برای صفحات اجتماعی&lt;/h1&gt;
 &lt;p&gt;اگر می‌خواهید پس از Share کردن وب‌سایت یا لینکی از سایت شما در صفحات اجتماعی اطلاعات به درستی در آن‌ها نمایش داده شوند می‌توانید از OpenGraph استفاده کنید که برای مثال به روش زیر است&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;/* Twitter OpenGraph */&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;meta name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;twitter:card&quot;&lt;/span&gt; content&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;summary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
@@ -328,7 +320,7 @@ window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;meta property&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;og:description&quot;&lt;/span&gt; content&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Open Graph: Best Progressive Web App&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;meta property&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;og:image&quot;&lt;/span&gt; content&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://fa.ehsangazar.com/logo.png&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;این کد را ویرایش کنید و در HTML سایت خود قرار دهید&lt;/p&gt;
-&lt;h3&gt;برنامه‌نویسی Notification و کنترل از سرویس‌های دیگر&lt;/h3&gt;
+&lt;h1&gt;برنامه‌نویسی Notification و کنترل از سرویس‌های دیگر&lt;/h1&gt;
 &lt;p&gt;خب مرورگرها امکانی را فراهم می‌کنند که شما سایت خود را در سرویس‌هایی ثبت کنید و از طریق آن‌ها Notification به کاربران بفرستید.&lt;/p&gt;
 &lt;p&gt;برای مثال اگر در سایت OneSignal ثبت کنید و کلید API را دریافت کنید با کد زیر می‌توانید سایت را در مرورگر کاربر ثبت کنید.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; applicationServerPublicKey &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;NEW&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;KEY&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
@@ -366,18 +358,18 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;مطمئنا پیچیدگی‌های زیادی نسبت به پروژه‌ی شما ممکن است در هر کدام از این بخش‌ها پیش بیاید که خوشحال می‌شوم راجب آن‌ها بشنوم.&lt;/p&gt;
 &lt;p&gt;اما این لیست کاملی است که در صورت رعایت کردن آن‌ می‌توانید مطمئن شوید بهترین تجربه‌ی کاربری را از نظر برنامه‌نویسی برای بازدیدکنندگان App یا ساییتان در اختیارشان قرار می‌دهید.&lt;/p&gt;
-&lt;p&gt;شرکت‌ها بر حسب نیاز ممکن است تمام این موارد را داشته باشند یا هر روز در تلاش برای پیاده‌سازی بهتر و بهینه تر آن‌ها باشند. پس دانش شما در این زمینه‌ها می‌تواند نقش کلیدی ای در شرکت و محصول شما داشته باشد.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[دوره آنلاین React JS پیشرفته]]></title><description><![CDATA[طول دوره: بیش از ۶ ساعت تعدا ویدئو‌ها: بیش از ۵۰ ویدئو بعد از پیشرفتی که در دوره React…]]></description><link>https://fa.ehsangazar.com/react-advanced-course/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-advanced-course/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;طول دوره: بیش از ۶ ساعت&lt;/h3&gt;
-&lt;h3&gt;تعدا ویدئو‌ها: بیش از ۵۰ ویدئو&lt;/h3&gt;
+&lt;p&gt;شرکت‌ها بر حسب نیاز ممکن است تمام این موارد را داشته باشند یا هر روز در تلاش برای پیاده‌سازی بهتر و بهینه تر آن‌ها باشند. پس دانش شما در این زمینه‌ها می‌تواند نقش کلیدی ای در شرکت و محصول شما داشته باشد.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[دوره آنلاین React JS پیشرفته]]></title><description><![CDATA[طول دوره: بیش از ۷ ساعت تعدا ویدئو‌ها: بیش از ۶۰ ویدئو بعد از پیشرفتی که در دوره React…]]></description><link>https://fa.ehsangazar.com/react-advanced-course/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-advanced-course/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;طول دوره: بیش از ۷ ساعت&lt;/h1&gt;
+&lt;h1&gt;تعدا ویدئو‌ها: بیش از ۶۰ ویدئو&lt;/h1&gt;
 &lt;p&gt;بعد از پیشرفتی که در دوره React مقدماتی از دانشجویان دیدم، بیش از پیش علاقه‌مند شدم که دوره‌ای را به عنوان React پپیشرفته برگزار کنم.&lt;/p&gt;
 &lt;p&gt;مشخصا FrontEnd تنها به React ختم نمی‌شه و تکنولوژی‌های زیادی کمک می‌کنند تا یک وب‌سایت حرفه‌ای برنامه‌نویسی شود.&lt;/p&gt;
 &lt;p&gt;دوره‌ی پیشرفته با هدف معرفی و کار با ابزار‌های مختلف ضمن برنامه‌نویسی چندین پروژه متعدد قرار هست به دانشجویان کمک کند تا بهتر و بیشتر تکنولوژی‌ها را در کنار همدیگر قرار دهند و یک وب‌سایت حرفه‌ای را برنامه نویسی کنند.&lt;/p&gt;
 &lt;p&gt;مطمئنا اطلاعاتی که در این دوره عرضه می‌شود در حد دانش یک Senior FrontEnd Engineer هست و تنها برای داشتن این شغل در یک شرکت شما لازم است تا به این تکنولوژی ها پروژه‌های متعددی را برنامه‌نویسی کنید.&lt;/p&gt;
-&lt;h3&gt;در این دوره چه یاد خواهید گرفت؟&lt;/h3&gt;
+&lt;h1&gt;در این دوره چه یاد خواهید گرفت؟&lt;/h1&gt;
 &lt;p&gt;در این دوره از Eslint, EditorConfig و Prettier شروع می‌کنم که محیط یک پروژه و ابزار‌های کمکی هستند و بعد بیشتر و عمیق تر وارد React و فریم‌ورک‌هایی مثل Gatsby و NextJs می‌شوم.&lt;/p&gt;
 &lt;p&gt;سپس بیشتر به Server Side Rendering می‌پردازم و با Restful API ها و GraphQL Endpoint ها پروژه‌هایی را برنامه نویسی میکنم.&lt;/p&gt;
 &lt;p&gt;پیچیدگی مطالب و میزان محتوایی که در این دوره عرضه می‌شود بسیار زیاد است و لازم هست در هر کدام از این ویدئو ها تمرکز بیشتری کرد. &lt;/p&gt;
 &lt;p&gt;مطئمنا بخش رفع ایرادات و سوالات پیش‌امده برای دوره کمک بیشتری خواهد کرد که یادگیری بهتری داشته باشید&lt;/p&gt;
-&lt;h3&gt;سوالات متداول:&lt;/h3&gt;
+&lt;h1&gt;سوالات متداول:&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;چه پیش‌ نیازی برای شرکت در دوره لازم است؟&lt;/li&gt;
 &lt;/ul&gt;
@@ -387,20 +379,166 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;آیا میتوانم با اکانت Paypal پرداخت کنم؟&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;اگر خارج ایران هستید، میتوانید از Paypal برای پرداخت استفاده کنید، فقط کافی است مبلغ پیغامی در شبکه‌های اجتماعی به من بدهید.&lt;/p&gt;
-&lt;h3&gt;لینک دوره&lt;/h3&gt;
+&lt;h1&gt;محتوای دوره&lt;/h1&gt;
+&lt;h2&gt;مقدمات&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://designwich.com/courses/react-advanced/&quot; title=&quot;دوره آنلاین React JS پیشرفته&quot;&gt;دوره آنلاین React JS پیشرفته&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[دوره آنلاین React JS مقدماتی]]></title><description><![CDATA[طول دوره: بیش از ۵ ساعت تعدا ویدئو‌ها: بیش از ۴۰ ویدئو چندین سالی هست که React JS به لیست Library های JavaScript…]]></description><link>https://fa.ehsangazar.com/react-basic-course/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-basic-course/</guid><pubDate>Fri, 31 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;طول دوره: بیش از ۵ ساعت&lt;/h3&gt;
-&lt;h3&gt;تعدا ویدئو‌ها: بیش از ۴۰ ویدئو&lt;/h3&gt;
+&lt;li&gt;چه تکنولوژی‌ها در این دوره یاد خواهیم گرفت؟ از Eslint، Prettier, GraphQL,Webpack, Testing&lt;/li&gt;
+&lt;li&gt;بررسی پشت صحنه‌ی تکنولوژی‌های استفاده شده در Create React App و تنظیمات پیش‌فرض&lt;/li&gt;
+&lt;li&gt;Eslint چیست و چگونه از آن استفاده کنیم&lt;/li&gt;
+&lt;li&gt;استفاده از editorconfig در پروژه&lt;/li&gt;
+&lt;li&gt;Prettier چیست و چگونه از آن در کنار ESlint استفاده کنیم&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;کار با NextJs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;معرفی NextJs و نصب آن و بررسی کارهای پشت زمینه آن&lt;/li&gt;
+&lt;li&gt;چگونه در NextJs بتوانیم صفحات مختلف داشته باشیم و Routing برای آن‌ها پیاده‌سازی کنیم&lt;/li&gt;
+&lt;li&gt;Server Side Rendering یا SSR چیست و چه کاربردی دارد&lt;/li&gt;
+&lt;li&gt;کار کردن با SSR و ویرایش HTML و داشتن Layout برای پروژه&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;کار با CSS و روش‌های مختلف Style دادن به پروژه&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;معرفی و مرور CSS و LESS و SASS و روش کار با آن&lt;/li&gt;
+&lt;li&gt;معرفی و نحوه‌ی کار با CSS MODULE&lt;/li&gt;
+&lt;li&gt;معرفی و کار با CSS in JS&lt;/li&gt;
+&lt;li&gt;کار با کتابخانه StyledComponents&lt;/li&gt;
+&lt;li&gt;کار با کتابخانه Emotion&lt;/li&gt;
+&lt;li&gt;شروع پروژه Remote Jobb برای پیاده‌سازی تمامی دانش‌های این ‌دوره&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;معرفی Design Pattern ها و Best Practice ها در پروژه های React&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;معرفی ساختار Components و Containers یا کامپونتت‌های ساده و باهوش!&lt;/li&gt;
+&lt;li&gt;معرفی ساختار HOC یا Higher Order Components&lt;/li&gt;
+&lt;li&gt;برنامه نویسی یک Custom Hook و معرفی این ساختار&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;شروع پیاده‌سازی یک Design System و برنامه ‌نویسی کامپوننت‌های Basic و Reusable پروژه&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;پیاده‌سازی صفحه لاگین و کامپوننت‌های Input و ‌Button&lt;/li&gt;
+&lt;li&gt;چگونه در پروژه Theming را پیاده‌سازی کنیم&lt;/li&gt;
+&lt;li&gt;چگونه به پروژه Font اضافه کنیم و Global Styling داشته باشیم&lt;/li&gt;
+&lt;li&gt;پیاده‌سازی Typography در پروژه&lt;/li&gt;
+&lt;li&gt;تعریف Design System چیست و چه راه‌کارهایی برای آن وجود دارد&lt;/li&gt;
+&lt;li&gt;معرفی پروژه Storybook JS&lt;/li&gt;
+&lt;li&gt;معرفی پروژه Styleguidist و روش پیاده‌سازی آن و استفاده از MDX Format ها&lt;/li&gt;
+&lt;li&gt;پیاده‌سازی Design System برای پروژه Remote Jobb&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;پیاده‌سازی Routing و استفاده از Next Js Route&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;پیاده‌سازی Form ها و Routing بین آن‌ها&lt;/li&gt;
+&lt;li&gt;استفاده از Link و پیاده‌سازی Hyperlink Component&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;کار با Redux&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;معرفی State Management و آشنایی با Redux&lt;/li&gt;
+&lt;li&gt;راه‌اندازی و نصب Redux&lt;/li&gt;
+&lt;li&gt;کار با API ها در Redux&lt;/li&gt;
+&lt;li&gt;کار و نصب Redux Thunk برای راه‌اندازی Asynchronous Calls&lt;/li&gt;
+&lt;li&gt;پیاده‌سازی fetchUrl&lt;/li&gt;
+&lt;li&gt;پیاده‌سازی state های مختلف برای صدا کردن API ها, LOADING, STARTED و FAILED&lt;/li&gt;
+&lt;li&gt;صدا کردن API ها در سرور و Dispatch کردن در Server Side Rendering با Next JS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;پیاده ‌سازی و معرفی Testing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;معرفی Testing و انواع آن&lt;/li&gt;
+&lt;li&gt;معرفی و برنامه‌نویسی Snapshot Testing&lt;/li&gt;
+&lt;li&gt;نوشتن Testingبرای DOM و کارکردن با صفحه&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;روش Deploy کردن پروژه&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;پروژه را در git قرار دهیم و در Vercel روی دامنه قرار دهیم&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;معرفی Restful APIs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;تعریف Restful API ها و نحوه‌ی کار کردن با آن‌ها&lt;/li&gt;
+&lt;li&gt;متصل کردن API ها Register و Login به App و کار با Swagger یا Postman&lt;/li&gt;
+&lt;li&gt;درست کردن صفحه مختص و routing در NextJs به اضافه ارسال Request برای دریافت از API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;کار با Cookie و برنامه نویسی حالت های Authenticated در پروژه با SSR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;معرفی کتاب‌خانه Cookie Universal و کار کردن با Cookie ها&lt;/li&gt;
+&lt;li&gt;کار کردن با Cookie و Dispatch کردن در سمت سرور و انتقال State به کلاینت ساید&lt;/li&gt;
+&lt;li&gt;کار کردن با Cookie ها و بررسی Log Out کردن با کلیک روی خروج یا به صورت اتومات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;معرفی و کار با GraphQL&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;معرفی GraphQL و کتاب‌خانه‌های Client Side کار با آن&lt;/li&gt;
+&lt;li&gt;چگونه با Documentation برای GraphQL کار کنیم و معرفی GraphiQL&lt;/li&gt;
+&lt;li&gt;برنامه نویسی با Apollo Client&lt;/li&gt;
+&lt;li&gt;کار با Apollo Client و ApolloProvider و آشنایی با هوک useQuery&lt;/li&gt;
+&lt;li&gt;ارسال POST به API ها و آشنایی با useMutation&lt;/li&gt;
+&lt;li&gt;کار کردن با Polling و آپدیت کردن صفحه با Refresh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;کار کردن با Gatsby JS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;آشنایی با پروژه Gatsby JS&lt;/li&gt;
+&lt;li&gt;چطور در Gatsby JS یک پروژه جدید را شروع کنیم&lt;/li&gt;
+&lt;li&gt;برنامه‌نویسی بلاگ خودم یا fa.ehsangazar.com با پروژه Gatsby&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;آموزش Webpack &lt;span class=&quot;red&quot;&gt;( آپلود شده در تاریخ ۲۳ مرداد ۱۳۹۹)&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;معرفی Webpack و چرایی استفاده‌ از آن&lt;/li&gt;
+&lt;li&gt;شروع برنامه‌نویسی با Webpack برای یک پروژه‌ ساده&lt;/li&gt;
+&lt;li&gt;برنامه نویسی Webpack در یک پروژه‌ی ساده React&lt;/li&gt;
+&lt;li&gt;پیاده‌سازی محیط و تجربه‌ی Development با Webpack Dev Middleware و Webpack Dev Server&lt;/li&gt;
+&lt;li&gt;پیاده‌سازی و معرفی Babel Loader برای JSX&lt;/li&gt;
+&lt;li&gt;پیاده‌سازی Webpack برای یک پروژه‌ی بزرگ همراه با CSS Loader&lt;/li&gt;
+&lt;li&gt;استفاده از Mode و Webpack Clean Plugin و contentHash در تنظیمات Webpack&lt;/li&gt;
+&lt;li&gt;پیاده‌سازی Terser برای مینیفای کردن JS ها و معرفی Webpack DefinePlugin&lt;/li&gt;
+&lt;li&gt;پیاده سازی Code Splitting و Hot Module Reloading یا HMR در Webpack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;خرید دوره&lt;/h1&gt;
+&lt;div class=&quot;alert&quot;&gt;
+ به مناسبت بازگشایی دوره در سایت فارسی خودم، تا تاریخ ۵ شهریور هزینه‌ی دوره برابر با 1,488,000  به تومان خواهد بود که یعنی ۴۰ درصد تخفیف
+&lt;/div&gt;
+&lt;p&gt;لطفا برای خرید دوره مبلغ
+&lt;strike&gt;2,480,000&lt;/strike&gt;
+1,488,000
+تومان را از طریف لینک پرداخت زیر واریز نمایید و سپس پیغامی به تلگرام من بدهید.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://t.me/ehsangazar&quot;&gt;تلگرام من&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://me.pay.ir/ehsangazar&quot;&gt;لینک پرداخت&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[دوره آنلاین React JS مقدماتی]]></title><description><![CDATA[طول دوره: بیش از ۵ ساعت تعدا ویدئو‌ها: بیش از ۴۰ ویدئو چندین سالی هست که React JS به لیست Library های JavaScript…]]></description><link>https://fa.ehsangazar.com/react-basic-course/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-basic-course/</guid><pubDate>Fri, 31 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;طول دوره: بیش از ۵ ساعت&lt;/h1&gt;
+&lt;h1&gt;تعدا ویدئو‌ها: بیش از ۴۰ ویدئو&lt;/h1&gt;
 &lt;p&gt;چندین سالی هست که React JS به لیست Library های JavaScript اضافه شده و می‌دونین که خب توسط Facebook هم مدیریت میشه و ورژن های جدیدش ارائه میشه.&lt;/p&gt;
 &lt;p&gt;خب مزایایی که React ارائه داد و سادگی استفاده اش باعث شد از وقتی با بازار اومد همه راجبش صحبت کنن و الان تقریبا درصد زیادی از محصولات با این تکنولوژی در FrontEnd نوشته میشن.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/74c4b147297bde96202760a77e8ab9a2/e72de/stats.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.91891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAABm0lEQVQ4y5VT7W6DMAzk/V9pe4j9XaW10JbSD6CQbxLCzc5K105btVoyTox0udw5GSjGcYT3HtM0PZ30wRgva4qMP0IIlGUJa20C5wwhpLzd/1X7pkbTNF+A3JRSoqoqKKV+Bfy5vq3DMGDx/obX1xdst1tk6/Uap9MJ+/3+KcCRaowRTvWoig+slkvUdY2MUXlxOByeAnQ+YHAWg2zhqTdHYsiAx+PxX4DMzA4BrdDomhOObQ9D2nOwMdlqtUpg/2XI0yCtR7AKMQzolIE25htws9kkDRlUa/3Q5RhHaOdhNR1sZRoX7xwc5RUwz3O0bXsFZKH/BoyQ2iKYHpF6vFdGpXG7Y3g+n+80nMFS8v4mtegIjHT0DsIJnMmUO0BmOLvM4k6XH3x6JCcn0my0DpM15GgHJckEp0g3kViGMN5fmZnxlXkOd0WBhgY8Je2rskC5IdMqqsUCef6BXUlzW+1QV3u0RKIkQvwwroC4YST6nhjIlIb0VJSSZBBSoKeeJDMMOco34T5r3nddcv4KOD/qR8HvlGV5FDPOJyeNQIhucw8ZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;درصد استفاده از React در دنیای امروز&quot;
+        src=&quot;/static/74c4b147297bde96202760a77e8ab9a2/fcda8/stats.png&quot;
+        srcset=&quot;/static/74c4b147297bde96202760a77e8ab9a2/12f09/stats.png 148w,
+/static/74c4b147297bde96202760a77e8ab9a2/e4a3f/stats.png 295w,
+/static/74c4b147297bde96202760a77e8ab9a2/fcda8/stats.png 590w,
+/static/74c4b147297bde96202760a77e8ab9a2/efc66/stats.png 885w,
+/static/74c4b147297bde96202760a77e8ab9a2/c83ae/stats.png 1180w,
+/static/74c4b147297bde96202760a77e8ab9a2/e72de/stats.png 1198w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;یادگیری React خب مسلما به شما بازار کار بهتر و مطمئن تری رو ارائه میده و خب به دلیل گسترگی استفاده می‌تونین محصولات خیلی پیچیده رو هم به راحتی باهاش برنامه نویسی کنید.&lt;/p&gt;
 &lt;p&gt;این دوره که در اصل تمام دانش مقدماتی هست که تیم FrontEnd در React در سطح Mid Level ازش استفاده میکنه میتونه بهتون کمک کنه که طی چند ساعت با نحوه‌ی ساختن یک ‌وب‌سایت آشنا بشید و بتونین رزومه خودتون یا محصولی که در ذهن دارین رو برنامه نویسی کنید.&lt;/p&gt;
 &lt;p&gt;پروژه
 برای این که بعد از دیدن ویدئو ها مطمئن بشیم که به خوبی محتواها رو به خاطر سپردید و میتونین استفاده کنین لازم هست پروژه‌ی عملی ای انجام بدین. پیشنهاد من تعریف یک پروژه شخصی هست که در طول دوره اون رو develop کنید.&lt;/p&gt;
 &lt;p&gt;مشخصا سوالات زیادی براتون مطرح خواهد شد که در گروه تلگرامی دوره میتونین مطرح کنین و اگر سوالات کمی متداوم بشن مسلما من ویدئوی تکمیلی به دوره اضافه خواهم کرد و جواب سوالات رو خواهم داد.&lt;/p&gt;
 &lt;p&gt;شما می‌تونید این پروژه رو به راحتی جزوی از رزومتون قرار بدین و برای کارهای Junior تا Mid-Level در برنامه نویسی FrontEnd درخواست بدین.&lt;/p&gt;
-&lt;h3&gt;در این دوره چه یاد خواهید گرفت؟&lt;/h3&gt;
+&lt;h1&gt;در این دوره چه یاد خواهید گرفت؟&lt;/h1&gt;
 &lt;p&gt;این دوره با هدف آشنایی با React و بررسی تمام کارهایی که با این Library میتوان کرد شکل گرفته است. شروع خوبی برای پیاده‌سازی اپ‌های ساده است
 ، شما یاد خواهید گرفت:&lt;/p&gt;
 &lt;ul&gt;
@@ -412,7 +550,16 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;شما میتوانید انیمیشن و عکس و آیکن در پروژه استفاده کنید و ساختار خوبی به پروژه خود بدهید&lt;/li&gt;
 &lt;li&gt;شما با کتابخانه Create React App کار خواهید کرد و به آن مسلط می‌شوید&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;سوالات متداول:&lt;/h3&gt;
+&lt;h1&gt;پروژه&lt;/h1&gt;
+&lt;p&gt;برای این که بعد از دیدن ویدئو ها مطمئن بشیم که به خوبی محتواها رو به خاطر سپردید و میتونین استفاده کنین لازم هست پروژه‌ی عملی ای انجام بدین. پیشنهاد من تعریف یک پروژه شخصی هست که در طول دوره اون رو develop کنید.&lt;/p&gt;
+&lt;p&gt;مشخصا سوالات زیادی براتون مطرح خواهد شد که در گروه تلگرامی دوره میتونین مطرح کنین و اگر سوالات کمی متداوم بشن مسلما من ویدئوی تکمیلی به دوره اضافه خواهم کرد و جواب سوالات رو خواهم داد.&lt;/p&gt;
+&lt;p&gt;شما می‌تونید این پروژه رو به راحتی جزوی از رزومتون قرار بدین و برای کارهای Junior تا Mid-Level در برنامه نویسی FrontEnd درخواست بدین.&lt;/p&gt;
+&lt;p&gt;پروژه‌هایی که در طول دوره انجام شده‌اند:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://todo-app-5hwjlgaxy.vercel.app/&quot; title=&quot;تکلیف دوره یا پروژه Todo&quot;&gt;تکلیف دوره یا پروژه Todo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://react-for-beginners.now.sh&quot; title=&quot;پروژه فروشگاهی ساده همراه با سبد خرید&quot;&gt;پروژه فروشگاهی ساده همراه با سبد خرید&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;سوالات متداول:&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;چه پیش‌ نیازی برای شرکت در دوره لازم است؟&lt;/li&gt;
 &lt;/ul&gt;
@@ -426,9 +573,84 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;آیا میتوانم با اکانت Paypal پرداخت کنم؟&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;اگر خارج ایران هستید، میتوانید از Paypal برای پرداخت استفاده کنید، فقط کافی است مبلغ ۵۹ دلار آمریکا (TAX اضافه شده است) برای من واریز کنید و سپس مسیجی در تلگرام یا اینستاگرام من بفرستید تا اکانتتان در سایت active شود.(لینک)&lt;/p&gt;
-&lt;h3&gt;لینک دوره&lt;/h3&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h1&gt;محتوای دوره&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://designwich.com/courses/react-basic/&quot; title=&quot;دوره آنلاین React JS مقدماتی&quot;&gt;دوره آنلاین React JS مقدماتی&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ابزار‌ها و محیط برنامه‌نویسی با React&lt;/li&gt;
+&lt;li&gt;آشنایی با مفاهیم React و تفاوت آن با سایر کتابخانه‌ها&lt;/li&gt;
+&lt;li&gt;JSX چیست و چطور از Babel استفاده کنیم&lt;/li&gt;
+&lt;li&gt;کامپوننت چیست و چطور اولین کامپوننت (React Component) را بنویسیم&lt;/li&gt;
+&lt;li&gt;چطور از Create React App استفاده کنیم&lt;/li&gt;
+&lt;li&gt;روش استفاده از CSS و استایل دادن به کامپوننت‌ها&lt;/li&gt;
+&lt;li&gt;کد زدن برای داشتن Layout یا ساختار صفحه با React&lt;/li&gt;
+&lt;li&gt;props ها در React چه هستند و چطور از آن‌ها استفاده کنیم&lt;/li&gt;
+&lt;li&gt;چطور با React Router صفحات مختلف بسازیم&lt;/li&gt;
+&lt;li&gt;چطور با Event ها در React کار کنیم&lt;/li&gt;
+&lt;li&gt;مدیریت State ها و چطور آن‌ها را در یک کامپوننت تغییر دهیم و استفاده کنیم&lt;/li&gt;
+&lt;li&gt;چطور یک کامپوننت به روش قدیمی و به صورت Class بنویسیم&lt;/li&gt;
+&lt;li&gt;مفهوم Life Cycle در React چیست؟‌ و چطور در روش قدیمی از آن استفاده می‌کردیم&lt;/li&gt;
+&lt;li&gt;چطور data ای را در کامپوننت داشته باشیم و آن را در State قرار دهیم&lt;/li&gt;
+&lt;li&gt;آشنایی با useEffect در React&lt;/li&gt;
+&lt;li&gt;چطور data را از API بخوانیم و در React نمایش دهیم&lt;/li&gt;
+&lt;li&gt;آشنایی با useCallback در React&lt;/li&gt;
+&lt;li&gt;با Context آشنا شویم و از useContext استفاده کنیم&lt;/li&gt;
+&lt;li&gt;چطور با useRef کار کنیم&lt;/li&gt;
+&lt;li&gt;آشنایی با Hook ها از کتاب‌خانه React Router و useLocation&lt;/li&gt;
+&lt;li&gt;اضافه کردن Icon به پرورژه و آشنایی با مفهوم Fragment&lt;/li&gt;
+&lt;li&gt;آشنایی با useReducer یکی از Hook های React و نحوه‌ی پیاده‌سازی آن&lt;/li&gt;
+&lt;li&gt;چطور از ترکیب useReducer و useContext استفاده کنیم&lt;/li&gt;
+&lt;li&gt;آشنایی با نحوه‌ی اضافه کردن Animation به پروژه&lt;/li&gt;
+&lt;li&gt;چطور Route مشخصی برای صفحه هر محصول داشته باشیم&lt;/li&gt;
+&lt;li&gt;مفهوم validate کردن prop ها و Type Checking با کتاب‌خانه‌ی prop-types&lt;/li&gt;
+&lt;li&gt;نحوه‌ی ساده‌ای برای Store Persistence در React و بارگذاری مجدد State در کامپونتت‌ها&lt;/li&gt;
+&lt;li&gt;آشنایی با utils ها و ساختار دادن App&lt;/li&gt;
+&lt;li&gt;آشنایی با React DevTools به عنوان Browser Extension&lt;/li&gt;
+&lt;li&gt;آماده‌سازی پروژه Create React App برای محیط Production&lt;/li&gt;
+&lt;li&gt;چطور با Now JS پروژه‌ی خود را در Deploy کنیم&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;ویدئو‌های سوالات متداول&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;راه‌های نمایش عکس در پروژه&lt;/li&gt;
+&lt;li&gt;چگونه از eslint برای استانداردسازی codebase همراه با vscode استفاده کنیم&lt;/li&gt;
+&lt;li&gt;چگونه با git کار کنیم و پروژه Create React App رو در Github Pages قرار بدهیم یا Deploy کنیم&lt;/li&gt;
+&lt;li&gt;چگونه در پروژه Create React App از SASS استفاده کنیم&lt;/li&gt;
+&lt;li&gt;چطور در پروژه Create React App از Bootstrap استفاده کنیم&lt;/li&gt;
+&lt;li&gt;چگونه در پروژه Create React App از Material UI استفاده کنیم&lt;/li&gt;
+&lt;li&gt;تعریف زبان‌های Backend مانند NodeJs، PHP و غیره و نحوه‌ی قدیم و جدید ارتباط آن‌ها با Frontend، کاربر React و بررسی Wordpress&lt;/li&gt;
+&lt;li&gt;چگونه در پروژه‌های React می‌توانیم Slideshow داشته باشیم&lt;/li&gt;
+&lt;li&gt;آشنایی با White Pages و کد زدن Loading و Placeholder برای بخش های مختلف سایت&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;تکلیف دوره&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;پیاده ‌سازی یک اپلیکیشن Todo با React&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;جلسات آنلاین / رفع اشکال و بررسی کد‌ها&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;کلاس آنلاین بررسی و Refactoring برای یک نمونه کد Timer&lt;/li&gt;
+&lt;li&gt;کلاس آنلاین برای بررسی کد سنگ کاغذ قیچی&lt;/li&gt;
+&lt;li&gt;کلاس آنلاین درس برای بررسی پروژه Todo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;برنامه‌نویسی تکلیف دوره و پروژه Todo &lt;span class=&quot;red&quot;&gt;( آپلود شده در تاریخ ۲۰ مرداد ۱۳۹۹)&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;شروع پروژه، نصب پیش‌نیاز ها و ساختن ساختار پروژه&lt;/li&gt;
+&lt;li&gt;برنامه‌نویسی استایل‌های اولیه و ساختار کامپوننت‌ها&lt;/li&gt;
+&lt;li&gt;استایل دادن بیشتر و آماده‌سازی پروژه و آشنایی با BEM&lt;/li&gt;
+&lt;li&gt;اضافه کردن فانکشن‌های AddTask, DeleteTask&lt;/li&gt;
+&lt;li&gt;اضافه کردن Filtering و تغییر وضعیت تسک‌ها&lt;/li&gt;
+&lt;li&gt;پیاده سازی localStorage و Persistence برای پروژه و Deploy کردن آن&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;خرید دوره&lt;/h1&gt;
+&lt;div class=&quot;alert&quot;&gt;
+ به مناسبت بازگشایی دوره در سایت فارسی خودم، تا تاریخ ۵ شهریور هزینه‌ی دوره برابر با ۵۰۰ هزار تومان خواهد بود که یعنی بیش از ۴۰ درصد تخفیف
+&lt;/div&gt;
+&lt;p&gt;لطفا برای خرید دوره مبلغ
+&lt;strike&gt;870,000&lt;/strike&gt;
+522,000
+تومان را از طریف لینک پرداخت زیر واریز نمایید و سپس پیغامی به تلگرام من بدهید.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://t.me/ehsangazar&quot;&gt;تلگرام من&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://me.pay.ir/ehsangazar&quot;&gt;لینک پرداخت&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[کلاس آنلاین برای بررسی کد سنگ کاغذ قیچی]]></title><description><![CDATA[این نمونه‌ی جلسه‌ی دیگری است که برای دوره مقدماتی React در سایت Designwich…]]></description><link>https://fa.ehsangazar.com/react-basic-rock-paper-scissor/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-basic-rock-paper-scissor/</guid><pubDate>Tue, 30 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;این نمونه‌ی جلسه‌ی دیگری است که برای دوره مقدماتی React در سایت Designwich برگزار کردم.&lt;/p&gt;
 &lt;p&gt;سوالات دوستان به مراتب جذاب تر شده‌اند و من در این کلاس در تلاش بودم تا خودشان را به جواب برسانم.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[کلاس آنلاین بررسی و Refactoring برای یک نمونه کد Timer]]></title><description><![CDATA[دوره React…]]></description><link>https://fa.ehsangazar.com/react-basic-timer-project/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-basic-timer-project/</guid><pubDate>Sat, 20 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;دوره React مقدماتی بسیار موفق بوده است و تجربه‌ی بسیار عالی‌ای بوده است.&lt;/p&gt;
 &lt;p&gt;در این کلاس آنلاین زمانی را مشخص کردم تا به سوالات دوستان جواب دهم. هر چند در اینجا ساعت ۱۱:۳۰ شب بود. اما در تهران ساعت ۶ بود و باعث شد بتوانیم جلسه‌ی آنلاین مفیدی را با هم داشته باشیم.&lt;/p&gt;
