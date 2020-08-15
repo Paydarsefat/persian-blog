@@ -26,6 +26,9 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+        <script id="mcjs" dangerouslySetInnerHTML={{
+          __html: `!function(c,h,i,m,p){m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/076e3fcd577e2d95ff02b4e5c/00e4e339424a9821ccd9ac73f.js");`,
+          }}  />
       </body>
     </html>
   )

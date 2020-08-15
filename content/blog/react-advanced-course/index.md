@@ -121,7 +121,7 @@ category: react-advanced
 - چطور در Gatsby JS یک پروژه جدید را شروع کنیم
 - برنامه‌نویسی بلاگ خودم یا fa.ehsangazar.com با پروژه Gatsby
 
-## آموزش Webpack <span class="red">( آپلود شده در تاریخ ۲۳ مرداد ۱۳۹۹)</span>
+## آموزش Webpack <span className="red">( آپلود شده در تاریخ ۲۳ مرداد ۱۳۹۹)</span>
 - معرفی Webpack و چرایی استفاده‌ از آن
 - شروع برنامه‌نویسی با Webpack برای یک پروژه‌ ساده
 - برنامه نویسی Webpack در یک پروژه‌ی ساده React
@@ -135,7 +135,7 @@ category: react-advanced
 
 # خرید دوره
 
-<div class="alert">
+<div className="alert">
  به مناسبت بازگشایی دوره در سایت فارسی خودم، تا تاریخ ۵ شهریور هزینه‌ی دوره برابر با 1,488,000  به تومان خواهد بود که یعنی ۴۰ درصد تخفیف
 </div>
 
