@@ -249,10 +249,11 @@ label.form-label {
 .newsletter-body {
   display: flex;
 }
-.newsletter-body img{
+.newsletter-body img {
   max-width: 200px;
   flex-shrink: 1;
   object-fit: contain;
+  height: 130px;
 }
 .newsletter-body .newsletter-body-form {
   flex-grow: 1;
@@ -262,6 +263,9 @@ label.form-label {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.newsletter-body .newsletter-body-form .loading {
+  max-width: 40px;
 }
 .newsletter-body .newsletter-body-form .form-group {
   width: 100%;
