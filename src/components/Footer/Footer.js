@@ -25,7 +25,7 @@ const Footer = ({ location }) => {
     responseOfApiRegisteringNewsletter,
     setResponseOfApiRegisteringNewsletter,
   ] = useState(null)
-  const [emailToken, setEmailToken] = useQueryParam("emailToken", StringParam)
+  const [newsletterEmailToken, setNewsletterEmailToken] = useQueryParam("newsletterEmailToken", StringParam)
   const [modal, setModalToken] = useQueryParam("modal", StringParam)
 
   const handleCloseNewsletterModal = () => setShowNewsletterModal(false)
@@ -41,7 +41,7 @@ const Footer = ({ location }) => {
   }, [])
 
   useEffect(() => {
-    if (emailToken){
+    if (newsletterEmailToken){
       handleConfirmEmail()
     }
   }, [])
@@ -60,7 +60,7 @@ const Footer = ({ location }) => {
         method: "POST",
         url: "/api/v1/newsletter/validate",
         body: {
-          security_hash: emailToken,
+          security_hash: newsletterEmailToken,
         },
       })
     } catch (e) {
