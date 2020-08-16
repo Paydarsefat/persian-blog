@@ -7,6 +7,7 @@ import { Link } from 'gatsby'
 import { Modal, Button, Form, Alert } from "react-bootstrap"
 import fetchHandler from "../../utils/fetchHandler"
 import loading from "../Icon/loading.gif"
+import newsletterImage from "./newsletter.png"
 
 const Footer = ({ location }) => {
   const [showNewsletterModal, setShowNewsletterModal] = useState(false)
@@ -25,6 +26,7 @@ const Footer = ({ location }) => {
     setResponseOfApiRegisteringNewsletter,
   ] = useState(null)
   const [emailToken, setEmailToken] = useQueryParam("emailToken", StringParam)
+  const [modal, setModalToken] = useQueryParam("modal", StringParam)
 
   const handleCloseNewsletterModal = () => setShowNewsletterModal(false)
   const handleCloseConfirmEmailModal = () => setShowConfirmEmailModal(false)
@@ -41,6 +43,12 @@ const Footer = ({ location }) => {
   useEffect(() => {
     if (emailToken){
       handleConfirmEmail()
+    }
+  }, [])
+
+  useEffect(() => {
+    if (modal === 'newsletter') {
+      setShowNewsletterModal(true)
     }
   }, [])
 
@@ -290,20 +298,25 @@ const Footer = ({ location }) => {
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-              {responseOfApiRegisteringNewsletter && (
-                <Alert variant={responseOfApiRegisteringNewsletter.type}>
-                  {responseOfApiRegisteringNewsletter.message}
-                </Alert>
-              )}
-              <Form.Group controlId="formBasicEmail">
-                <Form.Label>ایمیل</Form.Label>
-                <Form.Control
-                  onChange={handleChangeNewsletterEmail}
-                  type="email"
-                  value={email}
-                  placeholder="ایمیل خود را وارد نمایید"
-                />
-              </Form.Group>
+              <div className="newsletter-body">
+                <img src={newsletterImage} />
+                <div className="newsletter-body-form">
+                  {responseOfApiRegisteringNewsletter && (
+                    <Alert variant={responseOfApiRegisteringNewsletter.type}>
+                      {responseOfApiRegisteringNewsletter.message}
+                    </Alert>
+                  )}
+                  <Form.Group controlId="formBasicEmail">
+                    <Form.Label>ایمیل</Form.Label>
+                    <Form.Control
+                      onChange={handleChangeNewsletterEmail}
+                      type="email"
+                      value={email}
+                      placeholder="ایمیل خود را وارد نمایید"
+                    />
+                  </Form.Group>
+                </div>
+              </div>
             </Modal.Body>
             <Modal.Footer>
               <Button
@@ -332,12 +345,17 @@ const Footer = ({ location }) => {
             </Modal.Title>
           </Modal.Header>
           <Modal.Body className="loading-modal">
-            {isLoadingNewsletterConfirmModal && (
-              <img className="loading" src={loading} />
-            )}
-            {!isLoadingNewsletterConfirmModal && (
-              <Alert variant={"success"}>ایمیل شما با موفقیت فعال شد</Alert>
-            )}
+            <div className="newsletter-body">
+              <img src={newsletterImage} />
+              <div className="newsletter-body-form">
+                {isLoadingNewsletterConfirmModal && (
+                  <img className="loading" src={loading} />
+                )}
+                {!isLoadingNewsletterConfirmModal && (
+                  <Alert variant={"success"}>ایمیل شما با موفقیت فعال شد</Alert>
+                )}
+              </div>
+            </div>
           </Modal.Body>
         </Modal>
       </div>

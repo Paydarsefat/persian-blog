@@ -246,6 +246,29 @@ label.form-label {
   text-align: center;
   height: 50px;
 }
+.newsletter-body {
+  display: flex;
+}
+.newsletter-body img{
+  max-width: 200px;
+  flex-shrink: 1;
+  object-fit: contain;
+}
+.newsletter-body .newsletter-body-form {
+  flex-grow: 1;
+  min-width: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter-body .newsletter-body-form .form-group {
+  width: 100%;
+}
+.newsletter-body .newsletter-body-form .alert {
+  width: 100%;
+}
 @media only screen and (max-width: 768px) {
   .content-image {
     position: static;
@@ -261,5 +284,9 @@ label.form-label {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .newsletter-body img{
+    max-width: 100px;
+    flex-shrink: 1;
   }
 }
