@@ -75,12 +75,6 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
-    {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-        shortname: `persian-ehsangazar`,
-      },
-    },
     "gatsby-plugin-use-query-params",
   ],
 }

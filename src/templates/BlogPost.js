@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { Disqus } from "gatsby-plugin-disqus"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/Header/Header"
@@ -9,11 +8,6 @@ import Video from "../components/Video/Video"
 const BlogPost = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
-  const disqusConfig = {
-    url: `http://fa.ehsangazar.com/${location.pathname}`,
-    identifier: data.markdownRemark.id,
-    title: data.markdownRemark.title,
-  }
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
@@ -61,7 +55,6 @@ const BlogPost = ({ data, location }) => {
                 <div className="space-2" />
                 <section dangerouslySetInnerHTML={{ __html: post.html }} />
                 <div className="space-8" />
-                <Disqus config={disqusConfig} />
               </div>
             </div>
           </div>
