@@ -3,7 +3,7 @@ module.exports = {
     title: `احسان گازار`,
     author: {
       name: `احسان گازار`,
-      summary: `برنامه نویس، بلاگر و صخره نورد`,
+      summary: `برنامه نویس، مدرس، بلاگر و صخره نورد`,
     },
     description: `این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است`,
     siteUrl: `https://fa.ehsangazar.com/`,
