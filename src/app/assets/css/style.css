@@ -1872,7 +1872,7 @@ footer {
       .subcribe-bar__form .btn.-normal {
         padding: 0 0.9375em; } }
 
-.btn {
+.btn.btn-primary {
   color: #fff;
   font-size: 0.875em;
   font-weight: 700;
@@ -2831,8 +2831,7 @@ footer {
     .quantity-controller a:hover {
       color: #e49c86; }
 
-.breadcrumb {
-  padding: 3.125rem 0 4.375rem; }
+.breadcrumb {}
   .breadcrumb ul > li {
     display: inline-block; 
     padding: 10px;}

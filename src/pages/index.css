@@ -44,6 +44,12 @@ html,body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+* {
+  direction: rtl;
+  text-align: right;
+}
+
 h1 {
     font-size: 1.375em;
     font-weight: 700;
@@ -148,15 +154,18 @@ iframe {
   width: 100%;
   height: 100px;
 }
+.widthAll {
+  width: 100%;
+}
 .alert {
+  line-height: 1.9em;
+}
+.alert.alert-info {
   background-color: #ee3470;
   color: white;
   width: 100%;
   border-color: #ee3470;
-  line-height: 2em;
-  padding: 30px;
   text-align: center;
-  margin: 20px 0;
 }
 strike, .red {
     color: #ee3470;
@@ -169,7 +178,7 @@ pre.language-javascript {
 .special {
   position: relative;
   max-width: 1000px;
-  margin: 70px auto 0px;
+  margin: 90px auto 0px;
   display: flex;
 }
 .courses {
@@ -182,7 +191,7 @@ pre.language-javascript {
   flex: 0 0 50%;
   padding-top: 50px;
   display: flex;
-  height: 145px;
+  height: 200px;
 }
 .courses .courses-link img{
   width: 100px;
@@ -197,14 +206,45 @@ pre.language-javascript {
   display: flex;
   width: 100%;
 }
-.breadcrumb {
-    padding: 20px 0;
-}
 #content {
   padding-top: 50px;
 }
 #content.no-pd {
     padding-top: 0;
+}
+label.form-label {
+    padding-bottom: 10px;
+}
+.modal-header .close {
+    margin: -1rem;
+}
+.btn-with-loading {
+  display: flex;
+  align-items: center;
+}
+.btn-with-loading img {
+  height: 30px;
+  padding: 0 10px;
+}
+.newsletter-form-footer {
+  display: flex;
+}
+.newsletter-form-footer button {
+  flex-shrink: 0;
+}
+.newsletter-form-footer input {
+  height: 54px;
+  margin-left: 5px;
+}
+.copyright p {
+    text-align: center;
+}
+.loading-modal {
+  text-align: center;
+}
+.loading-modal img {
+  text-align: center;
+  height: 50px;
 }
 @media only screen and (max-width: 768px) {
   .content-image {

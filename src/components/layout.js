@@ -7,7 +7,7 @@ const Layout = ({ children, page, location }) => {
     <>
       <Header page={page} location={location} />
       {children}
-      <Footer />
+      <Footer location={location} />
     </>
   )
 }

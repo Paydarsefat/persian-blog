@@ -72,7 +72,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#061e3e`,
         theme_color: `#663399`,
-        display: `minimal-ui`
+        display: `minimal-ui`,
       },
     },
     {
@@ -81,5 +81,6 @@ module.exports = {
         shortname: `persian-ehsangazar`,
       },
     },
+    "gatsby-plugin-use-query-params",
   ],
 }

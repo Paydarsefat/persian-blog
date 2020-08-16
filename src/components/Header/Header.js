@@ -5,6 +5,7 @@ import reactAdvancedImage from './../Footer/React-Advanced.png'
 import { Link } from 'gatsby'
 
 const Header = ({ page, location }) => {
+  console.log("location.pathname", location.pathname)
   return (
     <>
       <header className="theme-default">
@@ -21,7 +22,9 @@ const Header = ({ page, location }) => {
             </div>
             <nav>
               <ul>
-                <li className={`nav-item ${page === "homepage" ? "active" : ""}`}>
+                <li
+                  className={`nav-item ${page === "homepage" ? "active" : ""}`}
+                >
                   <Link to={"/"}>خانه</Link>
                 </li>
                 <li className={`nav-item ${page === "about" ? "active" : ""}`}>
@@ -33,50 +36,34 @@ const Header = ({ page, location }) => {
         </div>
       </header>
       <div className="special">
-        <div class="alert">
-          به مناسبت بازگشایی وب‌سایت تخفیف ۴۰ درصدی روی دو دوره مقدماتی و پیشرفته 
-          تا ۵ شهریور
+        <div class="alert alert-info widthAll">
+          به مناسبت بازگشایی وب‌سایت تخفیف ۴۰ درصدی روی دو دوره مقدماتی و
+          پیشرفته تا ۵ شهریور
         </div>
       </div>
-      {
-        location.pathname != '/react-basic-course' && location.pathname != '/react-advanced-course' && <div className="courses">
+      {!location.pathname.includes("-course") && (
+        <div className="courses">
           <div className="courses-single">
-            <Link
-              className="courses-link"
-              to="/react-basic-course"
-            >
-              <img
-                src={reactBasicImage}
-                alt="دوره React JS مقدماتی"
-              />
+            <Link className="courses-link" to="/react-basic-course">
+              <img src={reactBasicImage} alt="دوره React JS مقدماتی" />
             </Link>
             <div className="courses-content">
-              <Link
-                className="courses-content-title"
-                to="/react-basic-course"
-              >
+              <Link className="courses-content-title" to="/react-basic-course">
                 دوره React JS مقدماتی
-                    </Link>
+              </Link>
               <p>
-                دوره‌ای که در آن با مقدمات برنامه‌نویسی وب آشنا‌ می‌شوید و
-                یاد میگیرید با React وب‌سایت بنویسید
-                    </p>
+                دوره‌ای که در آن با مقدمات برنامه‌نویسی وب آشنا‌ می‌شوید و یاد
+                میگیرید با React وب‌سایت بنویسید
+              </p>
               <span className="courses-content-price">
                 <strike>870,000</strike>
-                522,000
-                تومان
+                522,000 تومان
               </span>
             </div>
           </div>
           <div className="courses-single">
-            <Link
-              className="courses-link"
-              to="/react-advanced-course"
-            >
-              <img
-                src={reactAdvancedImage}
-                alt="دوره React JS پیشرفته"
-              />
+            <Link className="courses-link" to="/react-advanced-course">
+              <img src={reactAdvancedImage} alt="دوره React JS پیشرفته" />
             </Link>
             <div className="courses-content">
               <Link
@@ -84,19 +71,19 @@ const Header = ({ page, location }) => {
                 to="/react-advanced-course"
               >
                 دوره React JS پیشرفته
-                    </Link>
+              </Link>
               <p>
-                در این دوره یاد میگیرید چطور با Webpack, GraphQL, NextJs, Gatsby و غیره یک سایت حرفه‌ای بنویسید
-                    </p>
+                در این دوره یاد میگیرید چطور با Webpack, GraphQL, NextJs, Gatsby
+                و غیره یک سایت حرفه‌ای بنویسید
+              </p>
               <span className="courses-content-price">
                 <strike>2,480,000</strike>
-                1,488,000
-                تومان
+                1,488,000 تومان
               </span>
             </div>
           </div>
         </div>
-      }
+      )}
     </>
   )
 }
