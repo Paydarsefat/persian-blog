@@ -4,6 +4,8 @@ date: "2020-07-31"
 description: "دوره آنلاین React JS مقدماتی"
 cover: cover.jpg
 category: react-basic
+videoSourceURL: https://www.youtube.com/embed/0AjrPsQ5nPo
+videoTitle: "دوره آنلاین React JS مقدماتی"
 ---
 
 # طول دوره: بیش از ۵ ساعت
