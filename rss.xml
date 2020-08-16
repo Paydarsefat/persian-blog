@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 16 Aug 2020 07:34:45 GMT</lastBuildDate><item><title><![CDATA[خبرنامه سایت فارسی احسان گازار راه‌اندازی شد]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/newsletter-persian-blog/</link><guid isPermaLink="false">https://fa.ehsangazar.com/newsletter-persian-blog/</guid><pubDate>Sun, 16 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;خب یکی از راه‌های ارتباطی در سایت‌ها خبرنامه است که قصد کردم در سایتم داشته باشم تا گاهی خبرهای مهم یا آخرین تخفیف‌های سایت رو براتون ارسال کنم.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 16 Aug 2020 11:01:03 GMT</lastBuildDate><item><title><![CDATA[خبرنامه سایت فارسی احسان گازار راه‌اندازی شد]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/newsletter-persian-blog/</link><guid isPermaLink="false">https://fa.ehsangazar.com/newsletter-persian-blog/</guid><pubDate>Sun, 16 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;خب یکی از راه‌های ارتباطی در سایت‌ها خبرنامه است که قصد کردم در سایتم داشته باشم تا گاهی خبرهای مهم یا آخرین تخفیف‌های سایت رو براتون ارسال کنم.&lt;/p&gt;
 &lt;p&gt;لازم هست که ایمیلتون رو وارد کنید و منتظر خبرنامه‌های خوب سایت بمونید.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[چطور می‌توان یک برنامه‌نویس ارشد FrontEnd شد]]></title><description><![CDATA[یکی از سوالاتی که از من در جاهای مختلف توسط دوستان شده است که چه لازم است تا برنامه‌نویسی را شروع کنیم و یا چه لازم است که Senior FrontEnd…]]></description><link>https://fa.ehsangazar.com/how-to-be-a-senior-frontend-developer/</link><guid isPermaLink="false">https://fa.ehsangazar.com/how-to-be-a-senior-frontend-developer/</guid><pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از سوالاتی که از من در جاهای مختلف توسط دوستان شده است که چه لازم است تا برنامه‌نویسی را شروع کنیم و یا چه لازم است که Senior FrontEnd Engineer باشیم.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -487,7 +487,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;پیاده سازی Code Splitting و Hot Module Reloading یا HMR در Webpack&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;خرید دوره&lt;/h1&gt;
-&lt;div className=&quot;alert&quot;&gt;
+&lt;div class=&quot;alert alert-info widthAll&quot;&gt;
  به مناسبت بازگشایی دوره در سایت فارسی خودم، تا تاریخ ۵ شهریور هزینه‌ی دوره برابر با 1,488,000  به تومان خواهد بود که یعنی ۴۰ درصد تخفیف
 &lt;/div&gt;
 &lt;p&gt;لطفا برای خرید دوره مبلغ
@@ -642,7 +642,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;پیاده سازی localStorage و Persistence برای پروژه و Deploy کردن آن&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;خرید دوره&lt;/h1&gt;
-&lt;div class=&quot;alert&quot;&gt;
+&lt;div class=&quot;alert alert-info widthAll&quot;&gt;
  به مناسبت بازگشایی دوره در سایت فارسی خودم، تا تاریخ ۵ شهریور هزینه‌ی دوره برابر با ۵۰۰ هزار تومان خواهد بود که یعنی بیش از ۴۰ درصد تخفیف
 &lt;/div&gt;
 &lt;p&gt;لطفا برای خرید دوره مبلغ
