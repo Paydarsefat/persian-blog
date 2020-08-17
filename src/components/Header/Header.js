@@ -281,12 +281,15 @@ const Header = ({ page, location }) => {
   }, [])
 
   useEffect(() => {
+    console.log('app.user', app.user)
     updateUser()
   }, [])
 
 
   const updateUser = async () => {
     if (!localStorage.getItem('token')) return
+    if (app.user.userData.id) return
+
     setIsLoadingProfile(true)
     try {
       const result = await fetchHandler({
@@ -306,8 +309,6 @@ const Header = ({ page, location }) => {
       window.history.pushState({}, null, '/')
     }, 2000);
   };
-
-  console.log('app.user.userData', app.user.userData)
 
   return (
     <>

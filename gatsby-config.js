@@ -76,5 +76,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-use-query-params",
+    "gatsby-plugin-layouts",
   ],
 }
