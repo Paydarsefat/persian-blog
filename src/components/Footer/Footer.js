@@ -147,7 +147,7 @@ const Footer = ({ location }) => {
                     </Link>
                     <div className="card__content">
                       <Link
-                        className="card__content-title"
+                        className="card__content-link"
                         to="/react-basic-course"
                       >
                         دوره React JS مقدماتی
@@ -167,7 +167,7 @@ const Footer = ({ location }) => {
                     </Link>
                     <div className="card__content">
                       <Link
-                        className="card__content-title"
+                        className="card__content-link"
                         to="/react-advanced-course"
                       >
                         دوره React JS پیشرفته

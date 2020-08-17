@@ -1889,7 +1889,7 @@ footer {
   -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
   display: inline-block; }
-  .btn:hover {
+  .btn.btn-primary:hover {
     background-color: #dd8165; }
   @media only screen and (max-width: 576px) {
     .btn {

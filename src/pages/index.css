@@ -65,9 +65,10 @@ a {
   color: #e49c85;
   text-decoration: underline;
   transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 a:hover {
-  color: #333;
+  color: #df6945;
 }
 
 .space-up {
@@ -226,6 +227,34 @@ label.form-label {
   height: 30px;
   padding: 0 10px;
 }
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #df6945;
+  border-color: #df6945;
+}
+.btn-primary.focus, .btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(223,105,69,0.2);
+}
+.btn.btn-danger {
+  background-color: #c0392b;
+  border-color: #c0392b;
+}
+.btn.btn-success {
+  background-color: #80a992;
+  border-color: #80a992;
+}
+.btn-success:not(:disabled):not(.disabled):active {
+  background-color: #628672;
+  border-color: #628672;
+}
+.btn-success.focus, .btn-success:focus,
+.btn-success:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(98,134,114,0.2);
+}
+.btn.btn-warning {
+  background-color: #fe8e00;
+  border-color: #fe8e00;
+}
 .newsletter-form-footer {
   display: flex;
 }
@@ -245,6 +274,21 @@ label.form-label {
 .loading-modal img {
   text-align: center;
   height: 50px;
+}
+.register-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.register-body img {
+  max-width: 400px;
+  flex-shrink: 1;
+  object-fit: contain;
+  height: 230px;
+}
+.register-body .register-body-form {
+  width: 100%;
 }
 .newsletter-body {
   display: flex;
@@ -273,6 +317,36 @@ label.form-label {
 .newsletter-body .newsletter-body-form .alert {
   width: 100%;
 }
+.header-wrapper nav {
+    flex-grow: 1;
+}
+header .header-wrapper .header__name {
+    padding-left: 50px;
+}
+.auth-buttons {
+  display: flex;
+  align-items: center;
+}
+.auth-buttons button {
+  margin: 0 5px;
+  padding: 10px;
+}
+.auth-buttons .loading {
+  height: 30px;
+  margin-left: 20px;
+}
+.card__content-link {
+  padding-bottom: 10px;
+  display: flex;
+}
+.modal-footer .link {
+  padding: 0 20px;
+}
+@media only screen and (max-width: 992px) {
+  footer .footer-content .footer-col {
+      margin-top: 2.5em;
+  }
+}
 @media only screen and (max-width: 768px) {
   .content-image {
     position: static;
@@ -289,8 +363,32 @@ label.form-label {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .auth-buttons {
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+  }
+  .auth-buttons button {
+    margin: 5px 0;
+  }
   .newsletter-body img{
     max-width: 100px;
     flex-shrink: 1;
+  }
+  .header-wrapper nav {
+    flex-grow: 1;
+  }
+  header .header-wrapper nav ul {
+    margin: 0;
+    padding: 0;
+    width: 80px;
+  } 
+  header .header-wrapper nav ul > li {
+    margin: 3px 0 !important;
+    text-align: center;
+  }
+  header .header-wrapper .header__name {
+    padding: 0;
+    max-width: 190px;
   }
 }
