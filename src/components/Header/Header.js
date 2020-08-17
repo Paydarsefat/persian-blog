@@ -11,7 +11,7 @@ import loading from "../Icon/loading.gif"
 import reactBasicImage from './../Footer/React-Basic.png'
 import reactAdvancedImage from './../Footer/React-Advanced.png'
 import { Link } from 'gatsby'
-import { Button } from 'react-bootstrap'
+import { Button, Dropdown } from "react-bootstrap"
 import MyApp from '../../contexts/MyApp'
 
 const Header = ({ page, location }) => {
@@ -265,6 +265,15 @@ const Header = ({ page, location }) => {
     setIsLoadingRegisterConfirmModal(false)
   }
 
+  const handleClickOnLogOut = () => {
+    localStorage.setItem('token','')
+    updateUser()
+  }
+
+  const logout = () => {
+    app.user.setUserData({})
+  }
+
   useEffect(() => {
     if (forgotEmailToken) {
       handleOpenResetModal()
@@ -281,15 +290,17 @@ const Header = ({ page, location }) => {
   }, [])
 
   useEffect(() => {
-    console.log('app.user', app.user)
     updateUser()
   }, [])
 
 
   const updateUser = async () => {
-    if (!localStorage.getItem('token')) return
-    if (app.user.userData.id) return
+    if (!localStorage.getItem('token')) {
+      logout()
+      return
+    }
 
+    if (app.user.userData.id) return
     setIsLoadingProfile(true)
     try {
       const result = await fetchHandler({
@@ -300,6 +311,7 @@ const Header = ({ page, location }) => {
       app.user.setUserData(result.data.user)
     } catch (e) {
       console.error(e)
+      logout()
     }
     setIsLoadingProfile(false)
   }
@@ -340,8 +352,8 @@ const Header = ({ page, location }) => {
               {isLoadingProfile && (
                 <img className="loading" src={loading} alt="loading" />
               )}
-              {!app.user.userData.id &&
-                <>      
+              {!app.user.userData.id && (
+                <>
                   <Button
                     variant="primary"
                     type="submit"
@@ -357,15 +369,24 @@ const Header = ({ page, location }) => {
                     ورود
                   </Button>
                 </>
-              }
-              {app.user.userData.id &&
-                <div>      
-                  سلام {app.user.userData.first_name}!
+              )}
+              {app.user.userData.id && (
+                <div className="user-info">
+                  <div className="hi">سلام {app.user.userData.first_name}!</div>
                   <a>
-                    <img src={app.user.userData.image} alt="profile" />
+                    <Dropdown>
+                      <Dropdown.Toggle variant="dropdown">
+                        <img src={app.user.userData.image} alt="profile" />
+                      </Dropdown.Toggle>
+                      <Dropdown.Menu>
+                        <Dropdown.Item onClick={handleClickOnLogOut}>
+                          خروج
+                        </Dropdown.Item>
+                      </Dropdown.Menu>
+                    </Dropdown>
                   </a>
                 </div>
-              }
+              )}
             </div>
           </div>
         </div>
@@ -419,7 +440,7 @@ const Header = ({ page, location }) => {
           </div>
         </div>
       )}
-      <RegisterModal 
+      <RegisterModal
         showRegisterModal={showRegisterModal}
         formRegisterValues={formRegisterValues}
         handleCloseRegisterModal={handleCloseRegisterModal}
@@ -428,7 +449,7 @@ const Header = ({ page, location }) => {
         handleChangeRegisterForm={handleChangeRegisterForm}
         responseOfApiRegister={responseOfApiRegister}
       />
-      <LoginModal 
+      <LoginModal
         showLoginModal={showLoginModal}
         formLoginValues={formLoginValues}
         handleCloseLoginModal={handleCloseLoginModal}
@@ -438,7 +459,7 @@ const Header = ({ page, location }) => {
         responseOfApiLogin={responseOfApiLogin}
         handleOpenForgotModal={handleOpenForgotModal}
       />
-      <ForgotModal 
+      <ForgotModal
         showForgotModal={showForgotModal}
         formForgotValues={formForgotValues}
         handleCloseForgotModal={handleCloseForgotModal}
@@ -447,7 +468,7 @@ const Header = ({ page, location }) => {
         handleChangeForgotForm={handleChangeForgotForm}
         responseOfApiForgot={responseOfApiForgot}
       />
-      <ResetModal 
+      <ResetModal
         showResetModal={showResetModal}
         formResetValues={formResetValues}
         handleCloseResetModal={handleCloseResetModal}
@@ -456,7 +477,7 @@ const Header = ({ page, location }) => {
         handleChangeResetForm={handleChangeResetForm}
         responseOfApiReset={responseOfApiReset}
       />
-      <RegisterConfirmModal 
+      <RegisterConfirmModal
         showConfirmEmailModal={showConfirmEmailModal}
         handleCloseConfirmEmailModal={handleCloseConfirmEmailModal}
         isLoadingRegisterConfirmModal={isLoadingRegisterConfirmModal}

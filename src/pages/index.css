@@ -342,6 +342,33 @@ header .header-wrapper .header__name {
 .modal-footer .link {
   padding: 0 20px;
 }
+.user-info {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.user-info img {
+  height: 40px;
+  padding-left: 10px;
+}
+.user-info .user-dropdown {
+  position: absolute;
+  width: 100px;;
+  background-color: white;
+}
+.dropdown-toggle::after {
+    color: #999;
+}
+a.dropdown-item {
+    text-align: right;
+    text-decoration: none;
+}
+button.dropdown-toggle.btn.btn-dropdown:focus::after {
+    color: #333;
+}
+button.dropdown-toggle.btn.btn-dropdown:focus {
+    box-shadow: none;
+}
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {
       margin-top: 2.5em;
