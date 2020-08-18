@@ -2,7 +2,6 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout/Layout"
 import SEO from "../components/SEO/SEO"
-import Header from "../components/Header/Header"
 import Video from "../components/Video/Video"
 
 const BlogPost = ({ data, location }) => {

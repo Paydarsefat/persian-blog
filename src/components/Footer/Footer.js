@@ -127,9 +127,9 @@ const Footer = ({ location }) => {
                   <OutboundLink
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="https://www.instagram.com/ehsangazar/"
+                    href="https://t.me/ehsangazar"
                   >
-                    اینستاگرام
+                    تلگرام
                   </OutboundLink>{" "}
                   من، یا ایمیلی به me@ehsangazar.com بفرستید.
                 </p>
