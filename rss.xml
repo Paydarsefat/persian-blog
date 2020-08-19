@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Aug 2020 11:45:41 GMT</lastBuildDate><item><title><![CDATA[آشنایی با مفاهیم React و تفاوت آن با سایر کتابخانه‌ها]]></title><description><![CDATA[این یکی از ویدئوهای آموزشی در دوره آموزشی React مقدماتی است که من بخشی از 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 19 Aug 2020 09:48:42 GMT</lastBuildDate><item><title><![CDATA[چطور با React Router صفحات مختلف بسازیم]]></title><description><![CDATA[یکی از پرکاربردترین کارها در هر وب‌‌سایت مدیریت Routing هست که اگر با 
+React Js شروع به برنامه‌نویسی کردید لازم هست حتما با 
+React Router…]]></description><link>https://fa.ehsangazar.com/react-basic-how-to-work-with-react-router/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-basic-how-to-work-with-react-router/</guid><pubDate>Wed, 19 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از پرکاربردترین کارها در هر وب‌‌سایت مدیریت Routing هست که اگر با
+React Js شروع به برنامه‌نویسی کردید لازم هست حتما با
+React Router آشنا بشین و در صورت لزوم استفاده کنید.&lt;/p&gt;
+&lt;p&gt;ویدوئوی بالا نحوه‌ی نصب و تعریف route جدید رو توضیح میده و در اصل این ویدئو
+یکی از ویدئو‌های آموزشی در دوره
+&lt;a href=&quot;/react-basic-cours&quot;&gt;آموزش آنلاین React مقدماتی&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[آشنایی با مفاهیم React و تفاوت آن با سایر کتابخانه‌ها]]></title><description><![CDATA[این یکی از ویدئوهای آموزشی در دوره آموزشی React مقدماتی است که من بخشی از 
 مفاهیم React…]]></description><link>https://fa.ehsangazar.com/react-basic-concepts/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-basic-concepts/</guid><pubDate>Tue, 18 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;این یکی از ویدئوهای آموزشی در دوره آموزشی React مقدماتی است که من بخشی از
 مفاهیم React را توضیح میدهم.&lt;/p&gt;
 &lt;p&gt;در این ویدئو یاد میگیرید که چطور React و ReactDOM  را به صفحه اضافه کنید و
@@ -590,7 +598,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;روش استفاده از CSS و استایل دادن به کامپوننت‌ها&lt;/li&gt;
 &lt;li&gt;کد زدن برای داشتن Layout یا ساختار صفحه با React&lt;/li&gt;
 &lt;li&gt;props ها در React چه هستند و چطور از آن‌ها استفاده کنیم&lt;/li&gt;
-&lt;li&gt;چطور با React Router صفحات مختلف بسازیم&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/react-basic-how-to-work-with-react-router&quot;&gt;چطور با React Router صفحات مختلف بسازیم&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;چطور با Event ها در React کار کنیم&lt;/li&gt;
 &lt;li&gt;مدیریت State ها و چطور آن‌ها را در یک کامپوننت تغییر دهیم و استفاده کنیم&lt;/li&gt;
 &lt;li&gt;چطور یک کامپوننت به روش قدیمی و به صورت Class بنویسیم&lt;/li&gt;
