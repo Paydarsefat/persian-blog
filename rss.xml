@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 20 Aug 2020 05:00:40 GMT</lastBuildDate><item><title><![CDATA[چطور با React Router صفحات مختلف بسازیم]]></title><description><![CDATA[یکی از پرکاربردترین کارها در هر وب‌‌سایت مدیریت Routing هست که اگر با 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 20 Aug 2020 12:11:45 GMT</lastBuildDate><item><title><![CDATA[با Context آشنا شویم و از useContext استفاده کنیم]]></title><description><![CDATA[یکی از ویژگی‌های مطرح شده در React که خیلی از کارها ساده می‌کند استفاده از
+Context API…]]></description><link>https://fa.ehsangazar.com/react-how-to-use-use-context/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-how-to-use-use-context/</guid><pubDate>Thu, 20 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از ویژگی‌های مطرح شده در React که خیلی از کارها ساده می‌کند استفاده از
+Context API هاست. در این ویدئو یاد میگیرید که چطور
+با آن‌ها کار کنید و از useContext استفاده کنید.&lt;/p&gt;
+&lt;p&gt;خیلی از ویژگی‌هایی که در React هستند ممکن است به روش‌های مختلف پیاده سازی شوند،
+و مطمئنا Context API یکی از آن‌هاست&lt;/p&gt;
+&lt;p&gt;بحث‌های زیادی وجود دارد که میتوان در حد اپلیکیشن‌های بزرگ Context API ها را
+جایگزین Redux نیز کرد. که به نظر به خاطر پیچیدگی های پیاده‌سازی
+بهتر است این کار انجام نشود.
+برای آنکه بهتر است کار برای برنامه‌نویس‌های دیگر و آتی ساده تر باشد، ممکن است
+پیاده سازی شما به قدری پیچیده شود که آن‌ها قادر به تغییر یا رفع ایراد از کد نباشند.
+اتفاقی که در پروژه‌های با Scale بالا به سرعت رخ می‌دهد.&lt;/p&gt;
+&lt;p&gt;اگر تنها با این کد شروع کنید&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; ThemeContext &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; ThemeContext&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;اولین context خود را تعریف کرده‌اید.&lt;/p&gt;
+&lt;p&gt;سپس می‌بایست سراغ Provider بروید و آن‌را جایی که میخواهید از useContext ها استفاده کنید دور همه‌ی کامپوننت‌ها قرار دهید.
+مثلا می‌تواند این فایل به نام App.js باشد.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useState &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; ThemeContext &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../../contexts/ThemeContext&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; themeConfig &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../../configs/theme&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;App&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;activeTheme&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; setActiveTheme&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;green&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ThemeContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Provider
+      value&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        theme&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; themeConfig&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;activeTheme&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        setActiveTheme&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Main &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;ThemeContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Provider&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;سپس می‌توانید سراغ استفاده از useContext بروید و هر جایی که می‌خواهید
+به این روش آن‌را تعریف کنید&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useContext &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; ThemeContext &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../../contexts/ThemeContext&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Footer&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; themeValues &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ThemeContext&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div className&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Footer&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h5&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Developed By Ehsan&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h5&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;button
+          onClick&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; themeValues&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setActiveTheme&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;green&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+          className&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;green&quot;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+          Green
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;button&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;button
+          onClick&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; themeValues&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setActiveTheme&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;blue&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+          className&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;blue&quot;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+          Blue
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;button&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;این یکی از آسان‌ترین روش‌های استفاده از Context هاست. مراقب باشید که مداوم از آن‌ها برای هر چیزی استفاده کنید که ممکن است به جای آسان‌کردن کار به پیچیدگی پروژه اضافه‌کنند.&lt;/p&gt;
+&lt;p&gt;ویدوئوی بالا نحوه‌ی نصب و تعریف route جدید رو توضیح میده و در اصل این ویدئو
+یکی از ویدئو‌های آموزشی در دوره
+&lt;a href=&quot;/react-basic-course&quot;&gt;آموزش آنلاین React مقدماتی&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[چطور با React Router صفحات مختلف بسازیم]]></title><description><![CDATA[یکی از پرکاربردترین کارها در هر وب‌‌سایت مدیریت Routing هست که اگر با 
 React Js شروع به برنامه‌نویسی کردید لازم هست حتما با 
 React Router…]]></description><link>https://fa.ehsangazar.com/react-basic-how-to-work-with-react-router/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-basic-how-to-work-with-react-router/</guid><pubDate>Wed, 19 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از پرکاربردترین کارها در هر وب‌‌سایت مدیریت Routing هست که اگر با
 React Js شروع به برنامه‌نویسی کردید لازم هست حتما با
@@ -607,7 +676,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;آشنایی با useEffect در React&lt;/li&gt;
 &lt;li&gt;چطور data را از API بخوانیم و در React نمایش دهیم&lt;/li&gt;
 &lt;li&gt;آشنایی با useCallback در React&lt;/li&gt;
-&lt;li&gt;با Context آشنا شویم و از useContext استفاده کنیم&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/react-how-to-use-use-context&quot;&gt;با Context آشنا شویم و از useContext استفاده کنیم&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;چطور با useRef کار کنیم&lt;/li&gt;
 &lt;li&gt;آشنایی با Hook ها از کتاب‌خانه React Router و useLocation&lt;/li&gt;
 &lt;li&gt;اضافه کردن Icon به پرورژه و آشنایی با مفهوم Fragment&lt;/li&gt;
