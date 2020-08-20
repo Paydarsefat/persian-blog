@@ -44,15 +44,16 @@ import themeConfig from '../../configs/theme'
 
 const App = () => {
   const [activeTheme, setActiveTheme] = useState('green')
-  return
-  ;<ThemeContext.Provider
-    value={{
-      theme: themeConfig[activeTheme],
-      setActiveTheme,
-    }}
-  >
-    <Main />
-  </ThemeContext.Provider>
+  return (
+    <ThemeContext.Provider
+      value={{
+        theme: themeConfig[activeTheme],
+        setActiveTheme,
+      }}
+    >
+      <Main />
+    </ThemeContext.Provider>
+  )
 }
 ```
 
