@@ -4,6 +4,9 @@ import fetchHandler from '../utils/fetchHandler'
 
 const RootLayout = ({ children }) => {
   const [userData, setUserData] = useState({})
+  const [modalToShow, setModalToShow] = useState(null)
+  const [loadingName, setLoadingName] = useState(null)
+  const [processName, setProcessName] = useState(null)
 
   const logout = () => {
     setUserData({})
@@ -14,6 +17,7 @@ const RootLayout = ({ children }) => {
       logout()
       return
     }
+    setLoadingName('profile')
     try {
       const result = await fetchHandler({
         method: 'GET',
@@ -25,6 +29,7 @@ const RootLayout = ({ children }) => {
       console.error(e)
       logout()
     }
+    setLoadingName('')
   }
 
   return (
@@ -34,6 +39,18 @@ const RootLayout = ({ children }) => {
           userData,
           setUserData,
           updateUser,
+        },
+        modal: {
+          modalToShow,
+          setModalToShow,
+        },
+        load: {
+          loadingName,
+          setLoadingName,
+        },
+        process: {
+          processName,
+          setProcessName,
         },
       }}
     >

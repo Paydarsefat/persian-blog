@@ -200,7 +200,7 @@ pre.language-javascript {
   flex: 0 0 50%;
   padding-top: 50px;
   display: flex;
-  height: 200px;
+  padding-bottom: 50px;
 }
 .courses .courses-link img {
   width: 100px;
