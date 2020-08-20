@@ -38,7 +38,7 @@ const BuyModal = ({ showBuyModal, handleCloseBuyModal, isLoadingBuyModal }) => {
                   <div className="tab-buy">
                     لطفا برای خرید دوره مبلغ
                     <strike>2,480,000</strike>
-                    1,488,000 تومان را از طریف لینک پرداخت زیر واریز نمایید و
+                    1,488,000 تومان را از طریق لینک پرداخت زیر واریز نمایید و
                     سپس پیغامی به
                     <a href="https://t.me/ehsangazar"> تلگرام </a>
                     من بدهید.
@@ -83,7 +83,7 @@ const BuyModal = ({ showBuyModal, handleCloseBuyModal, isLoadingBuyModal }) => {
                   <div className="tab-buy">
                     لطفا برای خرید دوره مبلغ
                     <strike>870,000</strike>
-                    522,000 تومان را از طریف لینک پرداخت زیر واریز نمایید و سپس
+                    522,000 تومان را از طریق لینک پرداخت زیر واریز نمایید و سپس
                     پیغامی به
                     <a href="https://t.me/ehsangazar"> تلگرام </a>
                     من بدهید.
