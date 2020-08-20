@@ -8,10 +8,12 @@ import MyApp from '../../contexts/MyApp'
 const SpecialOffer = () => {
   const app = useContext(MyApp)
 
-  const handleBuy = async (courseName) => {
+  const handleBuy = (courseName) => {
+    app.process.setProcessName(courseName)
     if (!app.user.userData.id) {
-      // handleOpenRegisterModal(courseName)
+      app.modal.setModalToShow('register')
     } else {
+      app.modal.setModalToShow('buyModal')
     }
   }
 
@@ -41,7 +43,7 @@ const SpecialOffer = () => {
                 <strike>870,000</strike>
                 522,000 تومان
               </span>
-              <Button onClick={() => handleBuy('basic')} variant="info">
+              <Button onClick={() => handleBuy('react-basic')} variant="info">
                 خرید دوره مقدماتی
               </Button>
             </div>
@@ -65,7 +67,10 @@ const SpecialOffer = () => {
                 <strike>2,480,000</strike>
                 1,488,000 تومان
               </span>
-              <Button onClick={() => handleBuy('advanced')} variant="info">
+              <Button
+                onClick={() => handleBuy('react-advanced')}
+                variant="info"
+              >
                 خرید دوره پیشرفته
               </Button>
             </div>

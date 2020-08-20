@@ -387,7 +387,22 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
 .profile-body {
   margin-top: 50px;
 }
-
+.buy-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.buy-section img {
+  width: 96px;
+  height: auto;
+}
+.tabs-buy {
+  padding-top: 30px;
+}
+.tab-buy {
+  padding: 30px 20px;
+  line-height: 30px;
+}
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {
     margin-top: 2.5em;

@@ -6,11 +6,12 @@ import { useQueryParam, StringParam } from 'use-query-params'
 
 import RegisterModal from '../RegisterModal/RegisterModal'
 import LoginModal from '../LoginModal/LoginModal'
+import BuyModal from '../BuyModal/BuyModal'
 import ForgotModal from '../ForgotModal/ForgotModal'
 import ResetModal from '../ResetModal/ResetModal'
 import RegisterConfirmModal from '../RegisterConfirmModal/RegisterConfirmModal'
 
-const AuthModals = ({ setIsLoadingProfile, setProcessName }) => {
+const AuthModals = () => {
   const app = useContext(MyApp)
 
   const [formRegisterValues, setFormRegisterValues] = useState({})
@@ -23,11 +24,13 @@ const AuthModals = ({ setIsLoadingProfile, setProcessName }) => {
   const [showForgotModal, setShowForgotModal] = useState(false)
   const [showResetModal, setShowResetModal] = useState(false)
   const [showConfirmEmailModal, setShowConfirmEmailModal] = useState(false)
+  const [showBuyModal, setShowBuyModal] = useState(false)
 
   const [isLoadingRegisterForm, setIsLoadingRegisterForm] = useState(false)
   const [isLoadingLoginForm, setIsLoadingLoginForm] = useState(false)
   const [isLoadingForgotForm, setIsLoadingForgotForm] = useState(false)
   const [isLoadingResetForm, setIsLoadingResetForm] = useState(false)
+  const [isLoadingBuyModal, setIsLoadingBuyModal] = useState(false)
   const [
     isLoadingRegisterConfirmModal,
     setIsLoadingRegisterConfirmModal,
@@ -62,15 +65,15 @@ const AuthModals = ({ setIsLoadingProfile, setProcessName }) => {
   const handleCloseConfirmEmailModal = () => {
     setShowConfirmEmailModal(false)
   }
+  const handleCloseBuyModal = () => {
+    setShowBuyModal(false)
+  }
 
   const handleOpenLoginModal = () => {
     setShowLoginModal(true)
   }
-  const handleOpenRegisterModal = (courseName) => {
+  const handleOpenRegisterModal = () => {
     setShowRegisterModal(true)
-    if (courseName) {
-      setProcessName(courseName)
-    }
   }
   const handleOpenForgotModal = () => {
     setShowForgotModal(true)
@@ -80,6 +83,9 @@ const AuthModals = ({ setIsLoadingProfile, setProcessName }) => {
   }
   const handleOpenConfirmEmailModal = () => {
     setShowConfirmEmailModal(true)
+  }
+  const handleOpenBuyModal = () => {
+    setShowBuyModal(true)
   }
 
   const handleChangeRegisterForm = (name, event) => {
@@ -297,7 +303,12 @@ const AuthModals = ({ setIsLoadingProfile, setProcessName }) => {
     if (app.modal.modalToShow === 'login') {
       handleOpenLoginModal()
     }
-    app.modal.setModalToShow(null)
+    if (app.modal.modalToShow === 'buyModal') {
+      handleOpenBuyModal()
+    }
+    setTimeout(() => {
+      app.modal.setModalToShow(null)
+    }, 2000)
   }, [app.modal.modalToShow])
 
   const resetUrl = () => {
@@ -350,6 +361,11 @@ const AuthModals = ({ setIsLoadingProfile, setProcessName }) => {
         showConfirmEmailModal={showConfirmEmailModal}
         handleCloseConfirmEmailModal={handleCloseConfirmEmailModal}
         isLoadingRegisterConfirmModal={isLoadingRegisterConfirmModal}
+      />
+      <BuyModal
+        showBuyModal={showBuyModal}
+        handleCloseBuyModal={handleCloseBuyModal}
+        isLoadingBuyModal={isLoadingBuyModal}
       />
     </>
   )
