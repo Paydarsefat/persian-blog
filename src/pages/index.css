@@ -1,10 +1,11 @@
 @font-face {
   font-family: Anjoman;
   src: url('./fonts/AnjomanFaNum-Regular.eot');
-  src: url('./fonts/AnjomanFaNum-Regular.eot?#iefix') format('embedded-opentype'),
-       url('./fonts/AnjomanFaNum-Regular.woff2') format('woff2'),
-       url('./fonts/AnjomanFaNum-Regular.woff') format('woff'),
-       url('./fonts/AnjomanFaNum-Regular.ttf') format('truetype');
+  src: url('./fonts/AnjomanFaNum-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('./fonts/AnjomanFaNum-Regular.woff2') format('woff2'),
+    url('./fonts/AnjomanFaNum-Regular.woff') format('woff'),
+    url('./fonts/AnjomanFaNum-Regular.ttf') format('truetype');
   font-weight: normal;
 }
 
@@ -12,37 +13,40 @@
   font-family: Anjoman;
   src: url('./fonts/AnjomanFaNum-Bold.eot');
   src: url('./fonts/AnjomanFaNum-Bold.eot?#iefix') format('embedded-opentype'),
-       url('./fonts/AnjomanFaNum-Bold.woff2') format('woff2'),
-       url('./fonts/AnjomanFaNum-Bold.woff') format('woff'),
-       url('./fonts/AnjomanFaNum-Bold.ttf') format('truetype');
+    url('./fonts/AnjomanFaNum-Bold.woff2') format('woff2'),
+    url('./fonts/AnjomanFaNum-Bold.woff') format('woff'),
+    url('./fonts/AnjomanFaNum-Bold.ttf') format('truetype');
   font-weight: bold;
 }
 
 @font-face {
   font-family: Anjoman;
   src: url('./fonts/AnjomanFaNum-SemiBold.eot');
-  src: url('./fonts/AnjomanFaNum-SemiBold.eot?#iefix') format('embedded-opentype'),
-       url('./fonts/AnjomanFaNum-SemiBold.woff2') format('woff2'),
-       url('./fonts/AnjomanFaNum-SemiBold.woff') format('woff'),
-       url('./fonts/AnjomanFaNum-SemiBold.ttf') format('truetype');
+  src: url('./fonts/AnjomanFaNum-SemiBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('./fonts/AnjomanFaNum-SemiBold.woff2') format('woff2'),
+    url('./fonts/AnjomanFaNum-SemiBold.woff') format('woff'),
+    url('./fonts/AnjomanFaNum-SemiBold.ttf') format('truetype');
   font-weight: 500;
 }
 @font-face {
   font-family: Anjoman;
   src: url('./fonts/AnjomanFaNum-SemiBold.eot');
-  src: url('./fonts/AnjomanFaNum-SemiBold.eot?#iefix') format('embedded-opentype'),
-       url('./fonts/AnjomanFaNum-SemiBold.woff2') format('woff2'),
-       url('./fonts/AnjomanFaNum-SemiBold.woff') format('woff'),
-       url('./fonts/AnjomanFaNum-SemiBold.ttf') format('truetype');
+  src: url('./fonts/AnjomanFaNum-SemiBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('./fonts/AnjomanFaNum-SemiBold.woff2') format('woff2'),
+    url('./fonts/AnjomanFaNum-SemiBold.woff') format('woff'),
+    url('./fonts/AnjomanFaNum-SemiBold.ttf') format('truetype');
   font-weight: 600;
 }
-html,body {
-    font-family: Anjoman !important;
-    direction: rtl;
-    margin: 0;
-    font-size: 16px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+html,
+body {
+  font-family: Anjoman !important;
+  direction: rtl;
+  margin: 0;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -51,14 +55,14 @@ html,body {
 }
 
 h1 {
-    font-size: 1.375em;
-    font-weight: 700;
-    line-height: 1.375em;
+  font-size: 1.375em;
+  font-weight: 700;
+  line-height: 1.375em;
 }
 
 p {
   font-size: 0.9em;
-  line-height: 2em
+  line-height: 2em;
 }
 
 a {
@@ -96,53 +100,56 @@ iframe {
 .about-us img {
   width: 100%;
 }
-.content h3,.content h4,.content h2,.content h1 {
-    margin: 1em 0
+.content h3,
+.content h4,
+.content h2,
+.content h1 {
+  margin: 1em 0;
 }
 .content-container {
   position: relative;
   align-items: flex-start;
 }
 .content-image {
-  display: flex;  
+  display: flex;
   position: sticky;
   top: 9em;
 }
 .content-video {
-  display: flex;  
+  display: flex;
   width: 100%;
   height: 400px;
 }
 .Video {
   height: 400px;
-  width: 100%;;
+  width: 100%;
 }
 .content li {
-    list-style: disc;
-    list-style-position: inside;
-    margin: 1em 0;
-    padding: 0 1em;
-    line-height: 2em;
+  list-style: disc;
+  list-style-position: inside;
+  margin: 1em 0;
+  padding: 0 1em;
+  line-height: 2em;
 }
 .content section h1 {
-    margin: 1em 0;
-    background-color: #333;
-    color: white;
-    padding: 15px 20px;
-    line-height: 2em;
+  margin: 1em 0;
+  background-color: #333;
+  color: white;
+  padding: 15px 20px;
+  line-height: 2em;
 }
 .content section h2 {
-    margin: 10px 0;
-    padding: 10px 1em;
-    font-size: 20px;
-    border-bottom: 2px solid grey;
-    line-height: 2em;
+  margin: 10px 0;
+  padding: 10px 1em;
+  font-size: 20px;
+  border-bottom: 2px solid grey;
+  line-height: 2em;
 }
 .content section h3 {
-    margin: 1em 0;
-    background-color: #333;
-    color: white;
-    padding: 1em;
+  margin: 1em 0;
+  background-color: #333;
+  color: white;
+  padding: 1em;
 }
 .content img {
   padding: 20px 0;
@@ -168,13 +175,14 @@ iframe {
   border-color: #ee3470;
   text-align: center;
 }
-strike, .red {
-    color: #ee3470;
-    padding: 0 4px;
+strike,
+.red {
+  color: #ee3470;
+  padding: 0 4px;
 }
 pre.language-javascript {
-    background-color: #eee !important;
-    direction: ltr !important;
+  background-color: #eee !important;
+  direction: ltr !important;
 }
 .special {
   position: relative;
@@ -194,7 +202,7 @@ pre.language-javascript {
   display: flex;
   height: 200px;
 }
-.courses .courses-link img{
+.courses .courses-link img {
   width: 100px;
 }
 .courses .courses-content-title {
@@ -211,13 +219,13 @@ pre.language-javascript {
   padding-top: 50px;
 }
 #content.no-pd {
-    padding-top: 0;
+  padding-top: 0;
 }
 label.form-label {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 .modal-header .close {
-    margin: -1rem;
+  margin: -1rem;
 }
 .btn-with-loading {
   display: flex;
@@ -231,9 +239,10 @@ label.form-label {
   background-color: #df6945;
   border-color: #df6945;
 }
-.btn-primary.focus, .btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus {
-  box-shadow: 0 0 0 0.2rem rgba(223,105,69,0.2);
+  box-shadow: 0 0 0 0.2rem rgba(223, 105, 69, 0.2);
 }
 .btn.btn-danger {
   background-color: #c0392b;
@@ -247,9 +256,10 @@ label.form-label {
   background-color: #628672;
   border-color: #628672;
 }
-.btn-success.focus, .btn-success:focus,
+.btn-success.focus,
+.btn-success:focus,
 .btn-success:not(:disabled):not(.disabled):active:focus {
-  box-shadow: 0 0 0 0.2rem rgba(98,134,114,0.2);
+  box-shadow: 0 0 0 0.2rem rgba(98, 134, 114, 0.2);
 }
 .btn.btn-warning {
   background-color: #fe8e00;
@@ -266,7 +276,7 @@ label.form-label {
   margin-left: 5px;
 }
 .copyright p {
-    text-align: center;
+  text-align: center;
 }
 .loading-modal {
   text-align: center;
@@ -318,10 +328,10 @@ label.form-label {
   width: 100%;
 }
 .header-wrapper nav {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 header .header-wrapper .header__name {
-    padding-left: 50px;
+  padding-left: 50px;
 }
 .auth-buttons {
   display: flex;
@@ -353,25 +363,33 @@ header .header-wrapper .header__name {
 }
 .user-info .user-dropdown {
   position: absolute;
-  width: 100px;;
+  width: 100px;
   background-color: white;
 }
 .dropdown-toggle::after {
-    color: #999;
+  color: #999;
 }
 a.dropdown-item {
-    text-align: right;
-    text-decoration: none;
+  text-align: right;
+  text-decoration: none;
+  padding: 15px 20px;
 }
 button.dropdown-toggle.btn.btn-dropdown:focus::after {
-    color: #333;
+  color: #333;
 }
 button.dropdown-toggle.btn.btn-dropdown:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
+.profle-image {
+  padding: 20px;
+}
+.profile-body {
+  margin-top: 50px;
+}
+
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {
-      margin-top: 2.5em;
+    margin-top: 2.5em;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -381,7 +399,7 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
   }
   .courses {
     flex-direction: column;
-  }  
+  }
   .courses .courses-single {
     padding-top: 100px;
     display: flex;
@@ -398,7 +416,7 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
   .auth-buttons button {
     margin: 5px 0;
   }
-  .newsletter-body img{
+  .newsletter-body img {
     max-width: 100px;
     flex-shrink: 1;
   }
@@ -409,7 +427,7 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
     margin: 0;
     padding: 0;
     width: 80px;
-  } 
+  }
   header .header-wrapper nav ul > li {
     margin: 3px 0 !important;
     text-align: center;

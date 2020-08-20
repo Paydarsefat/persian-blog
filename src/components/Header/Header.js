@@ -1,21 +1,21 @@
 import React, { useState, useEffect, useContext } from 'react'
 import fetchHandler from '../../utils/fetchHandler'
 import RegisterModal from '../RegisterModal/RegisterModal'
-import { useQueryParam, StringParam } from "use-query-params"
+import { useQueryParam, StringParam } from 'use-query-params'
 import LoginModal from '../LoginModal/LoginModal'
 import ForgotModal from '../ForgotModal/ForgotModal'
 import ResetModal from '../ResetModal/ResetModal'
 import RegisterConfirmModal from '../RegisterConfirmModal/RegisterConfirmModal'
 import profileImage from './profile.png'
-import loading from "../Icon/loading.gif"
+import loading from '../Icon/loading.gif'
 import reactBasicImage from './../Footer/React-Basic.png'
 import reactAdvancedImage from './../Footer/React-Advanced.png'
 import { Link } from 'gatsby'
-import { Button, Dropdown } from "react-bootstrap"
+import { Button, Dropdown } from 'react-bootstrap'
 import MyApp from '../../contexts/MyApp'
 
 const Header = ({ page, location }) => {
-  const app = useContext(MyApp);
+  const app = useContext(MyApp)
   const [formRegisterValues, setFormRegisterValues] = useState({})
   const [formLoginValues, setFormLoginValues] = useState({})
   const [formForgotValues, setFormForgotValues] = useState({})
@@ -31,7 +31,10 @@ const Header = ({ page, location }) => {
   const [isLoadingLoginForm, setIsLoadingLoginForm] = useState(false)
   const [isLoadingForgotForm, setIsLoadingForgotForm] = useState(false)
   const [isLoadingResetForm, setIsLoadingResetForm] = useState(false)
-  const [isLoadingRegisterConfirmModal, setIsLoadingRegisterConfirmModal] = useState(false)
+  const [
+    isLoadingRegisterConfirmModal,
+    setIsLoadingRegisterConfirmModal,
+  ] = useState(false)
   const [isLoadingProfile, setIsLoadingProfile] = useState(false)
 
   const [responseOfApiRegister, setResponseOfApiRegister] = useState(null)
@@ -39,9 +42,14 @@ const Header = ({ page, location }) => {
   const [responseOfApiForgot, setResponseOfApiForgot] = useState(null)
   const [responseOfApiReset, setResponseOfApiReset] = useState(null)
 
-  const [forgotEmailToken, setForgotEmailToken] = useQueryParam("forgotEmailToken", StringParam)
-  const [registerEmailToken, setRegisterEmailToken] = useQueryParam("registerEmailToken", StringParam)
-
+  const [forgotEmailToken, setForgotEmailToken] = useQueryParam(
+    'forgotEmailToken',
+    StringParam
+  )
+  const [registerEmailToken, setRegisterEmailToken] = useQueryParam(
+    'registerEmailToken',
+    StringParam
+  )
 
   const handleCloseRegisterModal = () => {
     setShowRegisterModal(false)
@@ -75,35 +83,34 @@ const Header = ({ page, location }) => {
     setShowConfirmEmailModal(true)
   }
 
-  const handleChangeRegisterForm = (name,event) => {
+  const handleChangeRegisterForm = (name, event) => {
     if (event) event.preventDefault()
     setFormRegisterValues({
       ...formRegisterValues,
-      [name]: event.target.value
+      [name]: event.target.value,
     })
   }
-  const handleChangeLoginForm = (name,event) => {
+  const handleChangeLoginForm = (name, event) => {
     if (event) event.preventDefault()
     setFormLoginValues({
       ...formLoginValues,
-      [name]: event.target.value
+      [name]: event.target.value,
     })
   }
-  const handleChangeForgotForm = (name,event) => {
+  const handleChangeForgotForm = (name, event) => {
     if (event) event.preventDefault()
     setFormForgotValues({
       ...formForgotValues,
-      [name]: event.target.value
+      [name]: event.target.value,
     })
   }
-  const handleChangeResetForm = (name,event) => {
+  const handleChangeResetForm = (name, event) => {
     if (event) event.preventDefault()
     setFormResetValues({
       ...formResetValues,
-      [name]: event.target.value
+      [name]: event.target.value,
     })
   }
-
 
   const handleSubmitRegister = async (event) => {
     if (event) event.preventDefault()
@@ -111,8 +118,8 @@ const Header = ({ page, location }) => {
 
     try {
       const result = await fetchHandler({
-        method: "POST",
-        url: "/api/v1/user/register",
+        method: 'POST',
+        url: '/api/v1/user/register',
         body: {
           email: formRegisterValues.email,
           first_name: formRegisterValues.first_name,
@@ -121,19 +128,19 @@ const Header = ({ page, location }) => {
         },
       })
       if (result.data.success) {
-        localStorage.setItem('token',result.data.jwt.token)        
+        localStorage.setItem('token', result.data.jwt.token)
         setResponseOfApiRegister({
-          type: "success",
+          type: 'success',
           message:
-            "با تشکر، ایمیلی به شما ارسال شده است، لطفا آن‌را باز کنید و روی گزینه تایید ایمیل کلیک نمایید.",
+            'با تشکر، ایمیلی به شما ارسال شده است، لطفا آن‌را باز کنید و روی گزینه تایید ایمیل کلیک نمایید.',
         })
         updateUser()
         setTimeout(() => {
           handleCloseRegisterModal()
-        }, 2000);
+        }, 2000)
       } else {
         setResponseOfApiRegister({
-          type: "danger",
+          type: 'danger',
           message: result.data.message,
         })
       }
@@ -148,27 +155,26 @@ const Header = ({ page, location }) => {
     setIsLoadingLoginForm(true)
     try {
       const result = await fetchHandler({
-        method: "POST",
-        url: "/api/v1/user/login",
+        method: 'POST',
+        url: '/api/v1/user/login',
         body: {
           email: formLoginValues.email,
           password: formLoginValues.password,
         },
       })
       if (result.data.success) {
-        localStorage.setItem('token', result.data.jwt.token)        
+        localStorage.setItem('token', result.data.jwt.token)
         setResponseOfApiLogin({
-          type: "success",
-          message:
-            "شما با موفقیت وارد شده‌اید",
+          type: 'success',
+          message: 'شما با موفقیت وارد شده‌اید',
         })
         updateUser()
         setTimeout(() => {
           handleCloseLoginModal()
-        }, 1000);
+        }, 1000)
       } else {
         setResponseOfApiLogin({
-          type: "danger",
+          type: 'danger',
           message: result.data.message,
         })
       }
@@ -184,21 +190,20 @@ const Header = ({ page, location }) => {
 
     try {
       const response = await fetchHandler({
-        method: "POST",
-        url: "/api/v1/user/forgot",
+        method: 'POST',
+        url: '/api/v1/user/forgot',
         body: {
           email: formForgotValues.email,
         },
       })
       setResponseOfApiForgot({
-        type: "success",
-        message:
-          "دستور‌العمل بازیابی کلمه عبور به ایمیل شما ارسال شد.",
+        type: 'success',
+        message: 'دستور‌العمل بازیابی کلمه عبور به ایمیل شما ارسال شد.',
       })
       updateUser()
       setTimeout(() => {
         handleCloseForgotModal()
-      }, 10000);
+      }, 10000)
     } catch (e) {
       console.error(e)
     }
@@ -207,11 +212,10 @@ const Header = ({ page, location }) => {
 
   const handleSubmitReset = async (event) => {
     if (event) event.preventDefault()
-    if (formResetValues.password !== formResetValues['password-confirmation']){
+    if (formResetValues.password !== formResetValues['password-confirmation']) {
       setResponseOfApiReset({
-        type: "danger",
-        message:
-          "کلمه عبور و تکرار آن با هم مطابقت ندارند",
+        type: 'danger',
+        message: 'کلمه عبور و تکرار آن با هم مطابقت ندارند',
       })
       return
     }
@@ -219,8 +223,8 @@ const Header = ({ page, location }) => {
     setIsLoadingResetForm(true)
     try {
       const result = await fetchHandler({
-        method: "POST",
-        url: "/api/v1/user/reset",
+        method: 'POST',
+        url: '/api/v1/user/reset',
         body: {
           password: formResetValues.password,
           security_hash: forgotEmailToken,
@@ -228,17 +232,16 @@ const Header = ({ page, location }) => {
       })
       if (result.data.success) {
         setResponseOfApiReset({
-          type: "success",
-          message:
-            "با تشکر، شما با موفقیت کلمه عبور را تغییر دادید",
+          type: 'success',
+          message: 'با تشکر، شما با موفقیت کلمه عبور را تغییر دادید',
         })
         updateUser()
         setTimeout(() => {
           handleCloseResetModal()
-        }, 10000);
+        }, 10000)
       } else {
         setResponseOfApiReset({
-          type: "danger",
+          type: 'danger',
           message: result.data.message,
         })
       }
@@ -252,8 +255,8 @@ const Header = ({ page, location }) => {
     setIsLoadingRegisterConfirmModal(true)
     try {
       await fetchHandler({
-        method: "POST",
-        url: "/api/v1/user/confirm",
+        method: 'POST',
+        url: '/api/v1/user/confirm',
         body: {
           security_hash: registerEmailToken,
         },
@@ -266,7 +269,7 @@ const Header = ({ page, location }) => {
   }
 
   const handleClickOnLogOut = () => {
-    localStorage.setItem('token','')
+    localStorage.setItem('token', '')
     updateUser()
   }
 
@@ -293,7 +296,6 @@ const Header = ({ page, location }) => {
     updateUser()
   }, [])
 
-
   const updateUser = async () => {
     if (!localStorage.getItem('token')) {
       logout()
@@ -304,9 +306,9 @@ const Header = ({ page, location }) => {
     setIsLoadingProfile(true)
     try {
       const result = await fetchHandler({
-        method: "GET",
-        url: "/api/v1/user/profile",
-        auth:true
+        method: 'GET',
+        url: '/api/v1/user/profile',
+        auth: true,
       })
       app.user.setUserData(result.data.user)
     } catch (e) {
@@ -319,8 +321,8 @@ const Header = ({ page, location }) => {
   const resetUrl = () => {
     setTimeout(() => {
       window.history.pushState({}, null, '/')
-    }, 2000);
-  };
+    }, 2000)
+  }
 
   return (
     <>
@@ -339,11 +341,11 @@ const Header = ({ page, location }) => {
             <nav>
               <ul>
                 <li
-                  className={`nav-item ${page === "homepage" ? "active" : ""}`}
+                  className={`nav-item ${page === 'homepage' ? 'active' : ''}`}
                 >
-                  <Link to={"/"}>خانه</Link>
+                  <Link to={'/'}>خانه</Link>
                 </li>
-                <li className={`nav-item ${page === "about" ? "active" : ""}`}>
+                <li className={`nav-item ${page === 'about' ? 'active' : ''}`}>
                   <Link to="/about">درباره</Link>
                 </li>
               </ul>
@@ -379,6 +381,9 @@ const Header = ({ page, location }) => {
                         <img src={app.user.userData.image} alt="profile" />
                       </Dropdown.Toggle>
                       <Dropdown.Menu>
+                        <Link className="dropdown-item" to={'/profile'}>
+                          پروفایل
+                        </Link>
                         <Dropdown.Item onClick={handleClickOnLogOut}>
                           خروج
                         </Dropdown.Item>
@@ -397,7 +402,7 @@ const Header = ({ page, location }) => {
           پیشرفته تا ۵ شهریور
         </div>
       </div>
-      {!location.pathname.includes("-course") && (
+      {!location.pathname.includes('-course') && (
         <div className="courses">
           <div className="courses-single">
             <Link className="courses-link" to="/react-basic-course">
@@ -486,4 +491,4 @@ const Header = ({ page, location }) => {
   )
 }
 
-export default Header 
+export default Header
