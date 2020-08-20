@@ -409,6 +409,13 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
 .user-info .hi {
   display: none;
 }
+.post-card .card__content-title {
+  text-align: center;
+  line-height: 35px;
+}
+.blog-masonry .post-card {
+  margin-bottom: 40px;
+}
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {
     margin-top: 2.5em;
