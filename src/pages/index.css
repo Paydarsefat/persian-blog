@@ -214,6 +214,7 @@ pre.language-javascript {
   padding-top: 7px;
   display: flex;
   width: 100%;
+  margin-bottom: 20px;
 }
 #content {
   padding-top: 50px;

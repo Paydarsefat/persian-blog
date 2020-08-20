@@ -16,6 +16,8 @@ import MyApp from '../../contexts/MyApp'
 
 const Header = ({ page, location }) => {
   const app = useContext(MyApp)
+  const [processName, setProcessName] = useState(null)
+
   const [formRegisterValues, setFormRegisterValues] = useState({})
   const [formLoginValues, setFormLoginValues] = useState({})
   const [formForgotValues, setFormForgotValues] = useState({})
@@ -70,8 +72,11 @@ const Header = ({ page, location }) => {
   const handleOpenLoginModal = () => {
     setShowLoginModal(true)
   }
-  const handleOpenRegisterModal = () => {
+  const handleOpenRegisterModal = (courseName) => {
     setShowRegisterModal(true)
+    if (courseName) {
+      setProcessName(courseName)
+    }
   }
   const handleOpenForgotModal = () => {
     setShowForgotModal(true)
@@ -138,6 +143,8 @@ const Header = ({ page, location }) => {
         setTimeout(() => {
           handleCloseRegisterModal()
         }, 2000)
+
+        console.log('processName', processName)
       } else {
         setResponseOfApiRegister({
           type: 'danger',
@@ -266,6 +273,12 @@ const Header = ({ page, location }) => {
       console.error(e)
     }
     setIsLoadingRegisterConfirmModal(false)
+  }
+
+  const handleBuy = async (courseName) => {
+    if (!app.user.userData.id) {
+      handleOpenRegisterModal(courseName)
+    }
   }
 
   const handleClickOnLogOut = () => {
@@ -420,6 +433,9 @@ const Header = ({ page, location }) => {
                 <strike>870,000</strike>
                 522,000 تومان
               </span>
+              <Button onClick={() => handleBuy('basic')} variant="info">
+                خرید دوره
+              </Button>
             </div>
           </div>
           <div className="courses-single">
@@ -441,6 +457,9 @@ const Header = ({ page, location }) => {
                 <strike>2,480,000</strike>
                 1,488,000 تومان
               </span>
+              <Button onClick={() => handleBuy('advanced')} variant="info">
+                خرید دوره
+              </Button>
             </div>
           </div>
         </div>
@@ -448,11 +467,12 @@ const Header = ({ page, location }) => {
       <RegisterModal
         showRegisterModal={showRegisterModal}
         formRegisterValues={formRegisterValues}
-        handleCloseRegisterModal={handleCloseRegisterModal}
         isLoadingRegisterForm={isLoadingRegisterForm}
         handleSubmitRegister={handleSubmitRegister}
         handleChangeRegisterForm={handleChangeRegisterForm}
         responseOfApiRegister={responseOfApiRegister}
+        handleOpenLoginModal={handleOpenLoginModal}
+        handleCloseRegisterModal={handleCloseRegisterModal}
       />
       <LoginModal
         showLoginModal={showLoginModal}
