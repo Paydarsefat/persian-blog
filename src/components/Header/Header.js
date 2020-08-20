@@ -88,7 +88,7 @@ const Header = ({ page, location }) => {
           </div>
         </div>
       </header>
-      <SpecialOffer />
+      <SpecialOffer location={location} />
       <AuthModals />
     </>
   )
