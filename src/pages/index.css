@@ -403,6 +403,12 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
   padding: 30px 20px;
   line-height: 30px;
 }
+.post-card .card__cover img {
+  height: 220px;
+}
+.user-info .hi {
+  display: none;
+}
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {
     margin-top: 2.5em;
