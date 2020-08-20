@@ -406,9 +406,6 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
 .post-card .card__cover img {
   height: 220px;
 }
-.user-info .hi {
-  display: none;
-}
 .post-card .card__content-title {
   text-align: center;
   line-height: 35px;
@@ -464,5 +461,8 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
   header .header-wrapper .header__name {
     padding: 0;
     max-width: 190px;
+  }
+  .user-info .hi {
+    display: none;
   }
 }
