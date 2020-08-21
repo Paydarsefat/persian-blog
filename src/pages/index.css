@@ -59,6 +59,9 @@ h1 {
   font-weight: 700;
   line-height: 1.375em;
 }
+h5 {
+  font-size: 15px;
+}
 
 p {
   font-size: 0.9em;
@@ -114,6 +117,13 @@ iframe {
   display: flex;
   position: sticky;
   top: 9em;
+  flex-direction: column;
+}
+.buy-in-post {
+  padding: 20px 0;
+}
+.buy-in-post h1 {
+  padding: 20px 0;
 }
 .content-video {
   display: flex;
@@ -131,21 +141,21 @@ iframe {
   padding: 0 1em;
   line-height: 2em;
 }
-.content section h1 {
+.content h1 {
   margin: 1em 0;
   background-color: #333;
   color: white;
   padding: 15px 20px;
   line-height: 2em;
 }
-.content section h2 {
+.content h2 {
   margin: 10px 0;
   padding: 10px 1em;
   font-size: 20px;
   border-bottom: 2px solid grey;
   line-height: 2em;
 }
-.content section h3 {
+.content h3 {
   margin: 1em 0;
   background-color: #333;
   color: white;
@@ -187,7 +197,7 @@ pre.language-javascript {
 .special {
   position: relative;
   max-width: 1000px;
-  margin: 90px auto 0px;
+  margin: 0 auto;
   display: flex;
 }
 .courses {
@@ -412,6 +422,37 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
 }
 .blog-masonry .post-card {
   margin-bottom: 40px;
+}
+.buy-details p {
+  padding: 10px 0;
+}
+.buy-details span {
+  padding: 10px 0;
+}
+.tab-buy-actions {
+  display: flex;
+  width: 100%;
+  padding-top: 40px;
+}
+.tab-buy-actions .btn {
+  width: 100%;
+}
+.coupon-form-inputs {
+  display: flex;
+  margin: 20px 10px;
+}
+.coupon-form-inputs input {
+  padding: 25px;
+  margin: 0 10px;
+}
+.buy-coupon-section h5 {
+  padding-bottom: 10px;
+}
+.speacial-code {
+  padding: 0 10px;
+}
+.special-offer-homepage {
+  padding-top: 100px;
 }
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {

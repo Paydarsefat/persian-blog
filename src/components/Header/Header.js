@@ -88,7 +88,9 @@ const Header = ({ page, location }) => {
           </div>
         </div>
       </header>
-      <SpecialOffer location={location} />
+      <div className="special-offer-homepage">
+        <SpecialOffer location={location} />
+      </div>
       <AuthModals />
     </>
   )
