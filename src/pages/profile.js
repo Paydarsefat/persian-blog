@@ -3,12 +3,15 @@ import { Link } from 'gatsby'
 import Layout from '../components/Layout/Layout'
 import SEO from '../components/SEO/SEO'
 import MyApp from '../contexts/MyApp'
-import { Alert, Form, Button } from 'react-bootstrap'
+import loading from '../components/Icon/loading.gif'
+import { Alert, Form, Button, Tabs, Tab, Table } from 'react-bootstrap'
 import fetchHandler from '../utils/fetchHandler'
+import formatPrice from '../utils/formatPrice'
 
 const Profile = ({ location }) => {
   const app = useContext(MyApp)
-  const [isLoadingProfile, setIsLoadingRegisterForm] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
+  const [transactions, setTransactions] = useState([])
   const [responseOfProfileAPI, setResponseOfApiProfile] = useState(null)
   const [formProfileValues, setFormRegisterValues] = useState({
     first_name: app.user.userData.first_name,
@@ -23,9 +26,9 @@ const Profile = ({ location }) => {
     })
   }
 
-  const handleSubmitRegister = async (event) => {
+  const handleUpdateProfle = async (event) => {
     if (event) event.preventDefault()
-    setIsLoadingRegisterForm(true)
+    setIsLoading(true)
 
     try {
       const result = await fetchHandler({
@@ -52,7 +55,32 @@ const Profile = ({ location }) => {
     } catch (e) {
       console.error(e)
     }
-    setIsLoadingRegisterForm(false)
+    setIsLoading(false)
+  }
+
+  const handleLoadTransactions = async (event) => {
+    if (event) event.preventDefault()
+    setIsLoading(true)
+
+    try {
+      const result = await fetchHandler({
+        method: 'GET',
+        url: '/api/v1/transaction',
+        auth: true,
+      })
+      if (result.data.success) {
+        setTransactions(result.data.result)
+      }
+    } catch (e) {
+      console.error(e)
+    }
+    setIsLoading(false)
+  }
+
+  const onSelect = (key) => {
+    if (key === 'transactions') {
+      handleLoadTransactions()
+    }
   }
 
   useEffect(() => {
@@ -90,64 +118,146 @@ const Profile = ({ location }) => {
                     <img src={app.user.userData.image} alt="profile" />
                   </div>
                   <div className="col-12 col-md-8 col-lg-9 profle">
-                    <h1>
-                      پروفایل
-                      {` `}
-                      {app.user.userData.first_name}
-                      {` `}
-                      {app.user.userData.last_name}
-                    </h1>
-                    <Form
-                      onSubmit={!isLoadingProfile ? handleSubmitRegister : null}
-                    >
-                      <div className="profile-body">
-                        <div className="profile-body-form">
-                          {responseOfProfileAPI && (
-                            <Alert variant={responseOfProfileAPI.type}>
-                              {responseOfProfileAPI.message}
-                            </Alert>
-                          )}
-                          <Form.Group controlId="formBasicText">
-                            <Form.Label>نام</Form.Label>
-                            <Form.Control
-                              onChange={(event) =>
-                                handleChangeRegisterForm('first_name', event)
-                              }
-                              type="text"
-                              value={formProfileValues.first_name}
-                              placeholder="نام خود را وارد نمایید"
-                            />
-                          </Form.Group>
-                          <Form.Group controlId="formBasicText">
-                            <Form.Label>نام خانوادگی</Form.Label>
-                            <Form.Control
-                              onChange={(event) =>
-                                handleChangeRegisterForm('last_name', event)
-                              }
-                              type="text"
-                              value={formProfileValues.last_name}
-                              placeholder="نام خانوادگی خود را وارد نمایید"
-                            />
-                          </Form.Group>
-                          <Form.Group controlId="formBasicEmail">
-                            <Form.Label>ایمیل</Form.Label>
-                            <Form.Control
-                              disabled
-                              type="email"
-                              value={app.user.userData.email}
-                              placeholder="ایمیل خود را وارد نمایید"
-                            />
-                          </Form.Group>
-                          <Button
-                            variant="primary"
-                            type="submit"
-                            disabled={isLoadingProfile}
+                    <Tabs defaultActiveKey="editProfile" onSelect={onSelect}>
+                      <Tab eventKey="editProfile" title="ویرایش پروفایل">
+                        <div className="profile-tabs">
+                          <div className="prifle-tab-heading">
+                            {isLoading && (
+                              <img
+                                className="loading"
+                                src={loading}
+                                alt="loading"
+                              />
+                            )}
+                            <h1>
+                              پروفایل
+                              {` `}
+                              {app.user.userData.first_name}
+                              {` `}
+                              {app.user.userData.last_name}
+                            </h1>
+                          </div>
+
+                          <Form
+                            onSubmit={!isLoading ? handleUpdateProfle : null}
                           >
-                            ویرایش پروفایل
-                          </Button>
+                            <div className="profile-body">
+                              <div className="profile-body-form">
+                                {responseOfProfileAPI && (
+                                  <Alert variant={responseOfProfileAPI.type}>
+                                    {responseOfProfileAPI.message}
+                                  </Alert>
+                                )}
+                                <Form.Group controlId="formBasicText">
+                                  <Form.Label>نام</Form.Label>
+                                  <Form.Control
+                                    onChange={(event) =>
+                                      handleChangeRegisterForm(
+                                        'first_name',
+                                        event
+                                      )
+                                    }
+                                    type="text"
+                                    value={formProfileValues.first_name}
+                                    placeholder="نام خود را وارد نمایید"
+                                  />
+                                </Form.Group>
+                                <Form.Group controlId="formBasicText">
+                                  <Form.Label>نام خانوادگی</Form.Label>
+                                  <Form.Control
+                                    onChange={(event) =>
+                                      handleChangeRegisterForm(
+                                        'last_name',
+                                        event
+                                      )
+                                    }
+                                    type="text"
+                                    value={formProfileValues.last_name}
+                                    placeholder="نام خانوادگی خود را وارد نمایید"
+                                  />
+                                </Form.Group>
+                                <Form.Group controlId="formBasicEmail">
+                                  <Form.Label>ایمیل</Form.Label>
+                                  <Form.Control
+                                    disabled
+                                    type="email"
+                                    value={app.user.userData.email}
+                                    placeholder="ایمیل خود را وارد نمایید"
+                                  />
+                                </Form.Group>
+                                <Button
+                                  variant="primary"
+                                  type="submit"
+                                  disabled={isLoading}
+                                >
+                                  ویرایش پروفایل
+                                </Button>
+                              </div>
+                            </div>
+                          </Form>
                         </div>
-                      </div>
-                    </Form>
+                      </Tab>
+                      <Tab eventKey="transactions" title="تراکنشات">
+                        <div className="profile-tabs">
+                          <h1>تراکنشات</h1>
+                          <div>
+                            {transactions.length === 0 && (
+                              <Alert variant={'info'}>
+                                هیچ تراکنشی ثبت نشده است
+                              </Alert>
+                            )}
+                            {transactions.length > 0 && (
+                              <div>
+                                <Table striped bordered hover>
+                                  <thead>
+                                    <tr>
+                                      <th>شناسه</th>
+                                      <th>قیمت</th>
+                                      <th>وضعیت</th>
+                                      <th>دوره</th>
+                                      <th>پیام</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    {transactions.map((item, index) => (
+                                      <tr>
+                                        <td>{index + 1}</td>
+                                        <td>
+                                          {formatPrice(item.amount)} تومان
+                                        </td>
+                                        <td>
+                                          {item.status === 'prepared'
+                                            ? 'در حال انتظار'
+                                            : 'تکمیل شده'}
+                                        </td>
+                                        <td>
+                                          {item.course === 'react-basic'
+                                            ? 'دوره React JS مقدماتی'
+                                            : 'دوره React JS پیشرفته'}
+                                        </td>
+                                        <td>{item.message}</td>
+                                      </tr>
+                                    ))}
+                                  </tbody>
+                                </Table>
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      </Tab>
+                      <Tab eventKey="courses" title="دوره‌ها">
+                        <div className="profile-tabs">
+                          <h1>دوره‌ها</h1>
+                          <div>AA</div>
+                        </div>
+                      </Tab>
+                      <Tab eventKey="changePassword" title="تغییر رمز عبور">
+                        <div className="profile-tabs">
+                          <h1>تغییر رمز عبور</h1>
+                          <div>AA</div>
+                        </div>
+                      </Tab>
+                    </Tabs>
                   </div>
                 </>
               </div>
