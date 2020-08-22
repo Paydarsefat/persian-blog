@@ -97,7 +97,7 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 - آشنایی با Hook ها از کتاب‌خانه React Router و useLocation
 - اضافه کردن Icon به پرورژه و آشنایی با مفهوم Fragment
 - آشنایی با useReducer یکی از Hook های React و نحوه‌ی پیاده‌سازی آن
-- چطور از ترکیب useReducer و useContext استفاده کنیم
+- [چطور از ترکیب useReducer و useContext استفاده کنیم](/react-how-to-use-use-router-use-context)
 - آشنایی با نحوه‌ی اضافه کردن Animation به پروژه
 - چطور Route مشخصی برای صفحه هر محصول داشته باشیم
 - مفهوم validate کردن prop ها و Type Checking با کتاب‌خانه‌ی prop-types
