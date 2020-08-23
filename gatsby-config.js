@@ -5,7 +5,7 @@ module.exports = {
       name: `احسان گازار`,
       summary: `برنامه نویس، مدرس، بلاگر و صخره نورد`,
     },
-    description: `این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است`,
+    description: `این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.`,
     siteUrl: `https://fa.ehsangazar.com/`,
     social: {
       twitter: `ehsangazar`,
@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-174171864-1",
+        trackingId: 'UA-174171864-1',
         head: false,
       },
     },
@@ -75,7 +75,14 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
-    "gatsby-plugin-use-query-params",
-    "gatsby-plugin-layouts",
+    'gatsby-plugin-use-query-params',
+    'gatsby-plugin-layouts',
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        sitemapSize: 5000,
+      },
+    },
+    'gatsby-plugin-extract-schema',
   ],
 }

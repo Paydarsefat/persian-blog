@@ -1,7 +1,7 @@
-import React from "react"
-import PropTypes from "prop-types"
-import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+import { useStaticQuery, graphql } from 'gatsby'
 
 const SEO = ({ description, lang, meta, title, image }) => {
   const { site } = useStaticQuery(
@@ -32,9 +32,9 @@ const SEO = ({ description, lang, meta, title, image }) => {
       link={[
         {
           rel: 'icon',
-          type: "image/png",
-          href:'https://fa.ehsangazar.com/favicon.png'
-        }
+          type: 'image/png',
+          href: 'https://fa.ehsangazar.com/favicon.png',
+        },
       ]}
       meta={[
         {
@@ -79,7 +79,7 @@ const SEO = ({ description, lang, meta, title, image }) => {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `fa`,
   meta: [],
   description: ``,
 }
