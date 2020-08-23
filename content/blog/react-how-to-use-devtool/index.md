@@ -1,6 +1,6 @@
 ---
 title: آشنایی با React DevTools به عنوان Browser Extension
-date: '2020-08-23'
+date: '2020-08-22'
 videoSourceURL: https://www.youtube.com/embed/-jl-Y_KV_bs
 videoTitle: 'آشنایی با React DevTools به عنوان Browser Extension'
 cover: cover.png

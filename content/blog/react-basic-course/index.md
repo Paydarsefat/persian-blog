@@ -110,7 +110,7 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 ## ویدئو‌های سوالات متداول
 
 - راه‌های نمایش عکس در پروژه
-- چگونه از eslint برای استانداردسازی codebase همراه با vscode استفاده کنیم
+- [چگونه از eslint برای استانداردسازی codebase همراه با vscode استفاده کنیم](/react-basic-how-to-use-eslint-vscode)
 - چگونه با git کار کنیم و پروژه Create React App رو در Github Pages قرار بدهیم یا Deploy کنیم
 - چگونه در پروژه Create React App از SASS استفاده کنیم
 - چطور در پروژه Create React App از Bootstrap استفاده کنیم
