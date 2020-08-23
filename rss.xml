@@ -1,5 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 23 Aug 2020 00:42:53 GMT</lastBuildDate><item><title><![CDATA[آشنایی با React DevTools به عنوان Browser Extension]]></title><description><![CDATA[یکی از مهم ترین و احتمالا پرکاربردترین روش‌ها برای debug کردن اپ‌های React استفاده از
-React Devtool هست که باهاش می‌تونید State و Props…]]></description><link>https://fa.ehsangazar.com/react-how-to-use-devtool/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-how-to-use-devtool/</guid><pubDate>Sun, 23 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از مهم ترین و احتمالا پرکاربردترین روش‌ها برای debug کردن اپ‌های React استفاده از
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این بلاگ فارسی احسان گازار برای اشتراک گذاری محتوای آموزشی است]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 23 Aug 2020 07:24:36 GMT</lastBuildDate><item><title><![CDATA[چگونه از eslint برای استانداردسازی codebase همراه با vscode استفاده کنیم]]></title><description><![CDATA[یکی از ابزارهایی که کار برنامه نویسی را راحت می‌کند مطمئنا Eslint هست.
+خب اگر با مفهموم linting…]]></description><link>https://fa.ehsangazar.com/react-basic-how-to-use-eslint-vscode/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-basic-how-to-use-eslint-vscode/</guid><pubDate>Sun, 23 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از ابزارهایی که کار برنامه نویسی را راحت می‌کند مطمئنا Eslint هست.
+خب اگر با مفهموم linting آشنایی دارید یعنی آنکه کد شما بر اساس استانداردهای
+معروف بررسی و حتی درست بشه.&lt;/p&gt;
+&lt;p&gt;خب برای شروع میتونید eslint رو به صورت globally نصب کنید&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;npm i &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;g eslint&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;و بعد در روت پروژه اتون میتونید از دستور زیر استفاده کنید.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;eslint &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;init&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;یه سری تنظیمات و پیشنهادات در سوالات نصب eslint پرسیده میشه که توی ویدئو به صورت کامل توضیح میدم.&lt;/p&gt;
+&lt;p&gt;ولی مطمئن بشید که React رو انتخاب کنید و بعد می‌تونید برید داخل VSCode و
+از لیست Extension ها Eslint رو انتخاب کنید و نصب کنید.&lt;/p&gt;
+&lt;p&gt;اگر مثل من به کارهای اتوماتیک VSCode علاقه‌مندید می‌تونید از تنظیمات فایلی استفاده کنید و مثلا این تنظیمات رو در .vscode/settings قرار بدید.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;editor.codeActionsOnSave&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;source.fixAll&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;source.fixAll.eslint&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;این باعث میشه که هر بار که تغییری در کد می‌دید به صورت خودکار Eslint اجرا بشه و در صورت نیاز خطاهای کد شما رو تصحیح کنه.&lt;/p&gt;
+&lt;p&gt;کل تنظیمات eslint رو هم میتونید توی فایلی مثل .eslintrc.json ببینید که برای این پروژه که در دوره مقدماتی مطرح شد به صورت هست:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;env&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;browser&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;es6&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;extends&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;plugin:react/recommended&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;airbnb&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;globals&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;Atomics&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;readonly&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;SharedArrayBuffer&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;readonly&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;parserOptions&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;ecmaFeatures&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token string&quot;&gt;&quot;jsx&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;ecmaVersion&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2018&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;sourceType&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;module&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;plugins&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;react&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;rules&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;این یکی از ویدئو‌های
+&lt;a href=&quot;/react-basic-course&quot;&gt;آموزش آنلاین React مقدماتی&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[آشنایی با React DevTools به عنوان Browser Extension]]></title><description><![CDATA[یکی از مهم ترین و احتمالا پرکاربردترین روش‌ها برای debug کردن اپ‌های React استفاده از
+React Devtool هست که باهاش می‌تونید State و Props…]]></description><link>https://fa.ehsangazar.com/react-how-to-use-devtool/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-how-to-use-devtool/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از مهم ترین و احتمالا پرکاربردترین روش‌ها برای debug کردن اپ‌های React استفاده از
 React Devtool هست که باهاش می‌تونید State و Props ها و حتی ساختار درختی App رو ببینید.&lt;/p&gt;
 &lt;p&gt;در این ویدئو نشون میدم که چطور میتوانید این Extension رو نصب کنید و سپس Inspect کنید.&lt;/p&gt;
 &lt;p&gt;این یکی از ویدئو‌های
@@ -762,7 +810,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;h2&gt;ویدئو‌های سوالات متداول&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;راه‌های نمایش عکس در پروژه&lt;/li&gt;
-&lt;li&gt;چگونه از eslint برای استانداردسازی codebase همراه با vscode استفاده کنیم&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/react-basic-how-to-use-eslint-vscode&quot;&gt;چگونه از eslint برای استانداردسازی codebase همراه با vscode استفاده کنیم&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;چگونه با git کار کنیم و پروژه Create React App رو در Github Pages قرار بدهیم یا Deploy کنیم&lt;/li&gt;
 &lt;li&gt;چگونه در پروژه Create React App از SASS استفاده کنیم&lt;/li&gt;
 &lt;li&gt;چطور در پروژه Create React App از Bootstrap استفاده کنیم&lt;/li&gt;
