@@ -103,7 +103,7 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 - مفهوم validate کردن prop ها و Type Checking با کتاب‌خانه‌ی prop-types
 - نحوه‌ی ساده‌ای برای Store Persistence در React و بارگذاری مجدد State در کامپونتت‌ها
 - آشنایی با utils ها و ساختار دادن App
-- آشنایی با React DevTools به عنوان Browser Extension
+- [آشنایی با React DevTools به عنوان Browser Extension](/react-how-to-use-devtool)
 - آماده‌سازی پروژه Create React App برای محیط Production
 - چطور با Now JS پروژه‌ی خود را در Deploy کنیم
 
