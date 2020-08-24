@@ -395,7 +395,7 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
   padding: 20px;
 }
 .profile-body {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .buy-section {
   display: flex;
@@ -453,6 +453,54 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
 }
 .special-offer-homepage {
   padding-top: 100px;
+}
+.payir-name {
+  display: flex;
+  align-items: center;
+  margin-top: 20px 0;
+}
+.payir-name img {
+  padding-left: 30px;
+}
+.payir-button {
+  margin-top: 30px;
+}
+.buy-coupon-title {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.buy-coupon-title img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.payir-loading {
+  display: flex;
+}
+.payir-loading img {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+  padding: 0;
+}
+.profile-tabs {
+  padding: 30px 20px;
+}
+.profile-tabs h1 {
+  padding-bottom: 20px;
+}
+a.nav-item.nav-link {
+  text-decoration: none;
+}
+.prifle-tab-heading {
+  display: flex;
+  align-items: center;
+}
+.prifle-tab-heading .loading {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
 }
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {

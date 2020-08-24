@@ -3,11 +3,21 @@ import { Tabs, Tab, Form, Button, Alert } from 'react-bootstrap'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import fetchHandler from '../../utils/fetchHandler'
 import formatPrice from '../../utils/formatPrice'
+import payirImage from './payir.png'
+import loading from '../Icon/loading.gif'
+import ProductDetail from '../ProductDetail/ProductDetail'
+import MyApp from '../../contexts/MyApp'
 
-const TabsInModalToBuy = ({ id, title, description, price, image }) => {
+const TabsInModalToBuy = ({ title, description, price, image }) => {
+  const app = useContext(MyApp)
   const [isLoadingCoupon, setIsLoadingCoupon] = useState(false)
+  const [isLoadingGetToken, setIsLoadingGetToken] = useState(false)
+
   const [responseCouponAPI, setResponseCouponAPI] = useState(null)
+  const [responseGetTokenAPI, setResponseGetTokenAPI] = useState(null)
+
   const [coupon, setCoupon] = useState(null)
+  const [token, setToken] = useState(null)
   const [discount, setDiscount] = useState(null)
 
   const handleChangeCoupon = (event) => {
@@ -47,6 +57,42 @@ const TabsInModalToBuy = ({ id, title, description, price, image }) => {
     setIsLoadingCoupon(false)
   }
 
+  const handleGetToken = async (event) => {
+    if (event) event.preventDefault()
+    setIsLoadingGetToken(true)
+
+    try {
+      const result = await fetchHandler({
+        method: 'POST',
+        url: '/api/v1/pay/prepare',
+        body: {
+          processName: app.process.processName,
+          code: coupon || null,
+        },
+        auth: true,
+      })
+      if (result.data.success) {
+        setToken(result.data.response.token)
+        setResponseGetTokenAPI({
+          type: 'success',
+          message: `در حال انتقال به سایت بانک`,
+        })
+        setTimeout(() => {
+          window.location.href = `https://pay.ir/pg/${result.data.response.token}`
+        }, 1000)
+      } else {
+        setResponseGetTokenAPI({
+          type: 'danger',
+          message: 'این کد معتبر نمی‌باشد',
+        })
+        setDiscount(null)
+      }
+    } catch (e) {
+      console.error(e)
+    }
+    setIsLoadingGetToken(false)
+  }
+
   let newPrice = discount
     ? (Number(price) * (100 - Number(discount))) / 100
     : price
@@ -56,24 +102,22 @@ const TabsInModalToBuy = ({ id, title, description, price, image }) => {
 
   return (
     <div className="buy-body">
-      <div className="buy-section">
-        <img src={image} alt="course" />
-        <div className="buy-details">
-          <h4>{title}</h4>
-          <p>{description}</p>
-          <span className="courses-content-price">
-            {!discount && `${oldPrice} تومان`}
-            {discount && (
-              <>
-                <strike>{oldPrice}</strike> {newPrice} تومان
-              </>
-            )}
-          </span>
-        </div>
-      </div>
+      <ProductDetail
+        title={title}
+        image={image}
+        description={description}
+        discount={discount}
+        oldPrice={oldPrice}
+        newPrice={newPrice}
+      />
       <div className="buy-coupon">
         <div className="buy-coupon-section">
-          <h5>کد تخفیف</h5>
+          <div className="buy-coupon-title">
+            {isLoadingCoupon && (
+              <img className="loading" src={loading} alt="loading" />
+            )}
+            <h5>کد تخفیف</h5>
+          </div>
           <div className="coupon-form">
             <Form onSubmit={!isLoadingCoupon ? handleSubmitCoupon : null}>
               {responseCouponAPI && (
@@ -129,7 +173,31 @@ const TabsInModalToBuy = ({ id, title, description, price, image }) => {
             </div>
           </Tab>
           <Tab eventKey="payir" title="درگاه پرداخت">
-            <div className="tab-buy">در حال پیاده‌سازی</div>
+            <div className="tab-buy payir-section">
+              <div className="payir-name">
+                <div className="payir-loading">
+                  {isLoadingGetToken && (
+                    <img className="loading" src={loading} alt="loading" />
+                  )}
+                </div>
+                <div>
+                  <img src={payirImage} alt="payir" />
+                </div>
+                <div>استفاده از درگاه پرداخت pay.ir</div>
+              </div>
+              <div className="payir-button">
+                <Button
+                  variant="primary"
+                  type="submit"
+                  className="widthAll"
+                  onClick={handleGetToken}
+                  disabled={isLoadingGetToken}
+                >
+                  {isLoadingGetToken && 'در حال انتقال'}
+                  {!isLoadingGetToken && 'انتقال به درگاه بانک'}
+                </Button>
+              </div>
+            </div>
           </Tab>
           <Tab eventKey="paypal" title="پی‌پال">
             <div className="tab-buy">
