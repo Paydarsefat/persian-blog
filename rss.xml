@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 23 Aug 2020 12:35:36 GMT</lastBuildDate><item><title><![CDATA[چگونه از eslint برای استانداردسازی codebase همراه با vscode استفاده کنیم]]></title><description><![CDATA[یکی از ابزارهایی که کار برنامه نویسی را راحت می‌کند مطمئنا Eslint هست.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 24 Aug 2020 07:06:19 GMT</lastBuildDate><item><title><![CDATA[آشنایی با White Pages و کد زدن Loading و Placeholder برای بخش های مختلف سایت]]></title><description><![CDATA[این پست برای برنامه‌نویسی حالت Loading در React…]]></description><link>https://fa.ehsangazar.com/react-loading-state-and-coding-placeholder/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-loading-state-and-coding-placeholder/</guid><pubDate>Mon, 24 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;این پست برای برنامه‌نویسی حالت Loading در React هست که به یکی از مواردی است که برنامه‌نویس ها می‌بایست در طول کار خود مد نظر قرار بدهند.&lt;/p&gt;
+&lt;p&gt;منظور به آن است که همیشه زمانی وجود دارد تا یک کامپوننت اطلاعات را از API ها بگیرد.
+در نتیجه لازم است در طول این زمان loading نمایش داده شود. که در طول این ویدئو توضیح می‌دهم که چطور می‌توانید با useState این فرآیند را مدیریت کنید.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;ضمن آن که اتفاق رایج دیگر نمایش placeholder در کامپوننت‌هاست که سایت‌های جدید مثل
+facebook و غیره، حتما از آن استفاده میکنند.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;این یکی از ویدئو‌های
+&lt;a href=&quot;/react-basic-course&quot;&gt;آموزش آنلاین React مقدماتی&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[چگونه از eslint برای استانداردسازی codebase همراه با vscode استفاده کنیم]]></title><description><![CDATA[یکی از ابزارهایی که کار برنامه نویسی را راحت می‌کند مطمئنا Eslint هست.
 خب اگر با مفهموم linting…]]></description><link>https://fa.ehsangazar.com/react-basic-how-to-use-eslint-vscode/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-basic-how-to-use-eslint-vscode/</guid><pubDate>Sun, 23 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از ابزارهایی که کار برنامه نویسی را راحت می‌کند مطمئنا Eslint هست.
 خب اگر با مفهموم linting آشنایی دارید یعنی آنکه کد شما بر اساس استانداردهای
 معروف بررسی و حتی درست بشه.&lt;/p&gt;
@@ -817,7 +826,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;چگونه در پروژه Create React App از Material UI استفاده کنیم&lt;/li&gt;
 &lt;li&gt;تعریف زبان‌های Backend مانند NodeJs، PHP و غیره و نحوه‌ی قدیم و جدید ارتباط آن‌ها با Frontend، کاربر React و بررسی Wordpress&lt;/li&gt;
 &lt;li&gt;چگونه در پروژه‌های React می‌توانیم Slideshow داشته باشیم&lt;/li&gt;
-&lt;li&gt;آشنایی با White Pages و کد زدن Loading و Placeholder برای بخش های مختلف سایت&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/react-loading-state-and-coding-placeholder&quot;&gt;آشنایی با White Pages و کد زدن Loading و Placeholder برای بخش های مختلف سایت&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;تکلیف دوره&lt;/h2&gt;
 &lt;ul&gt;
