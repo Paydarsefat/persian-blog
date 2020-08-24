@@ -81,7 +81,7 @@ const Header = ({ page, location }) => {
                         >
                           پروفایل
                         </Link>
-                        <Link
+                        {/* <Link
                           className="dropdown-item"
                           to={'/profile?state=transactions'}
                         >
@@ -92,7 +92,7 @@ const Header = ({ page, location }) => {
                           to={'/profile?state=courses'}
                         >
                           دوره‌ها
-                        </Link>
+                        </Link> */}
                         <Link
                           className="dropdown-item"
                           to={'/profile?state=changePassword'}

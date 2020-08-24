@@ -117,7 +117,7 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 - چگونه در پروژه Create React App از Material UI استفاده کنیم
 - تعریف زبان‌های Backend مانند NodeJs، PHP و غیره و نحوه‌ی قدیم و جدید ارتباط آن‌ها با Frontend، کاربر React و بررسی Wordpress
 - چگونه در پروژه‌های React می‌توانیم Slideshow داشته باشیم
-- آشنایی با White Pages و کد زدن Loading و Placeholder برای بخش های مختلف سایت
+- [آشنایی با White Pages و کد زدن Loading و Placeholder برای بخش های مختلف سایت](/react-loading-state-and-coding-placeholder)
 
 ## تکلیف دوره
 

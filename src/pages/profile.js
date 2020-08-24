@@ -11,17 +11,33 @@ import formatPrice from '../utils/formatPrice'
 const Profile = ({ location }) => {
   const app = useContext(MyApp)
   const [isLoading, setIsLoading] = useState(false)
+
   const [transactions, setTransactions] = useState([])
-  const [responseOfProfileAPI, setResponseOfApiProfile] = useState(null)
+
   const [formProfileValues, setFormRegisterValues] = useState({
     first_name: app.user.userData.first_name,
     last_name: app.user.userData.last_name,
+    email: app.user.userData.email,
   })
+  const [formPasswordValues, setFormPasswordValues] = useState({
+    old_password: '',
+    new_password: '',
+  })
+
+  const [responseOfProfileAPI, setResponseOfApiProfile] = useState(null)
+  const [responseOfPasswordAPI, setResponseOfPasswordAPI] = useState(null)
 
   const handleChangeRegisterForm = (name, event) => {
     if (event) event.preventDefault()
     setFormRegisterValues({
       ...formProfileValues,
+      [name]: event.target.value,
+    })
+  }
+  const handleChangePasswordForm = (name, event) => {
+    if (event) event.preventDefault()
+    setFormPasswordValues({
+      ...formPasswordValues,
       [name]: event.target.value,
     })
   }
@@ -37,6 +53,7 @@ const Profile = ({ location }) => {
         body: {
           first_name: formProfileValues.first_name,
           last_name: formProfileValues.last_name,
+          email: formProfileValues.email,
         },
         auth: true,
       })
@@ -48,6 +65,38 @@ const Profile = ({ location }) => {
         app.user.updateUser()
       } else {
         setResponseOfApiProfile({
+          type: 'danger',
+          message: result.data.message,
+        })
+      }
+    } catch (e) {
+      console.error(e)
+    }
+    setIsLoading(false)
+  }
+
+  const handleUpdatePassword = async (event) => {
+    if (event) event.preventDefault()
+    setIsLoading(true)
+
+    try {
+      const result = await fetchHandler({
+        method: 'POST',
+        url: '/api/v1/user/passwordUpdate',
+        body: {
+          old_password: formPasswordValues.old_password,
+          new_password: formPasswordValues.new_password,
+        },
+        auth: true,
+      })
+      if (result.data.success) {
+        setResponseOfPasswordAPI({
+          type: 'success',
+          message: 'کلمه عبور شما با موفقیت آپدیت شد',
+        })
+        app.user.updateUser()
+      } else {
+        setResponseOfPasswordAPI({
           type: 'danger',
           message: result.data.message,
         })
@@ -87,8 +136,13 @@ const Profile = ({ location }) => {
     setFormRegisterValues({
       first_name: app.user.userData.first_name,
       last_name: app.user.userData.last_name,
+      email: app.user.userData.email,
     })
-  }, [app.user.userData.first_name, app.user.userData.last_name])
+  }, [
+    app.user.userData.first_name,
+    app.user.userData.last_name,
+    app.user.userData.email,
+  ])
 
   return (
     <Layout location={location} title={'پروفایل'} page="about">
@@ -179,9 +233,11 @@ const Profile = ({ location }) => {
                                 <Form.Group controlId="formBasicEmail">
                                   <Form.Label>ایمیل</Form.Label>
                                   <Form.Control
-                                    disabled
                                     type="email"
-                                    value={app.user.userData.email}
+                                    onChange={(event) =>
+                                      handleChangeRegisterForm('email', event)
+                                    }
+                                    value={formProfileValues.email}
                                     placeholder="ایمیل خود را وارد نمایید"
                                   />
                                 </Form.Group>
@@ -197,7 +253,7 @@ const Profile = ({ location }) => {
                           </Form>
                         </div>
                       </Tab>
-                      <Tab eventKey="transactions" title="تراکنشات">
+                      {/* <Tab eventKey="transactions" title="تراکنشات">
                         <div className="profile-tabs">
                           <h1>تراکنشات</h1>
                           <div>
@@ -244,17 +300,69 @@ const Profile = ({ location }) => {
                             )}
                           </div>
                         </div>
-                      </Tab>
-                      <Tab eventKey="courses" title="دوره‌ها">
+                      </Tab> */}
+                      {/* <Tab eventKey="courses" title="دوره‌ها">
                         <div className="profile-tabs">
                           <h1>دوره‌ها</h1>
                           <div>AA</div>
                         </div>
-                      </Tab>
+                      </Tab> */}
                       <Tab eventKey="changePassword" title="تغییر رمز عبور">
                         <div className="profile-tabs">
                           <h1>تغییر رمز عبور</h1>
-                          <div>AA</div>
+                          <div>
+                            <Form
+                              onSubmit={
+                                !isLoading ? handleUpdatePassword : null
+                              }
+                            >
+                              <div className="profile-body">
+                                <div className="profile-body-form">
+                                  {responseOfPasswordAPI && (
+                                    <Alert variant={responseOfPasswordAPI.type}>
+                                      {responseOfPasswordAPI.message}
+                                    </Alert>
+                                  )}
+                                  <Form.Group controlId="formBasicText">
+                                    <Form.Label>کلمه عبور فعلی</Form.Label>
+                                    <Form.Control
+                                      onChange={(event) =>
+                                        handleChangePasswordForm(
+                                          'old_password',
+                                          event
+                                        )
+                                      }
+                                      type="password"
+                                      value={formPasswordValues.old_password}
+                                      placeholder="کلمه عبور فعلی خود را وارد کنید"
+                                    />
+                                  </Form.Group>
+                                  <Form.Group controlId="formBasicText">
+                                    <Form.Label>کلمه عبور جدید</Form.Label>
+                                    <Form.Control
+                                      onChange={(event) =>
+                                        handleChangePasswordForm(
+                                          'new_password',
+                                          event
+                                        )
+                                      }
+                                      type="password"
+                                      value={formPasswordValues.new_password}
+                                      placeholder="کلمه عبور جدید خود را وارد کنید"
+                                    />
+                                  </Form.Group>
+
+                                  <Button
+                                    variant="primary"
+                                    type="submit"
+                                    disabled={isLoading}
+                                  >
+                                    ویرایش کلمه عبور
+                                  </Button>
+                                </div>
+                              </div>
+                            </Form>
+                          </div>
                         </div>
                       </Tab>
                     </Tabs>
