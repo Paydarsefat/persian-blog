@@ -172,7 +172,7 @@ const TabsInModalToBuy = ({ title, description, price, image }) => {
               </div>
             </div>
           </Tab>
-          <Tab eventKey="payir" title="درگاه پرداخت">
+          {/* <Tab eventKey="payir" title="درگاه پرداخت">
             <div className="tab-buy payir-section">
               <div className="payir-name">
                 <div className="payir-loading">
@@ -198,7 +198,7 @@ const TabsInModalToBuy = ({ title, description, price, image }) => {
                 </Button>
               </div>
             </div>
-          </Tab>
+          </Tab> */}
           <Tab eventKey="paypal" title="پی‌پال">
             <div className="tab-buy">
               اگر خارج ایران هستید، میتوانید از Paypal برای پرداخت استفاده کنید،
