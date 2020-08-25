@@ -25,7 +25,11 @@ const BlogPost = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO
         title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
+        description={
+          post.html.replace(/(<([^>]+)>)/gi, '').substr(0, 350) ||
+          post.frontmatter.description ||
+          post.excerpt
+        }
         image={
           post.frontmatter.cover &&
           post.frontmatter.cover.childImageSharp.fluid.src
