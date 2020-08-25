@@ -136,4 +136,4 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 - استایل دادن بیشتر و آماده‌سازی پروژه و آشنایی با BEM
 - اضافه کردن فانکشن‌های AddTask, DeleteTask
 - اضافه کردن Filtering و تغییر وضعیت تسک‌ها
-- پیاده سازی localStorage و Persistence برای پروژه و Deploy کردن آن
+- [پیاده سازی localStorage و Persistence برای پروژه و Deploy کردن آن](/react-localstorage-persistence-an-deploy)
