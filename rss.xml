@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 26 Aug 2020 07:05:36 GMT</lastBuildDate><item><title><![CDATA[پیاده سازی localStorage و Persistence برای پروژه و Deploy کردن آن]]></title><description><![CDATA[برای داشتن Persistence در پروژه لازم هست که دیتاها در Database ای در مرورگر ذخیره بشوند.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 26 Aug 2020 10:59:30 GMT</lastBuildDate><item><title><![CDATA[Prettier چیست و چگونه از آن در کنار ESlint استفاده کنیم]]></title><description><![CDATA[خب صحبت از prettier که می‌شود از اسمش مشخص هست که برای زیبا تر کردن کدها استفاده میشه، از ویژگی‌های خوبش میشه به درست کردن indent…]]></description><link>https://fa.ehsangazar.com/react-how-to-use-eslint-with-prettier/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-how-to-use-eslint-with-prettier/</guid><pubDate>Wed, 26 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;خب صحبت از prettier که می‌شود از اسمش مشخص هست که برای زیبا تر کردن کدها استفاده میشه، از ویژگی‌های خوبش میشه به درست کردن indent های کد یا space زدن بین متغیرها و غیره گفت.&lt;/p&gt;
+&lt;p&gt;الان خیلی مرسوم هست که در codebase ها از prettier استفاده میکنیم و تنظیماتش که بتونیم در کنار eslint قرارش بدیم کمی tricky است و بعضی وقت‌ها لازم هست زمان بیشتری برای نصبش سپری کنیم.&lt;/p&gt;
+&lt;p&gt;خب بعد از این که prettier رو از npm module ها نصب کردید لازم هست که eslint رو کمی تغییر بدید به صورت زیر:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;plugin:react/recommended&apos;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; airbnb
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; prettier
+plugins&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; react
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; prettier&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;یعنی extends کردن و plugin رو برای prettier اضافه می‌کنیم که میتونید مراحل کامل رو در ویدئو ببینید.&lt;/p&gt;
+&lt;p&gt;و لازم هست که تنظیمات prettier رو هم به صورت فایل ذخیره کنیم تا در پروژه بمونه و بقیه برنامه‌نویس‌ها هم از اون استفاده کنند.
+که اسم فایل رو .prettierrc.yml میذارم به صورت زیر مینویسمش&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;trailingComma&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;es5&apos;&lt;/span&gt;
+tabWidth&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+semi&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;
+singleQuote&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;و خب حالا اگر در .vscode/settings.json هم کد زیر رو قرار داده باشین&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;editor.codeActionsOnSave&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;source.fixAll&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;source.fixAll.eslint&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;editor.formatOnSave&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;میتونه خیالتون راحت باشه که تنظیمات هر دو کار می‌کنند. برای سادگی هم یادتون نره که prettier رو به عنوان extension در vscode هم نصب داشته باشین.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;این یکی از ویدئو‌های
+&lt;a href=&quot;/react-advanced-course&quot;&gt;آموزش آنلاین React پیشرفته&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[پیاده سازی localStorage و Persistence برای پروژه و Deploy کردن آن]]></title><description><![CDATA[برای داشتن Persistence در پروژه لازم هست که دیتاها در Database ای در مرورگر ذخیره بشوند.
 که یکی از پرکاربردترین‌های آن‌ها localStorage…]]></description><link>https://fa.ehsangazar.com/react-localstorage-persistence-an-deploy/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-localstorage-persistence-an-deploy/</guid><pubDate>Tue, 25 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;برای داشتن Persistence در پروژه لازم هست که دیتاها در Database ای در مرورگر ذخیره بشوند.
 که یکی از پرکاربردترین‌های آن‌ها localStorage هست.
 &lt;br /&gt;
@@ -636,7 +665,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;بررسی پشت صحنه‌ی تکنولوژی‌های استفاده شده در Create React App و تنظیمات پیش‌فرض&lt;/li&gt;
 &lt;li&gt;Eslint چیست و چگونه از آن استفاده کنیم&lt;/li&gt;
 &lt;li&gt;استفاده از editorconfig در پروژه&lt;/li&gt;
-&lt;li&gt;Prettier چیست و چگونه از آن در کنار ESlint استفاده کنیم&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/react-how-to-use-eslint-with-prettier&quot;&gt;Prettier چیست و چگونه از آن در کنار ESlint استفاده کنیم&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;کار با NextJs&lt;/h2&gt;
 &lt;ul&gt;
