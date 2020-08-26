@@ -3,9 +3,9 @@ import { Link, graphql } from 'gatsby'
 import { Button } from 'react-bootstrap'
 import Layout from '../components/Layout/Layout'
 import SEO from '../components/SEO/SEO'
-import SpecialMessage from '../components/SpecialMessage/SpecialMessage'
 import Video from '../components/Video/Video'
 import MyApp from '../contexts/MyApp'
+import { Disqus } from 'gatsby-plugin-disqus'
 
 const BlogPost = ({ data, location }) => {
   const post = data.markdownRemark
@@ -100,6 +100,14 @@ const BlogPost = ({ data, location }) => {
                   <section dangerouslySetInnerHTML={{ __html: post.html }} />
                 </article>
                 <div className="space-8" />
+                <Disqus
+                  config={{
+                    url: `https://fa.ehsangazar.com/${location.pathname}`,
+                    identifier: data.markdownRemark.id,
+                    title: data.markdownRemark.title,
+                    language: 'fa',
+                  }}
+                />
               </div>
             </div>
           </div>

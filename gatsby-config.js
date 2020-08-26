@@ -84,5 +84,11 @@ module.exports = {
       },
     },
     'gatsby-plugin-extract-schema',
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `persian-ehsangazar`,
+      },
+    },
   ],
 }
