@@ -96,7 +96,9 @@ const BlogPost = ({ data, location }) => {
                   </div>
                 )}
                 <div className="space-2" />
-                <section dangerouslySetInnerHTML={{ __html: post.html }} />
+                <article>
+                  <section dangerouslySetInnerHTML={{ __html: post.html }} />
+                </article>
                 <div className="space-8" />
               </div>
             </div>
