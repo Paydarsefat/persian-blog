@@ -20,7 +20,7 @@ const SpecialOffer = ({ location }) => {
 
   return (
     <>
-      <SpecialMessage />
+      {/* <SpecialMessage /> */}
       {!location.pathname.includes('-course') && (
         <div className="courses">
           <div className="courses-single">

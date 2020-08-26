@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from "react"
-import { OutboundLink } from "gatsby-plugin-google-analytics"
+import React, { useState, useEffect } from 'react'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import reactBasicImage from './React-Basic.png'
 import reactAdvancedImage from './React-Advanced.png'
-import { useQueryParam, StringParam } from "use-query-params"
+import { useQueryParam, StringParam } from 'use-query-params'
 import { Link } from 'gatsby'
-import { Button, Form, Alert } from "react-bootstrap"
+import { Button, Form, Alert } from 'react-bootstrap'
 import NewsletterConfirmModal from '../NewsletterConfirmModal/NewsletterConfirmModal'
 import NewsletterRegisterModal from '../NewsletterRegisterModal/NewsletterRegisterModal'
-import fetchHandler from "../../utils/fetchHandler"
+import fetchHandler from '../../utils/fetchHandler'
 
 const Footer = ({ location }) => {
   const [showNewsletterModal, setShowNewsletterModal] = useState(false)
   const [showConfirmEmailModal, setShowConfirmEmailModal] = useState(false)
-  const [email, setEmail] = useState("")
+  const [email, setEmail] = useState('')
   const [
     isLoadingNewsletterModalSubmit,
     setLoadingNewsletterModalSubmit,
@@ -25,15 +25,18 @@ const Footer = ({ location }) => {
     responseOfApiRegisteringNewsletter,
     setResponseOfApiRegisteringNewsletter,
   ] = useState(null)
-  const [newsletterEmailToken, setNewsletterEmailToken] = useQueryParam("newsletterEmailToken", StringParam)
-  const [modal, setModalToken] = useQueryParam("modal", StringParam)
+  const [newsletterEmailToken, setNewsletterEmailToken] = useQueryParam(
+    'newsletterEmailToken',
+    StringParam
+  )
+  const [modal, setModalToken] = useQueryParam('modal', StringParam)
 
   const handleCloseNewsletterModal = () => setShowNewsletterModal(false)
   const handleCloseConfirmEmailModal = () => setShowConfirmEmailModal(false)
-  const handleChangeNewsletterEmail = event => setEmail(event.target.value)
+  const handleChangeNewsletterEmail = (event) => setEmail(event.target.value)
 
   useEffect(() => {
-    if (!localStorage.getItem("newsletter")) {
+    if (!localStorage.getItem('newsletter')) {
       setTimeout(() => {
         setShowNewsletterModal(true)
       }, 10000)
@@ -41,7 +44,7 @@ const Footer = ({ location }) => {
   }, [])
 
   useEffect(() => {
-    if (newsletterEmailToken){
+    if (newsletterEmailToken) {
       handleConfirmEmail()
     }
   }, [])
@@ -57,8 +60,8 @@ const Footer = ({ location }) => {
     setShowConfirmEmailModal(true)
     try {
       await fetchHandler({
-        method: "POST",
-        url: "/api/v1/newsletter/validate",
+        method: 'POST',
+        url: '/api/v1/newsletter/validate',
         body: {
           security_hash: newsletterEmailToken,
         },
@@ -69,27 +72,27 @@ const Footer = ({ location }) => {
     setIsLoadingNewsletterConfirmModal(false)
   }
 
-  const handleSubmitRegisterNewsletter = async event => {
+  const handleSubmitRegisterNewsletter = async (event) => {
     if (event) event.preventDefault()
     setLoadingNewsletterModalSubmit(true)
-    localStorage.setItem("newsletter", true)
+    localStorage.setItem('newsletter', true)
     try {
       const result = await fetchHandler({
-        method: "POST",
-        url: "/api/v1/newsletter/register",
+        method: 'POST',
+        url: '/api/v1/newsletter/register',
         body: {
           email,
         },
       })
       if (result.data.success) {
         setResponseOfApiRegisteringNewsletter({
-          type: "success",
+          type: 'success',
           message:
-            "با تشکر، ایمیلی به شما ارسال شده است، لطفا آن‌را باز کنید و روی گزینه تایید ایمیل کلیک نمایید.",
+            'با تشکر، ایمیلی به شما ارسال شده است، لطفا آن‌را باز کنید و روی گزینه تایید ایمیل کلیک نمایید.',
         })
       } else {
         setResponseOfApiRegisteringNewsletter({
-          type: "danger",
+          type: 'danger',
           message: result.data.message,
         })
       }
@@ -130,7 +133,7 @@ const Footer = ({ location }) => {
                     href="https://t.me/ehsangazar"
                   >
                     تلگرام
-                  </OutboundLink>{" "}
+                  </OutboundLink>{' '}
                   من، یا ایمیلی به me@ehsangazar.com بفرستید.
                 </p>
               </div>
@@ -256,7 +259,7 @@ const Footer = ({ location }) => {
                       <OutboundLink
                         rel="noopener noreferrer"
                         target="_blank"
-                        href="https://t.me/ehsangazar"
+                        href="https://t.me/fa_ehsangazar_com"
                       >
                         <i className="fab fa-telegram"></i>
                       </OutboundLink>
@@ -279,17 +282,19 @@ const Footer = ({ location }) => {
           <p>Ehsan Gazar ©</p>
         </div>
 
-        <NewsletterRegisterModal 
+        <NewsletterRegisterModal
           email={email}
           showNewsletterModal={showNewsletterModal}
           handleCloseNewsletterModal={handleCloseNewsletterModal}
           isLoadingNewsletterModalSubmit={isLoadingNewsletterModalSubmit}
           handleChangeNewsletterEmail={handleChangeNewsletterEmail}
           handleSubmitRegisterNewsletter={handleSubmitRegisterNewsletter}
-          responseOfApiRegisteringNewsletter={responseOfApiRegisteringNewsletter}
+          responseOfApiRegisteringNewsletter={
+            responseOfApiRegisteringNewsletter
+          }
         />
 
-        <NewsletterConfirmModal 
+        <NewsletterConfirmModal
           showConfirmEmailModal={showConfirmEmailModal}
           handleCloseConfirmEmailModal={handleCloseConfirmEmailModal}
           isLoadingNewsletterConfirmModal={isLoadingNewsletterConfirmModal}
@@ -299,4 +304,4 @@ const Footer = ({ location }) => {
   )
 }
 
-export default Footer;
+export default Footer
