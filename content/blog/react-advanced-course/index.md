@@ -50,7 +50,7 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - بررسی پشت صحنه‌ی تکنولوژی‌های استفاده شده در Create React App و تنظیمات پیش‌فرض
 - Eslint چیست و چگونه از آن استفاده کنیم
 - استفاده از editorconfig در پروژه
-- Prettier چیست و چگونه از آن در کنار ESlint استفاده کنیم
+- [Prettier چیست و چگونه از آن در کنار ESlint استفاده کنیم](/react-how-to-use-eslint-with-prettier)
 
 ## کار با NextJs
 

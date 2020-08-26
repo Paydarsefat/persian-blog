@@ -4,8 +4,8 @@ import { Button } from 'react-bootstrap'
 import Layout from '../components/Layout/Layout'
 import SEO from '../components/SEO/SEO'
 import Video from '../components/Video/Video'
+import Comment from '../components/Comment/Comment'
 import MyApp from '../contexts/MyApp'
-import { Disqus } from 'gatsby-plugin-disqus'
 
 const BlogPost = ({ data, location }) => {
   const post = data.markdownRemark
@@ -20,6 +20,8 @@ const BlogPost = ({ data, location }) => {
       app.modal.setModalToShow('buyModal')
     }
   }
+
+  const uniquePath = post.fields.slug
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -100,14 +102,7 @@ const BlogPost = ({ data, location }) => {
                   <section dangerouslySetInnerHTML={{ __html: post.html }} />
                 </article>
                 <div className="space-8" />
-                <Disqus
-                  config={{
-                    url: `https://fa.ehsangazar.com/${location.pathname}`,
-                    identifier: data.markdownRemark.id,
-                    title: data.markdownRemark.title,
-                    language: 'fa',
-                  }}
-                />
+                <Comment uniquePath={uniquePath} />
               </div>
             </div>
           </div>
@@ -130,6 +125,9 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
