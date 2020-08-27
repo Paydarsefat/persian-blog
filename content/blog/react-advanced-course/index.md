@@ -56,7 +56,7 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 
 - معرفی NextJs و نصب آن و بررسی کارهای پشت زمینه آن
 - چگونه در NextJs بتوانیم صفحات مختلف داشته باشیم و Routing برای آن‌ها پیاده‌سازی کنیم
-- Server Side Rendering یا SSR چیست و چه کاربردی دارد
+- [Server Side Rendering یا SSR چیست و چه کاربردی دارد](/what-is-ssr-and-how-it-works-in-nextjs)
 - کار کردن با SSR و ویرایش HTML و داشتن Layout برای پروژه
 
 ## کار با CSS و روش‌های مختلف Style دادن به پروژه
