@@ -8,9 +8,9 @@ videoSourceURL: https://www.youtube.com/embed/0AjrPsQ5nPo
 videoTitle: 'دوره آنلاین React JS مقدماتی'
 ---
 
-# طول دوره: بیش از ۵ ساعت
+# طول دوره: بیش از ۸ ساعت
 
-# تعدا ویدئو‌ها: بیش از ۴۰ ویدئو
+# تعدا ویدئو‌ها: بیش از ۵۰ ویدئو
 
 چندین سالی هست که React JS به لیست Library های JavaScript اضافه شده و می‌دونین که خب توسط Facebook هم مدیریت میشه و ورژن های جدیدش ارائه میشه.
 
@@ -75,6 +75,8 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 
 # محتوای دوره
 
+<div class="course-items">
+
 - ابزار‌ها و محیط برنامه‌نویسی با React
 - [آشنایی با مفاهیم React و تفاوت آن با سایر کتابخانه‌ها](/react-basic-concepts)
 - JSX چیست و چطور از Babel استفاده کنیم
@@ -107,7 +109,7 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 - آماده‌سازی پروژه Create React App برای محیط Production
 - چطور با Now JS پروژه‌ی خود را در Deploy کنیم
 
-## ویدئو‌های سوالات متداول
+- ## ویدئو‌های سوالات متداول
 
 - راه‌های نمایش عکس در پروژه
 - [چگونه از eslint برای استانداردسازی codebase همراه با vscode استفاده کنیم](/react-basic-how-to-use-eslint-vscode)
@@ -119,17 +121,17 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 - چگونه در پروژه‌های React می‌توانیم Slideshow داشته باشیم
 - [آشنایی با White Pages و کد زدن Loading و Placeholder برای بخش های مختلف سایت](/react-loading-state-and-coding-placeholder)
 
-## تکلیف دوره
+- ## تکلیف دوره
 
 - پیاده ‌سازی یک اپلیکیشن Todo با React
 
-## جلسات آنلاین / رفع اشکال و بررسی کد‌ها
+- ## جلسات آنلاین / رفع اشکال و بررسی کد‌ها
 
 - کلاس آنلاین بررسی و Refactoring برای یک نمونه کد Timer
 - کلاس آنلاین برای بررسی کد سنگ کاغذ قیچی
 - کلاس آنلاین درس برای بررسی پروژه Todo
 
-## برنامه‌نویسی تکلیف دوره و پروژه Todo <span class="red">( آپلود شده در تاریخ ۲۰ مرداد ۱۳۹۹)</span>
+- ## برنامه‌نویسی تکلیف دوره و پروژه Todo <span class="red">( آپلود شده در تاریخ ۲۰ مرداد ۱۳۹۹)</span>
 
 - شروع پروژه، نصب پیش‌نیاز ها و ساختن ساختار پروژه
 - برنامه‌نویسی استایل‌های اولیه و ساختار کامپوننت‌ها
@@ -137,3 +139,5 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 - اضافه کردن فانکشن‌های AddTask, DeleteTask
 - اضافه کردن Filtering و تغییر وضعیت تسک‌ها
 - [پیاده سازی localStorage و Persistence برای پروژه و Deploy کردن آن](/react-localstorage-persistence-an-deploy)
+
+</div>

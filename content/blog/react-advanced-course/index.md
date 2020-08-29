@@ -8,9 +8,9 @@ videoSourceURL: https://www.youtube.com/embed/DLxoJ7RaWXM
 videoTitle: 'دوره آنلاین React JS پیشرفته'
 ---
 
-# طول دوره: بیش از ۷ ساعت
+# طول دوره: بیش از ۱۱ ساعت
 
-# تعدا ویدئو‌ها: بیش از ۶۰ ویدئو
+# تعدا ویدئو‌ها: بیش از ۷۰ ویدئو
 
 بعد از پیشرفتی که در دوره React مقدماتی از دانشجویان دیدم، بیش از پیش علاقه‌مند شدم که دوره‌ای را به عنوان React پپیشرفته برگزار کنم.
 
@@ -44,7 +44,9 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 
 # محتوای دوره
 
-## مقدمات
+<div class="course-items">
+
+- ## مقدمات
 
 - چه تکنولوژی‌ها در این دوره یاد خواهیم گرفت؟ از Eslint، Prettier, GraphQL,Webpack, Testing
 - بررسی پشت صحنه‌ی تکنولوژی‌های استفاده شده در Create React App و تنظیمات پیش‌فرض
@@ -52,14 +54,14 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - استفاده از editorconfig در پروژه
 - [Prettier چیست و چگونه از آن در کنار ESlint استفاده کنیم](/react-how-to-use-eslint-with-prettier)
 
-## کار با NextJs
+- ## کار با NextJs
 
 - معرفی NextJs و نصب آن و بررسی کارهای پشت زمینه آن
 - چگونه در NextJs بتوانیم صفحات مختلف داشته باشیم و Routing برای آن‌ها پیاده‌سازی کنیم
 - [Server Side Rendering یا SSR چیست و چه کاربردی دارد](/what-is-ssr-and-how-it-works-in-nextjs)
 - کار کردن با SSR و ویرایش HTML و داشتن Layout برای پروژه
 
-## کار با CSS و روش‌های مختلف Style دادن به پروژه
+- ## کار با CSS و روش‌های مختلف Style دادن به پروژه
 
 - معرفی و مرور CSS و LESS و SASS و روش کار با آن
 - معرفی و نحوه‌ی کار با CSS MODULE
@@ -68,13 +70,13 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - کار با کتابخانه Emotion
 - شروع پروژه Remote Jobb برای پیاده‌سازی تمامی دانش‌های این ‌دوره
 
-## معرفی Design Pattern ها و Best Practice ها در پروژه های React
+- ## معرفی Design Pattern ها و Best Practice ها در پروژه های React
 
 - معرفی ساختار Components و Containers یا کامپونتت‌های ساده و باهوش!
 - معرفی ساختار HOC یا Higher Order Components
 - برنامه نویسی یک Custom Hook و معرفی این ساختار
 
-## شروع پیاده‌سازی یک Design System و برنامه ‌نویسی کامپوننت‌های Basic و Reusable پروژه
+- ## شروع پیاده‌سازی یک Design System و برنامه ‌نویسی کامپوننت‌های Basic و Reusable پروژه
 
 - پیاده‌سازی صفحه لاگین و کامپوننت‌های Input و ‌Button
 - چگونه در پروژه Theming را پیاده‌سازی کنیم
@@ -85,12 +87,12 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - معرفی پروژه Styleguidist و روش پیاده‌سازی آن و استفاده از MDX Format ها
 - پیاده‌سازی Design System برای پروژه Remote Jobb
 
-## پیاده‌سازی Routing و استفاده از Next Js Route
+- ## پیاده‌سازی Routing و استفاده از Next Js Route
 
 - پیاده‌سازی Form ها و Routing بین آن‌ها
 - استفاده از Link و پیاده‌سازی Hyperlink Component
 
-## کار با Redux
+- ## کار با Redux
 
 - معرفی State Management و آشنایی با Redux
 - راه‌اندازی و نصب Redux
@@ -100,29 +102,29 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - پیاده‌سازی state های مختلف برای صدا کردن API ها, LOADING, STARTED و FAILED
 - صدا کردن API ها در سرور و Dispatch کردن در Server Side Rendering با Next JS
 
-## پیاده ‌سازی و معرفی Testing
+- ## پیاده ‌سازی و معرفی Testing
 
 - معرفی Testing و انواع آن
 - معرفی و برنامه‌نویسی Snapshot Testing
 - نوشتن Testingبرای DOM و کارکردن با صفحه
 
-## روش Deploy کردن پروژه
+- ## روش Deploy کردن پروژه
 
 - پروژه را در git قرار دهیم و در Vercel روی دامنه قرار دهیم
 
-## معرفی Restful APIs
+- ## معرفی Restful APIs
 
 - تعریف Restful API ها و نحوه‌ی کار کردن با آن‌ها
 - متصل کردن API ها Register و Login به App و کار با Swagger یا Postman
 - درست کردن صفحه مختص و routing در NextJs به اضافه ارسال Request برای دریافت از API
 
-## کار با Cookie و برنامه نویسی حالت های Authenticated در پروژه با SSR
+- ## کار با Cookie و برنامه نویسی حالت های Authenticated در پروژه با SSR
 
 - معرفی کتاب‌خانه Cookie Universal و کار کردن با Cookie ها
 - کار کردن با Cookie و Dispatch کردن در سمت سرور و انتقال State به کلاینت ساید
 - کار کردن با Cookie ها و بررسی Log Out کردن با کلیک روی خروج یا به صورت اتومات
 
-## معرفی و کار با GraphQL
+- ## معرفی و کار با GraphQL
 
 - معرفی GraphQL و کتاب‌خانه‌های Client Side کار با آن
 - چگونه با Documentation برای GraphQL کار کنیم و معرفی GraphiQL
@@ -131,13 +133,13 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - ارسال POST به API ها و آشنایی با useMutation
 - کار کردن با Polling و آپدیت کردن صفحه با Refresh
 
-## کار کردن با Gatsby JS
+- ## کار کردن با Gatsby JS
 
 - آشنایی با پروژه Gatsby JS
 - چطور در Gatsby JS یک پروژه جدید را شروع کنیم
 - برنامه‌نویسی بلاگ خودم یا fa.ehsangazar.com با پروژه Gatsby
 
-## آموزش Webpack <span className="red">( آپلود شده در تاریخ ۲۳ مرداد ۱۳۹۹)</span>
+- ## آموزش Webpack <span class="red">( آپلود شده در تاریخ ۲۳ مرداد ۱۳۹۹)</span>
 
 - معرفی Webpack و چرایی استفاده‌ از آن
 - شروع برنامه‌نویسی با Webpack برای یک پروژه‌ ساده
@@ -148,3 +150,5 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - استفاده از Mode و Webpack Clean Plugin و contentHash در تنظیمات Webpack
 - پیاده‌سازی Terser برای مینیفای کردن JS ها و معرفی Webpack DefinePlugin
 - پیاده سازی Code Splitting و Hot Module Reloading یا HMR در Webpack
+
+</div>

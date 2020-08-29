@@ -122,8 +122,8 @@ iframe {
 .buy-in-post {
   padding: 20px 0;
 }
-.buy-in-post h1 {
-  padding: 20px 0;
+.buy-in-post button {
+  margin: 20px 0;
 }
 .content-video {
   display: flex;
@@ -520,6 +520,14 @@ pre.language-javascript {
 pre.language-javascript * {
   font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
 }
+.course-items ul li {
+  list-style-type: persian;
+  list-style-position: outside;
+}
+.course-items ul {
+  padding-right: 40px;
+}
+
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {
     margin-top: 2.5em;

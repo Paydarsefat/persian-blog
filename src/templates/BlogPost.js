@@ -61,11 +61,10 @@ const BlogPost = ({ data, location }) => {
                 />
                 {location.pathname.includes('react-basic-course') && (
                   <div className="buy-in-post">
-                    <h1>خرید دوره</h1>
                     {/* <SpecialMessage /> */}
                     <Button
                       onClick={() => handleBuy('react-basic')}
-                      variant="info"
+                      variant="primary"
                       className="widthAll"
                     >
                       خرید دوره مقدماتی
@@ -74,11 +73,10 @@ const BlogPost = ({ data, location }) => {
                 )}
                 {location.pathname.includes('react-advanced-course') && (
                   <div className="buy-in-post">
-                    <h1>خرید دوره</h1>
                     {/* <SpecialMessage /> */}
                     <Button
                       onClick={() => handleBuy('react-advanced')}
-                      variant="info"
+                      variant="primary"
                       className="widthAll"
                     >
                       خرید دوره پیشرفته
