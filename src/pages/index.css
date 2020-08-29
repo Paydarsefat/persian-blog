@@ -432,7 +432,7 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
 .tab-buy-actions {
   display: flex;
   width: 100%;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .tab-buy-actions .btn {
   width: 100%;
@@ -501,6 +501,24 @@ a.nav-item.nav-link {
   width: 30px;
   height: 30px;
   margin-left: 10px;
+}
+.buy-number {
+  width: 100%;
+  text-align: center;
+  direction: ltr;
+  font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+  margin-top: 20px;
+}
+.buy-name {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+pre.language-javascript {
+  margin: 30px 0 !important;
+}
+pre.language-javascript * {
+  font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
 }
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {

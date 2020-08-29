@@ -149,6 +149,7 @@ const TabsInModalToBuy = ({ title, description, price, image }) => {
           <Tab eventKey="transfer" title="انتقال">
             <div className="tab-buy">
               لطفا مبلغ
+              {` `}
               {!discount && `${oldPrice} تومان`}
               {` `}
               {discount && (
@@ -157,17 +158,18 @@ const TabsInModalToBuy = ({ title, description, price, image }) => {
                 </>
               )}
               {` `}
-              را از طریق لینک زیر برای من واریز نمایید سپس پیغامی به
-              <a href="https://t.me/ehsangazar"> تلگرام </a>
-              من بدهید.
+              را به شماره حساب زیر واریز نمایید
+              <div className="buy-number">6104 3374 9981 1279</div>
+              <div className="buy-name">زینب ناصری</div>
+              سپس رسید خرید را برای من ارسال نمایید
               <div className="tab-buy-actions">
                 <OutboundLink
                   rel="noopener noreferrer"
                   className="btn btn-success"
                   target="_blank"
-                  href="https://me.pay.ir/ehsangazar"
+                  href="https://t.me/ehsangazar"
                 >
-                  پرداخت
+                  تلگرام
                 </OutboundLink>
               </div>
             </div>
