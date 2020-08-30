@@ -67,7 +67,7 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - معرفی و نحوه‌ی کار با CSS MODULE
 - معرفی و کار با CSS in JS
 - کار با کتابخانه StyledComponents
-- کار با کتابخانه Emotion
+- [کار با کتابخانه Emotion](/how-to-work-with-emotion-js-react)
 - شروع پروژه Remote Jobb برای پیاده‌سازی تمامی دانش‌های این ‌دوره
 
 - ## معرفی Design Pattern ها و Best Practice ها در پروژه های React
