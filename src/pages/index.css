@@ -540,6 +540,7 @@ pre.language-javascript * {
   }
   .courses {
     flex-direction: column;
+    margin-top: 40px;
   }
   .courses .courses-single {
     padding-top: 100px;
@@ -556,6 +557,7 @@ pre.language-javascript * {
   }
   .auth-buttons button {
     margin: 5px 0;
+    width: 100%;
   }
   .newsletter-body img {
     max-width: 100px;
