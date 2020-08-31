@@ -3,6 +3,7 @@ import { Modal } from 'react-bootstrap'
 import TabsInModalToBuy from '../TabsInModalToBuy/TabsInModalToBuy'
 import reactBasicImage from './../Footer/React-Basic.png'
 import reactAdvancedImage from './../Footer/React-Advanced.png'
+import javaScriptImage from './../Footer/JavaScript.png'
 import MyApp from '../../contexts/MyApp'
 
 const BuyModal = ({ showBuyModal, handleCloseBuyModal, isLoadingBuyModal }) => {
@@ -30,6 +31,15 @@ const BuyModal = ({ showBuyModal, handleCloseBuyModal, isLoadingBuyModal }) => {
             description="دوره‌ای که در آن با مقدمات برنامه‌نویسی وب آشنا‌ می‌شوید و یاد
                   میگیرید با React وب‌سایت بنویسید"
             price="870000"
+          />
+        )}
+        {app.process.processName === 'javascript' && (
+          <TabsInModalToBuy
+            image={javaScriptImage}
+            title="دوره کامل آموزش جاوا اسکریپت ورژن ES6 به بعد"
+            description="در این دوره با تمامی ویژگی های جاوا اسکریپت ES6 به بعد همراه با
+                ابزارهای جدید آشنا می‌شوید"
+            price="440000"
           />
         )}
       </Modal.Body>

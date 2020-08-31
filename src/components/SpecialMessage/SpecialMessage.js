@@ -1,12 +1,18 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const SpecialMessage = () => {
   return (
     <div className="special">
       <div className="alert alert-info widthAll">
-        به مناسبت بازگشایی این وب‌سایت می‌توانید تا ۵ شهریور با کد تخفیف
-        <span className="speacial-code">fa.ehsangazar.com</span>
-        از ۴۰ درصد تخفیف برای خرید دوره‌ها استفاده‌ کنید
+        برای همکاری با بنیاد{' '}
+        <Link to="/yarra-foundation-charity" className="secondary">
+          {' '}
+          خیریه یارا{' '}
+        </Link>{' '}
+        و آماده سازی دوره جاوا اسکریپت ES6 با وارد کردن کد{' '}
+        <span className="speacial-code">yarrafoundation.com</span> می‌توانید از
+        تخفیف ۵۰ درصدی برای دوره‌ها برخوردار شوید{' '}
       </div>
     </div>
   )

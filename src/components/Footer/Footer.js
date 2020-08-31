@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import reactBasicImage from './React-Basic.png'
 import reactAdvancedImage from './React-Advanced.png'
+import javaScriptImage from './../Footer/JavaScript.png'
 import { useQueryParam, StringParam } from 'use-query-params'
 import { Link } from 'gatsby'
 import { Button, Form, Alert } from 'react-bootstrap'
@@ -145,19 +146,22 @@ const Footer = ({ location }) => {
                 </div>
                 <div className="feature-post-block">
                   <div className="post-card -tiny">
-                    <Link className="card__cover" to="/react-basic-course">
-                      <img src={reactBasicImage} alt="دوره React JS مقدماتی" />
+                    <Link
+                      className="card__cover"
+                      to="/es6-es7-etc-babel-webpack-javascript-course"
+                    >
+                      <img src={javaScriptImage} alt="دوره React JS پیشرفته" />
                     </Link>
                     <div className="card__content">
                       <Link
                         className="card__content-link"
-                        to="/react-basic-course"
+                        to="/es6-es7-etc-babel-webpack-javascript-course"
                       >
-                        دوره React JS مقدماتی
+                        دوره کامل آموزش جاوا اسکریپت ورژن ES6 به بعد
                       </Link>
                       <p>
-                        دوره‌ای که در آن با مقدمات برنامه‌نویسی وب آشنا‌ می‌شوید
-                        و یاد میگیرید با React وب‌سایت بنویسید
+                        در این دوره با تمامی ویژگی های جاوا اسکریپت ES6 به بعد
+                        همراه با ابزارهای جدید آشنا می‌شوید
                       </p>
                     </div>
                   </div>
@@ -179,6 +183,23 @@ const Footer = ({ location }) => {
                         برای برنامه‌نویسی FrontEnd نیازمندید به صورت حرفه‌ای
                         React,Next JS, Webpack و تکنولوژی‌های دیگری مثل GraphQL
                         و Testing را بدانید که در این دوره می‌توانید یاد بگیرید
+                      </p>
+                    </div>
+                  </div>
+                  <div className="post-card -tiny">
+                    <Link className="card__cover" to="/react-basic-course">
+                      <img src={reactBasicImage} alt="دوره React JS مقدماتی" />
+                    </Link>
+                    <div className="card__content">
+                      <Link
+                        className="card__content-link"
+                        to="/react-basic-course"
+                      >
+                        دوره React JS مقدماتی
+                      </Link>
+                      <p>
+                        دوره‌ای که در آن با مقدمات برنامه‌نویسی وب آشنا‌ می‌شوید
+                        و یاد میگیرید با React وب‌سایت بنویسید
                       </p>
                     </div>
                   </div>

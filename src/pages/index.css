@@ -74,6 +74,16 @@ a {
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
+
+a.secondary {
+  text-decoration: none;
+  color: #16a3b8;
+}
+.alert a.secondary {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 a:hover {
   color: #df6945;
 }
@@ -124,6 +134,10 @@ iframe {
 }
 .buy-in-post button {
   margin: 20px 0;
+}
+.buy-in-post .note {
+  margin-top: -15px;
+  text-align: center;
 }
 .content-video {
   display: flex;
@@ -190,13 +204,19 @@ strike,
   color: #ee3470;
   padding: 0 4px;
 }
+.note {
+  color: #ee3470;
+  font-size: 10px;
+  line-height: 20px;
+  padding: 5px 0;
+}
 pre.language-javascript {
   background-color: #eee !important;
   direction: ltr !important;
 }
 .special {
   position: relative;
-  max-width: 1000px;
+  max-width: 1150px;
   margin: 0 auto;
   display: flex;
 }
@@ -205,20 +225,29 @@ pre.language-javascript {
   max-width: 1000px;
   margin: 0px auto;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .courses .courses-single {
-  flex: 0 0 50%;
+  flex: 0 0 33%;
   padding-top: 50px;
+  padding-bottom: 20px;
   display: flex;
-  padding-bottom: 50px;
 }
 .courses .courses-link img {
   width: 100px;
+}
+.courses .courses-single p {
+  font-size: 13px;
+  height: 85px;
 }
 .courses .courses-content-title {
   padding-bottom: 10px;
   width: 100%;
   display: flex;
+  line-height: 27px;
+  height: 60px;
+  align-items: center;
 }
 .courses-content-price {
   padding-top: 7px;
@@ -359,6 +388,7 @@ header .header-wrapper .header__name {
 .card__content-link {
   padding-bottom: 10px;
   display: flex;
+  line-height: 27px;
 }
 .modal-footer .link {
   padding: 0 20px;
@@ -581,5 +611,8 @@ pre.language-javascript * {
   }
   .user-info .hi {
     display: none;
+  }
+  .special {
+    margin-top: 50px;
   }
 }

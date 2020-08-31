@@ -83,6 +83,29 @@ const BlogPost = ({ data, location }) => {
                     </Button>
                   </div>
                 )}
+                {location.pathname.includes('javascript') && (
+                  <div className="buy-in-post">
+                    {/* <SpecialMessage /> */}
+                    <Button
+                      onClick={() => handleBuy('javascript')}
+                      variant="primary"
+                      className="widthAll"
+                    >
+                      خرید دوره جاوا اسکریپت ES6
+                    </Button>
+                    <div class="note">
+                      سود فروش این دوره به حساب
+                      <Link
+                        to="/yarra-foundation-charity"
+                        className="secondary"
+                      >
+                        {' '}
+                        خیریه یارا{' '}
+                      </Link>
+                      واریز می‌شود
+                    </div>
+                  </div>
+                )}
               </div>
               <div className="col-12 col-md-8 col-lg-8 content">
                 <h1>{post.frontmatter.title}</h1>
