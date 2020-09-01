@@ -70,7 +70,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle} page="homepage">
       <SEO title={data.site.siteMetadata.author.summary} />
       <Posts posts={posts} />
-      {more && (
+      {false && (
         <div className="loadMore">
           <Button variant="secondary" onClick={handleShowMore}>
             مطالب بیشتر
@@ -95,7 +95,6 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 12
       skip: 0
     ) {
       edges {
