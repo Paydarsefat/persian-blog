@@ -49,7 +49,7 @@ const SpecialOffer = ({ location }) => {
               <Button onClick={() => handleBuy('javascript')} variant="info">
                 خرید دوره جاوا اسکریپت ES6
               </Button>
-              <div class="note">
+              <div className="note">
                 سود فروش این دوره به حساب
                 <Link to="/yarra-foundation-charity" className="secondary">
                   {' '}

@@ -158,8 +158,9 @@ export const pageQuery = graphql`
         videoTitle
         cover {
           childImageSharp {
-            fluid(maxWidth: 800) {
-              ...GatsbyImageSharpFluid
+            id
+            fluid {
+              src
             }
           }
         }

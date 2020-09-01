@@ -452,6 +452,22 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
 }
 .blog-masonry .post-card {
   margin-bottom: 40px;
+  animation: fadeIn 1s ease-out;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.loadMore {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-top: 1px solid #e1e1e1;
+  padding-top: 23px;
 }
 .buy-details p {
   padding: 10px 0;
