@@ -66,6 +66,7 @@ const AuthModals = () => {
     setShowConfirmEmailModal(false)
   }
   const handleCloseBuyModal = () => {
+    app.process.setProcessName(null)
     setShowBuyModal(false)
   }
 
