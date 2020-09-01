@@ -30,6 +30,10 @@ const RootLayout = ({ children }) => {
       logout()
     }
     setLoadingName('')
+
+    if (processName) {
+      setModalToShow('buyModal')
+    }
   }
 
   return (
