@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Sep 2020 14:07:36 GMT</lastBuildDate><item><title><![CDATA[دوره کامل آموزش جاوا اسکریپت ورژن ES6 به بعد]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/es6-es7-etc-babel-webpack-javascript-course/</link><guid isPermaLink="false">https://fa.ehsangazar.com/es6-es7-etc-babel-webpack-javascript-course/</guid><pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;این دوره با هدف سادگی بیان و کامل بودن، بهترین راه برای یادگیری جاوا اسکریپت با آخرین ویژگی‌های آن است. اگر مشتاق یادگیری هستید دست به کار شوید و من همراهتان در طول مسیر یادگیری خواهم بود.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 02 Sep 2020 22:04:35 GMT</lastBuildDate><item><title><![CDATA[معرفی ویژگی let و بررسی تفاوت آن با var و آشنایی با scope و ویژگی‌های آن‌ها - سوال رایج مصاحبه‌ها]]></title><description><![CDATA[یکی از سوالات رایج مصاحبه‌های فرانت‌اند، تفاوت این سه تایپ در جاوا اسکریپت هست. که نکته‌ی اساسی در آن‌ها اشاره به کلمه‌ی scope…]]></description><link>https://fa.ehsangazar.com/javascript-let-const-var-this-interview-question/</link><guid isPermaLink="false">https://fa.ehsangazar.com/javascript-let-const-var-this-interview-question/</guid><pubDate>Wed, 02 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از سوالات رایج مصاحبه‌های فرانت‌اند، تفاوت این سه تایپ در جاوا اسکریپت هست.&lt;/p&gt;
+&lt;p&gt;که نکته‌ی اساسی در آن‌ها اشاره به کلمه‌ی scope هست و این که بگویید scope در let و const به curly bracket ها ختم میشه ولی در var این موضوع صدق نمیکنه.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;جزئیات بیشتر را می‌توانید در ویدئو ببینید.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;این یکی از ویدئو‌های
+&lt;a href=&quot;/es6-es7-etc-babel-webpack-javascript-course&quot;&gt;دوره کامل آموزش جاوا اسکریپت ورژن ES6 به بعد&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[دوره کامل آموزش جاوا اسکریپت ورژن ES6 به بعد]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/es6-es7-etc-babel-webpack-javascript-course/</link><guid isPermaLink="false">https://fa.ehsangazar.com/es6-es7-etc-babel-webpack-javascript-course/</guid><pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;این دوره با هدف سادگی بیان و کامل بودن، بهترین راه برای یادگیری جاوا اسکریپت با آخرین ویژگی‌های آن است. اگر مشتاق یادگیری هستید دست به کار شوید و من همراهتان در طول مسیر یادگیری خواهم بود.&lt;/p&gt;
 &lt;br /&gt;
 &lt;h1&gt;طول دوره: بیش از ۷ ساعت&lt;/h1&gt;
 &lt;h1&gt;تعدا ویدئو‌ها: بیش از ۵۰ ویدئو&lt;/h1&gt;
@@ -19,7 +26,7 @@
 &lt;ul&gt;
 &lt;li&gt;معرفی ورژن‌های جاوا اسکریپت و بررسی آن‌ها&lt;/li&gt;
 &lt;li&gt;معرفی ویژگی const و تفاوت آن با var&lt;/li&gt;
-&lt;li&gt;معرفی ویژگی let و بررسی تفاوت آن با var و آشنایی با scope و ویژگی‌های آن‌ها - سوال رایج مصاحبه‌ها&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/javascript-let-const-var-this-interview-question&quot;&gt;معرفی ویژگی let و بررسی تفاوت آن با var و آشنایی با scope و ویژگی‌های آن‌ها - سوال رایج مصاحبه‌ها&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;معرفی ویژگی Arrow Function و بررسی تفاوت تعریف Function در حالت قدیم و جدید&lt;/li&gt;
 &lt;li&gt;معرفی تفاوت this در function های قدیمی با Arrow Functions - سوال رایج مصاحبه‌ها&lt;/li&gt;
 &lt;li&gt;چطور در function ها مقادیر default یا پیش‌فرض تعریف کنیم&lt;/li&gt;
