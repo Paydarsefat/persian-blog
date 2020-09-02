@@ -39,7 +39,7 @@ category: javascript
 
 - معرفی ورژن‌های جاوا اسکریپت و بررسی آن‌ها
 - معرفی ویژگی const و تفاوت آن با var
-- معرفی ویژگی let و بررسی تفاوت آن با var و آشنایی با scope و ویژگی‌های آن‌ها - سوال رایج مصاحبه‌ها
+- [معرفی ویژگی let و بررسی تفاوت آن با var و آشنایی با scope و ویژگی‌های آن‌ها - سوال رایج مصاحبه‌ها](/javascript-let-const-var-this-interview-question)
 - معرفی ویژگی Arrow Function و بررسی تفاوت تعریف Function در حالت قدیم و جدید
 - معرفی تفاوت this در function های قدیمی با Arrow Functions - سوال رایج مصاحبه‌ها
 - چطور در function ها مقادیر default یا پیش‌فرض تعریف کنیم
