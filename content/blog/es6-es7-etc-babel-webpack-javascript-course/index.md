@@ -49,7 +49,7 @@ category: javascript
 - استفاده از Shorthandو Compound و تعریف Method در JS
 - کار با Array Matching و تعریف چند متغیر از Array
 - کار با Object ها برای Destructuring و Matching
-- تعریف کلاس و ارث بری در جاوا اسکریپت
+- [تعریف کلاس و ارث بری در جاوا اسکریپت](/javascript-introducing-class-features)
 - کار با getter و setter در کلاس‌ها
 - آشنایی و معرفی Symbol
 - کار با Generator ها در JS
