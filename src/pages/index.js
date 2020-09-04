@@ -5,14 +5,18 @@ import SEO from '../components/SEO/SEO'
 import Posts from '../components/Posts/Posts'
 import { Button } from 'react-bootstrap'
 
+const PAGE_NUMBER = 15
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
-  const [posts, setPosts] = useState(data.allMarkdownRemark.edges.slice(0, 12))
-  const [skip, setSkip] = useState(12)
+  const [posts, setPosts] = useState(
+    data.allMarkdownRemark.edges.slice(0, PAGE_NUMBER)
+  )
+  const [skip, setSkip] = useState(PAGE_NUMBER)
   const [more, setMore] = useState(true)
 
   const handleShowMore = () => {
-    const newSkip = skip + 12
+    const newSkip = skip + PAGE_NUMBER
 
     setSkip(newSkip)
     setPosts(data.allMarkdownRemark.edges.slice(0, newSkip))
