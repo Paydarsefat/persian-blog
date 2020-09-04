@@ -9,7 +9,6 @@ import '../app/assets/css/plyr.min.css'
 import '../app/assets/css/style.css'
 import './index.css'
 import SpecialOffer from '../components/SpecialOffer/SpecialOffer'
-import aboutProfile from './about.png'
 
 const Courses = ({ location }) => {
   return (

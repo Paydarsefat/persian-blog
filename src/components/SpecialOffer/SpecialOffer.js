@@ -7,7 +7,7 @@ import javaScriptImage from './../Footer/JavaScript.png'
 import reactAdvancedImage from './../Footer/React-Advanced.png'
 import MyApp from '../../contexts/MyApp'
 
-const SpecialOffer = () => {
+const SpecialOffer = ({ location }) => {
   const app = useContext(MyApp)
 
   const handleBuy = (courseName) => {
