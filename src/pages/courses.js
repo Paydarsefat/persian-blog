@@ -16,7 +16,7 @@ const Courses = ({ location }) => {
     <Layout location={location} title={'دوره‌ها'} page="courses">
       <SEO title={'دوره‌های آموزشی'} />
       {/* <Banner /> */}
-      <div class="no-pd" id="content">
+      <div id="content">
         <div class="container">
           <div class="breadcrumb">
             <ul>

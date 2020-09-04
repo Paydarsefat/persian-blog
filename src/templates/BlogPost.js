@@ -37,7 +37,7 @@ const BlogPost = ({ data, location }) => {
           post.frontmatter.cover.childImageSharp.fluid.src
         }
       />
-      <div className="no-pd" id="content">
+      <div id="content">
         <div className="container">
           <div className="breadcrumb">
             <ul>

@@ -220,6 +220,9 @@ pre.language-javascript {
   margin: 0 auto;
   display: flex;
 }
+.special .alert.alert-info.widthAll {
+  padding: 18px 11vw;
+}
 .courses {
   position: relative;
   max-width: 1000px;
@@ -241,7 +244,6 @@ pre.language-javascript {
 }
 .courses .courses-single p {
   font-size: 13px;
-  height: 85px;
 }
 .courses .courses-content-title {
   padding-bottom: 10px;
@@ -456,6 +458,15 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
   margin-bottom: 40px;
   animation: fadeIn 1s ease-out;
 }
+.desktopOnly {
+  display: block;
+}
+.mobileOnly {
+  display: none;
+}
+.btn-dropdown.dropdown-toggle svg {
+  font-size: 25px;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -585,18 +596,26 @@ pre.language-javascript * {
   padding-right: 40px;
 }
 .main-page-posts {
-  margin-top: 100px;
+  margin-top: 50px;
 }
-
+.row.content-container {
+  margin: 0;
+}
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {
     margin-top: 2.5em;
   }
+  .btn-dropdown.dropdown-toggle::after {
+    display: none;
+  }
+  .desktopOnly {
+    display: none;
+  }
+  .mobileOnly {
+    display: block;
+  }
 }
 @media only screen and (max-width: 768px) {
-  .main-page-posts {
-    margin-top: 150px;
-  }
   .content-image {
     position: static;
     margin: 1em 0;
