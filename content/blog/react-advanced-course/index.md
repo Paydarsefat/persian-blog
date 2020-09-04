@@ -70,7 +70,7 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 
 - معرفی ساختار Components و Containers یا کامپونتت‌های ساده و باهوش!
 - معرفی ساختار HOC یا Higher Order Components
-- برنامه نویسی یک Custom Hook و معرفی این ساختار
+- [برنامه نویسی یک Custom Hook و معرفی این ساختار](/how-to-work-custom-hooks-react)
 
 - ## شروع پیاده‌سازی یک Design System و برنامه ‌نویسی کامپوننت‌های Basic و Reusable پروژه
 

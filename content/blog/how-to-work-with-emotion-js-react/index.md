@@ -1,11 +1,11 @@
 ---
-title: معرفی و کار با Emotion JS در پروژه React با Next JS
+title: برنامه نویسی یک Custom Hook و معرفی این ساختار
 date: '2020-08-30'
-videoSourceURL: https://www.youtube.com/embed/x7zppCq0yDY
-videoTitle: 'معرفی و کار با Emotion JS در پروژه React با Next JS'
+videoSourceURL: https://www.youtube.com/embed/FPe2wFFkWKU
+videoTitle: 'برنامه نویسی یک Custom Hook و معرفی این ساختار'
 cover: cover.png
 category: react-advanced
-description: 'معرفی و کار با Emotion JS در پروژه React با Next JS'
+description: 'برنامه نویسی یک Custom Hook و معرفی این ساختار'
 ---
 
 اگر با CSS in JS آشنایی دارید می‌دانید که کتابخانه‌های مختلفی از Radium تا Styled Component و حالا Emotion روش‌های مختلفی را برای پیاده سازی ارائه کردند.
