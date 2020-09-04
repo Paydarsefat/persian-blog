@@ -121,6 +121,7 @@ const TabsInModalToBuy = ({ title, description, price, image }) => {
       />
       <div className="tabs-buy">
         {(app.process.processName === 'react-advanced' ||
+          app.process.processName === 'javascript' ||
           app.process.processName === 'react-basic') && (
           <Tabs defaultActiveKey="transfer" id="uncontrolled-tab-example">
             <Tab eventKey="transfer" title="انتقال">
@@ -197,7 +198,7 @@ const TabsInModalToBuy = ({ title, description, price, image }) => {
             </Tab>
           </Tabs>
         )}
-        {app.process.processName === 'javascript' && (
+        {false && (
           <Tabs defaultActiveKey="transfer" id="uncontrolled-tab-example">
             <Tab eventKey="transfer" title="انتقال">
               <div className="tab-buy">
