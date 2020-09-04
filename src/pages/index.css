@@ -548,12 +548,21 @@ a.nav-item.nav-link {
   height: 30px;
   margin-left: 10px;
 }
+.buy-info {
+  margin: 15px 0;
+}
 .buy-number {
   width: 100%;
   text-align: center;
   direction: ltr;
   font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
   margin-top: 20px;
+}
+.buy-abroad {
+  width: 100%;
+  text-align: center;
+  direction: ltr;
+  font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
 }
 .buy-name {
   width: 100%;

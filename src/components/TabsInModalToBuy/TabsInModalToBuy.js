@@ -6,6 +6,7 @@ import formatPrice from '../../utils/formatPrice'
 import payirImage from './payir.png'
 import loading from '../Icon/loading.gif'
 import ProductDetail from '../ProductDetail/ProductDetail'
+import CodeForm from '../CodeForm/CodeForm'
 import MyApp from '../../contexts/MyApp'
 
 const TabsInModalToBuy = ({ title, description, price, image }) => {
@@ -110,71 +111,47 @@ const TabsInModalToBuy = ({ title, description, price, image }) => {
         oldPrice={oldPrice}
         newPrice={newPrice}
       />
-      <div className="buy-coupon">
-        <div className="buy-coupon-section">
-          <div className="buy-coupon-title">
-            {isLoadingCoupon && (
-              <img className="loading" src={loading} alt="loading" />
-            )}
-            <h5>کد تخفیف</h5>
-          </div>
-          <div className="coupon-form">
-            <Form onSubmit={!isLoadingCoupon ? handleSubmitCoupon : null}>
-              {responseCouponAPI && (
-                <Alert variant={responseCouponAPI.type}>
-                  {responseCouponAPI.message}
-                </Alert>
-              )}
-              <div className="coupon-form-inputs">
-                <Form.Control
-                  onChange={handleChangeCoupon}
-                  type="text"
-                  value={coupon}
-                  placeholder="کد تخفیف را وارد نمایید"
-                />
-                <Button
-                  variant="primary"
-                  type="submit"
-                  disabled={isLoadingCoupon}
-                >
-                  اعمال
-                </Button>
-              </div>
-            </Form>
-          </div>
-        </div>
-      </div>
+      <CodeForm
+        isLoadingCoupon={isLoadingCoupon}
+        loading={loading}
+        handleSubmitCoupon={handleSubmitCoupon}
+        responseCouponAPI={responseCouponAPI}
+        handleChangeCoupon={handleChangeCoupon}
+        coupon={coupon}
+      />
       <div className="tabs-buy">
-        <Tabs defaultActiveKey="transfer" id="uncontrolled-tab-example">
-          <Tab eventKey="transfer" title="انتقال">
-            <div className="tab-buy">
-              لطفا مبلغ
-              {` `}
-              {!discount && `${oldPrice} تومان`}
-              {` `}
-              {discount && (
-                <>
-                  <strike>{oldPrice}</strike> {newPrice} تومان
-                </>
-              )}
-              {` `}
-              را به شماره حساب زیر واریز نمایید
-              <div className="buy-number">6104 3374 9981 1279</div>
-              <div className="buy-name">زینب ناصری</div>
-              سپس رسید خرید را برای من ارسال نمایید
-              <div className="tab-buy-actions">
-                <OutboundLink
-                  rel="noopener noreferrer"
-                  className="btn btn-success"
-                  target="_blank"
-                  href="https://t.me/ehsangazar"
-                >
-                  تلگرام
-                </OutboundLink>
+        {(app.process.processName === 'react-advanced' ||
+          app.process.processName === 'react-basic') && (
+          <Tabs defaultActiveKey="transfer" id="uncontrolled-tab-example">
+            <Tab eventKey="transfer" title="انتقال">
+              <div className="tab-buy">
+                لطفا مبلغ
+                {` `}
+                {!discount && `${oldPrice} تومان`}
+                {` `}
+                {discount && (
+                  <>
+                    <strike>{oldPrice}</strike> {newPrice} تومان
+                  </>
+                )}
+                {` `}
+                را به شماره حساب زیر واریز نمایید
+                <div className="buy-number">6104 3374 9981 1279</div>
+                <div className="buy-name">زینب ناصری</div>
+                سپس رسید خرید را برای من ارسال نمایید
+                <div className="tab-buy-actions">
+                  <OutboundLink
+                    rel="noopener noreferrer"
+                    className="btn btn-success"
+                    target="_blank"
+                    href="https://t.me/ehsangazar"
+                  >
+                    تلگرام
+                  </OutboundLink>
+                </div>
               </div>
-            </div>
-          </Tab>
-          {/* <Tab eventKey="payir" title="درگاه پرداخت">
+            </Tab>
+            {/* <Tab eventKey="payir" title="درگاه پرداخت">
             <div className="tab-buy payir-section">
               <div className="payir-name">
                 <div className="payir-loading">
@@ -201,24 +178,91 @@ const TabsInModalToBuy = ({ title, description, price, image }) => {
               </div>
             </div>
           </Tab> */}
-          <Tab eventKey="paypal" title="پی‌پال">
-            <div className="tab-buy">
-              اگر خارج ایران هستید، میتوانید از Paypal برای پرداخت استفاده کنید،
-              فقط کافی است معادل دلاری دوره را به حساب
-              <OutboundLink
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://www.paypal.me/ehsangazar"
-              >
-                {' '}
-                پی‌پال{' '}
-              </OutboundLink>
-              من واریز کنید و سپس مسیجی در
-              <a href="https://t.me/ehsangazar"> تلگرام </a>
-              برای من بفرستید.
-            </div>
-          </Tab>
-        </Tabs>
+            <Tab eventKey="paypal" title="پی‌پال">
+              <div className="tab-buy">
+                اگر خارج ایران هستید، میتوانید از Paypal برای پرداخت استفاده
+                کنید، فقط کافی است معادل دلاری دوره را به حساب
+                <OutboundLink
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://www.paypal.me/ehsangazar"
+                >
+                  {' '}
+                  پی‌پال{' '}
+                </OutboundLink>
+                من واریز کنید و سپس مسیجی در
+                <a href="https://t.me/ehsangazar"> تلگرام </a>
+                برای من بفرستید.
+              </div>
+            </Tab>
+          </Tabs>
+        )}
+        {app.process.processName === 'javascript' && (
+          <Tabs defaultActiveKey="transfer" id="uncontrolled-tab-example">
+            <Tab eventKey="transfer" title="انتقال">
+              <div className="tab-buy">
+                لطفا مبلغ
+                {` `}
+                {!discount && `${oldPrice} تومان`}
+                {` `}
+                {discount && (
+                  <>
+                    <strike>{oldPrice}</strike> {newPrice} تومان
+                  </>
+                )}
+                {` `}
+                را به شماره حساب زیر واریز نمایید
+                <div className="buy-number">6037 6974 7422 9348</div>
+                <div className="buy-name">بنیاد یارا - بانک صادرات ایران</div>
+                سپس رسید خرید را برای من ارسال نمایید
+                <div className="tab-buy-actions">
+                  <OutboundLink
+                    rel="noopener noreferrer"
+                    className="btn btn-success"
+                    target="_blank"
+                    href="https://t.me/ehsangazar"
+                  >
+                    تلگرام
+                  </OutboundLink>
+                </div>
+              </div>
+            </Tab>
+            <Tab eventKey="abroad" title="خارج از ایران">
+              <div className="tab-buy">
+                لطفا مبلغ
+                {` `}
+                {!discount && `${oldPrice} تومان`}
+                {` `}
+                {discount && (
+                  <>
+                    <strike>{oldPrice}</strike> {newPrice} تومان
+                  </>
+                )}
+                {` `}
+                را به شماره حساب زیر واریز نمایید
+                <div className="buy-info">
+                  <div className="buy-abroad">BSB Number: 193879</div>
+                  <div className="buy-abroad">Account Number: 449109401</div>
+                  <div className="buy-abroad">
+                    Account Name: Yarra Foundation Inc.
+                  </div>
+                  <div className="buy-abroad">Bank of Melbourne</div>
+                </div>
+                سپس رسید خرید را برای من ارسال نمایید
+                <div className="tab-buy-actions">
+                  <OutboundLink
+                    rel="noopener noreferrer"
+                    className="btn btn-success"
+                    target="_blank"
+                    href="https://t.me/ehsangazar"
+                  >
+                    تلگرام
+                  </OutboundLink>
+                </div>
+              </div>
+            </Tab>
+          </Tabs>
+        )}
       </div>
     </div>
   )
