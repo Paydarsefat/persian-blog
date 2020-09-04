@@ -1,6 +1,6 @@
 ---
 title: برنامه نویسی یک Custom Hook و معرفی این ساختار
-date: '2020-08-30'
+date: '2020-09-03'
 videoSourceURL: https://www.youtube.com/embed/x7zppCq0yDY
 videoTitle: 'برنامه نویسی یک Custom Hook و معرفی این ساختار'
 cover: cover.png
