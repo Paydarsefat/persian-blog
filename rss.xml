@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 04 Sep 2020 06:37:54 GMT</lastBuildDate><item><title><![CDATA[برنامه نویسی یک Custom Hook و معرفی این ساختار]]></title><description><![CDATA[یکی از دیزاین پترن‌هایی که در ورژن جدید React ارائه شد خب استفاده از Hooks ها بود که حتی می‌توانیم Custom Hook…]]></description><link>https://fa.ehsangazar.com/how-to-work-custom-hooks-react/</link><guid isPermaLink="false">https://fa.ehsangazar.com/how-to-work-custom-hooks-react/</guid><pubDate>Thu, 03 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از دیزاین پترن‌هایی که در ورژن جدید React ارائه شد خب استفاده از Hooks ها بود که حتی می‌توانیم Custom Hook خودمون رو هم برنامه نویسی کنیم&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 04 Sep 2020 08:48:28 GMT</lastBuildDate><item><title><![CDATA[تعریف کلاس و ارث بری در جاوا اسکریپت]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/javascript-introducing-class-features/</link><guid isPermaLink="false">https://fa.ehsangazar.com/javascript-introducing-class-features/</guid><pubDate>Fri, 04 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از ویژگی‌های جدید جاوا اسکریپت که کم و بیش استفاده‌های خودش را دارد و بین برنامه‌نویسان هم بحث بر انگیز است، ویژگی تعریف کلاس است که در سایر زبان‌ها بیشتر مرسوم است.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;در این ویدئو یاد میگیرید که چطور یک کلاس تعریف کنید و چطور Inheritance یا ارث بری رو تعریف کنید.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;جزئیات بیشتر را می‌توانید در ویدئو ببینید.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;این یکی از ویدئو‌های
+&lt;a href=&quot;/es6-es7-etc-babel-webpack-javascript-course&quot;&gt;دوره کامل آموزش جاوا اسکریپت ورژن ES6 به بعد&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[برنامه نویسی یک Custom Hook و معرفی این ساختار]]></title><description><![CDATA[یکی از دیزاین پترن‌هایی که در ورژن جدید React ارائه شد خب استفاده از Hooks ها بود که حتی می‌توانیم Custom Hook…]]></description><link>https://fa.ehsangazar.com/how-to-work-custom-hooks-react/</link><guid isPermaLink="false">https://fa.ehsangazar.com/how-to-work-custom-hooks-react/</guid><pubDate>Thu, 03 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از دیزاین پترن‌هایی که در ورژن جدید React ارائه شد خب استفاده از Hooks ها بود که حتی می‌توانیم Custom Hook خودمون رو هم برنامه نویسی کنیم&lt;/p&gt;
 &lt;br /&gt;
 &lt;p&gt;با کد زیر مثلا میتونید یک Custom hook برای کار با localStorage تعریف کنید.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;WINDOW&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../utils/window&apos;&lt;/span&gt;
@@ -58,7 +66,7 @@
 &lt;li&gt;استفاده از Shorthandو Compound و تعریف Method در JS&lt;/li&gt;
 &lt;li&gt;کار با Array Matching و تعریف چند متغیر از Array&lt;/li&gt;
 &lt;li&gt;کار با Object ها برای Destructuring و Matching&lt;/li&gt;
-&lt;li&gt;تعریف کلاس و ارث بری در جاوا اسکریپت&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/javascript-introducing-class-features&quot;&gt;تعریف کلاس و ارث بری در جاوا اسکریپت&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;کار با getter و setter در کلاس‌ها&lt;/li&gt;
 &lt;li&gt;آشنایی و معرفی Symbol&lt;/li&gt;
 &lt;li&gt;کار با Generator ها در JS&lt;/li&gt;
