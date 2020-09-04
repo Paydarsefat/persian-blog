@@ -31,6 +31,7 @@
 <url> <loc>https://fa.ehsangazar.com/what-is-git-github-bitbucket-gitlab/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/github-pages-static-html/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fa.ehsangazar.com/courses/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/profile/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
