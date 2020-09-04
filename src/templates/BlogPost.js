@@ -83,7 +83,9 @@ const BlogPost = ({ data, location }) => {
                     </Button>
                   </div>
                 )}
-                {location.pathname.includes('javascript') && (
+                {location.pathname.includes(
+                  'es6-es7-etc-babel-webpack-javascript-course'
+                ) && (
                   <div className="buy-in-post">
                     {/* <SpecialMessage /> */}
                     <Button

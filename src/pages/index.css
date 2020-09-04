@@ -226,6 +226,7 @@ pre.language-javascript {
   margin: 0px auto;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
 }
 .courses .courses-single {
@@ -235,7 +236,8 @@ pre.language-javascript {
   display: flex;
 }
 .courses .courses-link img {
-  width: 100px;
+  width: 240px;
+  max-width: 35vw;
 }
 .courses .courses-single p {
   font-size: 13px;
@@ -498,7 +500,7 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
   padding: 0 10px;
 }
 .special-offer-homepage {
-  padding-top: 100px;
+  padding-top: 0px;
 }
 .payir-name {
   display: flex;
@@ -582,6 +584,9 @@ pre.language-javascript * {
 .course-items ul {
   padding-right: 40px;
 }
+.main-page-posts {
+  margin-top: 100px;
+}
 
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {
@@ -589,6 +594,9 @@ pre.language-javascript * {
   }
 }
 @media only screen and (max-width: 768px) {
+  .main-page-posts {
+    margin-top: 150px;
+  }
   .content-image {
     position: static;
     margin: 1em 0;

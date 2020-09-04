@@ -1,7 +1,6 @@
 import React, { useState, useContext } from 'react'
 import AuthModals from '../AuthModals/AuthModals'
 import PaidModal from '../PaidModal/PaidModal'
-import SpecialOffer from '../SpecialOffer/SpecialOffer'
 import MyApp from '../../contexts/MyApp'
 import profileImage from './profile.png'
 import { Link, navigate } from 'gatsby'
@@ -41,6 +40,11 @@ const Header = ({ page, location }) => {
                 </li>
                 <li className={`nav-item ${page === 'about' ? 'active' : ''}`}>
                   <Link to="/about">درباره</Link>
+                </li>
+                <li
+                  className={`nav-item ${page === 'courses' ? 'active' : ''}`}
+                >
+                  <Link to="/courses">دوره‌ها</Link>
                 </li>
               </ul>
             </nav>
@@ -111,9 +115,7 @@ const Header = ({ page, location }) => {
           </div>
         </div>
       </header>
-      <div className="special-offer-homepage">
-        <SpecialOffer location={location} />
-      </div>
+
       <AuthModals />
       <PaidModal />
     </>
