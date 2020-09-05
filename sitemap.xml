@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://fa.ehsangazar.com/what-is-design-system-and-how-to-implement-it/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/javascript-introducing-class-features/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/how-to-work-custom-hooks-react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/javascript-let-const-var-this-interview-question/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/es6-es7-etc-babel-webpack-javascript-course/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/yarra-foundation-charity/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/how-to-work-with-emotion-js-react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fa.ehsangazar.com/what-is-design-system-and-how-to-implement-it/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/what-is-ssr-and-how-it-works-in-nextjs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/react-how-to-use-eslint-with-prettier/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/react-localstorage-persistence-an-deploy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/react-loading-state-and-coding-placeholder/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/react-basic-how-to-use-eslint-vscode/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fa.ehsangazar.com/react-how-to-use-devtool/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/react-how-to-use-use-router-use-context/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fa.ehsangazar.com/react-how-to-use-devtool/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/react-how-to-use-use-context/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/react-basic-how-to-work-with-react-router/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/react-basic-concepts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
