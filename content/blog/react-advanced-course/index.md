@@ -78,7 +78,7 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - چگونه در پروژه Theming را پیاده‌سازی کنیم
 - چگونه به پروژه Font اضافه کنیم و Global Styling داشته باشیم
 - پیاده‌سازی Typography در پروژه
-- تعریف Design System چیست و چه راه‌کارهایی برای آن وجود دارد
+- [تعریف Design System چیست و چه راه‌کارهایی برای آن وجود دارد](/what-is-design-system-and-how-to-implement-it)
 - معرفی پروژه Storybook JS
 - معرفی پروژه Styleguidist و روش پیاده‌سازی آن و استفاده از MDX Format ها
 - پیاده‌سازی Design System برای پروژه Remote Jobb
