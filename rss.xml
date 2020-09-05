@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 04 Sep 2020 12:16:50 GMT</lastBuildDate><item><title><![CDATA[تعریف کلاس و ارث بری در جاوا اسکریپت]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/javascript-introducing-class-features/</link><guid isPermaLink="false">https://fa.ehsangazar.com/javascript-introducing-class-features/</guid><pubDate>Fri, 04 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از ویژگی‌های جدید جاوا اسکریپت که کم و بیش استفاده‌های خودش را دارد و بین برنامه‌نویسان هم بحث بر انگیز است، ویژگی تعریف کلاس است که در سایر زبان‌ها بیشتر مرسوم است.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 05 Sep 2020 23:18:28 GMT</lastBuildDate><item><title><![CDATA[تعریف کلاس و ارث بری در جاوا اسکریپت]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/javascript-introducing-class-features/</link><guid isPermaLink="false">https://fa.ehsangazar.com/javascript-introducing-class-features/</guid><pubDate>Fri, 04 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از ویژگی‌های جدید جاوا اسکریپت که کم و بیش استفاده‌های خودش را دارد و بین برنامه‌نویسان هم بحث بر انگیز است، ویژگی تعریف کلاس است که در سایر زبان‌ها بیشتر مرسوم است.&lt;/p&gt;
 &lt;br /&gt;
 &lt;p&gt;در این ویدئو یاد میگیرید که چطور یک کلاس تعریف کنید و چطور Inheritance یا ارث بری رو تعریف کنید.&lt;/p&gt;
 &lt;br /&gt;
@@ -165,6 +165,16 @@
 &lt;br /&gt;
 &lt;p&gt;این یکی از ویدئو‌های
 &lt;a href=&quot;/react-advanced-course&quot;&gt;آموزش آنلاین React پیشرفته&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[تعریف Design System چیست و چه راه‌کارهایی برای آن وجود دارد]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/what-is-design-system-and-how-to-implement-it/</link><guid isPermaLink="false">https://fa.ehsangazar.com/what-is-design-system-and-how-to-implement-it/</guid><pubDate>Sun, 30 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;دیزاین سیستم اپلیکیشن یا نرم افزاری است که باعث میشه رابطه بین برنامه‌نویسان و دیزاینرها بهتر برقرار بشه.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;منظور به آن است که با در نظر گرفتن ساختار Atomic کامپونتت‌ها می توان پایه ترین کامپوننت‌ها رو در سیستم دیگری برای دمو در نظر گرفت و این باعث می‌شود که در طول زمان این تبدیل به یک منبع کامل برای بررسی تمام استایل وب‌سایت شود&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;تقریبا تمام اپلیکیشن‌های بزرگ این ساختار را به نحوی پیاده سازی می‌کنند که دو تا کتابخانه Styleguidist و StoryBook برای این کار معروف هستند.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;جزئیات بیشتر را می‌توانید در ویدئو ببینید.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;این یکی از ویدئو‌های
+&lt;a href=&quot;/react-advanced-course&quot;&gt;آموزش آنلاین React پیشرفته&lt;/a&gt;
 هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Server Side Rendering یا SSR چیست و چه کاربردی دارد]]></title><description><![CDATA[از ویژگی‌هایی که خیلی اسمش مطرح می‌شود Server Side Rendering یا SSR…]]></description><link>https://fa.ehsangazar.com/what-is-ssr-and-how-it-works-in-nextjs/</link><guid isPermaLink="false">https://fa.ehsangazar.com/what-is-ssr-and-how-it-works-in-nextjs/</guid><pubDate>Thu, 27 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;از ویژگی‌هایی که خیلی اسمش مطرح می‌شود Server Side Rendering یا SSR هست که خب در فرانت اند به معنی لود کردن اطلاعات سمت سرور هست.&lt;/p&gt;
 &lt;br /&gt;
 &lt;p&gt;خب وقتی که صفحه لود می‌شود اول HTML و CSS داخل صفحه قرار میگیرند و بعد JavaScript لود می‌شود. حال فرض کنید که Website شما با ابزارهای جاوااسکریپتی نوشته شده باشد مثل React یا Angular. در نتیجه همه چی در جاوااسکریپت قرار داد.&lt;/p&gt;
@@ -292,6 +302,12 @@ facebook و غیره، حتما از آن استفاده میکنند.&lt;/p&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;این یکی از ویدئو‌های
 &lt;a href=&quot;/react-basic-course&quot;&gt;آموزش آنلاین React مقدماتی&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[آشنایی با React DevTools به عنوان Browser Extension]]></title><description><![CDATA[یکی از مهم ترین و احتمالا پرکاربردترین روش‌ها برای debug کردن اپ‌های React استفاده از
+React Devtool هست که باهاش می‌تونید State و Props…]]></description><link>https://fa.ehsangazar.com/react-how-to-use-devtool/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-how-to-use-devtool/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از مهم ترین و احتمالا پرکاربردترین روش‌ها برای debug کردن اپ‌های React استفاده از
+React Devtool هست که باهاش می‌تونید State و Props ها و حتی ساختار درختی App رو ببینید.&lt;/p&gt;
+&lt;p&gt;در این ویدئو نشون میدم که چطور میتوانید این Extension رو نصب کنید و سپس Inspect کنید.&lt;/p&gt;
+&lt;p&gt;این یکی از ویدئو‌های
+&lt;a href=&quot;/react-basic-course&quot;&gt;آموزش آنلاین React مقدماتی&lt;/a&gt;
 هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[چطور از ترکیب useReducer و useContext استفاده کنیم]]></title><description><![CDATA[یکی از pattern هایی که ممکن است در برنامه‌نویسی FrontEnd مورد نیاز است ترکیب کردن
 useReducer و useContext…]]></description><link>https://fa.ehsangazar.com/react-how-to-use-use-router-use-context/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-how-to-use-use-router-use-context/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از pattern هایی که ممکن است در برنامه‌نویسی FrontEnd مورد نیاز است ترکیب کردن
 useReducer و useContext است که در اصل ساختار بسیار شبیهی به
@@ -364,12 +380,6 @@ Redux را درست میکند.&lt;/p&gt;
 &lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; Layout&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;این Pattern ساده خیلی از پیچیدگی‌های ارسال data به children های پایین تر را آسانتر می‌کند.
 و اگر تمیز پیاده شود می‌تواند ساختار Redux را به شما بدهد.&lt;/p&gt;
-&lt;p&gt;این یکی از ویدئو‌های
-&lt;a href=&quot;/react-basic-course&quot;&gt;آموزش آنلاین React مقدماتی&lt;/a&gt;
-هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[آشنایی با React DevTools به عنوان Browser Extension]]></title><description><![CDATA[یکی از مهم ترین و احتمالا پرکاربردترین روش‌ها برای debug کردن اپ‌های React استفاده از
-React Devtool هست که باهاش می‌تونید State و Props…]]></description><link>https://fa.ehsangazar.com/react-how-to-use-devtool/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-how-to-use-devtool/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از مهم ترین و احتمالا پرکاربردترین روش‌ها برای debug کردن اپ‌های React استفاده از
-React Devtool هست که باهاش می‌تونید State و Props ها و حتی ساختار درختی App رو ببینید.&lt;/p&gt;
-&lt;p&gt;در این ویدئو نشون میدم که چطور میتوانید این Extension رو نصب کنید و سپس Inspect کنید.&lt;/p&gt;
 &lt;p&gt;این یکی از ویدئو‌های
 &lt;a href=&quot;/react-basic-course&quot;&gt;آموزش آنلاین React مقدماتی&lt;/a&gt;
 هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[با Context آشنا شویم و از useContext استفاده کنیم]]></title><description><![CDATA[یکی از ویژگی‌های مطرح شده در React که خیلی از کارها ساده می‌کند استفاده از
@@ -869,7 +879,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;چگونه در پروژه Theming را پیاده‌سازی کنیم&lt;/li&gt;
 &lt;li&gt;چگونه به پروژه Font اضافه کنیم و Global Styling داشته باشیم&lt;/li&gt;
 &lt;li&gt;پیاده‌سازی Typography در پروژه&lt;/li&gt;
-&lt;li&gt;تعریف Design System چیست و چه راه‌کارهایی برای آن وجود دارد&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/what-is-design-system-and-how-to-implement-it&quot;&gt;تعریف Design System چیست و چه راه‌کارهایی برای آن وجود دارد&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;معرفی پروژه Storybook JS&lt;/li&gt;
 &lt;li&gt;معرفی پروژه Styleguidist و روش پیاده‌سازی آن و استفاده از MDX Format ها&lt;/li&gt;
 &lt;li&gt;پیاده‌سازی Design System برای پروژه Remote Jobb&lt;/li&gt;
