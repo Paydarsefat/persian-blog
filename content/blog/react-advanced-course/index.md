@@ -90,7 +90,7 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 
 - ## کار با Redux
 
-- معرفی State Management و آشنایی با Redux
+- [معرفی State Management و آشنایی با Redux](/introduction-to-redux-and-state-management)
 - راه‌اندازی و نصب Redux
 - کار با API ها در Redux
 - کار و نصب Redux Thunk برای راه‌اندازی Asynchronous Calls
