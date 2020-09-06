@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
 export default function HTML(props) {
   return (
@@ -15,6 +15,10 @@ export default function HTML(props) {
           rel="stylesheet"
           href="https://kit-pro.fontawesome.com/releases/v5.13.0/css/pro.min.css"
         />
+        <meta
+          name="google-site-verification"
+          content="google-site-verification=saWQVCW9DJpzI2vBo-TLK9mt9LII5HCc9U4eSS7gETY"
+        ></meta>
 
         {props.headComponents}
       </head>
