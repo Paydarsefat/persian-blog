@@ -56,8 +56,8 @@ category: javascript
 - کار با for ... of در جاوا اسکریپت
 - کار با Symbol Iterator
 - معرفی و کار با Set
-- کار با Data Type جدیدی به اسم Map
-- معرفی Object.assign و آشنایی با مفهوم Immutability
+- [کار با Data Type جدیدی به اسم Map](/javascript-introducing-map-data-type)
+- [معرفی Object.assign و آشنایی با مفهوم Immutability
 - کار با فانکشن‌های filter، findeIndex و find
 - کار با فانکشن‌های includes , startsWith و endWith و repeat برای String ها
 - کار با اعداد با فانکشن‌های isFinite، isNan, trunc, isSafeInteger و sign

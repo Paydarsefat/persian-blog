@@ -1,6 +1,6 @@
 ---
 title: تعریف Design System چیست و چه راه‌کارهایی برای آن وجود دارد
-date: '2020-09-06'
+date: '2020-09-05'
 videoSourceURL: https://www.youtube.com/embed/ETbCFLvvCnQ
 videoTitle: 'تعریف Design System چیست و چه راه‌کارهایی برای آن وجود دارد'
 cover: cover.png
