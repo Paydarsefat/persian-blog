@@ -70,7 +70,7 @@ category: javascript
 - کار با padStart و padEnd
 - آشنایی با Trailing comma
 - کار با Object.entries و Object.values
-- کار با Async Await در جاوا اسکریپت
+- [کار با Async Await در جاوا اسکریپت](/javascript-how-to-work-with-async-await)
 - معرفی && و || و \*\* در سناریوهای مختلف
 - کار با promise finally
 - معرفی و کار با Static Methods
