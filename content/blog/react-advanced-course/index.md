@@ -151,7 +151,7 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - ## کار با Cookie و برنامه نویسی حالت های Authenticated در پروژه با SSR
 
 - معرفی کتاب‌خانه Cookie Universal و کار کردن با Cookie ها
-- کار کردن با Cookie و Dispatch کردن در سمت سرور و انتقال State به کلاینت ساید
+- [کار کردن با Cookie و Dispatch کردن در سمت سرور و انتقال State به کلاینت ساید](/how-to-dispatch-redux-ssr-cookie-auth)
 - کار کردن با Cookie ها و بررسی Log Out کردن با کلیک روی خروج یا به صورت اتومات
 
 - ## معرفی و کار با GraphQL
