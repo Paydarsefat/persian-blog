@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Sep 2020 03:08:41 GMT</lastBuildDate><item><title><![CDATA[کار با Async Await در جاوا اسکریپت]]></title><description><![CDATA[ویژگی‌ای جدیدتری از Promise ها که در اصل در ورژن بعد از ES6 مطرح شد اسمش هست Async Await.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Sep 2020 04:03:42 GMT</lastBuildDate><item><title><![CDATA[کار با Async Await در جاوا اسکریپت]]></title><description><![CDATA[ویژگی‌ای جدیدتری از Promise ها که در اصل در ورژن بعد از ES6 مطرح شد اسمش هست Async Await.
  در اصل همان Promise…]]></description><link>https://fa.ehsangazar.com/javascript-how-to-work-with-async-await/</link><guid isPermaLink="false">https://fa.ehsangazar.com/javascript-how-to-work-with-async-await/</guid><pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ویژگی‌ای جدیدتری از Promise ها که در اصل در ورژن بعد از ES6 مطرح شد اسمش هست Async Await.
 &lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;در اصل همان Promise ها هستند ولی با ساختار متفاوتی تعریف می‌شوند و در نتیجه کدهای خیلی کمتری مینویسیم&lt;/p&gt;
@@ -1509,7 +1509,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;کلاس آنلاین برای بررسی کد سنگ کاغذ قیچی&lt;/li&gt;
 &lt;li&gt;کلاس آنلاین درس برای بررسی پروژه Todo&lt;/li&gt;
 &lt;li&gt;
-&lt;h2&gt;برنامه‌نویسی تکلیف دوره و پروژه Todo &lt;span class=&quot;red&quot;&gt;( آپلود شده در تاریخ ۲۰ مرداد ۱۳۹۹)&lt;/span&gt;&lt;/h2&gt;
+&lt;h2&gt;برنامه‌نویسی تکلیف دوره و پروژه Todo&lt;/h2&gt;
 &lt;/li&gt;
 &lt;li&gt;شروع پروژه، نصب پیش‌نیاز ها و ساختن ساختار پروژه&lt;/li&gt;
 &lt;li&gt;برنامه‌نویسی استایل‌های اولیه و ساختار کامپوننت‌ها&lt;/li&gt;
