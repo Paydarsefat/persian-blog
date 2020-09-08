@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Sep 2020 02:26:14 GMT</lastBuildDate><item><title><![CDATA[کار با Async Await در جاوا اسکریپت]]></title><description><![CDATA[ویژگی‌ای جدیدتری از Promise ها که در اصل در ورژن بعد از ES6 مطرح شد اسمش هست Async Await.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Sep 2020 02:55:35 GMT</lastBuildDate><item><title><![CDATA[کار با Async Await در جاوا اسکریپت]]></title><description><![CDATA[ویژگی‌ای جدیدتری از Promise ها که در اصل در ورژن بعد از ES6 مطرح شد اسمش هست Async Await.
  در اصل همان Promise…]]></description><link>https://fa.ehsangazar.com/javascript-how-to-work-with-async-await/</link><guid isPermaLink="false">https://fa.ehsangazar.com/javascript-how-to-work-with-async-await/</guid><pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ویژگی‌ای جدیدتری از Promise ها که در اصل در ورژن بعد از ES6 مطرح شد اسمش هست Async Await.
 &lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;در اصل همان Promise ها هستند ولی با ساختار متفاوتی تعریف می‌شوند و در نتیجه کدهای خیلی کمتری مینویسیم&lt;/p&gt;
@@ -936,6 +936,127 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;/ul&gt;
 &lt;p&gt;اگر با React کار کرده اید، یا FrontEnd Developer هستید این دوره برای شماست، دانش شما را در حد یک FrontEnd Engineer عالی بالا خواهد برد و سپس نمونه‌کار‌های شما می‌توانند اثباتی از دانش شما برای کاریابی یا ارتقاء شغلی باشد.&lt;/p&gt;
 &lt;p&gt;فرانت اند با سرعت زیادی تغییر می‌کند، ابزار‌های جدیدی هر روز ارائه می‌شوند و من مطمئن خواهم شد که این دوره همچنان آپدیت بماند.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;چرا این تکنولوژی‌ها انتخاب شده‌اند؟&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;من سال‌هاست که به بخشی از کارم FrontEnd هست و این ترکیب تکنولوژی‌هایی است که در حال حاضر استفاده میکنم. شاید بسیاری از فرصت های شغلی این همه ابزار برای یادگیری لازم نداشته باشند، ولی در ازای دوره‌ای که برگزار میکنم هدف کامل بودن هست و تمام دانشی که مرتبط با React پیشرفته هست در این دوره ارائه شده و با تغییر تکنولوژی‌ها و سوالات دوستان در حال آپدیت هستم&lt;/p&gt;
+&lt;h1&gt;پروژه‌ها&lt;/h1&gt;
+&lt;p&gt;رای این که بعد از دیدن ویدئو ها مطمئن بشیم که به خوبی محتواها رو به خاطر سپردید و میتونین استفاده کنین لازم هست پروژه‌ی عملی ای انجام بدین.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;مشخصا سوالات زیادی براتون مطرح خواهد شد که در گروه تلگرامی دوره میتونین مطرح کنین و اگر سوالات کمی متداوم بشن مسلما من ویدئوی تکمیلی به دوره اضافه خواهم کرد و جواب سوالات رو خواهم داد.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;پروژه‌هایی که در طول دوره انجام شده‌اند:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://todo-app-5hwjlgaxy.vercel.app/&quot; title=&quot;پروژه Remote Jobb&quot;&gt;پروژه Remote Jobb همراه با ورود و ثبت نام&lt;/a&gt;
+&lt;br /&gt;
+(لیستی از API ها نیز در اختیارتان برای توسعه شخصی قرار خواهد گرفت)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4b207a5a0ec2973161f1249077c37f1a/5bd27/remote.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 109.45945945945948%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAABYlAAAWJQFJUiTwAAACvklEQVQ4y6VUS08TURS+P0T3JkYKaEwUEKXERAGNqARFNMGNsnHh3g26U9dAYty4MC78ASYkqAuiiCYEtLUU+pj3o9OZdlqgJZ/n3unUpraRpDf5ct7fPffMadkvycTixzi+bqnIuy4MJw/zELDyLhTDJN3HRnwFn7+8heWWwFYSCqZereD9t224rgM917q42ed4BXzfiGF1bR3zH5Yws/gamuWA2dSVV/DguJ4oDBES2eTnOpehHsaCPAcJ2cCPpEyvI8J/nlMj48WprIT1zU3EElv4GYsLaeSchgsDYsfz4BYKQmctZ0SBrKrh9/YO4hmJOlARl2QkMlkkU2kxu+YxhLNnjc9shGbnoBCpsraK5PIS0p+WocZjUEwLBsXa1TH+hFYw3QJMVYX25DG0RzPQHkxBf/cGVnkPJhEGeUFnAjWblXf3UGqJ3UDuV/5ib7/uL9dy/HKA0MfQ4fH9ImzLQs62Ua1Ugg7doo+CX4Ln+4RSTQ/tZgR+nsN30bAdsXL5QhHVgwMw7lQtu/6lNCuHHUkhaTfMpsWMKSbpBrbSWcSSKcj05Q84oV8uI1e7waFd4jIEt9uCGhEvKwWdcogOXSrUwzWodSTrZrDA//ktZzUdSdrTFO0pf1mlWgXjXypXuy1P4LfrRCa6Fb5iG/iijhNLmgGbJD9MVg1IigZJ1UnqQsqUULfbgeJZqstIKjKyhjTNXaE6NjB2F/2jHNOHxgDl941MIzp+H6O3Z3F58iFGbs1i8Mo9sGNnxhAZHEf3+euIELovcNxAF/mETeghOyLi4+gZCnQeP31xEryhvpE7Qh7vvwp24tw19A7dxMnoBHqjXAbgPm4L3/BEXT/FdYqFZGcvTQlwUn454911ESknDmWz3uxrFRN+4mJHIlEc7RjDApyLPXu5gE7wlDD3fB5zL+aF3vGfQ/P5A5ePnWvfoRr9AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;پروژه Remote Jobb&quot;
+        title=&quot;پروژه Remote Jobb&quot;
+        src=&quot;/static/4b207a5a0ec2973161f1249077c37f1a/fcda8/remote.png&quot;
+        srcset=&quot;/static/4b207a5a0ec2973161f1249077c37f1a/12f09/remote.png 148w,
+/static/4b207a5a0ec2973161f1249077c37f1a/e4a3f/remote.png 295w,
+/static/4b207a5a0ec2973161f1249077c37f1a/fcda8/remote.png 590w,
+/static/4b207a5a0ec2973161f1249077c37f1a/efc66/remote.png 885w,
+/static/4b207a5a0ec2973161f1249077c37f1a/c83ae/remote.png 1180w,
+/static/4b207a5a0ec2973161f1249077c37f1a/5bd27/remote.png 1432w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://fa.ehsangazar.com/&quot; title=&quot;پروژه سایت فارسی شخصی&quot;&gt;پروژه سایت فارسی شخصی&lt;/a&gt;
+&lt;br /&gt;
+(سایتی که در آن هستید در طی این دوره با Gatsby توسعه داده شده است)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7a8d77fedadedcaa741a62baa351c4c3/f8836/ehsan.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 129.7297297297297%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAACXBIWXMAABYlAAAWJQFJUiTwAAAEuElEQVRIx31V228UZRTnX/DJF1+NMfgHaCTRJ+It0dgYnxSK1QRMQzQpiOiDNQGFUsRUbgVtWi61aQ0KaSkFFOQaoN3dQinLspeZnd2ZnZ3dndm5336emdmua7t1ki/f+c6c7+Sc8zvn963RNA2GrqMi1/G4UIZKsqrp0Gmv1xXIsgxFUWjJkGmvVKsQSiJyuTQEoQjDNMleg9ZYa0Cf7yP87qclPIrHAM+C63qhrlqt0SU7lP1UCf4sA/3mIvRrDwEt0rd+a3zy5nnR5dt34jj7yyGYYgG2ZiCRmMfI8AnMxXNILDAwZhIoH5nB3YFhXNt9EBDqCGLxPR+Bn2CFDkkVRWnLUMU8FFmBR4p6vY6SwFN6HBhGgDXPojI9h8yZq0iNX4RX06PI/RUOI6WiaigWipCoNo6pwzAMsNkMMqkkTIPOlgmpIkKk/ybJnu817zZTjjYffksddBfgamYoW7YdrqAsFtXVJsOgcqbrh1mscBiG2kCmwPGoF/N4//DfWPvtDDSKMF8sIs2wqBPq9wULF+M8rtwv4UZGhWJ57R0Gn+u6kDgOp85dw1PdY3h6xxT4UgWLnIh5hkepVEVMcDB89QEunTyDi39cRs1pZLc85RDphvLmIot9kzGMz3HQdBPpHItk6kkIlKBYWMjxmE0sIMmVYTmrpdxQWNSkVVGAo0jhWVXryBEouUwaNblKN23oikA2DPWqRhZeo4fbRIjwN+B4ERg2lWDJ0HUcaKqJB2kD0zcMXLjt4NKsB1n9P1AcBSf/nMTgiePIco9QzMiYv3cPqM2hd8dhvLZ+Fw6OJjB8LoMtfTVs6adyFCJQPK8NKA6N29jM7zg0egqLhSwMiohj87g+dR67e39F356z6BsuYe9pETuPqvjiiI0cv6rDqI6m7YDLMyiyDAFCpEHNnEkz4At5WJYGQTJx/dZj3Ly1gFRWgt0OlOUKhxzZdnQORk8sl1Aul4llak0b09Kbcuvd/6RcJ+rZfnwUvWPnsW/wOxwYGYTjuHBkHZaqB3lh8rfT6Pt6O4Z/2IuB/XtpTLlGyt6/Dpf6j6/KePa9jXhl82fo3PoB3u3+GAW2iDsTU8gmElBLAiYGvsc7LzyDjpeew4trn0csPt8cihURKkRX3fsP4fP+A9j248/48thpqqOFSp6HIpWpyi5mZ6ZxuPcbfLVrD7Zv2wmGbRNhax0caux8JgMmm4bvOvBsQjrPhs1tmlF/VoKJKUvNVl61hsEuEM3neB55lkVJLIOVNCSTSXKYhSiKcGs1aAwD+ckTuHT2HWd1cqgRulOxOQyOj+P1t97Ehs4unLqygP7+/ejq6kJPTw/Yzd3wPtkC89OtMD7cBO9RMnLYmvKSQ0lV8dfiQwwM/ISX161D56aP8DhXwIXpC+jo6MCGjZ1Ir38D9XWvQnq7AwbJ3lwsctgOlGB249TU4xMTGDp+DNMzlzF9N4WRoaHwPDk1BZmmRjg6CO7oMSijY/AkabVZjhTVSoUAyaLI5YkMVKJ9Lew1nlbwHARMzVKTp5gcqgTSEjH7q4HiL3Ej1SRYgawRU2v0TodnysIPntegZsG9FrZfwYf+stdrqbfi8wuIJR40SaDVxm/zpvwD4tJz3LxhAmUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;پروژه سایت فارسی شخصی&quot;
+        title=&quot;پروژه سایت فارسی شخصی&quot;
+        src=&quot;/static/7a8d77fedadedcaa741a62baa351c4c3/fcda8/ehsan.png&quot;
+        srcset=&quot;/static/7a8d77fedadedcaa741a62baa351c4c3/12f09/ehsan.png 148w,
+/static/7a8d77fedadedcaa741a62baa351c4c3/e4a3f/ehsan.png 295w,
+/static/7a8d77fedadedcaa741a62baa351c4c3/fcda8/ehsan.png 590w,
+/static/7a8d77fedadedcaa741a62baa351c4c3/efc66/ehsan.png 885w,
+/static/7a8d77fedadedcaa741a62baa351c4c3/c83ae/ehsan.png 1180w,
+/static/7a8d77fedadedcaa741a62baa351c4c3/f8836/ehsan.png 1214w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;پروژه فروشگاهی برای یادگیری WebPack
+&lt;br /&gt;
+(در طی دوره پروژه‌ای فروشگاهی تعریف می‌شود و با استفاده از Webpack کار Bundle سازی آن را انجام میدهیم.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8e820bf4546930ecaa55b341a3af4ca8/d9ed5/shop.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB5klEQVQoz31STYvTUBTNjxAFwYX+DP+A/8ClCKMDgzu3Cq4H9124UURQZMCFxcLICB27MogLF85QtdNqO800efl4L8lLXpLjva820lHnwuHl3a/cd89xiqKE7wssCHGcIE0zlKUB++dzD0KEEKFCFKXIspziOfJc23hRGJur0gJxksE7SeBEUYz5QiCMJZRSGI8nmEx+YDqdoa4brKz582ktz3P6SQSuDwIaaOEjSahhEAQ4pkmkVNQwhda6Lfr88RN2Xvaw29vDcHiA56/f4UXvPb4MRzZeVZWFMcaCvx3fD+xUR6Oxfe5odITt7YdwP7i4u3UHl85dxoXzV3Dv/gNcvb6Fi9c20Xn2yjasT49NZp/MewrDiJ7VYH9/gE7nEQ4PDvHk8VPcuHkbG7c2sPd2F9+/fUW3+4Z2Gv1eQ/MXnCSRdg9aF2hoZ34kkOrMFija02T2sy2enhwTMVl7/5c5zBI3YxhTQSpJzJV0N8iooS40SlPTWRKbyubkulybcK0h07+SCZ+nE/ms63rtfhacpZ6WqKoaZxmz+L+nthMuKa+saOM4JqZTqzEG74tlxEpgnXFcSmn9HOdc1iv7OY/9Tr/fx2AwIPa6cF3XijUMwxZ89zwPs9mycBXnUwhBDadWJSv/L+fnOhYSteosAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;پروژه فروشگاهی برای یادگیری WebPack&quot;
+        title=&quot;پروژه فروشگاهی برای یادگیری WebPack&quot;
+        src=&quot;/static/8e820bf4546930ecaa55b341a3af4ca8/fcda8/shop.png&quot;
+        srcset=&quot;/static/8e820bf4546930ecaa55b341a3af4ca8/12f09/shop.png 148w,
+/static/8e820bf4546930ecaa55b341a3af4ca8/e4a3f/shop.png 295w,
+/static/8e820bf4546930ecaa55b341a3af4ca8/fcda8/shop.png 590w,
+/static/8e820bf4546930ecaa55b341a3af4ca8/efc66/shop.png 885w,
+/static/8e820bf4546930ecaa55b341a3af4ca8/c83ae/shop.png 1180w,
+/static/8e820bf4546930ecaa55b341a3af4ca8/d9ed5/shop.png 2880w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h1&gt;محتوای دوره&lt;/h1&gt;
 &lt;div class=&quot;course-items&quot;&gt;
 &lt;ul&gt;
@@ -1099,7 +1220,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;شما میتوانید انیمیشن و عکس و آیکن در پروژه استفاده کنید و ساختار خوبی به پروژه خود بدهید&lt;/li&gt;
 &lt;li&gt;شما با کتابخانه Create React App کار خواهید کرد و به آن مسلط می‌شوید&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;پروژه&lt;/h1&gt;
+&lt;h1&gt;پروژه‌ها&lt;/h1&gt;
 &lt;p&gt;برای این که بعد از دیدن ویدئو ها مطمئن بشیم که به خوبی محتواها رو به خاطر سپردید و میتونین استفاده کنین لازم هست پروژه‌ی عملی ای انجام بدین. پیشنهاد من تعریف یک پروژه شخصی هست که در طول دوره اون رو develop کنید.&lt;/p&gt;
 &lt;p&gt;مشخصا سوالات زیادی براتون مطرح خواهد شد که در گروه تلگرامی دوره میتونین مطرح کنین و اگر سوالات کمی متداوم بشن مسلما من ویدئوی تکمیلی به دوره اضافه خواهم کرد و جواب سوالات رو خواهم داد.&lt;/p&gt;
 &lt;p&gt;شما می‌تونید این پروژه رو به راحتی جزوی از رزومتون قرار بدین و برای کارهای Junior تا Mid-Level در برنامه نویسی FrontEnd درخواست بدین.&lt;/p&gt;
