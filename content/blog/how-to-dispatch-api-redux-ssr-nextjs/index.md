@@ -4,7 +4,7 @@ date: '2020-09-08'
 videoSourceURL: https://www.youtube.com/embed/aOzwgcUJWQs
 videoTitle: 'صدا کردن API در SSR برای NextJS با Dispatch در Redux'
 number: 2
-cover: cover.png
+cover: cover.jpg
 category: react-advanced
 description: 'صدا کردن API در SSR برای NextJS با Dispatch در Redux'
 ---
