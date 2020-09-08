@@ -54,11 +54,24 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 
 - [تکلیف دوره یا پروژه Todo](https://todo-app-5hwjlgaxy.vercel.app/ 'تکلیف دوره یا پروژه Todo')
 
+<br />
+
 ![alt text](todo.png 'تکلیف دوره یا پروژه Todo')
+<br />
 
 - [پروژه فروشگاهی ساده همراه با سبد خرید](https://react-for-beginners.now.sh 'پروژه فروشگاهی ساده همراه با سبد خرید')
 
+<br />
+
 ![alt text](shop.png 'پروژه فروشگاهی ساده همراه با سبد خرید')
+
+<br />
+
+- وب‌سایت شخصی برای رزومه با Figma
+
+<br />
+
+![alt text](personal.png 'پیاده ‌سازی یک وب‌سایت شخصی برای رزومه')
 
 # سوالات متداول:
 
