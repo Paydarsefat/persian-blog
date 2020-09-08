@@ -507,6 +507,9 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
 .buy-coupon-section h5 {
   padding-bottom: 10px;
 }
+code.language-text {
+  direction: ltr !important;
+}
 .speacial-code {
   padding: 0 10px;
 }

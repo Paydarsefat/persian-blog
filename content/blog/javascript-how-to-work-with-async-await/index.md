@@ -3,6 +3,7 @@ title: کار با Async Await در جاوا اسکریپت
 date: '2020-09-08'
 description: 'کار با Async Await در جاوا اسکریپت'
 videoSourceURL: https://www.youtube.com/embed/1jVXS8jVu_I
+number: 1
 videoTitle: 'کار با Async Await در جاوا اسکریپت'
 cover: cover.png
 category: javascript
