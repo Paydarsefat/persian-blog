@@ -604,6 +604,9 @@ pre.language-javascript * {
 .row.content-container {
   margin: 0;
 }
+.ltr {
+  direction: ltr;
+}
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {
     margin-top: 2.5em;
