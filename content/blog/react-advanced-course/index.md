@@ -130,7 +130,7 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - کار و نصب Redux Thunk برای راه‌اندازی Asynchronous Calls
 - پیاده‌سازی fetchUrl
 - پیاده‌سازی state های مختلف برای صدا کردن API ها, LOADING, STARTED و FAILED
-- [صدا کردن API در getInitialProps برای NextJS با Dispatch در Redux](/how-to-dispatch-api-redux-ssr-nextjs)
+- [صدا کردن API در SSR برای NextJS با Dispatch در Redux](/how-to-dispatch-api-redux-ssr-nextjs)
 
 - ## پیاده ‌سازی و معرفی Testing
 
