@@ -1,10 +1,10 @@
 ---
 title: کار کردن با Cookie و Dispatch کردن در سمت سرور و انتقال State به کلاینت ساید
 date: '2020-09-09'
-videoSourceURL: https://www.youtube.com/embed/aOzwgcUJWQs
+videoSourceURL: https://www.youtube.com/embed/H7780-Gtr3g
 videoTitle: 'کار کردن با Cookie و Dispatch کردن در سمت سرور و انتقال State به کلاینت ساید'
 number: 2
-cover: cover.png
+cover: cover.jpg
 category: react-advanced
 description: 'کار کردن با Cookie و Dispatch کردن در سمت سرور و انتقال State به کلاینت ساید'
 ---
