@@ -36,13 +36,13 @@ const Footer = ({ location }) => {
   const handleCloseConfirmEmailModal = () => setShowConfirmEmailModal(false)
   const handleChangeNewsletterEmail = (event) => setEmail(event.target.value)
 
-  useEffect(() => {
-    if (!localStorage.getItem('newsletter')) {
-      setTimeout(() => {
-        setShowNewsletterModal(true)
-      }, 10000)
-    }
-  }, [])
+  // useEffect(() => {
+  //   if (!localStorage.getItem('newsletter')) {
+  //     setTimeout(() => {
+  //       setShowNewsletterModal(true)
+  //     }, 10000)
+  //   }
+  // }, [])
 
   useEffect(() => {
     if (newsletterEmailToken) {
