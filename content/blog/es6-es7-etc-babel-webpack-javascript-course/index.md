@@ -82,7 +82,7 @@ category: javascript
 
 - ## ویژگی‌های آزمایشی ES2020 برای جاوا اسکریپت
 
-- معرفی Nullish coalescing operator یا (??)
+- [معرفی Nullish coalescing operator یا (??)](/javascript-how-to-work-with-nullish-coalescing-operator)
 - کار با Optional Chaining یا (?.)
 - کار با Promise allSettled
 
