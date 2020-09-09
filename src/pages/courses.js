@@ -28,10 +28,8 @@ const Courses = ({ location }) => {
             </ul>
           </div>
           <div class="about-us">
-            <div class="row content-container">
-              <div className="special-offer-homepage">
-                <SpecialOffer location={location} />
-              </div>
+            <div className="about-us">
+              <SpecialOffer location={location} />
             </div>
           </div>
         </div>

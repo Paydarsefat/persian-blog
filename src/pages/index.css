@@ -223,41 +223,11 @@ pre.language-javascript {
 .special .alert.alert-info.widthAll {
   padding: 18px 11vw;
 }
-.courses {
-  position: relative;
-  max-width: 1000px;
-  margin: 0px auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
+.no-decoration {
+  text-decoration: none;
 }
-.courses .courses-single {
-  flex: 0 0 33%;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  display: flex;
-}
-.courses .courses-link img {
-  width: 240px;
-  max-width: 35vw;
-}
-.courses .courses-single p {
-  font-size: 13px;
-}
-.courses .courses-content-title {
-  padding-bottom: 10px;
-  width: 100%;
-  display: flex;
-  line-height: 27px;
-  height: 60px;
-  align-items: center;
-}
-.courses-content-price {
-  padding-top: 7px;
-  display: flex;
-  width: 100%;
-  margin-bottom: 20px;
+.margin-left-10 {
+  margin-left: 10px;
 }
 #content {
   padding-top: 50px;
@@ -606,6 +576,9 @@ pre.language-javascript * {
 }
 .ltr {
   direction: ltr;
+}
+.buy-details h4 {
+  line-height: 40px;
 }
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {
