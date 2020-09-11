@@ -584,6 +584,10 @@ pre.language-javascript * {
   height: 75px;
   width: 75px;
   margin: 0 11px;
+  background: none;
+}
+.social-block a:hover {
+  background: none;
 }
 .post-card.-tiny {
   margin-bottom: 50px;
