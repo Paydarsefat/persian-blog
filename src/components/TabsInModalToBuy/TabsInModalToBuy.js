@@ -36,6 +36,7 @@ const TabsInModalToBuy = ({ title, description, price, image }) => {
         url: '/api/v1/code/check',
         body: {
           code: coupon,
+          processName: app.process.processName,
         },
         auth: true,
       })
@@ -120,150 +121,53 @@ const TabsInModalToBuy = ({ title, description, price, image }) => {
         coupon={coupon}
       />
       <div className="tabs-buy">
-        {(app.process.processName === 'react-advanced' ||
-          app.process.processName === 'javascript' ||
-          app.process.processName === 'react-basic') && (
-          <Tabs defaultActiveKey="transfer" id="uncontrolled-tab-example">
-            <Tab eventKey="transfer" title="انتقال">
-              <div className="tab-buy">
-                لطفا مبلغ
-                {` `}
-                {!discount && `${oldPrice} تومان`}
-                {` `}
-                {discount && (
-                  <>
-                    <strike>{oldPrice}</strike> {newPrice} تومان
-                  </>
-                )}
-                {` `}
-                را به شماره حساب زیر واریز نمایید
-                <div className="buy-number">6104 3374 9981 1279</div>
-                <div className="buy-name">زینب ناصری</div>
-                سپس رسید خرید را برای من ارسال نمایید
-                <div className="tab-buy-actions">
-                  <OutboundLink
-                    rel="noopener noreferrer"
-                    className="btn btn-success"
-                    target="_blank"
-                    href="https://t.me/ehsangazar"
-                  >
-                    تلگرام
-                  </OutboundLink>
-                </div>
-              </div>
-            </Tab>
-            {/* <Tab eventKey="payir" title="درگاه پرداخت">
-            <div className="tab-buy payir-section">
-              <div className="payir-name">
-                <div className="payir-loading">
-                  {isLoadingGetToken && (
-                    <img className="loading" src={loading} alt="loading" />
-                  )}
-                </div>
-                <div>
-                  <img src={payirImage} alt="payir" />
-                </div>
-                <div>استفاده از درگاه پرداخت pay.ir</div>
-              </div>
-              <div className="payir-button">
-                <Button
-                  variant="primary"
-                  type="submit"
-                  className="widthAll"
-                  onClick={handleGetToken}
-                  disabled={isLoadingGetToken}
-                >
-                  {isLoadingGetToken && 'در حال انتقال'}
-                  {!isLoadingGetToken && 'انتقال به درگاه بانک'}
-                </Button>
-              </div>
-            </div>
-          </Tab> */}
-            <Tab eventKey="paypal" title="پی‌پال">
-              <div className="tab-buy">
-                اگر خارج ایران هستید، میتوانید از Paypal برای پرداخت استفاده
-                کنید، فقط کافی است معادل دلاری دوره را به حساب
+        <Tabs defaultActiveKey="transfer" id="uncontrolled-tab-example">
+          <Tab eventKey="transfer" title="انتقال">
+            <div className="tab-buy">
+              لطفا مبلغ
+              {` `}
+              {!discount && `${oldPrice} تومان`}
+              {` `}
+              {discount && (
+                <>
+                  <strike>{oldPrice}</strike> {newPrice} تومان
+                </>
+              )}
+              {` `}
+              را به شماره حساب زیر واریز نمایید
+              <div className="buy-number">6104 3374 9981 1279</div>
+              <div className="buy-name">زینب ناصری</div>
+              سپس رسید خرید را برای من ارسال نمایید
+              <div className="tab-buy-actions">
                 <OutboundLink
                   rel="noopener noreferrer"
+                  className="btn btn-success"
                   target="_blank"
-                  href="https://www.paypal.me/ehsangazar"
+                  href="https://t.me/ehsangazar"
                 >
-                  {' '}
-                  پی‌پال{' '}
+                  تلگرام
                 </OutboundLink>
-                من واریز کنید و سپس مسیجی در
-                <a href="https://t.me/ehsangazar"> تلگرام </a>
-                برای من بفرستید.
               </div>
-            </Tab>
-          </Tabs>
-        )}
-        {false && (
-          <Tabs defaultActiveKey="transfer" id="uncontrolled-tab-example">
-            <Tab eventKey="transfer" title="انتقال">
-              <div className="tab-buy">
-                لطفا مبلغ
-                {` `}
-                {!discount && `${oldPrice} تومان`}
-                {` `}
-                {discount && (
-                  <>
-                    <strike>{oldPrice}</strike> {newPrice} تومان
-                  </>
-                )}
-                {` `}
-                را به شماره حساب زیر واریز نمایید
-                <div className="buy-number">6037 6974 7422 9348</div>
-                <div className="buy-name">بنیاد یارا - بانک صادرات ایران</div>
-                سپس رسید خرید را برای من ارسال نمایید
-                <div className="tab-buy-actions">
-                  <OutboundLink
-                    rel="noopener noreferrer"
-                    className="btn btn-success"
-                    target="_blank"
-                    href="https://t.me/ehsangazar"
-                  >
-                    تلگرام
-                  </OutboundLink>
-                </div>
-              </div>
-            </Tab>
-            <Tab eventKey="abroad" title="خارج از ایران">
-              <div className="tab-buy">
-                لطفا مبلغ
-                {` `}
-                {!discount && `${oldPrice} تومان`}
-                {` `}
-                {discount && (
-                  <>
-                    <strike>{oldPrice}</strike> {newPrice} تومان
-                  </>
-                )}
-                {` `}
-                را به شماره حساب زیر واریز نمایید
-                <div className="buy-info">
-                  <div className="buy-abroad">BSB Number: 193879</div>
-                  <div className="buy-abroad">Account Number: 449109401</div>
-                  <div className="buy-abroad">
-                    Account Name: Yarra Foundation Inc.
-                  </div>
-                  <div className="buy-abroad">Bank of Melbourne</div>
-                </div>
-                سپس رسید خرید را برای من ارسال نمایید
-                <div className="tab-buy-actions">
-                  <OutboundLink
-                    rel="noopener noreferrer"
-                    className="btn btn-success"
-                    target="_blank"
-                    href="https://t.me/ehsangazar"
-                  >
-                    تلگرام
-                  </OutboundLink>
-                </div>
-              </div>
-            </Tab>
-          </Tabs>
-        )}
+            </div>
+          </Tab>
+          <Tab eventKey="paypal" title="پی‌پال">
+            <div className="tab-buy">
+              اگر خارج ایران هستید، میتوانید از Paypal برای پرداخت استفاده کنید،
+              فقط کافی است معادل دلاری دوره را به حساب
+              <OutboundLink
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://www.paypal.me/ehsangazar"
+              >
+                {' '}
+                پی‌پال{' '}
+              </OutboundLink>
+              من واریز کنید و سپس مسیجی در
+              <a href="https://t.me/ehsangazar"> تلگرام </a>
+              برای من بفرستید.
+            </div>
+          </Tab>
+        </Tabs>
       </div>
     </div>
   )

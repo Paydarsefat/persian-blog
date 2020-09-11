@@ -1,34 +1,29 @@
 import React, { useContext } from 'react'
 import { Link, graphql } from 'gatsby'
+import { Button } from 'react-bootstrap'
 import Layout from '../components/Layout/Layout'
-import AWSConceptCourse from './AWSConceptCourse'
-import JavaScriptCourse from './JavaScriptCourse'
-import ReactAdvancedCourse from './ReactAdvancedCourse'
-import ReactBasicCourse from './ReactBasicCourse'
 import SEO from '../components/SEO/SEO'
 import Video from '../components/Video/Video'
 import Comment from '../components/Comment/Comment'
+import MyApp from '../contexts/MyApp'
 
-const BlogPost = ({ data, location }) => {
+import javaScriptImage from '../components/Footer/JavaScript.png'
+
+const JavaScriptCourse = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
+  const app = useContext(MyApp)
+
+  const handleBuy = (courseName) => {
+    app.process.setProcessName(courseName)
+    if (!app.user.userData.id) {
+      app.modal.setModalToShow('register')
+    } else {
+      app.modal.setModalToShow('buyModal')
+    }
+  }
 
   const uniquePath = post.fields.slug
-
-  if (
-    location.pathname.includes('es6-es7-etc-babel-webpack-javascript-course')
-  ) {
-    return <JavaScriptCourse location={location} data={data} />
-  }
-  if (location.pathname.includes('react-advanced-course')) {
-    return <ReactAdvancedCourse location={location} data={data} />
-  }
-  if (location.pathname.includes('react-basic-course')) {
-    return <ReactBasicCourse location={location} data={data} />
-  }
-  if (location.pathname.includes('amazon-web-services-concepts-course')) {
-    return <AWSConceptCourse location={location} data={data} />
-  }
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -59,6 +54,30 @@ const BlogPost = ({ data, location }) => {
           <div className="about-us">
             <div className="row content-container">
               <div className="col-12 col-md-4 col-lg-4 content-image">
+                <img src={javaScriptImage} alt={post.frontmatter.title} />
+                <div className="buy-in-post">
+                  {/* <SpecialMessage /> */}
+                  <Button
+                    onClick={() => handleBuy('javascript')}
+                    variant="primary"
+                    className="widthAll"
+                  >
+                    خرید دوره جاوا اسکریپت ES6
+                  </Button>
+                  <div class="note">
+                    سود فروش این دوره به حساب
+                    <Link to="/yarra-foundation-charity" className="secondary">
+                      {' '}
+                      خیریه یارا{' '}
+                    </Link>
+                    واریز می‌شود
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-8 col-lg-8 content">
+                <h1>{post.frontmatter.title}</h1>
+
+                <br />
                 <img
                   src={
                     post.frontmatter.cover &&
@@ -66,10 +85,7 @@ const BlogPost = ({ data, location }) => {
                   }
                   alt={post.frontmatter.title}
                 />
-              </div>
-              <div className="col-12 col-md-8 col-lg-8 content">
-                <h1>{post.frontmatter.title}</h1>
-
+                <br />
                 {post.frontmatter.videoSourceURL && (
                   <div className="content-video">
                     <Video
@@ -93,37 +109,4 @@ const BlogPost = ({ data, location }) => {
   )
 }
 
-export default BlogPost
-
-export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
-      excerpt(pruneLength: 160)
-      html
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-        description
-        videoSourceURL
-        category
-        videoTitle
-        cover {
-          childImageSharp {
-            fluid(maxWidth: 800) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    }
-  }
-`
+export default JavaScriptCourse

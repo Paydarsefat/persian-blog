@@ -1,34 +1,29 @@
 import React, { useContext } from 'react'
 import { Link, graphql } from 'gatsby'
+import { Button } from 'react-bootstrap'
 import Layout from '../components/Layout/Layout'
-import AWSConceptCourse from './AWSConceptCourse'
-import JavaScriptCourse from './JavaScriptCourse'
-import ReactAdvancedCourse from './ReactAdvancedCourse'
-import ReactBasicCourse from './ReactBasicCourse'
 import SEO from '../components/SEO/SEO'
 import Video from '../components/Video/Video'
 import Comment from '../components/Comment/Comment'
+import MyApp from '../contexts/MyApp'
 
-const BlogPost = ({ data, location }) => {
+import reactAdvancedImage from '../components/Footer/React-Advanced.png'
+
+const ReactAdvancedCourse = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
+  const app = useContext(MyApp)
+
+  const handleBuy = (courseName) => {
+    app.process.setProcessName(courseName)
+    if (!app.user.userData.id) {
+      app.modal.setModalToShow('register')
+    } else {
+      app.modal.setModalToShow('buyModal')
+    }
+  }
 
   const uniquePath = post.fields.slug
-
-  if (
-    location.pathname.includes('es6-es7-etc-babel-webpack-javascript-course')
-  ) {
-    return <JavaScriptCourse location={location} data={data} />
-  }
-  if (location.pathname.includes('react-advanced-course')) {
-    return <ReactAdvancedCourse location={location} data={data} />
-  }
-  if (location.pathname.includes('react-basic-course')) {
-    return <ReactBasicCourse location={location} data={data} />
-  }
-  if (location.pathname.includes('amazon-web-services-concepts-course')) {
-    return <AWSConceptCourse location={location} data={data} />
-  }
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -59,13 +54,17 @@ const BlogPost = ({ data, location }) => {
           <div className="about-us">
             <div className="row content-container">
               <div className="col-12 col-md-4 col-lg-4 content-image">
-                <img
-                  src={
-                    post.frontmatter.cover &&
-                    post.frontmatter.cover.childImageSharp.fluid.src
-                  }
-                  alt={post.frontmatter.title}
-                />
+                <img src={reactAdvancedImage} alt={post.frontmatter.title} />
+                <div className="buy-in-post">
+                  {/* <SpecialMessage /> */}
+                  <Button
+                    onClick={() => handleBuy('react-advanced')}
+                    variant="primary"
+                    className="widthAll"
+                  >
+                    خرید دوره React JS پیشرفته
+                  </Button>
+                </div>
               </div>
               <div className="col-12 col-md-8 col-lg-8 content">
                 <h1>{post.frontmatter.title}</h1>
@@ -93,37 +92,4 @@ const BlogPost = ({ data, location }) => {
   )
 }
 
-export default BlogPost
-
-export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
-      excerpt(pruneLength: 160)
-      html
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-        description
-        videoSourceURL
-        category
-        videoTitle
-        cover {
-          childImageSharp {
-            fluid(maxWidth: 800) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    }
-  }
-`
+export default ReactAdvancedCourse

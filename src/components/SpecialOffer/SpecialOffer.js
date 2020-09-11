@@ -5,6 +5,7 @@ import SpecialMessage from '../SpecialMessage/SpecialMessage'
 import reactBasicImage from './../Footer/React-Basic.png'
 import javaScriptImage from './../Footer/JavaScript.png'
 import reactAdvancedImage from './../Footer/React-Advanced.png'
+import awsConceptsImage from './../Footer/AWS-Concepts.png'
 import MyApp from '../../contexts/MyApp'
 
 const SpecialOffer = ({ location }) => {
@@ -21,7 +22,65 @@ const SpecialOffer = ({ location }) => {
 
   return (
     <>
-      <SpecialMessage />
+      <div className="row content-container">
+        <div className="col-12 col-md-4 col-lg-4 content-image">
+          <Link to="/amazon-web-services-concepts-course">
+            <img
+              src={awsConceptsImage}
+              alt="دوره آنلاین معرفی مفاهیم AWS یا Amazon Web Services"
+            />
+          </Link>
+        </div>
+        <div className="col-12 col-md-8 col-lg-8 content">
+          <h1>دوره آنلاین معرفی مفاهیم AWS یا Amazon Web Services</h1>
+          <p>
+            در طول این دوره یاد میگیرید که AWS چه نقش مهمی را در کاریابی و
+            پیاده‌سازی اپلیکیشن‌های مهم در شرکت‌های دنیا دارد.
+          </p>
+          <br />
+          <p>
+            شاید شما هر روز با HTML, CSS و JavaScript کار می‌کنید و شاید یادگیری
+            تکنولوژی‌های سروری برایتان سخت تر باشد، شاید فکر می‌کنید که چرا
+            می‌بایست این تکنولوژی را یاد بگیرید، اما امروزه بیش از ۱۶ هزار شغل
+            حتی در سطح Mid-Level FrontEnd Developer درخواست آشنایی یا تسلط به
+            سرویس‌های معروف AWS را دارند و هر روز این تعداد در حال افزایش است.
+          </p>
+          <br />
+          <p>
+            این دوره با هدف توضیح سرویس‌های AWS و معرفی کاربرد‌های ساده‌ی آن‌ها
+            تهیه شده است و امیدوارم دروازه‌ی خوبی برای یادگیری‌های آینده باشد.
+            استقبال شما دوستان مطمئنا تشویقی خواهد بود که دوره‌های بعدی در
+            راستای یادگیری AWS را در این وب‌سایت به زبان فارسی قرار دهم.
+          </p>
+          <br />
+          <p>
+            برنامه‌نویسان FrontEnd یا Backend در هر زبانی، افرادی که علاقه‌ی
+            فراوان به Machine Learning یا AI دارند، یا اگر به Robotic
+            علاقه‌مندید یا می‌خواهید وارد دنیال Blockchain شوید و یا Solution
+            Architect هستید، شاید هم Business Analyst یا Manager یک شرکت هستید،
+            این دوره برای شما الزامی است.
+          </p>
+          <br />
+          <span className="courses-content-price">330,000 تومان</span>
+          <br />
+          <br />
+          <Link
+            className="btn btn-warning no-decoration margin-left-10"
+            to="/amazon-web-services-concepts-course"
+          >
+            مشاهده جزئیات
+          </Link>
+          <Button onClick={() => handleBuy('aws-concepts')} variant="info">
+            خرید دوره آموزش مفاهیم AWS
+          </Button>
+          <br />
+          <br />
+          <div>
+            <SpecialMessage />
+          </div>
+        </div>
+      </div>
+
       <div className="row content-container">
         <div className="col-12 col-md-4 col-lg-4 content-image">
           <Link to="/es6-es7-etc-babel-webpack-javascript-course">

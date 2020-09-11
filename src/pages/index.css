@@ -136,7 +136,7 @@ iframe {
   margin: 20px 0;
 }
 .buy-in-post .note {
-  margin-top: -15px;
+  margin-top: -20px;
   text-align: center;
 }
 .content-video {
@@ -216,12 +216,8 @@ pre.language-javascript {
 }
 .special {
   position: relative;
-  max-width: 1150px;
   margin: 0 auto;
   display: flex;
-}
-.special .alert.alert-info.widthAll {
-  padding: 18px 11vw;
 }
 .no-decoration {
   text-decoration: none;

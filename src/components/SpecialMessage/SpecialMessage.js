@@ -5,15 +5,10 @@ const SpecialMessage = () => {
   return (
     <div className="special">
       <div className="alert alert-info widthAll">
-        برای همکاری با بنیاد{' '}
-        <Link to="/yarra-foundation-charity" className="secondary">
-          {' '}
-          خیریه یارا{' '}
-        </Link>{' '}
-        و آماده سازی دوره جاوا اسکریپت ES6 با وارد کردن کد{' '}
-        <span className="speacial-code">yarrafoundation.com</span> می‌توانید از
-        تخفیف ۵۰ درصدی برای دوره‌ها برخوردار شوید <br />
-        آخرین مهلت استفاده از این تخفیف ۲۱ ام شهریور می‌باشد
+        برای دوستانی که از همه برای یادگیری AWS مشتاق‌ترند و اول ثبت نام میکنند
+        می‌توانید با کد
+        <span className="speacial-code">early_birds</span>
+        از تخفیف ۶۰ درصدی برای خرید این دوره تا تاریخ ۳۱ شهریور بهره‌مند شوید
       </div>
     </div>
   )

@@ -4,6 +4,8 @@ import TabsInModalToBuy from '../TabsInModalToBuy/TabsInModalToBuy'
 import reactBasicImage from './../Footer/React-Basic.png'
 import reactAdvancedImage from './../Footer/React-Advanced.png'
 import javaScriptImage from './../Footer/JavaScript.png'
+import awsConceptsImage from './../Footer/AWS-Concepts.png'
+
 import MyApp from '../../contexts/MyApp'
 
 const BuyModal = ({ showBuyModal, handleCloseBuyModal, isLoadingBuyModal }) => {
@@ -40,6 +42,14 @@ const BuyModal = ({ showBuyModal, handleCloseBuyModal, isLoadingBuyModal }) => {
             description="در این دوره با تمامی ویژگی های جاوا اسکریپت ES6 به بعد همراه با
                 ابزارهای جدید آشنا می‌شوید"
             price="440000"
+          />
+        )}
+        {app.process.processName === 'aws-concepts' && (
+          <TabsInModalToBuy
+            image={awsConceptsImage}
+            title="دوره آنلاین معرفی مفاهیم AWS یا Amazon Web Services"
+            description="در طول این دوره یاد میگیرید که AWS چه نقش مهمی را در کاریابی و پیاده‌سازی اپلیکیشن‌های مهم در شرکت‌های دنیا دارد."
+            price="330000"
           />
         )}
       </Modal.Body>

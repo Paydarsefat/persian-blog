@@ -504,7 +504,7 @@ header .header-wrapper nav ul > li {
   position: relative;
 }
 header .header-wrapper nav ul > li.active > a:after {
-  left: 0;
+  right: 0;
 }
 header .header-wrapper nav ul > li.active > a:hover:after {
   animation: reSlide 1s forwards;
