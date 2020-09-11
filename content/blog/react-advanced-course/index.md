@@ -159,7 +159,7 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - معرفی GraphQL و کتاب‌خانه‌های Client Side کار با آن
 - چگونه با Documentation برای GraphQL کار کنیم و معرفی GraphiQL
 - برنامه نویسی با Apollo Client
-- کار با Apollo Client و ApolloProvider و آشنایی با هوک useQuery
+- [کار با Apollo Client و ApolloProvider و آشنایی با هوک useQuery](/how-to-work-with-apollo-client-apollo-provider-use-query)
 - ارسال POST به API ها و آشنایی با useMutation
 - کار کردن با Polling و آپدیت کردن صفحه با Refresh
 
