@@ -592,6 +592,9 @@ pre.language-javascript * {
 .post-card.-tiny {
   margin-bottom: 50px;
 }
+.center-line-title {
+  height: 16px;
+}
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {
     margin-top: 2.5em;
