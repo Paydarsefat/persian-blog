@@ -206,9 +206,9 @@ strike,
 }
 .note {
   color: #ee3470;
-  font-size: 10px;
+  font-size: 15px;
   line-height: 20px;
-  padding: 5px 0;
+  padding-top: 15px;
 }
 pre.language-javascript {
   background-color: #eee !important;
