@@ -3,6 +3,7 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import reactBasicImage from './React-Basic.png'
 import reactAdvancedImage from './React-Advanced.png'
 import javaScriptImage from './../Footer/JavaScript.png'
+import awsConceptsImage from './../Footer/AWS-Concepts.png'
 import { useQueryParam, StringParam } from 'use-query-params'
 import { Link } from 'gatsby'
 import { Button, Form, Alert } from 'react-bootstrap'
@@ -109,18 +110,66 @@ const Footer = ({ location }) => {
         <div className="footer-content">
           <div className="row">
             <div className="col-12 col-md-6 col-lg-4">
-              <div className="footer-col -about">
+              <div className="col-12 col-md-6 col-lg-12">
                 <div className="center-line-title">
-                  <h5>درباره من</h5>
+                  <h5>اخبار و مقالات سایت را دنبال کنید</h5>
                 </div>
-                <p>
-                  احسان گازار هستم، از ۱۷ سالگی برنامه‌نویسی رو با QBasic شروع
-                  کردم و این علاقه رو به سمت زبان‌های بعدی مثل Javaو .Net,
-                  RubyOnRails و PHP بردم و با علاقه زیاد به لینوکس و DevOps
-                  بیشتر و بیشتر به سمت JavaScript روی آوردم. امروز به عنوان
-                  Senior Software Engineer در یکی از بهترین شرکت‌ها در استرالیا
-                  مشغول کار هستم.
-                </p>
+                <div className="social-block">
+                  <OutboundLink
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://twitter.com/ehsangazar"
+                  >
+                    <i className="fab fa-twitter"></i>
+                  </OutboundLink>
+                  <OutboundLink
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://t.me/fa_ehsangazar_com"
+                  >
+                    <i className="fab fa-telegram"></i>
+                  </OutboundLink>
+                  <OutboundLink
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://www.youtube.com/channel/UC-NKQJ0bsHTXS_PzYCSvVUQ"
+                  >
+                    <i className="fab fa-youtube"></i>
+                  </OutboundLink>
+                </div>
+              </div>
+              <div className="col-12 col-md-6 col-lg-12 space-up">
+                <div className="center-line-title">
+                  <h5>عضویت در خبرنامه</h5>
+                </div>
+                <Form
+                  onSubmit={
+                    !isLoadingNewsletterModalSubmit
+                      ? handleSubmitRegisterNewsletter
+                      : null
+                  }
+                >
+                  {responseOfApiRegisteringNewsletter && (
+                    <Alert variant={responseOfApiRegisteringNewsletter.type}>
+                      {responseOfApiRegisteringNewsletter.message}
+                    </Alert>
+                  )}
+                  <div className="newsletter-form-footer">
+                    <Form.Control
+                      onChange={handleChangeNewsletterEmail}
+                      type="email"
+                      value={email}
+                      placeholder="ایمیل خود را وارد نمایید"
+                    />
+                    <Button
+                      variant="primary"
+                      type="submit"
+                      disabled={isLoadingNewsletterModalSubmit}
+                    >
+                      ثبت نام
+                    </Button>
+                  </div>
+                </Form>
               </div>
               <div className="col-12 col-md-6 col-lg-12 space-up">
                 <div className="center-line-title">
@@ -148,6 +197,30 @@ const Footer = ({ location }) => {
                   <div className="post-card -tiny">
                     <Link
                       className="card__cover"
+                      to="/amazon-web-services-concepts-course"
+                    >
+                      <img
+                        src={awsConceptsImage}
+                        alt="دوره آنلاین معرفی مفاهیم AWS"
+                      />
+                    </Link>
+                    <div className="card__content">
+                      <Link
+                        className="card__content-link"
+                        to="/amazon-web-services-concepts-course"
+                      >
+                        دوره آنلاین معرفی مفاهیم AWS
+                      </Link>
+                      <p>
+                        در طول این دوره یاد میگیرید که AWS چه نقش مهمی را در
+                        کاریابی و پیاده‌سازی اپلیکیشن‌های مهم در شرکت‌های دنیا
+                        دارد.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="post-card -tiny">
+                    <Link
+                      className="card__cover"
                       to="/es6-es7-etc-babel-webpack-javascript-course"
                     >
                       <img src={javaScriptImage} alt="دوره React JS پیشرفته" />
@@ -165,6 +238,13 @@ const Footer = ({ location }) => {
                       </p>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-12 col-lg-4">
+              <div className="footer-col -feature-post">
+                <div className="center-line-title"></div>
+                <div className="feature-post-block">
                   <div className="post-card -tiny">
                     <Link className="card__cover" to="/react-advanced-course">
                       <img
@@ -201,96 +281,6 @@ const Footer = ({ location }) => {
                         دوره‌ای که در آن با مقدمات برنامه‌نویسی وب آشنا‌ می‌شوید
                         و یاد میگیرید با React وب‌سایت بنویسید
                       </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-12 col-lg-4">
-              <div className="footer-col -util">
-                <div className="row">
-                  <div className="col-12 col-md-6 col-lg-12">
-                    <div className="center-line-title">
-                      <h5>عضویت در خبرنامه</h5>
-                    </div>
-                    <Form
-                      onSubmit={
-                        !isLoadingNewsletterModalSubmit
-                          ? handleSubmitRegisterNewsletter
-                          : null
-                      }
-                    >
-                      {responseOfApiRegisteringNewsletter && (
-                        <Alert
-                          variant={responseOfApiRegisteringNewsletter.type}
-                        >
-                          {responseOfApiRegisteringNewsletter.message}
-                        </Alert>
-                      )}
-                      <div className="newsletter-form-footer">
-                        <Form.Control
-                          onChange={handleChangeNewsletterEmail}
-                          type="email"
-                          value={email}
-                          placeholder="ایمیل خود را وارد نمایید"
-                        />
-                        <Button
-                          variant="primary"
-                          type="submit"
-                          disabled={isLoadingNewsletterModalSubmit}
-                        >
-                          ثبت نام
-                        </Button>
-                      </div>
-                    </Form>
-                  </div>
-                  <div className="col-12 col-md-6 col-lg-12 space-up">
-                    <div className="center-line-title">
-                      <h5>من را در صفحات اجتماعی دنبال کنید</h5>
-                    </div>
-                    <div className="social-block">
-                      <OutboundLink
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        href="https://www.facebook.com/ehsangazarcom"
-                      >
-                        <i className="fab fa-facebook-f"></i>
-                      </OutboundLink>
-                      <OutboundLink
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        href="https://twitter.com/ehsangazar"
-                      >
-                        <i className="fab fa-twitter"></i>
-                      </OutboundLink>
-                      <OutboundLink
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        href="https://www.instagram.com/ehsangazar/"
-                      >
-                        <i className="fab fa-instagram"></i>
-                      </OutboundLink>
-                      <OutboundLink
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        href="https://github.com/ehsangazar"
-                      >
-                        <i className="fab fa-github"></i>
-                      </OutboundLink>
-                      <OutboundLink
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        href="https://t.me/fa_ehsangazar_com"
-                      >
-                        <i className="fab fa-telegram"></i>
-                      </OutboundLink>
-                      <OutboundLink
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        href="http://ehsangazar.com"
-                      >
-                        EN
-                      </OutboundLink>
                     </div>
                   </div>
                 </div>

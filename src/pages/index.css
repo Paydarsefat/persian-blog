@@ -576,6 +576,18 @@ pre.language-javascript * {
 .buy-details h4 {
   line-height: 40px;
 }
+.social-block {
+  justify-content: center;
+}
+.social-block a {
+  font-size: 45px;
+  height: 75px;
+  width: 75px;
+  margin: 0 11px;
+}
+.post-card.-tiny {
+  margin-bottom: 50px;
+}
 @media only screen and (max-width: 992px) {
   footer .footer-content .footer-col {
     margin-top: 2.5em;
