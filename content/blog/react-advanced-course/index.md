@@ -166,7 +166,7 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - ## کار کردن با Gatsby JS
 
 - آشنایی با پروژه Gatsby JS
-- چطور در Gatsby JS یک پروژه جدید را شروع کنیم
+- [چطور در Gatsby JS یک پروژه جدید را شروع کنیم](/how-to-make-a-blog-in-gatsby)
 - برنامه‌نویسی بلاگ خودم یا fa.ehsangazar.com با پروژه Gatsby
 
 - ## آموزش Webpack <span class="red">( آپلود شده در تاریخ ۲۳ مرداد ۱۳۹۹)</span>
