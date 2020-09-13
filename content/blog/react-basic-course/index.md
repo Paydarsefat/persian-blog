@@ -67,11 +67,11 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 
 <br />
 
-- وب‌سایت شخصی برای رزومه با Figma
+- [وب‌سایت شخصی برای رزومه با Figma](https://persona-website.vercel.app/)
 
 <br />
 
-![alt text](personal.png 'پیاده ‌سازی یک وب‌سایت شخصی برای رزومه')
+![alt text](personal-coded.png 'پیاده ‌سازی یک وب‌سایت شخصی برای رزومه')
 
 # سوالات متداول:
 
@@ -167,5 +167,16 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 - اضافه کردن فانکشن‌های AddTask, DeleteTask
 - اضافه کردن Filtering و تغییر وضعیت تسک‌ها
 - [پیاده سازی localStorage و Persistence برای پروژه و Deploy کردن آن](/react-localstorage-persistence-an-deploy)
+
+- ## برنامه‌نویسی تکلیف دوره و پروژه وب‌سایت شخصی برای رزومه با Figma
+
+- ایجاد پروژه با Create React App و انجام دادن کارهای پیش از شروع پروژه
+- پیاده سازی و پیدا کردن فونت پروژه و تعریف Layout
+- پیاده سازی Header و تعریف Button در پروژه
+- پیاده سازی منو‌ها و Routing در پروژه
+- پیاده‌سازی Footer بر اساس Figma
+- پیاده‌سازی بخش Banner و بررسی کد
+- [پیاده سازی صفحه‌ی درباره](/react-basic-update-personal-website-project)
+- لینک Repository پروژه و مراحل کد زدن و URL پروژه
 
 </div>
