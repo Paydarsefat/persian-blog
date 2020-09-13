@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 11 Sep 2020 23:50:08 GMT</lastBuildDate><item><title><![CDATA[معرفی دوره و معرفی AWS به عنوان یک شرکت بزرگ و تاثیر یادگیری آن]]></title><description><![CDATA[این اولین ویدئو از دوره AWS Concepts هست که در آن به موارد مهمی برای دوستانی که با AWS…]]></description><link>https://fa.ehsangazar.com/introduction-to-aws/</link><guid isPermaLink="false">https://fa.ehsangazar.com/introduction-to-aws/</guid><pubDate>Sat, 12 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;این اولین ویدئو از دوره AWS Concepts هست که در آن به موارد مهمی برای دوستانی که با AWS آشنایی ندارند می‌پردازم.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 13 Sep 2020 01:13:51 GMT</lastBuildDate><item><title><![CDATA[چطور در Gatsby JS یک پروژه جدید را شروع کنیم]]></title><description><![CDATA[یکی از Framework های خیلی قدرتمند در FrontEnd مطمئنا Gatsby است و در این ویدئو من به شما نحوه‌ی شروع کار با Gatsby…]]></description><link>https://fa.ehsangazar.com/how-to-make-a-blog-in-gatsby/</link><guid isPermaLink="false">https://fa.ehsangazar.com/how-to-make-a-blog-in-gatsby/</guid><pubDate>Sun, 13 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از Framework های خیلی قدرتمند در FrontEnd مطمئنا Gatsby است و در این ویدئو من به شما نحوه‌ی شروع کار با Gatsby را آموزش می‌دهم.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;این فریم‌ورک بعلاوه بر داشتن Boilerplate های فراوان برای شروع انواع پروژه‌ها، از GraphQL برای خواندن اطلاعات Static استفاده میکند که به نوبه‌ی خود بی نظیر است.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;شاید با Webpack آشنا باشید، ولی Gatsby با داشتن Plugin های متفاوت برای Customize کردن Webpack امکانات زیادی را به شما می‌دهد که آن را بیشتر جذاب می‌کند&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;جزئیات بیشتر را می‌توانید در ویدئو ببینید.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;این یکی از ویدئو‌های
+&lt;a href=&quot;/react-advanced-course&quot;&gt;آموزش آنلاین React پیشرفته&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[معرفی دوره و معرفی AWS به عنوان یک شرکت بزرگ و تاثیر یادگیری آن]]></title><description><![CDATA[این اولین ویدئو از دوره AWS Concepts هست که در آن به موارد مهمی برای دوستانی که با AWS…]]></description><link>https://fa.ehsangazar.com/introduction-to-aws/</link><guid isPermaLink="false">https://fa.ehsangazar.com/introduction-to-aws/</guid><pubDate>Sat, 12 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;این اولین ویدئو از دوره AWS Concepts هست که در آن به موارد مهمی برای دوستانی که با AWS آشنایی ندارند می‌پردازم.&lt;/p&gt;
 &lt;br /&gt;
 &lt;p&gt;اگر با سایت فروشگاهی آمازون آشنا باشید، می‌دانید که سود زیادی را در آمریکا و در حال حاضر در دنیا دارند. این شرکت تقریبا ۱۵ سال پیش، سرویسی که برای خود فروشگاه ارائه می‌کرد را به عنوان سرویس‌های ابری یا Cloud Computing به بازار عرضه کرد و چند سال بعد سود این محصول که AWS یا Amazon Web Services نامیده شد از فروشگاه آمازون نیز بیشتر شد.&lt;/p&gt;
 &lt;br /&gt;
@@ -1461,7 +1471,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;h2&gt;کار کردن با Gatsby JS&lt;/h2&gt;
 &lt;/li&gt;
 &lt;li&gt;آشنایی با پروژه Gatsby JS&lt;/li&gt;
-&lt;li&gt;چطور در Gatsby JS یک پروژه جدید را شروع کنیم&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/how-to-make-a-blog-in-gatsby&quot;&gt;چطور در Gatsby JS یک پروژه جدید را شروع کنیم&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;برنامه‌نویسی بلاگ خودم یا fa.ehsangazar.com با پروژه Gatsby&lt;/li&gt;
 &lt;li&gt;
 &lt;h2&gt;آموزش Webpack &lt;span class=&quot;red&quot;&gt;( آپلود شده در تاریخ ۲۳ مرداد ۱۳۹۹)&lt;/span&gt;&lt;/h2&gt;
