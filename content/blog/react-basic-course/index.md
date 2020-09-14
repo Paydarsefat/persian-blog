@@ -73,6 +73,10 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 
 ![alt text](personal-coded.png 'پیاده ‌سازی یک وب‌سایت شخصی برای رزومه')
 
+<br />
+
+![alt text](countdown.png 'پیاده سازی پروژه Countdown')
+
 # سوالات متداول:
 
 - چه پیش‌ نیازی برای شرکت در دوره لازم است؟
@@ -151,6 +155,12 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 
   ![alt text](personal.png 'پیاده ‌سازی یک وب‌سایت شخصی برای رزومه')
 
+- پیاده ‌سازی یک وب‌سایت شخصی برای رزومه با Figma
+
+  <br />
+
+  ![alt text](countdown.png 'نوشتن پروژه Countdown')
+
   <br />
 
 - ## جلسات آنلاین / رفع اشکال و بررسی کد‌ها
@@ -177,6 +187,11 @@ videoTitle: 'دوره آنلاین React JS مقدماتی'
 - پیاده‌سازی Footer بر اساس Figma
 - پیاده‌سازی بخش Banner و بررسی کد
 - [پیاده سازی صفحه‌ی درباره](/react-basic-update-personal-website-project)
+- لینک Repository پروژه و مراحل کد زدن و URL پروژه
+
+- ## برنامه نویسی تکلیف پروژه Countdown
+
+- [برنامه‌نویسی پروژه Countdown](/developing-countdown-with-react)
 - لینک Repository پروژه و مراحل کد زدن و URL پروژه
 
 </div>
