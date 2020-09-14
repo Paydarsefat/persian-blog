@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 13 Sep 2020 13:52:06 GMT</lastBuildDate><item><title><![CDATA[برنامه‌نویسی تکلیف دوره و پروژه وب‌سایت شخصی برای رزومه با Figma - پیاده سازی صفحه‌ی درباره]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/react-basic-update-personal-website-project/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-basic-update-personal-website-project/</guid><pubDate>Mon, 14 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از سوالات دوستان در دوره‌ی مقدماتی مربوط به چگونه ساختن رزومه برای خودشان بود، که من پیشنهاد ساختن سایت شخصی را دادم که هم بتوانند خود را معرفی کنند و هم نمونه‌کارهای خود را در آن قرار دهند. پس من هم دست به کار شدم و سری ویدئوهای زیر را به دوره آموزش مقدماتی React اضافه کردم تا بتوانند نحوه‌ی بررسی Figma و نرم افزارهای مشابه را ببینند و در صورت نیاز سایت شخصی خود را پیاده سازی کنند.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 14 Sep 2020 00:13:43 GMT</lastBuildDate><item><title><![CDATA[پیاده‌سازی پروژه Countdown ساده برای دوره React مقدماتی]]></title><description><![CDATA[پروژه‌ی بسیار ساده ولی با نکات خوب برای پیاده سازی با React که به شما بعضی از مفاهیم useEffect…]]></description><link>https://fa.ehsangazar.com/developing-countdown-with-react/</link><guid isPermaLink="false">https://fa.ehsangazar.com/developing-countdown-with-react/</guid><pubDate>Mon, 14 Sep 2020 09:58:00 GMT</pubDate><content:encoded>&lt;p&gt;پروژه‌ی بسیار ساده ولی با نکات خوب برای پیاده سازی با React که به شما بعضی از مفاهیم useEffect را یادآوری خواهد کرد&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;این سری از ویدئو‌های
+&lt;a href=&quot;/react-basic-course&quot;&gt;آموزش آنلاین React مقدماتی&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[برنامه‌نویسی تکلیف دوره و پروژه وب‌سایت شخصی برای رزومه با Figma - پیاده سازی صفحه‌ی درباره]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/react-basic-update-personal-website-project/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-basic-update-personal-website-project/</guid><pubDate>Mon, 14 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از سوالات دوستان در دوره‌ی مقدماتی مربوط به چگونه ساختن رزومه برای خودشان بود، که من پیشنهاد ساختن سایت شخصی را دادم که هم بتوانند خود را معرفی کنند و هم نمونه‌کارهای خود را در آن قرار دهند. پس من هم دست به کار شدم و سری ویدئوهای زیر را به دوره آموزش مقدماتی React اضافه کردم تا بتوانند نحوه‌ی بررسی Figma و نرم افزارهای مشابه را ببینند و در صورت نیاز سایت شخصی خود را پیاده سازی کنند.&lt;/p&gt;
 &lt;div class=&quot;course-items&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1674,6 +1678,38 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9e4ce0584defd851fdba1d67789c8a27/f32b7/countdown.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.35135135135135%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABYklEQVQoz6VSTWvCQBDdn+xJ/4IePdlCRDx4Ev+CBw+KJxUUFBsKfsTSxGhSYz52N6+z28RaLaWlC8MMs29m3ptdhpuTpil+e77DsuuL3O/3e4zHY22TyQQj8tZyiXS7Bbcs8M0GgjDpTa0yhjwh5WXKfD6HYRhoNpuokzcaDcy6XchBH+FwiIh8slh8MqXavDG7nhKcz3APh3tpZN7pdJf3PA+O43xZgWYoFd0gwG69xhNJ4wRMONfGj0eYxHg2nUL4PiTlpBCQhH82zY88EZGZQkYRVPjaasHv9XRsVSqIqVhQvKtWEYxG4LSzTamEmAYojN3pIKJdJqsV1oUCQtvOGip2quHjA/x+HzFNfimXwUmiyjv1OrzBAGd6jG2xiMR1daHbbuONHiwmnF2rafzllZVkHkXgcQyRJDqW2Sp4GEKQRGXqXknL8QorKBZZD0WO/eXf/fAhkStl13/ov6bOOyOP/Pu/XKO2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;پیاده سازی پروژه Countdown&quot;
+        src=&quot;/static/9e4ce0584defd851fdba1d67789c8a27/fcda8/countdown.png&quot;
+        srcset=&quot;/static/9e4ce0584defd851fdba1d67789c8a27/12f09/countdown.png 148w,
+/static/9e4ce0584defd851fdba1d67789c8a27/e4a3f/countdown.png 295w,
+/static/9e4ce0584defd851fdba1d67789c8a27/fcda8/countdown.png 590w,
+/static/9e4ce0584defd851fdba1d67789c8a27/efc66/countdown.png 885w,
+/static/9e4ce0584defd851fdba1d67789c8a27/f32b7/countdown.png 1136w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h1&gt;سوالات متداول:&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;چه پیش‌ نیازی برای شرکت در دوره لازم است؟&lt;/li&gt;
@@ -1807,6 +1843,41 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;پیاده ‌سازی یک وب‌سایت شخصی برای رزومه با Figma&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9e4ce0584defd851fdba1d67789c8a27/f32b7/countdown.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.35135135135135%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABYklEQVQoz6VSTWvCQBDdn+xJ/4IePdlCRDx4Ev+CBw+KJxUUFBsKfsTSxGhSYz52N6+z28RaLaWlC8MMs29m3ptdhpuTpil+e77DsuuL3O/3e4zHY22TyQQj8tZyiXS7Bbcs8M0GgjDpTa0yhjwh5WXKfD6HYRhoNpuokzcaDcy6XchBH+FwiIh8slh8MqXavDG7nhKcz3APh3tpZN7pdJf3PA+O43xZgWYoFd0gwG69xhNJ4wRMONfGj0eYxHg2nUL4PiTlpBCQhH82zY88EZGZQkYRVPjaasHv9XRsVSqIqVhQvKtWEYxG4LSzTamEmAYojN3pIKJdJqsV1oUCQtvOGip2quHjA/x+HzFNfimXwUmiyjv1OrzBAGd6jG2xiMR1daHbbuONHiwmnF2rafzllZVkHkXgcQyRJDqW2Sp4GEKQRGXqXknL8QorKBZZD0WO/eXf/fAhkStl13/ov6bOOyOP/Pu/XKO2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;نوشتن پروژه Countdown&quot;
+        src=&quot;/static/9e4ce0584defd851fdba1d67789c8a27/fcda8/countdown.png&quot;
+        srcset=&quot;/static/9e4ce0584defd851fdba1d67789c8a27/12f09/countdown.png 148w,
+/static/9e4ce0584defd851fdba1d67789c8a27/e4a3f/countdown.png 295w,
+/static/9e4ce0584defd851fdba1d67789c8a27/fcda8/countdown.png 590w,
+/static/9e4ce0584defd851fdba1d67789c8a27/efc66/countdown.png 885w,
+/static/9e4ce0584defd851fdba1d67789c8a27/f32b7/countdown.png 1136w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;br /&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -1834,6 +1905,11 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;پیاده‌سازی Footer بر اساس Figma&lt;/li&gt;
 &lt;li&gt;پیاده‌سازی بخش Banner و بررسی کد&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/react-basic-update-personal-website-project&quot;&gt;پیاده سازی صفحه‌ی درباره&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;لینک Repository پروژه و مراحل کد زدن و URL پروژه&lt;/li&gt;
+&lt;li&gt;
+&lt;h2&gt;برنامه نویسی تکلیف پروژه Countdown&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/developing-countdown-with-react&quot;&gt;برنامه‌نویسی پروژه Countdown&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;لینک Repository پروژه و مراحل کد زدن و URL پروژه&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;</content:encoded></item><item><title><![CDATA[کلاس آنلاین برای بررسی کد سنگ کاغذ قیچی]]></title><description><![CDATA[این نمونه‌ی جلسه‌ی دیگری است که برای دوره مقدماتی React در سایت Designwich…]]></description><link>https://fa.ehsangazar.com/react-basic-rock-paper-scissor/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-basic-rock-paper-scissor/</guid><pubDate>Tue, 30 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;این نمونه‌ی جلسه‌ی دیگری است که برای دوره مقدماتی React در سایت Designwich برگزار کردم.&lt;/p&gt;
