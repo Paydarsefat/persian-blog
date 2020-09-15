@@ -288,6 +288,23 @@ label.form-label {
 .copyright p {
   text-align: center;
 }
+.copyright ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright ul li {
+  padding: 10px 20px;
+}
+.copyright ul li a {
+  color: #aaa;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.copyright ul li a:hover {
+  color: #333;
+}
 .loading-modal {
   text-align: center;
 }

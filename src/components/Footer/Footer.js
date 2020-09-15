@@ -291,6 +291,23 @@ const Footer = ({ location }) => {
 
         <div className="copyright">
           <p>Ehsan Gazar ©</p>
+          <ul>
+            <li>
+              <Link to={'/'}>خانه</Link>
+            </li>
+            <li>
+              <Link to="/about">درباره</Link>
+            </li>
+            <li>
+              <Link to="/courses">دوره‌ها</Link>
+            </li>
+            <li>
+              <Link to="/terms-conditions">قوانین و مقررات</Link>
+            </li>
+            <li>
+              <Link to="/privacy-policy">حریم خصوصی</Link>
+            </li>
+          </ul>
         </div>
 
         <NewsletterRegisterModal
