@@ -64,7 +64,7 @@ category: aws-concepts
 - معرفی دسته‌بندی سرویس‌های AWS
 - معرفی و کار با Management Console و معرفی Region های AWS
 - معرفی سرویس‌های بخش Storage مثل S3
-- معرفی سرویس‌های بخش Database مثل DynamoDB, RDS, ElastiCache, Neptune و ‌Amazon Redshift
+- [معرفی سرویس‌های بخش Database مثل DynamoDB, RDS, ElastiCache, Neptune و ‌Amazon Redshift](/amazon-web-services-databases-dynamodb-rds)
 - بررسی و معرفی بخش Computing و سرویس‌های EC2, Lightsail, Lambda و Batch
 - بررسی و معرفی سرویس‌های Networking مثل VPC, CloudFront, Route53, API Gateway و Direct Connect
 - معرفی و آشنایی با Developer Tools مثل CodeStar, CodeSummit, CodeArtifact, CodeBuild, CodeDeploy, CodePipeline, Cloud9 و X-Ray
