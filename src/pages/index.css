@@ -613,7 +613,33 @@ pre.language-javascript * {
 .center-line-title {
   height: 16px;
 }
+.content .comment__item__avatar img {
+  padding: 0;
+}
+.post-footer__comment__detail .comment__item__avatar {
+  width: 100px;
+  flex-shrink: 0;
+}
+.comment__item__content {
+  width: 100%;
+}
+.textarea-alert {
+  color: #b9312d;
+  font-size: 12px;
+  padding: 10px;
+}
+.loading {
+  max-width: 50px !important;
+  padding: 0 10px !important;
+}
+.admin-button-comment {
+  display: flex;
+  justify-content: flex-end;
+}
 @media only screen and (max-width: 992px) {
+  .comment__item__avatar {
+    display: none;
+  }
   footer .footer-content .footer-col {
     margin-top: 2.5em;
   }

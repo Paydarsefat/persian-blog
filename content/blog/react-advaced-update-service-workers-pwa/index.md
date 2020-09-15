@@ -4,6 +4,7 @@ date: '2020-09-15 10:00:00'
 videoSourceURL: https://www.youtube.com/embed/tldLyCFCwjc
 videoTitle: 'معرفی و پیاده سازی یک Progressive Web App یا PWA'
 cover: cover.jpg
+comment: true
 category: react-advanced
 description: 'معرفی و پیاده سازی یک Progressive Web App یا PWA'
 ---

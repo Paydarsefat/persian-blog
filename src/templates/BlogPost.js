@@ -115,6 +115,7 @@ export const pageQuery = graphql`
         description
         videoSourceURL
         category
+        comment
         videoTitle
         cover {
           childImageSharp {
