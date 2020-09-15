@@ -8,9 +8,9 @@ videoSourceURL: https://www.youtube.com/embed/DLxoJ7RaWXM
 videoTitle: 'دوره آنلاین React JS پیشرفته'
 ---
 
-# طول دوره: بیش از ۱۱ ساعت
+# طول دوره: بیش از ۱۲ ساعت
 
-# تعدا ویدئو‌ها: بیش از ۷۰ ویدئو
+# تعدا ویدئو‌ها: بیش از ۸۰ ویدئو
 
 بعد از پیشرفتی که در دوره React مقدماتی از دانشجویان دیدم، بیش از پیش علاقه‌مند شدم که دوره‌ای را به عنوان React پپیشرفته برگزار کنم.
 
@@ -71,6 +71,12 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
   (در طی دوره پروژه‌ای فروشگاهی تعریف می‌شود و با استفاده از Webpack کار Bundle سازی آن را انجام میدهیم.)
 
 ![پروژه فروشگاهی برای یادگیری WebPack](shop.png 'پروژه فروشگاهی برای یادگیری WebPack')
+
+- پروژه‌ی ساده برای یادگیری PWA
+  <br />
+  (در طول این پروژه یاد میگیرید چطور با Service Worker ها کار کنید و یک PWA بسازید)
+
+  ![پروژه‌ی ساده برای یادگیری PWA](pwa.png 'پروژه‌ی ساده برای یادگیری PWA')
 
 # محتوای دوره
 
@@ -169,7 +175,7 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - [چطور در Gatsby JS یک پروژه جدید را شروع کنیم](/how-to-make-a-blog-in-gatsby)
 - برنامه‌نویسی بلاگ خودم یا fa.ehsangazar.com با پروژه Gatsby
 
-- ## آموزش Webpack <span class="red">( آپلود شده در تاریخ ۲۳ مرداد ۱۳۹۹)</span>
+- ## آموزش Webpack
 
 - معرفی Webpack و چرایی استفاده‌ از آن
 - شروع برنامه‌نویسی با Webpack برای یک پروژه‌ ساده
@@ -180,5 +186,28 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 - استفاده از Mode و Webpack Clean Plugin و contentHash در تنظیمات Webpack
 - پیاده‌سازی Terser برای مینیفای کردن JS ها و معرفی Webpack DefinePlugin
 - پیاده سازی Code Splitting و Hot Module Reloading یا HMR در Webpack
+
+- ## آموزش Webpack
+
+- معرفی Webpack و چرایی استفاده‌ از آن
+- شروع برنامه‌نویسی با Webpack برای یک پروژه‌ ساده
+- برنامه نویسی Webpack در یک پروژه‌ی ساده React
+- پیاده‌سازی محیط و تجربه‌ی Development با Webpack Dev Middleware و Webpack Dev Server
+- پیاده‌سازی و معرفی Babel Loader برای JSX
+- پیاده‌سازی Webpack برای یک پروژه‌ی بزرگ همراه با CSS Loader
+- استفاده از Mode و Webpack Clean Plugin و contentHash در تنظیمات Webpack
+- پیاده‌سازی Terser برای مینیفای کردن JS ها و معرفی Webpack DefinePlugin
+- پیاده سازی Code Splitting و Hot Module Reloading یا HMR در Webpack
+
+- ## معرفی و پیاده سازی یک Progressive Web App یا PWA
+
+- [PWA چیست و چه نکاتی می‌بایست برای پیاده سازی آن رعایت شوند](/react-advaced-update-service-workers-pwa)
+- معرفی و کار با سایت‌های CanIUse و BrowserStack
+- معرفی PostCSS و AutoFixer و آشنایی با روش استفاده
+- ثبت کردن Service Worker و تشخیص آنلاین و آفلاین بودن App
+- کار با Notification API ها
+- نصب ServiceWorker, کنترل Fetch ها و کار با Cache API
+- لینک Repository پروژه و مراحل کد زدن و URL پروژه PWA
+- نحوه‌ی آپدیت کردن Service Worker ها در صورت نیاز
 
 </div>
