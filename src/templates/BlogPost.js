@@ -83,7 +83,9 @@ const BlogPost = ({ data, location }) => {
                   <section dangerouslySetInnerHTML={{ __html: post.html }} />
                 </article>
                 <div className="space-8" />
-                <Comment uniquePath={uniquePath} />
+                {post.frontmatter.comment && (
+                  <Comment uniquePath={uniquePath} />
+                )}
               </div>
             </div>
           </div>

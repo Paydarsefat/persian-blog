@@ -5,6 +5,7 @@ description: 'تعریف کلاس و ارث بری در جاوا اسکریپت'
 videoSourceURL: https://www.youtube.com/embed/uaVCQRfM1Yw
 videoTitle: 'تعریف کلاس و ارث بری در جاوا اسکریپت'
 cover: cover.png
+comment: true
 category: javascript
 ---
 

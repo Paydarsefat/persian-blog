@@ -4,6 +4,7 @@ date: '2020-08-22'
 videoSourceURL: https://www.youtube.com/embed/LDJcV3x3IrA
 videoTitle: 'چطور از ترکیب useReducer و useContext استفاده کنیم'
 cover: cover.png
+comment: true
 category: react-basic
 description: 'چطور از ترکیب useReducer و useContext استفاده کنیم'
 ---

@@ -4,6 +4,7 @@ date: '2020-08-27'
 videoSourceURL: https://www.youtube.com/embed/xQUbyny79Zw
 videoTitle: 'Server Side Rendering یا SSR چیست و چه کاربردی دارد'
 cover: cover.png
+comment: true
 category: react-advanced
 description: 'Server Side Rendering یا SSR چیست و چه کاربردی دارد'
 ---

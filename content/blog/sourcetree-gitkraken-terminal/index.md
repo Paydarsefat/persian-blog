@@ -1,13 +1,13 @@
 ---
 title: برنامه نویسی - آموزش - آشنایی با SourceTree, GitKraken و کار مقدماتی با Terminal
-date: "2020-05-18"
-description: "برنامه نویسی - آموزش - آشنایی با SourceTree, GitKraken و کار مقدماتی با Terminal"
+date: '2020-05-18'
+description: 'برنامه نویسی - آموزش - آشنایی با SourceTree, GitKraken و کار مقدماتی با Terminal'
 videoSourceURL: https://www.youtube.com/embed/gBPGcnUmduA
-videoTitle: "برنامه نویسی - آموزش - آشنایی با SourceTree, GitKraken و کار مقدماتی با Terminal"
+videoTitle: 'برنامه نویسی - آموزش - آشنایی با SourceTree, GitKraken و کار مقدماتی با Terminal'
 cover: cover.jpg
+comment: true
 category: git
 ---
-
 
 خب خیلی وقت‌ها پیش می‌آید که شما باید بین یکی از تکنولوژی ها انتخاب کنید. برای کار با گیت هم شما نیاز دارید که وسیله‌ای را انتخاب کنید.
 

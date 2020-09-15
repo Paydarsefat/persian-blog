@@ -6,6 +6,7 @@ videoSourceURL: https://www.youtube.com/embed/LfD7vi5m2BM
 number: 1
 videoTitle: 'معرفی Nullish coalescing operator یا (??) در جاوا اسکریپت'
 cover: cover.jpg
+comment: true
 category: javascript
 ---
 

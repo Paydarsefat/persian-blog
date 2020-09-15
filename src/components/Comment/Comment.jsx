@@ -17,6 +17,7 @@ const Comment = ({ uniquePath }) => {
   const [responseFromAPI, setResponseFromAPI] = useState(null)
   const [formValue, setFormValue] = useState({})
   const app = useContext(MyApp)
+  const admin = app.user.userData.id === 'b7a654d0-e078-11ea-bf92-2db818a04e2b'
   const [comments, setComments] = useState([])
 
   useEffect(() => {
@@ -58,7 +59,13 @@ const Comment = ({ uniquePath }) => {
         path: uniquePath,
       },
     })
-    setComments(response.data.result)
+    if (admin) {
+      setComments(response.data.result)
+    } else {
+      setComments(
+        response.data.result.filter((comment) => comment.status === 'accepted')
+      )
+    }
   }
 
   const handleSend = async (event) => {
@@ -93,8 +100,6 @@ const Comment = ({ uniquePath }) => {
     }
     setLoading(false)
   }
-
-  const admin = app.user.userData.id === 'b7a654d0-e078-11ea-bf92-2db818a04e2b'
 
   return (
     <div>
@@ -141,11 +146,16 @@ const Comment = ({ uniquePath }) => {
                       <p>{comment.comment}</p>
                     </div>
                   </div>
-                  {admin && (
+                  {admin && comment.status === 'accepted' && (
                     <div className="admin-button-comment">
                       <Button onClick={() => handleOpenReply(comment)}>
                         پاسخ
                       </Button>
+                    </div>
+                  )}
+                  {admin && comment.status === 'deleted' && (
+                    <div className="admin-button-comment">
+                      <Alert variant={'danger'}>این نظر حذف شد</Alert>
                     </div>
                   )}
 

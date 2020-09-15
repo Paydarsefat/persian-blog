@@ -4,6 +4,7 @@ date: '2020-09-12'
 videoSourceURL: https://www.youtube.com/embed/uzT7VzVek7E
 videoTitle: 'معرفی دوره و معرفی AWS به عنوان یک شرکت بزرگ و تاثیر یادگیری آن'
 cover: cover.jpg
+comment: true
 category: aws-concepts
 description: 'معرفی دوره و معرفی AWS به عنوان یک شرکت بزرگ و تاثیر یادگیری آن'
 ---

@@ -4,6 +4,7 @@ date: '2020-09-07'
 videoSourceURL: https://www.youtube.com/embed/a9xvMNFn314
 videoTitle: 'معرفی State Management و آشنایی با Redux'
 cover: cover.png
+comment: true
 category: react-advanced
 description: 'معرفی State Management و آشنایی با Redux'
 ---

@@ -3,6 +3,7 @@ title: دوره آنلاین معرفی مفاهیم AWS یا Amazon Web Service
 date: '2020-09-11'
 description: 'دوره آنلاین معرفی مفاهیم AWS یا Amazon Web Services'
 cover: cover.jpg
+comment: true
 category: aws-concepts
 ---
 

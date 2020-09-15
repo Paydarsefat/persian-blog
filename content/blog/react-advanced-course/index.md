@@ -3,6 +3,7 @@ title: دوره آنلاین React JS پیشرفته
 date: '2020-08-01'
 description: 'دوره آنلاین React JS پیشرفته'
 cover: cover.png
+comment: true
 category: react-advanced
 videoSourceURL: https://www.youtube.com/embed/DLxoJ7RaWXM
 videoTitle: 'دوره آنلاین React JS پیشرفته'

@@ -3,6 +3,7 @@ title: معرفی بنیاد خیریه یارا یا Yarra Foundation
 date: '2020-08-31'
 description: 'معرفی بنیاد خیریه یارا یا Yarra Foundation'
 cover: cover.jpg
+comment: true
 category: charity
 ---
 

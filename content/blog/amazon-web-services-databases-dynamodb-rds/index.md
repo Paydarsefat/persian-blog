@@ -4,6 +4,7 @@ date: '2020-09-15 12:00:00'
 videoSourceURL: https://www.youtube.com/embed/e3Xp0vTdIEw
 videoTitle: 'معرفی سرویس‌های بخش Database مثل DynamoDB, RDS, ElastiCache, Neptune و ‌Amazon Redshift'
 cover: cover.jpg
+comment: true
 category: aws-concepts
 description: 'معرفی سرویس‌های بخش Database مثل DynamoDB, RDS, ElastiCache, Neptune و ‌Amazon Redshift'
 ---

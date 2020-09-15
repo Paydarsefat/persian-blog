@@ -4,6 +4,7 @@ date: '2020-09-10'
 videoSourceURL: https://www.youtube.com/embed/J7HavzCh3nQ
 videoTitle: 'کار با Apollo Client و ApolloProvider و آشنایی با هوک useQuery'
 cover: cover.jpg
+comment: true
 category: react-advanced
 description: 'کار با Apollo Client و ApolloProvider و آشنایی با هوک useQuery'
 ---

@@ -4,6 +4,7 @@ date: '2020-09-13'
 videoSourceURL: https://www.youtube.com/embed/zgkef9jd86o
 videoTitle: 'چطور در Gatsby JS یک پروژه جدید را شروع کنیم'
 cover: cover.jpg
+comment: true
 category: react-advanced
 description: 'چطور در Gatsby JS یک پروژه جدید را شروع کنیم'
 ---

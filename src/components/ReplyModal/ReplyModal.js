@@ -48,7 +48,37 @@ const ReplyModal = ({
           message: 'با تشکر، دیدگاه شما با موفقیت ثبت شد',
         })
         getComments()
-        handleCloseReplyModal()
+      } else {
+        setResponseFromAPI({
+          type: 'danger',
+          message: 'خطایی رخ داده است',
+        })
+      }
+    } catch (e) {
+      console.error(e)
+    }
+    setLoading(false)
+  }
+
+  const handleDestroy = async (event) => {
+    if (event) event.preventDefault()
+    setLoading(true)
+
+    try {
+      const result = await fetchHandler({
+        method: 'POST',
+        url: '/api/v1/comment/destroy',
+        body: {
+          commentId: selectedComment.id,
+        },
+        auth: true,
+      })
+      if (result.data.success) {
+        setResponseFromAPI({
+          type: 'success',
+          message: 'این نظر حذف شد',
+        })
+        getComments()
       } else {
         setResponseFromAPI({
           type: 'danger',
@@ -154,7 +184,10 @@ const ReplyModal = ({
           {loading && (
             <img className="loading" src={loadingImage} alt="loading" />
           )}
-          <Button variant="primary" type="submit" disabled={loading}>
+          <Button variant="danger" onClick={handleDestroy}>
+            حذف دیدگاه
+          </Button>
+          <Button variant="success" type="submit" disabled={loading}>
             ارسال پاسخ
           </Button>
         </Modal.Footer>

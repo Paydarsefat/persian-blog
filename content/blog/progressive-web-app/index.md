@@ -3,6 +3,7 @@ title: Progressive Web App یا PWA چیست؟ و چگونه آن را برنا�
 date: '2020-08-02'
 description: 'Progressive Web App یا PWA چیست؟ و چگونه آن را برنامه‌نویسی کنیم'
 cover: cover.png
+comment: true
 category: FrontEnd
 ---
 

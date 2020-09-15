@@ -1,13 +1,13 @@
 ---
 title: معرفی Git و سایت‌های BitBucket, Github و GitLab
-date: "2020-05-17"
-description: "معرفی Git و سایت‌های BitBucket, Github و GitLab"
+date: '2020-05-17'
+description: 'معرفی Git و سایت‌های BitBucket, Github و GitLab'
 videoSourceURL: https://www.youtube.com/embed/JPGH0KwVl8M
-videoTitle: "معرفی Git و سایت‌های BitBucket, Github و GitLab"
+videoTitle: 'معرفی Git و سایت‌های BitBucket, Github و GitLab'
 cover: cover.jpg
+comment: true
 category: git
 ---
-
 
 در این ویدئو نگاه مختصری به سه وب‌سایت که میتوانیم Git ها رو هاست کنیم می اندازیم.
 

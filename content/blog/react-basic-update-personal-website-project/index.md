@@ -4,6 +4,7 @@ date: '2020-09-14'
 videoSourceURL: https://www.youtube.com/embed/L4aeKHrO2z4
 videoTitle: 'برنامه‌نویسی تکلیف دوره و پروژه وب‌سایت شخصی برای رزومه با Figma - پیاده سازی صفحه‌ی درباره'
 cover: cover.jpg
+comment: true
 category: react-basic
 description: 'برنامه‌نویسی تکلیف دوره و پروژه وب‌سایت شخصی برای رزومه با Figma - پیاده سازی صفحه‌ی درباره'
 ---

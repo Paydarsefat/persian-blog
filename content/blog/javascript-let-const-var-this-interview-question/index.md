@@ -5,6 +5,7 @@ description: 'معرفی ویژگی let و بررسی تفاوت آن با var �
 videoSourceURL: https://www.youtube.com/embed/GnovU7DAxXc
 videoTitle: 'معرفی ویژگی let و بررسی تفاوت آن با var و آشنایی با scope و ویژگی‌های آن‌ها - سوال رایج مصاحبه‌ها'
 cover: cover.png
+comment: true
 category: javascript
 ---
 

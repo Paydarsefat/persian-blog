@@ -4,6 +4,7 @@ date: '2020-09-03'
 videoSourceURL: https://www.youtube.com/embed/FPe2wFFkWKU
 videoTitle: 'برنامه نویسی یک Custom Hook و معرفی این ساختار'
 cover: cover.png
+comment: true
 category: react-advanced
 description: 'برنامه نویسی یک Custom Hook و معرفی این ساختار'
 ---

@@ -4,6 +4,7 @@ date: '2020-08-20'
 videoSourceURL: https://www.youtube.com/embed/PPAcI2BeDIM
 videoTitle: 'با Context آشنا شویم و از useContext استفاده کنیم'
 cover: cover.png
+comment: true
 category: react-basic
 description: 'با Context آشنا شویم و از useContext استفاده کنیم'
 ---
