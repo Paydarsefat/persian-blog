@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Sep 2020 00:48:27 GMT</lastBuildDate><item><title><![CDATA[معرفی و پیاده سازی یک Progressive Web App یا PWA]]></title><description><![CDATA[طبق درخواست دوستان برای دوره‌ی Advanced سری ویدئوهای زیر برای پیاده‌سازی یک Progressive Web App…]]></description><link>https://fa.ehsangazar.com/react-advaced-update-service-workers-pwa/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-advaced-update-service-workers-pwa/</guid><pubDate>Tue, 15 Sep 2020 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;طبق درخواست دوستان برای دوره‌ی Advanced سری ویدئوهای زیر برای پیاده‌سازی یک Progressive Web App قرار داده شد و شما نیز می‌توانید ویدئوی اول آن را برای معرفی تمام ویژگی‌ها در این مقاله ببینید.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Sep 2020 02:37:49 GMT</lastBuildDate><item><title><![CDATA[معرفی سرویس‌های بخش Database مثل DynamoDB, RDS, ElastiCache, Neptune و ‌Amazon Redshift]]></title><description><![CDATA[سرویس‌های زیادی در آمازون وجود دارند و این مقاله و ویدئو اشاره‌ای به سرویس‌های دیتابیس معروف در AWS دارد اگر با MongoDB, ArangoDB, MySQL…]]></description><link>https://fa.ehsangazar.com/amazon-web-services-databases-dynamodb-rds/</link><guid isPermaLink="false">https://fa.ehsangazar.com/amazon-web-services-databases-dynamodb-rds/</guid><pubDate>Tue, 15 Sep 2020 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;سرویس‌های زیادی در آمازون وجود دارند و این مقاله و ویدئو اشاره‌ای به سرویس‌های دیتابیس معروف در AWS دارد&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;اگر با MongoDB, ArangoDB, MySQL, SQL Server یا Postgres دارید میتوانید لینک خوبی بین دانش فعلی و سرویس‌های آمازون برقرار کنید&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;جزئیات بیشتر را می‌توانید در ویدئو ببینید.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;این یکی از ویدئو‌های
+&lt;a href=&quot;/amazon-web-services-concepts-course&quot;&gt;دوره آنلاین معرفی مفاهیم AWS یا Amazon Web Services
+&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[معرفی و پیاده سازی یک Progressive Web App یا PWA]]></title><description><![CDATA[طبق درخواست دوستان برای دوره‌ی Advanced سری ویدئوهای زیر برای پیاده‌سازی یک Progressive Web App…]]></description><link>https://fa.ehsangazar.com/react-advaced-update-service-workers-pwa/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-advaced-update-service-workers-pwa/</guid><pubDate>Tue, 15 Sep 2020 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;طبق درخواست دوستان برای دوره‌ی Advanced سری ویدئوهای زیر برای پیاده‌سازی یک Progressive Web App قرار داده شد و شما نیز می‌توانید ویدئوی اول آن را برای معرفی تمام ویژگی‌ها در این مقاله ببینید.&lt;/p&gt;
 &lt;br /&gt;
 &lt;p&gt;همین‌طور من مقاله‌ای را در این
 &lt;a href=&quot;/progressive-web-app/&quot;&gt;لینک&lt;/a&gt;
@@ -101,7 +110,7 @@
 &lt;li&gt;معرفی دسته‌بندی سرویس‌های AWS&lt;/li&gt;
 &lt;li&gt;معرفی و کار با Management Console و معرفی Region های AWS&lt;/li&gt;
 &lt;li&gt;معرفی سرویس‌های بخش Storage مثل S3&lt;/li&gt;
-&lt;li&gt;معرفی سرویس‌های بخش Database مثل DynamoDB, RDS, ElastiCache, Neptune و ‌Amazon Redshift&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/amazon-web-services-databases-dynamodb-rds&quot;&gt;معرفی سرویس‌های بخش Database مثل DynamoDB, RDS, ElastiCache, Neptune و ‌Amazon Redshift&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;بررسی و معرفی بخش Computing و سرویس‌های EC2, Lightsail, Lambda و Batch&lt;/li&gt;
 &lt;li&gt;بررسی و معرفی سرویس‌های Networking مثل VPC, CloudFront, Route53, API Gateway و Direct Connect&lt;/li&gt;
 &lt;li&gt;معرفی و آشنایی با Developer Tools مثل CodeStar, CodeSummit, CodeArtifact, CodeBuild, CodeDeploy, CodePipeline, Cloud9 و X-Ray&lt;/li&gt;
