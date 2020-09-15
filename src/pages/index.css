@@ -608,6 +608,7 @@ pre.language-javascript * {
 }
 .post-card.-tiny {
   margin-bottom: 50px;
+  min-height: 128px;
 }
 .center-line-title {
   height: 16px;

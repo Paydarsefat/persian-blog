@@ -109,8 +109,8 @@ const Footer = ({ location }) => {
       <div className="container">
         <div className="footer-content">
           <div className="row">
-            <div className="col-12 col-md-6 col-lg-4">
-              <div className="col-12 col-md-6 col-lg-12">
+            <div className="col-12 col-lg-4">
+              <div className="col-12">
                 <div className="center-line-title">
                   <h5>اخبار و مقالات سایت را دنبال کنید</h5>
                 </div>
@@ -138,7 +138,7 @@ const Footer = ({ location }) => {
                   </OutboundLink>
                 </div>
               </div>
-              <div className="col-12 col-md-6 col-lg-12 space-up">
+              <div className="col-12 space-up">
                 <div className="center-line-title">
                   <h5>عضویت در خبرنامه</h5>
                 </div>
@@ -171,7 +171,7 @@ const Footer = ({ location }) => {
                   </div>
                 </Form>
               </div>
-              <div className="col-12 col-md-6 col-lg-12 space-up">
+              <div className="col-12 space-up">
                 <div className="center-line-title">
                   <h5>تماس با من</h5>
                 </div>
@@ -188,99 +188,101 @@ const Footer = ({ location }) => {
                 </p>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-lg-4">
-              <div className="footer-col -feature-post">
-                <div className="center-line-title">
-                  <h5>دوره‌ها</h5>
-                </div>
-                <div className="feature-post-block">
-                  <div className="post-card -tiny">
-                    <Link
-                      className="card__cover"
-                      to="/amazon-web-services-concepts-course"
-                    >
-                      <img
-                        src={awsConceptsImage}
-                        alt="دوره آنلاین معرفی مفاهیم AWS"
-                      />
-                    </Link>
-                    <div className="card__content">
+            <div className="col-12 col-lg-8">
+              <div className="col-12">
+                <div className="footer-col -feature-post">
+                  <div className="center-line-title">
+                    <h5>دوره‌ها</h5>
+                  </div>
+                  <div className="feature-post-block d-flex flex-wrap">
+                    <div className="col-12 col-sm-6 post-card -tiny">
                       <Link
-                        className="card__content-link"
+                        className="card__cover"
                         to="/amazon-web-services-concepts-course"
                       >
-                        دوره آنلاین معرفی مفاهیم AWS
+                        <img
+                          src={awsConceptsImage}
+                          alt="دوره آنلاین معرفی مفاهیم AWS"
+                        />
                       </Link>
-                      <p>
-                        در طول این دوره یاد میگیرید که AWS چه نقش مهمی را در
-                        کاریابی و پیاده‌سازی اپلیکیشن‌های مهم در شرکت‌های دنیا
-                        دارد.
-                      </p>
+                      <div className="card__content">
+                        <Link
+                          className="card__content-link"
+                          to="/amazon-web-services-concepts-course"
+                        >
+                          دوره آنلاین معرفی مفاهیم AWS
+                        </Link>
+                        <p>
+                          در طول این دوره یاد میگیرید که AWS چه نقش مهمی را در
+                          کاریابی و پیاده‌سازی اپلیکیشن‌های مهم در شرکت‌های دنیا
+                          دارد.
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="post-card -tiny">
-                    <Link
-                      className="card__cover"
-                      to="/es6-es7-etc-babel-webpack-javascript-course"
-                    >
-                      <img src={javaScriptImage} alt="دوره React JS پیشرفته" />
-                    </Link>
-                    <div className="card__content">
+                    <div className="col-12 col-sm-6 post-card -tiny">
                       <Link
-                        className="card__content-link"
+                        className="card__cover"
                         to="/es6-es7-etc-babel-webpack-javascript-course"
                       >
-                        دوره کامل آموزش جاوا اسکریپت ورژن ES6 به بعد
+                        <img
+                          src={javaScriptImage}
+                          alt="دوره React JS پیشرفته"
+                        />
                       </Link>
-                      <p>
-                        در این دوره با تمامی ویژگی های جاوا اسکریپت ES6 به بعد
-                        همراه با ابزارهای جدید آشنا می‌شوید
-                      </p>
+                      <div className="card__content">
+                        <Link
+                          className="card__content-link"
+                          to="/es6-es7-etc-babel-webpack-javascript-course"
+                        >
+                          دوره کامل آموزش جاوا اسکریپت ورژن ES6 به بعد
+                        </Link>
+                        <p>
+                          در این دوره با تمامی ویژگی های جاوا اسکریپت ES6 به بعد
+                          همراه با ابزارهای جدید آشنا می‌شوید
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-12 col-lg-4">
-              <div className="footer-col -feature-post">
-                <div className="center-line-title"></div>
-                <div className="feature-post-block">
-                  <div className="post-card -tiny">
-                    <Link className="card__cover" to="/react-advanced-course">
-                      <img
-                        src={reactAdvancedImage}
-                        alt="دوره React JS پیشرفته"
-                      />
-                    </Link>
-                    <div className="card__content">
-                      <Link
-                        className="card__content-link"
-                        to="/react-advanced-course"
-                      >
-                        دوره React JS پیشرفته
+                    <div className="col-12 col-sm-6 post-card -tiny">
+                      <Link className="card__cover" to="/react-basic-course">
+                        <img
+                          src={reactBasicImage}
+                          alt="دوره React JS مقدماتی"
+                        />
                       </Link>
-                      <p>
-                        برای برنامه‌نویسی FrontEnd نیازمندید به صورت حرفه‌ای
-                        React,Next JS, Webpack و تکنولوژی‌های دیگری مثل GraphQL
-                        و Testing را بدانید که در این دوره می‌توانید یاد بگیرید
-                      </p>
+                      <div className="card__content">
+                        <Link
+                          className="card__content-link"
+                          to="/react-basic-course"
+                        >
+                          دوره React JS مقدماتی
+                        </Link>
+                        <p>
+                          دوره‌ای که در آن با مقدمات برنامه‌نویسی وب آشنا‌
+                          می‌شوید و یاد میگیرید با React وب‌سایت بنویسید
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="post-card -tiny">
-                    <Link className="card__cover" to="/react-basic-course">
-                      <img src={reactBasicImage} alt="دوره React JS مقدماتی" />
-                    </Link>
-                    <div className="card__content">
-                      <Link
-                        className="card__content-link"
-                        to="/react-basic-course"
-                      >
-                        دوره React JS مقدماتی
+                    <div className="col-12 col-sm-6 post-card -tiny">
+                      <Link className="card__cover" to="/react-advanced-course">
+                        <img
+                          src={reactAdvancedImage}
+                          alt="دوره React JS پیشرفته"
+                        />
                       </Link>
-                      <p>
-                        دوره‌ای که در آن با مقدمات برنامه‌نویسی وب آشنا‌ می‌شوید
-                        و یاد میگیرید با React وب‌سایت بنویسید
-                      </p>
+                      <div className="card__content">
+                        <Link
+                          className="card__content-link"
+                          to="/react-advanced-course"
+                        >
+                          دوره React JS پیشرفته
+                        </Link>
+                        <p>
+                          برای برنامه‌نویسی FrontEnd نیازمندید به صورت حرفه‌ای
+                          React,Next JS, Webpack و تکنولوژی‌های دیگری مثل
+                          GraphQL و Testing را بدانید که در این دوره می‌توانید
+                          یاد بگیرید
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
