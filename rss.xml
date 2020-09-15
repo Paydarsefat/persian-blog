@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 14 Sep 2020 00:13:43 GMT</lastBuildDate><item><title><![CDATA[پیاده‌سازی پروژه Countdown ساده برای دوره React مقدماتی]]></title><description><![CDATA[پروژه‌ی بسیار ساده ولی با نکات خوب برای پیاده سازی با React که به شما بعضی از مفاهیم useEffect…]]></description><link>https://fa.ehsangazar.com/developing-countdown-with-react/</link><guid isPermaLink="false">https://fa.ehsangazar.com/developing-countdown-with-react/</guid><pubDate>Mon, 14 Sep 2020 09:58:00 GMT</pubDate><content:encoded>&lt;p&gt;پروژه‌ی بسیار ساده ولی با نکات خوب برای پیاده سازی با React که به شما بعضی از مفاهیم useEffect را یادآوری خواهد کرد&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Sep 2020 00:26:38 GMT</lastBuildDate><item><title><![CDATA[معرفی و پیاده سازی یک Progressive Web App یا PWA]]></title><description><![CDATA[طبق درخواست دوستان برای دوره‌ی Advanced سری ویدئوهای زیر برای پیاده‌سازی یک Progressive Web App…]]></description><link>https://fa.ehsangazar.com/react-advaced-update-service-workers-pwa/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-advaced-update-service-workers-pwa/</guid><pubDate>Tue, 15 Sep 2020 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;طبق درخواست دوستان برای دوره‌ی Advanced سری ویدئوهای زیر برای پیاده‌سازی یک Progressive Web App قرار داده شد و شما نیز می‌توانید ویدئوی اول آن را برای معرفی تمام ویژگی‌ها در این مقاله ببینید.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;همین‌طور من مقاله‌ای را در این
+&lt;a href=&quot;/progressive-web-app/&quot;&gt;لینک&lt;/a&gt;
+برای معرفی PWA ها منتشر کرده‌ام.&lt;/p&gt;
+&lt;h2&gt;معرفی و پیاده سازی یک Progressive Web App یا PWA&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/react-advaced-update-service-workers-pwa&quot;&gt;PWA چیست و چه نکاتی می‌بایست برای پیاده سازی آن رعایت شوند&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;معرفی و کار با سایت‌های CanIUse و BrowserStack&lt;/li&gt;
+&lt;li&gt;معرفی PostCSS و AutoFixer و آشنایی با روش استفاده&lt;/li&gt;
+&lt;li&gt;ثبت کردن Service Worker و تشخیص آنلاین و آفلاین بودن App&lt;/li&gt;
+&lt;li&gt;کار با Notification API ها&lt;/li&gt;
+&lt;li&gt;نصب ServiceWorker, کنترل Fetch ها و کار با Cache API&lt;/li&gt;
+&lt;li&gt;لینک Repository پروژه و مراحل کد زدن و URL پروژه PWA&lt;/li&gt;
+&lt;li&gt;نحوه‌ی آپدیت کردن Service Worker ها در صورت نیاز&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;p&gt;جزئیات بیشتر را می‌توانید در ویدئو ببینید.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;این یکی از ویدئو‌های
+&lt;a href=&quot;/react-advanced-course&quot;&gt;آموزش آنلاین React پیشرفته&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[پیاده‌سازی پروژه Countdown ساده برای دوره React مقدماتی]]></title><description><![CDATA[پروژه‌ی بسیار ساده ولی با نکات خوب برای پیاده سازی با React که به شما بعضی از مفاهیم useEffect…]]></description><link>https://fa.ehsangazar.com/developing-countdown-with-react/</link><guid isPermaLink="false">https://fa.ehsangazar.com/developing-countdown-with-react/</guid><pubDate>Mon, 14 Sep 2020 09:58:00 GMT</pubDate><content:encoded>&lt;p&gt;پروژه‌ی بسیار ساده ولی با نکات خوب برای پیاده سازی با React که به شما بعضی از مفاهیم useEffect را یادآوری خواهد کرد&lt;/p&gt;
 &lt;br /&gt;
 &lt;p&gt;این سری از ویدئو‌های
 &lt;a href=&quot;/react-basic-course&quot;&gt;آموزش آنلاین React مقدماتی&lt;/a&gt;
@@ -1262,8 +1283,8 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;مطمئنا پیچیدگی‌های زیادی نسبت به پروژه‌ی شما ممکن است در هر کدام از این بخش‌ها پیش بیاید که خوشحال می‌شوم راجب آن‌ها بشنوم.&lt;/p&gt;
 &lt;p&gt;اما این لیست کاملی است که در صورت رعایت کردن آن‌ می‌توانید مطمئن شوید بهترین تجربه‌ی کاربری را از نظر برنامه‌نویسی برای بازدیدکنندگان App یا ساییتان در اختیارشان قرار می‌دهید.&lt;/p&gt;
-&lt;p&gt;شرکت‌ها بر حسب نیاز ممکن است تمام این موارد را داشته باشند یا هر روز در تلاش برای پیاده‌سازی بهتر و بهینه تر آن‌ها باشند. پس دانش شما در این زمینه‌ها می‌تواند نقش کلیدی ای در شرکت و محصول شما داشته باشد.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[دوره آنلاین React JS پیشرفته]]></title><description><![CDATA[طول دوره: بیش از ۱۱ ساعت تعدا ویدئو‌ها: بیش از ۷۰ ویدئو بعد از پیشرفتی که در دوره React…]]></description><link>https://fa.ehsangazar.com/react-advanced-course/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-advanced-course/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;طول دوره: بیش از ۱۱ ساعت&lt;/h1&gt;
-&lt;h1&gt;تعدا ویدئو‌ها: بیش از ۷۰ ویدئو&lt;/h1&gt;
+&lt;p&gt;شرکت‌ها بر حسب نیاز ممکن است تمام این موارد را داشته باشند یا هر روز در تلاش برای پیاده‌سازی بهتر و بهینه تر آن‌ها باشند. پس دانش شما در این زمینه‌ها می‌تواند نقش کلیدی ای در شرکت و محصول شما داشته باشد.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[دوره آنلاین React JS پیشرفته]]></title><description><![CDATA[طول دوره: بیش از ۱۲ ساعت تعدا ویدئو‌ها: بیش از ۸۰ ویدئو بعد از پیشرفتی که در دوره React…]]></description><link>https://fa.ehsangazar.com/react-advanced-course/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-advanced-course/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;طول دوره: بیش از ۱۲ ساعت&lt;/h1&gt;
+&lt;h1&gt;تعدا ویدئو‌ها: بیش از ۸۰ ویدئو&lt;/h1&gt;
 &lt;p&gt;بعد از پیشرفتی که در دوره React مقدماتی از دانشجویان دیدم، بیش از پیش علاقه‌مند شدم که دوره‌ای را به عنوان React پپیشرفته برگزار کنم.&lt;/p&gt;
 &lt;p&gt;مشخصا FrontEnd تنها به React ختم نمی‌شه و تکنولوژی‌های زیادی کمک می‌کنند تا یک وب‌سایت حرفه‌ای برنامه‌نویسی شود.&lt;/p&gt;
 &lt;p&gt;دوره‌ی پیشرفته با هدف معرفی و کار با ابزار‌های مختلف ضمن برنامه‌نویسی چندین پروژه متعدد قرار هست به دانشجویان کمک کند تا بهتر و بیشتر تکنولوژی‌ها را در کنار همدیگر قرار دهند و یک وب‌سایت حرفه‌ای را برنامه نویسی کنند.&lt;/p&gt;
@@ -1400,6 +1421,44 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;پروژه‌ی ساده برای یادگیری PWA
+&lt;br /&gt;
+(در طول این پروژه یاد میگیرید چطور با Service Worker ها کار کنید و یک PWA بسازید)&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/547f284c130b759947c841f2377c787d/914c7/pwa.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 159.45945945945945%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;پروژه‌ی ساده برای یادگیری PWA&quot;
+        title=&quot;پروژه‌ی ساده برای یادگیری PWA&quot;
+        src=&quot;/static/547f284c130b759947c841f2377c787d/fcda8/pwa.png&quot;
+        srcset=&quot;/static/547f284c130b759947c841f2377c787d/12f09/pwa.png 148w,
+/static/547f284c130b759947c841f2377c787d/e4a3f/pwa.png 295w,
+/static/547f284c130b759947c841f2377c787d/fcda8/pwa.png 590w,
+/static/547f284c130b759947c841f2377c787d/efc66/pwa.png 885w,
+/static/547f284c130b759947c841f2377c787d/914c7/pwa.png 978w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1&gt;محتوای دوره&lt;/h1&gt;
 &lt;div class=&quot;course-items&quot;&gt;
 &lt;ul&gt;
@@ -1497,7 +1556,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;&lt;a href=&quot;/how-to-make-a-blog-in-gatsby&quot;&gt;چطور در Gatsby JS یک پروژه جدید را شروع کنیم&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;برنامه‌نویسی بلاگ خودم یا fa.ehsangazar.com با پروژه Gatsby&lt;/li&gt;
 &lt;li&gt;
-&lt;h2&gt;آموزش Webpack &lt;span class=&quot;red&quot;&gt;( آپلود شده در تاریخ ۲۳ مرداد ۱۳۹۹)&lt;/span&gt;&lt;/h2&gt;
+&lt;h2&gt;آموزش Webpack&lt;/h2&gt;
 &lt;/li&gt;
 &lt;li&gt;معرفی Webpack و چرایی استفاده‌ از آن&lt;/li&gt;
 &lt;li&gt;شروع برنامه‌نویسی با Webpack برای یک پروژه‌ ساده&lt;/li&gt;
@@ -1508,6 +1567,29 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;li&gt;استفاده از Mode و Webpack Clean Plugin و contentHash در تنظیمات Webpack&lt;/li&gt;
 &lt;li&gt;پیاده‌سازی Terser برای مینیفای کردن JS ها و معرفی Webpack DefinePlugin&lt;/li&gt;
 &lt;li&gt;پیاده سازی Code Splitting و Hot Module Reloading یا HMR در Webpack&lt;/li&gt;
+&lt;li&gt;
+&lt;h2&gt;آموزش Webpack&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;معرفی Webpack و چرایی استفاده‌ از آن&lt;/li&gt;
+&lt;li&gt;شروع برنامه‌نویسی با Webpack برای یک پروژه‌ ساده&lt;/li&gt;
+&lt;li&gt;برنامه نویسی Webpack در یک پروژه‌ی ساده React&lt;/li&gt;
+&lt;li&gt;پیاده‌سازی محیط و تجربه‌ی Development با Webpack Dev Middleware و Webpack Dev Server&lt;/li&gt;
+&lt;li&gt;پیاده‌سازی و معرفی Babel Loader برای JSX&lt;/li&gt;
+&lt;li&gt;پیاده‌سازی Webpack برای یک پروژه‌ی بزرگ همراه با CSS Loader&lt;/li&gt;
+&lt;li&gt;استفاده از Mode و Webpack Clean Plugin و contentHash در تنظیمات Webpack&lt;/li&gt;
+&lt;li&gt;پیاده‌سازی Terser برای مینیفای کردن JS ها و معرفی Webpack DefinePlugin&lt;/li&gt;
+&lt;li&gt;پیاده سازی Code Splitting و Hot Module Reloading یا HMR در Webpack&lt;/li&gt;
+&lt;li&gt;
+&lt;h2&gt;معرفی و پیاده سازی یک Progressive Web App یا PWA&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/react-advaced-update-service-workers-pwa&quot;&gt;PWA چیست و چه نکاتی می‌بایست برای پیاده سازی آن رعایت شوند&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;معرفی و کار با سایت‌های CanIUse و BrowserStack&lt;/li&gt;
+&lt;li&gt;معرفی PostCSS و AutoFixer و آشنایی با روش استفاده&lt;/li&gt;
+&lt;li&gt;ثبت کردن Service Worker و تشخیص آنلاین و آفلاین بودن App&lt;/li&gt;
+&lt;li&gt;کار با Notification API ها&lt;/li&gt;
+&lt;li&gt;نصب ServiceWorker, کنترل Fetch ها و کار با Cache API&lt;/li&gt;
+&lt;li&gt;لینک Repository پروژه و مراحل کد زدن و URL پروژه PWA&lt;/li&gt;
+&lt;li&gt;نحوه‌ی آپدیت کردن Service Worker ها در صورت نیاز&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;</content:encoded></item><item><title><![CDATA[دوره آنلاین React JS مقدماتی]]></title><description><![CDATA[طول دوره: بیش از ۹ ساعت تعدا ویدئو‌ها: بیش از ۶۰ ویدئو چندین سالی هست که React JS به لیست Library های JavaScript…]]></description><link>https://fa.ehsangazar.com/react-basic-course/</link><guid isPermaLink="false">https://fa.ehsangazar.com/react-basic-course/</guid><pubDate>Fri, 31 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;طول دوره: بیش از ۹ ساعت&lt;/h1&gt;
 &lt;h1&gt;تعدا ویدئو‌ها: بیش از ۶۰ ویدئو&lt;/h1&gt;
