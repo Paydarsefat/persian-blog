@@ -72,7 +72,7 @@ category: aws-concepts
 - معرفی و آشنایی با سرویس‌های Security, Identity, & Compliance مثل IAM, Resource Access Manager, Cognito, Secrets Manager, GuardDuty, Inspector, Amazon Macie, AWS Single Sign-On, Certificate Manager, KMS, CloudHSM, Directory Service و WAF
 - معرفی و آشنایی با سرویس‌های Management مثل AWS Organizations, CloudWatch, AWS Auto Scaling, CloudFormation, CloudTrail, Config, AWS License Manager و AWS Chatbot
 - آشنایی با سرویس‌های Application Integration مانند SQS, SNS و AmazonMQ
-- معرفی سرویس‌های هیجان انگیز AWS مثل AWS DeepRacer, Amazon Braket, AWS Amplify, Elasticsearch Service, Amazon SageMaker و IoT Core
+- [معرفی سرویس‌های هیجان انگیز AWS مثل AWS DeepRacer, Amazon Braket, AWS Amplify, Elasticsearch Service, Amazon SageMaker و IoT Core](/amazon-web-services-concepts-amplify-braket-deepracer-sagemaker-elasticsearch-iot)
 - معرفی و کار با AWS CLI و نحوه‌ی Configure کردن آن
 - معرفی و کار با Serverless Framework
 
