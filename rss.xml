@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 16 Sep 2020 03:34:35 GMT</lastBuildDate><item><title><![CDATA[یادگیری Design Patterns برای FrontEnd Engineers]]></title><description><![CDATA[این مقاله برای بررسی Design Pattern ها و یادگیری آن‌ها برای FrontEnd Engineer هاست. Design Pattern چیست؟ یک Design Pattern…]]></description><link>https://fa.ehsangazar.com/design-patterns-for-frontend-engineers/</link><guid isPermaLink="false">https://fa.ehsangazar.com/design-patterns-for-frontend-engineers/</guid><pubDate>Wed, 16 Sep 2020 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;این مقاله برای بررسی Design Pattern ها و یادگیری آن‌ها برای FrontEnd Engineer هاست.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 16 Sep 2020 03:43:50 GMT</lastBuildDate><item><title><![CDATA[یادگیری Design Patterns برای FrontEnd Engineers]]></title><description><![CDATA[این مقاله برای بررسی Design Pattern ها و یادگیری آن‌ها برای FrontEnd Engineer هاست. Design Pattern چیست؟ یک Design Pattern…]]></description><link>https://fa.ehsangazar.com/design-patterns-for-frontend-engineers/</link><guid isPermaLink="false">https://fa.ehsangazar.com/design-patterns-for-frontend-engineers/</guid><pubDate>Wed, 16 Sep 2020 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;این مقاله برای بررسی Design Pattern ها و یادگیری آن‌ها برای FrontEnd Engineer هاست.&lt;/p&gt;
 &lt;br /&gt;
 &lt;h1&gt;Design Pattern چیست؟&lt;/h1&gt;
 &lt;p&gt;یک Design Pattern روش/ساختاری است که شما میتوانید با آن برنامه نویسی کنید. وقتی که میخواهید ویژگی‌ای را در برنامه نویسی خود توسعه دهید. همیشه در حال استفاده از یک روش یا یک Design Pattern هستید.&lt;/p&gt;
@@ -70,7 +70,9 @@
 (آموزش در&lt;a href=&quot;/react-advanced-course&quot;&gt;React Advanced&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/how-to-work-custom-hooks-react/&quot;&gt;برنامه نویسی یک Custom Hook و معرفی این ساختار&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Singleton&lt;/li&gt;
-&lt;li&gt;Proxy&lt;/li&gt;
+&lt;li&gt;Proxy
+&lt;br /&gt;
+(آموزش در&lt;a href=&quot;/es6-es7-etc-babel-webpack-javascript-course&quot;&gt;JavaScript ES6&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Observer Pattern&lt;/li&gt;
 &lt;li&gt;Publish/Subscribe Pattern&lt;/li&gt;
 &lt;/ul&gt;
@@ -572,12 +574,13 @@ m&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&q
 &lt;li&gt;کار با Symbol Iterator&lt;/li&gt;
 &lt;li&gt;معرفی و کار با Set&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/javascript-introducing-map-data-type&quot;&gt;کار با Data Type جدیدی به اسم Map&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[معرفی Object.assign و آشنایی با مفهوم Immutability&lt;/li&gt;
+&lt;li&gt;معرفی Object.assign و آشنایی با مفهوم Immutability&lt;/li&gt;
 &lt;li&gt;کار با فانکشن‌های filter، findeIndex و find&lt;/li&gt;
 &lt;li&gt;کار با فانکشن‌های includes , startsWith و endWith و repeat برای String ها&lt;/li&gt;
 &lt;li&gt;کار با اعداد با فانکشن‌های isFinite، isNan, trunc, isSafeInteger و sign&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/javascript-work-with-promise-api&quot;&gt;کار با Promise API در جاوا اسکریپت&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;کار با Promise.all&lt;/li&gt;
+&lt;li&gt;آشنایی و کار با Proxy&lt;/li&gt;
 &lt;li&gt;
 &lt;h2&gt;ویژگی‌های ES7 و ES8 , به بعد&lt;/h2&gt;
 &lt;/li&gt;
