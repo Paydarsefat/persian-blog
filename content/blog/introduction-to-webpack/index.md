@@ -1,6 +1,6 @@
 ---
 title: معرفی Webpack و چرایی استفاده‌ از آن
-date: '2020-09-15 10:00:00'
+date: '2020-09-16 10:00:00'
 videoSourceURL: https://www.youtube.com/embed/yfWgTSZqlzo
 videoTitle: 'معرفی Webpack و چرایی استفاده‌ از آن'
 cover: cover.jpg
