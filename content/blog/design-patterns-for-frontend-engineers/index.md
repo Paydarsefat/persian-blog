@@ -109,6 +109,8 @@ C++: [Design Patterns in C++ with Real Examples](https://github.com/ehsangazar/d
 - [برنامه نویسی یک Custom Hook و معرفی این ساختار](/how-to-work-custom-hooks-react/)
 - Singleton
 - Proxy
+  <br />
+  (آموزش در[JavaScript ES6](/es6-es7-etc-babel-webpack-javascript-course))
 - Observer Pattern
 - Publish/Subscribe Pattern
 
