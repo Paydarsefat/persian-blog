@@ -178,19 +178,7 @@ videoTitle: 'دوره آنلاین React JS پیشرفته'
 
 - ## آموزش Webpack
 
-- معرفی Webpack و چرایی استفاده‌ از آن
-- شروع برنامه‌نویسی با Webpack برای یک پروژه‌ ساده
-- برنامه نویسی Webpack در یک پروژه‌ی ساده React
-- پیاده‌سازی محیط و تجربه‌ی Development با Webpack Dev Middleware و Webpack Dev Server
-- پیاده‌سازی و معرفی Babel Loader برای JSX
-- پیاده‌سازی Webpack برای یک پروژه‌ی بزرگ همراه با CSS Loader
-- استفاده از Mode و Webpack Clean Plugin و contentHash در تنظیمات Webpack
-- پیاده‌سازی Terser برای مینیفای کردن JS ها و معرفی Webpack DefinePlugin
-- پیاده سازی Code Splitting و Hot Module Reloading یا HMR در Webpack
-
-- ## آموزش Webpack
-
-- معرفی Webpack و چرایی استفاده‌ از آن
+- [معرفی Webpack و چرایی استفاده‌ از آن](/introduction-to-webpack)
 - شروع برنامه‌نویسی با Webpack برای یک پروژه‌ ساده
 - برنامه نویسی Webpack در یک پروژه‌ی ساده React
 - پیاده‌سازی محیط و تجربه‌ی Development با Webpack Dev Middleware و Webpack Dev Server

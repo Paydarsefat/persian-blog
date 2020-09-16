@@ -24,6 +24,10 @@ const Comment = ({ uniquePath }) => {
     getComments()
   }, [])
 
+  useEffect(() => {
+    getComments()
+  }, [app.user.userData.id])
+
   const handleChangeForm = (name, event) => {
     setStarted(true)
     if (event) event.preventDefault()
