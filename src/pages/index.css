@@ -493,6 +493,11 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
 code.language-text {
   direction: ltr !important;
 }
+.ltr,
+.ltr * {
+  direction: ltr !important;
+  text-align: left;
+}
 .speacial-code {
   padding: 0 10px;
 }
