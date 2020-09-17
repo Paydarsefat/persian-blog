@@ -5,6 +5,7 @@ videoSourceURL: https://www.youtube.com/embed/5MAjuZf2qac
 videoTitle: 'چطور با React Router صفحات مختلف بسازیم'
 cover: cover.png
 comment: true
+homepage: true
 category: react-basic
 description: 'چطور با React Router صفحات مختلف بسازیم'
 ---

@@ -5,6 +5,7 @@ videoSourceURL: https://www.youtube.com/embed/kZDZ_hSeVK8
 videoTitle: 'آشنایی با White Pages و کد زدن Loading و Placeholder برای بخش های مختلف سایت'
 cover: cover.png
 comment: true
+homepage: true
 category: react-basic
 description: 'آشنایی با White Pages و کد زدن Loading و Placeholder برای بخش های مختلف سایت'
 ---

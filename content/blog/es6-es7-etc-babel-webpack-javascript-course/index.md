@@ -4,6 +4,7 @@ date: '2020-09-01'
 description: 'دوره کامل آموزش جاوا اسکریپت ورژن ES6 به بعد'
 cover: cover.png
 comment: true
+homepage: true
 category: javascript
 ---
 

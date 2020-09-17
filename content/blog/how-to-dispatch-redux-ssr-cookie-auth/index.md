@@ -6,6 +6,7 @@ videoTitle: 'کار کردن با Cookie و Dispatch کردن در سمت سرو
 number: 2
 cover: cover.jpg
 comment: true
+homepage: true
 category: react-advanced
 description: 'کار کردن با Cookie و Dispatch کردن در سمت سرور و انتقال State به کلاینت ساید'
 ---

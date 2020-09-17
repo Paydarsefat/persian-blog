@@ -5,6 +5,7 @@ videoSourceURL: https://www.youtube.com/embed/x7zppCq0yDY
 videoTitle: 'برنامه نویسی یک Custom Hook و معرفی این ساختار'
 cover: cover.png
 comment: true
+homepage: true
 category: react-advanced
 description: 'برنامه نویسی یک Custom Hook و معرفی این ساختار'
 ---

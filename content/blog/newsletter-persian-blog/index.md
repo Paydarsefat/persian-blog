@@ -4,6 +4,7 @@ date: '2020-08-16'
 description: 'خبرنامه سایت فارسی احسان گازار راه‌اندازی شد'
 cover: cover.jpg
 comment: true
+homepage: true
 category: EhsanGazarPersian
 videoSourceURL: https://www.youtube.com/embed/sg72ZWTmCEY
 videoTitle: 'خبرنامه سایت فارسی احسان گازار راه‌اندازی شد'

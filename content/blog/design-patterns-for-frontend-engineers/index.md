@@ -4,6 +4,7 @@ date: '2020-09-16 12:00:00'
 description: 'یادگیری Design Patterns برای FrontEnd Engineers'
 cover: cover.jpg
 comment: true
+homepage: true
 category: tips
 ---
 

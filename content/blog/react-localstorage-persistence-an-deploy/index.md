@@ -5,6 +5,7 @@ videoSourceURL: https://www.youtube.com/embed/CUP3GCbqvIc
 videoTitle: 'پیاده سازی localStorage و Persistence برای پروژه و Deploy کردن آن'
 cover: cover.png
 comment: true
+homepage: true
 category: react-basic
 description: 'پیاده سازی localStorage و Persistence برای پروژه و Deploy کردن آن'
 ---

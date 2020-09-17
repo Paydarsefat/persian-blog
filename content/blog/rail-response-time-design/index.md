@@ -4,6 +4,7 @@ date: '2020-08-03'
 description: 'مدل اندازه‌گیری و طراحی واکنش‌های وب‌سایت RAIL'
 cover: cover.png
 comment: true
+homepage: true
 category: FrontEnd
 ---
 

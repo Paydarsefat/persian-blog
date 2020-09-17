@@ -5,6 +5,7 @@ videoSourceURL: https://www.youtube.com/embed/a9xvMNFn314
 videoTitle: 'معرفی State Management و آشنایی با Redux'
 cover: cover.png
 comment: true
+homepage: true
 category: react-advanced
 description: 'معرفی State Management و آشنایی با Redux'
 ---

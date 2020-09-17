@@ -6,6 +6,7 @@ videoSourceURL: https://www.youtube.com/embed/zCl2sU03tcc
 videoTitle: 'چطور با github pages سایت static را هاست کنیم'
 cover: cover.png
 comment: true
+homepage: true
 category: technology
 ---
 

@@ -5,6 +5,7 @@ videoSourceURL: https://www.youtube.com/embed/QrUhcCwnlnY
 videoTitle: 'پیاده‌سازی پروژه Countdown ساده برای دوره React مقدماتی'
 cover: cover.jpg
 comment: true
+homepage: true
 category: react-basic
 description: 'پیاده‌سازی پروژه Countdown ساده برای دوره React مقدماتی'
 ---

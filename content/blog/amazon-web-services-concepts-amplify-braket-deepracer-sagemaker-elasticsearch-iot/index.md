@@ -4,6 +4,7 @@ date: '2020-09-17 09:00:00'
 description: 'معرفی سرویس‌های هیجان انگیز AWS مثل AWS DeepRacer, Amazon Braket, AWS Amplify, Elasticsearch Service, Amazon SageMaker و IoT Core'
 cover: cover.jpg
 comment: true
+homepage: true
 category: aws-concepts
 ---
 

@@ -7,6 +7,7 @@ number: 1
 videoTitle: 'معرفی Nullish coalescing operator یا (??) در جاوا اسکریپت'
 cover: cover.jpg
 comment: true
+homepage: true
 category: javascript
 ---
 

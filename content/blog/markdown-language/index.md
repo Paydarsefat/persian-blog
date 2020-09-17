@@ -5,6 +5,7 @@ videoSourceURL: https://www.youtube.com/embed/s66V0PKNmiY
 videoTitle: 'آشنایی با زبان Markdown'
 cover: cover.jpg
 comment: true
+homepage: true
 category: technology
 ---
 

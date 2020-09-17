@@ -6,6 +6,7 @@ videoSourceURL: https://www.youtube.com/embed/7BaUqQIWRAw
 videoTitle: 'کار با Promise API در جاوا اسکریپت'
 cover: cover.png
 comment: true
+homepage: true
 category: javascript
 ---
 

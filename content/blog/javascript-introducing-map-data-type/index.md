@@ -6,6 +6,7 @@ videoSourceURL: https://www.youtube.com/embed/V6spUROoX2U
 videoTitle: 'کار با Data Type جدیدی به اسم Map در جاوا اسکریپت'
 cover: cover.png
 comment: true
+homepage: true
 category: javascript
 ---
 

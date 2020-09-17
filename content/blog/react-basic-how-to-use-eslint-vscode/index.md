@@ -5,6 +5,7 @@ videoSourceURL: https://www.youtube.com/embed/fuT9MbUET-8
 videoTitle: 'چگونه از eslint برای استانداردسازی codebase همراه با vscode استفاده کنیم'
 cover: cover.png
 comment: true
+homepage: true
 category: react-basic
 description: 'چگونه از eslint برای استانداردسازی codebase همراه با vscode استفاده کنیم'
 ---

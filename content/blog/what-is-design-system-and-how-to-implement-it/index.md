@@ -5,6 +5,7 @@ videoSourceURL: https://www.youtube.com/embed/ETbCFLvvCnQ
 videoTitle: 'تعریف Design System چیست و چه راه‌کارهایی برای آن وجود دارد'
 cover: cover.png
 comment: true
+homepage: true
 category: react-advanced
 description: 'تعریف Design System چیست و چه راه‌کارهایی برای آن وجود دارد'
 ---

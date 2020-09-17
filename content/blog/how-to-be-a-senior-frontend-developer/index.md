@@ -4,6 +4,7 @@ date: '2020-08-12'
 description: 'چطور می‌توان یک برنامه‌نویس ارشد FrontEnd شد'
 cover: cover.jpg
 comment: true
+homepage: true
 category: FrontEnd
 videoSourceURL: https://www.youtube.com/embed/RDUmfhjLg5U
 videoTitle: 'چطور می‌توان یک برنامه‌نویس ارشد FrontEnd شد'

@@ -7,6 +7,7 @@ number: 1
 videoTitle: 'کار با Async Await در جاوا اسکریپت'
 cover: cover.png
 comment: true
+homepage: true
 category: javascript
 ---
 

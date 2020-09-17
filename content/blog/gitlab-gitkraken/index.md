@@ -6,6 +6,7 @@ videoSourceURL: https://www.youtube.com/embed/SdX6zs5iDyw
 videoTitle: 'آموزش کار با gitlab و gitkraken '
 cover: cover.jpg
 comment: true
+homepage: true
 category: git
 ---
 

@@ -6,6 +6,7 @@ videoSourceURL: https://www.youtube.com/embed/ckWm5rnsmGM
 videoTitle: 'کلاس آنلاین برای بررسی کد سنگ کاغذ قیچی'
 cover: cover.png
 comment: true
+homepage: true
 category: react-basic
 ---
 

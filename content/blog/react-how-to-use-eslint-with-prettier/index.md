@@ -5,6 +5,7 @@ videoSourceURL: https://www.youtube.com/embed/JloH5dQ2MoQ
 videoTitle: 'Prettier چیست و چگونه از آن در کنار ESlint استفاده کنیم'
 cover: cover.png
 comment: true
+homepage: true
 category: react-advanced
 description: 'Prettier چیست و چگونه از آن در کنار ESlint استفاده کنیم'
 ---

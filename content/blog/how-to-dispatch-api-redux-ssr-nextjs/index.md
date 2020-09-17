@@ -6,6 +6,7 @@ videoTitle: 'صدا کردن API در SSR برای NextJS با Dispatch در Red
 number: 2
 cover: cover.jpg
 comment: true
+homepage: true
 category: react-advanced
 description: 'صدا کردن API در SSR برای NextJS با Dispatch در Redux'
 ---

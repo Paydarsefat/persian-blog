@@ -5,6 +5,7 @@ videoSourceURL: https://www.youtube.com/embed/yfWgTSZqlzo
 videoTitle: 'معرفی Webpack و چرایی استفاده‌ از آن'
 cover: cover.jpg
 comment: true
+homepage: true
 category: react-advanced
 description: 'معرفی Webpack و چرایی استفاده‌ از آن'
 ---

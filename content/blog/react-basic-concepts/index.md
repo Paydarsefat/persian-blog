@@ -5,6 +5,7 @@ videoSourceURL: https://www.youtube.com/embed/Zg7lzLDxPwE
 videoTitle: 'آشنایی با مفاهیم React و تفاوت آن با سایر کتابخانه‌ها'
 cover: cover.png
 comment: true
+homepage: true
 category: react-basic
 description: 'آشنایی با مفاهیم React و تفاوت آن با سایر کتابخانه‌ها'
 ---

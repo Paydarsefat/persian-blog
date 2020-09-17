@@ -5,6 +5,7 @@ videoSourceURL: https://www.youtube.com/embed/-jl-Y_KV_bs
 videoTitle: 'آشنایی با React DevTools به عنوان Browser Extension'
 cover: cover.png
 comment: true
+homepage: true
 category: react-basic
 description: 'آشنایی با React DevTools به عنوان Browser Extension'
 ---
