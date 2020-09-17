@@ -5,6 +5,7 @@ import reactBasicImage from './../Footer/React-Basic.png'
 import reactAdvancedImage from './../Footer/React-Advanced.png'
 import javaScriptImage from './../Footer/JavaScript.png'
 import awsConceptsImage from './../Footer/AWS-Concepts.png'
+import workImage from './../Footer/Work-Logo.png'
 
 import MyApp from '../../contexts/MyApp'
 
@@ -49,6 +50,14 @@ const BuyModal = ({ showBuyModal, handleCloseBuyModal, isLoadingBuyModal }) => {
             image={awsConceptsImage}
             title="دوره آنلاین معرفی مفاهیم AWS یا Amazon Web Services"
             description="در طول این دوره یاد میگیرید که AWS چه نقش مهمی را در کاریابی و پیاده‌سازی اپلیکیشن‌های مهم در شرکت‌های دنیا دارد."
+            price="330000"
+          />
+        )}
+        {app.process.processName === 'work-course' && (
+          <TabsInModalToBuy
+            image={workImage}
+            title="چطور وارد دنیای برنامه‌نویسی شویم و چطور پیشرفت کنیم؟"
+            description="در این دوره بسیاری از مهارت‌های کاریابی و پیشرفت شغلی را یاد خواهید گرفت"
             price="330000"
           />
         )}

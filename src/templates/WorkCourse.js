@@ -1,38 +1,29 @@
 import React, { useContext } from 'react'
 import { Link, graphql } from 'gatsby'
+import { Button } from 'react-bootstrap'
 import Layout from '../components/Layout/Layout'
-import AWSConceptCourse from './AWSConceptCourse'
-import JavaScriptCourse from './JavaScriptCourse'
-import WorkCourse from './WorkCourse'
-import ReactAdvancedCourse from './ReactAdvancedCourse'
-import ReactBasicCourse from './ReactBasicCourse'
 import SEO from '../components/SEO/SEO'
 import Video from '../components/Video/Video'
 import Comment from '../components/Comment/Comment'
+import MyApp from '../contexts/MyApp'
 
-const BlogPost = ({ data, location }) => {
+import workImg from '../components/Footer/Work-Logo.png'
+
+const WorkCourse = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
+  const app = useContext(MyApp)
+
+  const handleBuy = (courseName) => {
+    app.process.setProcessName(courseName)
+    if (!app.user.userData.id) {
+      app.modal.setModalToShow('register')
+    } else {
+      app.modal.setModalToShow('buyModal')
+    }
+  }
 
   const uniquePath = post.fields.slug
-
-  if (
-    location.pathname.includes('es6-es7-etc-babel-webpack-javascript-course')
-  ) {
-    return <JavaScriptCourse location={location} data={data} />
-  }
-  if (location.pathname.includes('react-advanced-course')) {
-    return <ReactAdvancedCourse location={location} data={data} />
-  }
-  if (location.pathname.includes('react-basic-course')) {
-    return <ReactBasicCourse location={location} data={data} />
-  }
-  if (location.pathname.includes('amazon-web-services-concepts-course')) {
-    return <AWSConceptCourse location={location} data={data} />
-  }
-  if (location.pathname.includes('find-a-programming-job-course')) {
-    return <WorkCourse location={location} data={data} />
-  }
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -63,6 +54,21 @@ const BlogPost = ({ data, location }) => {
           <div className="about-us">
             <div className="row content-container">
               <div className="col-12 col-md-4 col-lg-4 content-image">
+                <img src={workImg} alt={post.frontmatter.title} />
+                <div className="buy-in-post">
+                  <Button
+                    onClick={() => handleBuy('work-course')}
+                    variant="primary"
+                    className="widthAll"
+                  >
+                    خرید دوره‌ی بازار کار برنامه‌نویسی
+                  </Button>
+                </div>
+              </div>
+              <div className="col-12 col-md-8 col-lg-8 content">
+                <h1>{post.frontmatter.title}</h1>
+
+                <br />
                 <img
                   src={
                     post.frontmatter.cover &&
@@ -70,10 +76,7 @@ const BlogPost = ({ data, location }) => {
                   }
                   alt={post.frontmatter.title}
                 />
-              </div>
-              <div className="col-12 col-md-8 col-lg-8 content">
-                <h1>{post.frontmatter.title}</h1>
-
+                <br />
                 {post.frontmatter.videoSourceURL && (
                   <div className="content-video">
                     <Video
@@ -87,9 +90,7 @@ const BlogPost = ({ data, location }) => {
                   <section dangerouslySetInnerHTML={{ __html: post.html }} />
                 </article>
                 <div className="space-8" />
-                {post.frontmatter.comment && (
-                  <Comment uniquePath={uniquePath} />
-                )}
+                <Comment uniquePath={uniquePath} />
               </div>
             </div>
           </div>
@@ -99,38 +100,4 @@ const BlogPost = ({ data, location }) => {
   )
 }
 
-export default BlogPost
-
-export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
-      excerpt(pruneLength: 160)
-      html
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-        description
-        videoSourceURL
-        category
-        comment
-        videoTitle
-        cover {
-          childImageSharp {
-            fluid(maxWidth: 800) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    }
-  }
-`
+export default WorkCourse

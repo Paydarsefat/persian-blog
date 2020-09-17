@@ -53,6 +53,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
+      filter: { frontmatter: { homepage: { eq: true } } }
       sort: { fields: [frontmatter___date], order: DESC }
       skip: 0
     ) {
