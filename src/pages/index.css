@@ -641,6 +641,52 @@ pre.language-javascript * {
   display: flex;
   justify-content: flex-end;
 }
+.testimonial-body-form .imageContainer {
+  display: flex;
+  justify-content: center;
+}
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stars button {
+  background: none;
+  border: none;
+  font-size: 40px;
+  outline: none;
+}
+.stars button .fill {
+  display: none;
+}
+.stars button:hover .outline {
+  display: none;
+}
+.stars button:hover .fill {
+  display: block;
+  color: #ff0000;
+}
+.stars button:hover ~ button .outline {
+  display: none;
+}
+.stars button:hover ~ button .fill {
+  display: block;
+  color: #ff0000;
+}
+.stars button.selected .outline {
+  display: none;
+}
+.stars button.selected .fill {
+  display: block;
+  color: #ff0000;
+}
+.stars button.selected ~ button .outline {
+  display: none;
+}
+.stars button.selected ~ button .fill {
+  display: block;
+  color: #ff0000;
+}
 @media only screen and (max-width: 992px) {
   .comment__item__avatar {
     display: none;

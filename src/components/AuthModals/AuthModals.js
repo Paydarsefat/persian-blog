@@ -312,6 +312,17 @@ const AuthModals = () => {
     }, 2000)
   }, [app.modal.modalToShow])
 
+  useEffect(() => {
+    if (app.user.userData.id) {
+      if (app.modal.modalToShow === 'register') {
+        handleCloseRegisterModal()
+      }
+      if (app.modal.modalToShow === 'login') {
+        handleCloseLoginModal()
+      }
+    }
+  }, [app.user.userData.id])
+
   const resetUrl = () => {
     setTimeout(() => {
       window.history.pushState({}, null, '/')

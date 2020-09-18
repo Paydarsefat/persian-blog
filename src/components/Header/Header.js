@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react'
 import AuthModals from '../AuthModals/AuthModals'
 import PaidModal from '../PaidModal/PaidModal'
+import TestimonialModal from '../TestimonialModal/TestimonialModal'
 import MyApp from '../../contexts/MyApp'
 import profileImage from './profile.png'
 import { Link, navigate } from 'gatsby'
@@ -10,11 +11,16 @@ import loading from '../Icon/loading.gif'
 
 const Header = ({ page, location }) => {
   const app = useContext(MyApp)
+  const [showTestimonialModal, setShowTestimonialModal] = useState(false)
 
   const handleClickOnLogOut = () => {
     localStorage.setItem('token', '')
     app.user.updateUser()
     navigate('/')
+  }
+
+  const handleSendTestimonial = () => {
+    setShowTestimonialModal(true)
   }
 
   return (
@@ -95,6 +101,9 @@ const Header = ({ page, location }) => {
                       >
                         تغییر رمز عبور
                       </Link>
+                      <Dropdown.Item onClick={handleSendTestimonial}>
+                        ثبت توصیه‌نامه
+                      </Dropdown.Item>
                       <Dropdown.Item onClick={handleClickOnLogOut}>
                         خروج
                       </Dropdown.Item>
@@ -143,18 +152,9 @@ const Header = ({ page, location }) => {
                           >
                             پروفایل
                           </Link>
-                          {/* <Link
-                          className="dropdown-item"
-                          to={'/profile?state=transactions'}
-                        >
-                          تراکنشات
-                        </Link>
-                        <Link
-                          className="dropdown-item"
-                          to={'/profile?state=courses'}
-                        >
-                          دوره‌ها
-                        </Link> */}
+                          <Dropdown.Item onClick={handleSendTestimonial}>
+                            ثبت توصیه‌نامه
+                          </Dropdown.Item>
                           <Link
                             className="dropdown-item"
                             to={'/profile?state=changePassword'}
@@ -177,6 +177,10 @@ const Header = ({ page, location }) => {
 
       <AuthModals />
       <PaidModal />
+      <TestimonialModal
+        showTestimonialModal={showTestimonialModal}
+        setShowTestimonialModal={setShowTestimonialModal}
+      />
     </>
   )
 }
