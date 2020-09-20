@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://fa.ehsangazar.com/consulting-service/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/create-react-app-nextjs-gatsby-or-pure/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/should-I-read-you-dont-know-js-books/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/find-a-programming-job-course/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -53,8 +54,10 @@
 <url> <loc>https://fa.ehsangazar.com/what-is-git-github-bitbucket-gitlab/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/github-pages-static-html/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fa.ehsangazar.com/consult/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/courses/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fa.ehsangazar.com/mentorship/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/privacy-policy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/profile/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fa.ehsangazar.com/terms-conditions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
