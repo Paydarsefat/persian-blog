@@ -48,6 +48,11 @@ const Header = ({ page, location }) => {
                   <Link to="/about">درباره</Link>
                 </li>
                 <li
+                  className={`nav-item ${page === 'consult' ? 'active' : ''}`}
+                >
+                  <Link to="/consult">مشاوره</Link>
+                </li>
+                <li
                   className={`nav-item ${page === 'courses' ? 'active' : ''}`}
                 >
                   <Link to="/courses">دوره‌ها</Link>
@@ -65,6 +70,9 @@ const Header = ({ page, location }) => {
                   </Link>
                   <Link className="dropdown-item" to={'/about'}>
                     درباره
+                  </Link>
+                  <Link className="dropdown-item" to={'/consult'}>
+                    مشاوره
                   </Link>
                   <Link className="dropdown-item" to={'/courses'}>
                     دوره‌ها

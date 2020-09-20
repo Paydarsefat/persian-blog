@@ -5,7 +5,7 @@ description: 'خبرنامه سایت فارسی احسان گازار راه‌
 cover: cover.jpg
 comment: true
 homepage: true
-category: EhsanGazarPersian
+category: news
 videoSourceURL: https://www.youtube.com/embed/sg72ZWTmCEY
 videoTitle: 'خبرنامه سایت فارسی احسان گازار راه‌اندازی شد'
 ---
