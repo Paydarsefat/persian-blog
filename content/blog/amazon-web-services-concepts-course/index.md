@@ -6,6 +6,8 @@ cover: cover.jpg
 comment: true
 homepage: true
 category: aws-concepts
+videoSourceURL: https://www.youtube.com/embed/TLNR199bLrU
+videoTitle: چطور وارد دنیای برنامه‌نویسی شویم و چطور پیشرفت کنیم؟
 ---
 
 این دوره معرفی مفاهیم AWS یا Amazon Web Services هست.

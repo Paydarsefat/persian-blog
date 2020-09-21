@@ -61,7 +61,7 @@ const WorkCourse = ({ data, location }) => {
                     variant="primary"
                     className="widthAll"
                   >
-                    خرید دوره‌ی بازار کار برنامه‌نویسی
+                    این دوره رایگان می‌باشد
                   </Button>
                 </div>
               </div>

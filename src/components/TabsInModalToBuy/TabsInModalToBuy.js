@@ -98,7 +98,7 @@ const TabsInModalToBuy = ({ title, description, price, image }) => {
   let newPrice = discount
     ? (Number(price) * (100 - Number(discount))) / 100
     : price
-  newPrice = formatPrice(newPrice)
+  let newPriceFormatted = formatPrice(newPrice)
 
   const oldPrice = formatPrice(price)
 
@@ -111,64 +111,69 @@ const TabsInModalToBuy = ({ title, description, price, image }) => {
         discount={discount}
         oldPrice={oldPrice}
         newPrice={newPrice}
+        newPriceFormatted={newPriceFormatted}
       />
-      <CodeForm
-        isLoadingCoupon={isLoadingCoupon}
-        loading={loading}
-        handleSubmitCoupon={handleSubmitCoupon}
-        responseCouponAPI={responseCouponAPI}
-        handleChangeCoupon={handleChangeCoupon}
-        coupon={coupon}
-      />
-      <div className="tabs-buy">
-        <Tabs defaultActiveKey="transfer" id="uncontrolled-tab-example">
-          <Tab eventKey="transfer" title="انتقال">
-            <div className="tab-buy">
-              لطفا مبلغ
-              {` `}
-              {!discount && `${oldPrice} تومان`}
-              {` `}
-              {discount && (
-                <>
-                  <strike>{oldPrice}</strike> {newPrice} تومان
-                </>
-              )}
-              {` `}
-              را به شماره حساب زیر واریز نمایید
-              <div className="buy-number">6104 3374 9981 1279</div>
-              <div className="buy-name">زینب ناصری</div>
-              سپس رسید خرید را برای من ارسال نمایید
-              <div className="tab-buy-actions">
+      {newPrice > 0 && (
+        <CodeForm
+          isLoadingCoupon={isLoadingCoupon}
+          loading={loading}
+          handleSubmitCoupon={handleSubmitCoupon}
+          responseCouponAPI={responseCouponAPI}
+          handleChangeCoupon={handleChangeCoupon}
+          coupon={coupon}
+        />
+      )}
+      {newPrice > 0 && (
+        <div className="tabs-buy">
+          <Tabs defaultActiveKey="transfer" id="uncontrolled-tab-example">
+            <Tab eventKey="transfer" title="انتقال">
+              <div className="tab-buy">
+                لطفا مبلغ
+                {` `}
+                {!discount && `${oldPrice} تومان`}
+                {` `}
+                {discount && (
+                  <>
+                    <strike>{oldPrice}</strike> {newPriceFormatted} تومان
+                  </>
+                )}
+                {` `}
+                را به شماره حساب زیر واریز نمایید
+                <div className="buy-number">6104 3374 9981 1279</div>
+                <div className="buy-name">زینب ناصری</div>
+                سپس رسید خرید را برای من ارسال نمایید
+                <div className="tab-buy-actions">
+                  <OutboundLink
+                    rel="noopener noreferrer"
+                    className="btn btn-success"
+                    target="_blank"
+                    href="https://t.me/ehsangazar"
+                  >
+                    تلگرام
+                  </OutboundLink>
+                </div>
+              </div>
+            </Tab>
+            <Tab eventKey="paypal" title="پی‌پال">
+              <div className="tab-buy">
+                اگر خارج ایران هستید، میتوانید از Paypal برای پرداخت استفاده
+                کنید، فقط کافی است معادل دلاری دوره را به حساب
                 <OutboundLink
                   rel="noopener noreferrer"
-                  className="btn btn-success"
                   target="_blank"
-                  href="https://t.me/ehsangazar"
+                  href="https://www.paypal.me/ehsangazar"
                 >
-                  تلگرام
+                  {' '}
+                  پی‌پال{' '}
                 </OutboundLink>
+                من واریز کنید و سپس مسیجی در
+                <a href="https://t.me/ehsangazar"> تلگرام </a>
+                برای من بفرستید.
               </div>
-            </div>
-          </Tab>
-          <Tab eventKey="paypal" title="پی‌پال">
-            <div className="tab-buy">
-              اگر خارج ایران هستید، میتوانید از Paypal برای پرداخت استفاده کنید،
-              فقط کافی است معادل دلاری دوره را به حساب
-              <OutboundLink
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://www.paypal.me/ehsangazar"
-              >
-                {' '}
-                پی‌پال{' '}
-              </OutboundLink>
-              من واریز کنید و سپس مسیجی در
-              <a href="https://t.me/ehsangazar"> تلگرام </a>
-              برای من بفرستید.
-            </div>
-          </Tab>
-        </Tabs>
-      </div>
+            </Tab>
+          </Tabs>
+        </div>
+      )}
     </div>
   )
 }

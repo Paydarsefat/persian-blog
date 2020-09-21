@@ -58,7 +58,7 @@ const BuyModal = ({ showBuyModal, handleCloseBuyModal, isLoadingBuyModal }) => {
             image={workImage}
             title="چطور وارد دنیای برنامه‌نویسی شویم و چطور پیشرفت کنیم؟"
             description="در این دوره بسیاری از مهارت‌های کاریابی و پیشرفت شغلی را یاد خواهید گرفت"
-            price="330000"
+            price="0"
           />
         )}
       </Modal.Body>
