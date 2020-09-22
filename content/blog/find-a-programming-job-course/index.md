@@ -67,6 +67,7 @@ category: programming-world
   کسی که تازه می‌خواهد وارد دنیای برنامه‌نویسی شود
 
 - [برنامه‌نویسی چیست؟](/what-is-programming)
+- [انواع زبان‌های برنامه‌نویسی چیست؟](/what-are-the-different-types-of-programming)
 
 * # Junior
 

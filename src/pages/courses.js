@@ -8,6 +8,7 @@ import '../app/assets/css/slick.css'
 import '../app/assets/css/plyr.min.css'
 import '../app/assets/css/style.css'
 import './index.css'
+import handleFeatures from '../configs/handleFeatures'
 import SpecialOffer from '../components/SpecialOffer/SpecialOffer'
 
 const Courses = ({ location }) => {
@@ -16,20 +17,23 @@ const Courses = ({ location }) => {
       <SEO title={'دوره‌های آموزشی'} />
       {/* <Banner /> */}
       <div id="content">
-        <div class="container">
-          <div class="breadcrumb">
+        <div className="container">
+          <div className="breadcrumb">
             <ul>
               <li>
                 <Link to={'/'}>
-                  <i class="fas fa-home"></i>خانه
+                  <i className="fas fa-home"></i>خانه
                 </Link>
               </li>
-              <li class="active">دوره‌ها</li>
+              <li className="active">دوره‌ها</li>
             </ul>
           </div>
-          <div class="about-us">
+          <div className="about-us">
             <div className="about-us">
-              <SpecialOffer location={location} />
+              <SpecialOffer
+                location={location}
+                features={handleFeatures(location)}
+              />
             </div>
           </div>
         </div>

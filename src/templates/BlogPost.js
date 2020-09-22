@@ -153,10 +153,6 @@ export const pageQuery = graphql`
         category
         comment
         videoTitle
-        lessonAfter
-        lessonBefore
-        lessonAfterTitle
-        lessonBeforeTitle
         cover {
           childImageSharp {
             fluid(maxWidth: 800) {

@@ -11,8 +11,10 @@ import { Button, Form, Alert } from 'react-bootstrap'
 import NewsletterConfirmModal from '../NewsletterConfirmModal/NewsletterConfirmModal'
 import NewsletterRegisterModal from '../NewsletterRegisterModal/NewsletterRegisterModal'
 import fetchHandler from '../../utils/fetchHandler'
+import handleFeatures from '../../configs/handleFeatures'
 
 const Footer = ({ location }) => {
+  const features = handleFeatures(location)
   const [showNewsletterModal, setShowNewsletterModal] = useState(false)
   const [showConfirmEmailModal, setShowConfirmEmailModal] = useState(false)
   const [email, setEmail] = useState('')
@@ -196,25 +198,28 @@ const Footer = ({ location }) => {
                     <h5>دوره‌ها</h5>
                   </div>
                   <div className="feature-post-block d-flex flex-wrap">
-                    <div className="col-12 post-card -tiny">
-                      <Link
-                        className="card__cover"
-                        to="/find-a-programming-job-course"
-                      >
-                        <img
-                          src={workImg}
-                          alt="چطور وارد دنیای برنامه‌نویسی شویم و چطور پیشرفت کنیم؟"
-                        />
-                      </Link>
-                      <div className="card__content">
+                    {features.workCourse && (
+                      <div className="col-12 post-card -tiny">
                         <Link
-                          className="card__content-link"
+                          className="card__cover"
                           to="/find-a-programming-job-course"
                         >
-                          چطور وارد دنیای برنامه‌نویسی شویم و چطور پیشرفت کنیم؟
+                          <img
+                            src={workImg}
+                            alt="چطور وارد دنیای برنامه‌نویسی شویم و چطور پیشرفت کنیم؟"
+                          />
                         </Link>
+                        <div className="card__content">
+                          <Link
+                            className="card__content-link"
+                            to="/find-a-programming-job-course"
+                          >
+                            چطور وارد دنیای برنامه‌نویسی شویم و چطور پیشرفت
+                            کنیم؟
+                          </Link>
+                        </div>
                       </div>
-                    </div>
+                    )}
                     <div className="col-12 post-card -tiny">
                       <Link
                         className="card__cover"
