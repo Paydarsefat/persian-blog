@@ -152,9 +152,6 @@ const SpecialOffer = ({ location, features }) => {
           </Button>
           <br />
           <br />
-          <div>
-            <SpecialMessage />
-          </div>
         </div>
       </div>
 
