@@ -5,7 +5,7 @@ const handleFeatures = (location) => {
     }
   }
   return {
-    workCourse: false,
+    workCourse: true,
   }
 }
 

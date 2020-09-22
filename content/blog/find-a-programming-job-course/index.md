@@ -58,6 +58,10 @@ category: programming-world
 
 <br />
 
+هر روز ویدئوهای جدیدی به این دوره اضافه خواهد شد و ممکن است بر اساس سوالات دوستان پیش برود، پس با من همراه باشید
+
+<br />
+
 # محتوای دوره
 
 <div class="course-items">
@@ -67,36 +71,22 @@ category: programming-world
   کسی که تازه می‌خواهد وارد دنیای برنامه‌نویسی شود
 
 - [برنامه‌نویسی چیست؟](/what-is-programming)
-- [پرکاربردترین زبان‌های برنامه‌نویسی کدام‌ها هستند؟](/what-are-the-different-types-of-programming)
-- [انواع شغل‌های رایج دنیای برنامه‌نویسی چیست؟](/what-are-the-different-types-of-jobs)
-- [حقوق برنامه‌نویسان در عناوین مختلف میانگین چقدر هست؟](/what-are-the-different-types-of-jobs)
-- [Front End Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
-- [BackEnd End Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
-- [Full-Stack End Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
-- [Desktop Application Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
-- [Android Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
-- [iOS Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
-- [Game Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
-- [DevOps کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
-- [DataBase Administrator کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
-- [حال از کجا برای یادگیری شروع کنم؟](/what-are-the-different-types-of-jobs)
-- [الگوریتم‌ چیست؟ چطور آن‌ها را یاد بگیرم؟](/what-are-the-different-types-of-jobs)
 
-- # Junior (به زودی)
+- # Junior
 
   کسی که مقدمات را یاد گرفته است اما هنوز تجربه‌ی کاری حرفه‌ای ندارد
 
 - [مصاحبه با مهدی صفری](/chat-with-mahdi-safari)
 
-- # Mid-Level (به زودی)
+- # Mid-Level
 
   کسی که حداقل یک‌سال تجربه‌ی کاری و انجام پروژه دارد و حال می‌خواهد پیشرفت کند و به سمت Senior شدن برود
 
-- # Senior-Level (به زودی)
+- # Senior-Level
 
   کسی که حداقل سه سال سابقه‌ی کار حرفه‌ای دارد، مدت‌هاست با افراد دیگر در تیم کار می‌کند. می‌تواند جواب سوالات خود را پیدا کند و حتی به سایرین نیز کمک کند
 
-- # Lead-Level (به زودی)
+- # Lead-Level
 
   کسی که حداقل دو سال سابقه Senior بودن در تیم‌های بزرگ دارد، و حال می‌تواند تیم و تکنولوژی‌ها را مدیریت کند، Code Review داشته باشد و اگر لازم باشد برای ابزار‌های جدید تصمیم گیری کند
 

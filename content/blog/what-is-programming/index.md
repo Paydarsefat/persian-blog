@@ -1,10 +1,10 @@
 ---
 title: برنامه‌نویسی چیست؟
-date: '2020-09-22 12:00:00'
+date: '2020-09-23 09:00:00'
 description: برنامه‌نویسی چیست؟
 cover: cover.png
 comment: true
-homepage: false
+homepage: true
 videoSourceURL: https://www.youtube.com/embed/Zs3IZ7P_Pv0
 videoTitle: 'برنامه‌نویسی چیست؟'
 category: programming-world
