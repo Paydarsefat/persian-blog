@@ -8,8 +8,6 @@ homepage: false
 videoSourceURL: https://www.youtube.com/embed/Zs3IZ7P_Pv0
 videoTitle: 'برنامه‌نویسی چیست؟'
 category: programming-world
-lessonAfter: /what-are-the-different-types-of-programming
-lessonAfterTitle: انواع زبان‌های برنامه‌نویسی چیست؟
 ---
 
 اگر می‌خواهید خیلی تازه وارد دنیای برنامه‌نویسی شوید، احتمالا کمی راجب آن اطلاع دارید، هر نرم افزار یا سخت افزار نیازمند یک برنامه‌نویس است که به نحوی منطق‌های خیلی ساده یا پیچیده را پیاده سازی کند.
