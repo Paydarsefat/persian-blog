@@ -4,6 +4,7 @@ import reactBasicImage from './React-Basic.png'
 import reactAdvancedImage from './React-Advanced.png'
 import javaScriptImage from './../Footer/JavaScript.png'
 import awsConceptsImage from './../Footer/AWS-Concepts.png'
+import workImg from '../Footer/Work-Logo.png'
 import { useQueryParam, StringParam } from 'use-query-params'
 import { Link } from 'gatsby'
 import { Button, Form, Alert } from 'react-bootstrap'
@@ -195,7 +196,26 @@ const Footer = ({ location }) => {
                     <h5>دوره‌ها</h5>
                   </div>
                   <div className="feature-post-block d-flex flex-wrap">
-                    <div className="col-12 col-sm-6 post-card -tiny">
+                    <div className="col-12 post-card -tiny">
+                      <Link
+                        className="card__cover"
+                        to="/find-a-programming-job-course"
+                      >
+                        <img
+                          src={workImg}
+                          alt="چطور وارد دنیای برنامه‌نویسی شویم و چطور پیشرفت کنیم؟"
+                        />
+                      </Link>
+                      <div className="card__content">
+                        <Link
+                          className="card__content-link"
+                          to="/find-a-programming-job-course"
+                        >
+                          چطور وارد دنیای برنامه‌نویسی شویم و چطور پیشرفت کنیم؟
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="col-12 post-card -tiny">
                       <Link
                         className="card__cover"
                         to="/amazon-web-services-concepts-course"
@@ -212,14 +232,9 @@ const Footer = ({ location }) => {
                         >
                           دوره آنلاین معرفی مفاهیم AWS
                         </Link>
-                        <p>
-                          در طول این دوره یاد میگیرید که AWS چه نقش مهمی را در
-                          کاریابی و پیاده‌سازی اپلیکیشن‌های مهم در شرکت‌های دنیا
-                          دارد.
-                        </p>
                       </div>
                     </div>
-                    <div className="col-12 col-sm-6 post-card -tiny">
+                    <div className="col-12 post-card -tiny">
                       <Link
                         className="card__cover"
                         to="/es6-es7-etc-babel-webpack-javascript-course"
@@ -236,13 +251,9 @@ const Footer = ({ location }) => {
                         >
                           دوره کامل آموزش جاوا اسکریپت ورژن ES6 به بعد
                         </Link>
-                        <p>
-                          در این دوره با تمامی ویژگی های جاوا اسکریپت ES6 به بعد
-                          همراه با ابزارهای جدید آشنا می‌شوید
-                        </p>
                       </div>
                     </div>
-                    <div className="col-12 col-sm-6 post-card -tiny">
+                    <div className="col-12 post-card -tiny">
                       <Link className="card__cover" to="/react-basic-course">
                         <img
                           src={reactBasicImage}
@@ -256,13 +267,9 @@ const Footer = ({ location }) => {
                         >
                           دوره React JS مقدماتی
                         </Link>
-                        <p>
-                          دوره‌ای که در آن با مقدمات برنامه‌نویسی وب آشنا‌
-                          می‌شوید و یاد میگیرید با React وب‌سایت بنویسید
-                        </p>
                       </div>
                     </div>
-                    <div className="col-12 col-sm-6 post-card -tiny">
+                    <div className="col-12 post-card -tiny">
                       <Link className="card__cover" to="/react-advanced-course">
                         <img
                           src={reactAdvancedImage}
@@ -276,12 +283,6 @@ const Footer = ({ location }) => {
                         >
                           دوره React JS پیشرفته
                         </Link>
-                        <p>
-                          برای برنامه‌نویسی FrontEnd نیازمندید به صورت حرفه‌ای
-                          React,Next JS, Webpack و تکنولوژی‌های دیگری مثل
-                          GraphQL و Testing را بدانید که در این دوره می‌توانید
-                          یاد بگیرید
-                        </p>
                       </div>
                     </div>
                   </div>

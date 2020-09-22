@@ -87,6 +87,28 @@ const BlogPost = ({ data, location }) => {
                   <section dangerouslySetInnerHTML={{ __html: post.html }} />
                 </article>
                 <div className="space-8" />
+                {(post.frontmatter.lessonAfter ||
+                  post.frontmatter.lessonBefore) && (
+                  <div className="direction-lessons">
+                    {post.frontmatter.lessonAfter && (
+                      <div>
+                        درس بعدی:{` `}
+                        <Link to={post.frontmatter.lessonAfter}>
+                          {post.frontmatter.lessonAfterTitle}
+                        </Link>
+                      </div>
+                    )}
+                    {post.frontmatter.lessonBefore && (
+                      <div>
+                        درس قبلی:{` `}
+                        <Link to={post.frontmatter.lessonBefore}>
+                          {post.frontmatter.lessonBeforeTitle}
+                        </Link>
+                      </div>
+                    )}
+                  </div>
+                )}
+                <div className="space-2" />
                 {post.frontmatter.comment && (
                   <Comment uniquePath={uniquePath} />
                 )}
@@ -123,6 +145,10 @@ export const pageQuery = graphql`
         category
         comment
         videoTitle
+        lessonAfter
+        lessonBefore
+        lessonAfterTitle
+        lessonBeforeTitle
         cover {
           childImageSharp {
             fluid(maxWidth: 800) {

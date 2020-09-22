@@ -1,9 +1,19 @@
 ---
 title: برنامه‌نویسی چیست؟
-date: '2020-09-17 15:00:00'
+date: '2020-09-22 12:00:00'
 description: برنامه‌نویسی چیست؟
-cover: cover.jpg
+cover: cover.png
 comment: true
 homepage: false
+videoSourceURL: https://www.youtube.com/embed/Zs3IZ7P_Pv0
+videoTitle: 'برنامه‌نویسی چیست؟'
 category: programming-world
+lessonAfter: /what-are-the-different-types-of-programming
+lessonAfterTitle: انواع زبان‌های برنامه‌نویسی چیست؟
 ---
+
+اگر می‌خواهید خیلی تازه وارد دنیای برنامه‌نویسی شوید، احتمالا کمی راجب آن اطلاع دارید، هر نرم افزار یا سخت افزار نیازمند یک برنامه‌نویس است که به نحوی منطق‌های خیلی ساده یا پیچیده را پیاده سازی کند.
+
+<br />
+
+حال اگر رباتیک است یا وب‌سایت، همه نیازمند برنامه‌نویسانی است که آن‌ها را کد زده و پیاده‌سازی کنند.

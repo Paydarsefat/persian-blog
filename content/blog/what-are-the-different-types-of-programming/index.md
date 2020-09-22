@@ -6,4 +6,8 @@ cover: cover.jpg
 comment: true
 homepage: false
 category: programming-world
+lessonBefore: /what-is-programming
+lessonBeforeTitle: برنامه‌نویسی چیست؟
+lessonAfter: /what-are-the-different-types-of-jobs
+lessonAfterTitle: انواع شغل‌های رایج دنیای برنامه‌نویسی چیست؟
 ---

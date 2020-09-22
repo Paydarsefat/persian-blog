@@ -433,6 +433,20 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
 .post-card .card__cover img {
   height: 220px;
 }
+.post-card.-tiny .card__cover {
+  border-radius: 3px;
+  margin-right: 1.25em;
+  overflow: hidden;
+  height: 70px;
+  width: 70px;
+  margin-bottom: 0;
+}
+.post-card.-tiny .card__content {
+  align-items: center;
+  display: flex;
+  max-width: 100%;
+  flex: 1 1 100%;
+}
 .post-card .card__content-title {
   text-align: center;
   line-height: 35px;
@@ -583,6 +597,12 @@ pre.language-javascript * {
   list-style-type: persian;
   list-style-position: outside;
 }
+.course-items a:visited {
+  color: #afafaf;
+}
+.course-items a:visited:hover {
+  color: #444444;
+}
 .course-items ul {
   padding-right: 40px;
 }
@@ -612,8 +632,8 @@ pre.language-javascript * {
   background: none;
 }
 .post-card.-tiny {
-  margin-bottom: 50px;
-  min-height: 128px;
+  margin-bottom: 15px;
+  min-height: auto;
 }
 .center-line-title {
   height: 16px;
@@ -686,6 +706,13 @@ pre.language-javascript * {
 .stars button.selected ~ button .fill {
   display: block;
   color: #ff0000;
+}
+.direction-lessons {
+  display: flex;
+  flex-direction: column;
+}
+.direction-lessons div {
+  padding: 10px 0;
 }
 @media only screen and (max-width: 992px) {
   .comment__item__avatar {

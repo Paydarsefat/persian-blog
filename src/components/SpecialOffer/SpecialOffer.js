@@ -6,6 +6,8 @@ import reactBasicImage from './../Footer/React-Basic.png'
 import javaScriptImage from './../Footer/JavaScript.png'
 import reactAdvancedImage from './../Footer/React-Advanced.png'
 import awsConceptsImage from './../Footer/AWS-Concepts.png'
+import workImg from '../Footer/Work-Logo.png'
+
 import MyApp from '../../contexts/MyApp'
 
 const SpecialOffer = ({ location }) => {
@@ -58,6 +60,42 @@ const SpecialOffer = ({ location }) => {
           </div>
         </div>
       </div>
+      <div className="row content-container">
+        <div className="col-12 col-md-4 col-lg-4 content-image">
+          <Link to="/find-a-programming-job-course">
+            <img
+              src={workImg}
+              alt="چطور وارد دنیای برنامه‌نویسی شویم و چطور پیشرفت کنیم؟"
+            />
+          </Link>
+        </div>
+        <div className="col-12 col-md-8 col-lg-8 content">
+          <h1>چطور وارد دنیای برنامه‌نویسی شویم و چطور پیشرفت کنیم؟</h1>
+          <p>
+            دوره‌ای را با جواب دادن به سوالات دوستان و رفع نیاز دانشجویان
+            دوره‌ها فراهم کرده ام. که قصد دارم آن‌ها را در ابتدای مسیر کاری‌شان
+            یاری کنم. در این دوره بسیاری از مهارت‌های کاریابی و پیشرفت شغلی را
+            یاد خواهید گرفت
+            <br />
+            <br />
+            این دوره مختص به تازه‌واردان نیست، بلکه کسانی که حرفه‌ای هستند و
+            سابقه‌ی کار دارند نیز مطمئنا جای یادگیری زیادی خواهند داشت
+          </p>
+          <br />
+          <Link
+            className="btn btn-warning no-decoration margin-left-10"
+            to="/find-a-programming-job-course"
+          >
+            مشاهده جزئیات
+          </Link>
+          <Button onClick={() => handleBuy('work-course')} variant="info">
+            این دوره رایگان می‌باشد
+          </Button>
+          <br />
+          <br />
+        </div>
+      </div>
+
       <div className="row content-container">
         <div className="col-12 col-md-4 col-lg-4 content-image">
           <Link to="/amazon-web-services-concepts-course">
