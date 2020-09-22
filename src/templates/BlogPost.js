@@ -57,6 +57,14 @@ const BlogPost = ({ data, location }) => {
                   <i className="fas fa-home"></i>خانه
                 </Link>
               </li>
+              {post.frontmatter.category === 'programming-world' && (
+                <li>
+                  <Link to={'/find-a-programming-job-course'}>
+                    دوره آنلاین چطور وارد دنیای برنامه‌نویسی شویم و چطور پیشرفت
+                    کنیم؟
+                  </Link>
+                </li>
+              )}
               <li className="active">{post.frontmatter.title}</li>
             </ul>
           </div>
