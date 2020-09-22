@@ -69,30 +69,35 @@ category: programming-world
 - [برنامه‌نویسی چیست؟](/what-is-programming)
 - [پرکاربردترین زبان‌های برنامه‌نویسی کدام‌ها هستند؟](/what-are-the-different-types-of-programming)
 - [انواع شغل‌های رایج دنیای برنامه‌نویسی چیست؟](/what-are-the-different-types-of-jobs)
-- [مصاحبه با مهدی صفری](/chat-with-mahdi-safari)
+- [حقوق برنامه‌نویسان در عناوین مختلف میانگین چقدر هست؟](/what-are-the-different-types-of-jobs)
+- [Front End Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
+- [BackEnd End Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
+- [Full-Stack End Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
+- [Desktop Application Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
+- [Android Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
+- [iOS Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
+- [Game Developer کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
+- [DevOps کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
+- [DataBase Administrator کیست؟ و چه تکنولوژی‌هایی را می‌بایست بداند؟](/what-are-the-different-types-of-jobs)
+- [حال از کجا برای یادگیری شروع کنم؟](/what-are-the-different-types-of-jobs)
+- [الگوریتم‌ چیست؟ چطور آن‌ها را یاد بگیرم؟](/what-are-the-different-types-of-jobs)
 
-* # Junior
+- # Junior (به زودی)
 
   کسی که مقدمات را یاد گرفته است اما هنوز تجربه‌ی کاری حرفه‌ای ندارد
 
-  محتویات این بخش به زودی آپدیت می‌شود
+- [مصاحبه با مهدی صفری](/chat-with-mahdi-safari)
 
-- # Mid-Level
+- # Mid-Level (به زودی)
 
   کسی که حداقل یک‌سال تجربه‌ی کاری و انجام پروژه دارد و حال می‌خواهد پیشرفت کند و به سمت Senior شدن برود
 
-  محتویات این بخش به زودی آپدیت می‌شود
-
-* # Senior-Level
+- # Senior-Level (به زودی)
 
   کسی که حداقل سه سال سابقه‌ی کار حرفه‌ای دارد، مدت‌هاست با افراد دیگر در تیم کار می‌کند. می‌تواند جواب سوالات خود را پیدا کند و حتی به سایرین نیز کمک کند
 
-  محتویات این بخش به زودی آپدیت می‌شود
-
-- # Lead-Level
+- # Lead-Level (به زودی)
 
   کسی که حداقل دو سال سابقه Senior بودن در تیم‌های بزرگ دارد، و حال می‌تواند تیم و تکنولوژی‌ها را مدیریت کند، Code Review داشته باشد و اگر لازم باشد برای ابزار‌های جدید تصمیم گیری کند
-
-  محتویات این بخش به زودی آپدیت می‌شود
 
 </div>
