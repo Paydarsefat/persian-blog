@@ -68,6 +68,8 @@ category: programming-world
 
 - [برنامه‌نویسی چیست؟](/what-is-programming)
 - [پرکاربردترین زبان‌های برنامه‌نویسی کدام‌ها هستند؟](/what-are-the-different-types-of-programming)
+- [انواع شغل‌های رایج دنیای برنامه‌نویسی چیست؟](/what-are-the-different-types-of-jobs)
+- [مصاحبه با مهدی صفری](/chat-with-mahdi-safari)
 
 * # Junior
 
