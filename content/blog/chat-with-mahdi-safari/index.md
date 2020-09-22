@@ -4,7 +4,7 @@ date: '2020-09-22 20:00:00'
 description: مصاحبه با مهدی صفری
 cover: cover.jpg
 comment: true
-homepage: false
+homepage: true
 videoSourceURL: https://www.youtube.com/embed/wLSFhfRgGzo
 videoTitle: 'مصاحبه با مهدی صفری'
 category: Gazar-TV
