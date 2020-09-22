@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 22 Sep 2020 03:55:19 GMT</lastBuildDate><item><title><![CDATA[برنامه‌نویسی چیست؟]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/what-is-programming/</link><guid isPermaLink="false">https://fa.ehsangazar.com/what-is-programming/</guid><pubDate>Tue, 22 Sep 2020 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;اگر می‌خواهید خیلی تازه وارد دنیای برنامه‌نویسی شوید، احتمالا کمی راجب آن اطلاع دارید، هر نرم افزار یا سخت افزار نیازمند یک برنامه‌نویس است که به نحوی منطق‌های خیلی ساده یا پیچیده را پیاده سازی کند.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 22 Sep 2020 04:55:14 GMT</lastBuildDate><item><title><![CDATA[برنامه‌نویسی چیست؟]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/what-is-programming/</link><guid isPermaLink="false">https://fa.ehsangazar.com/what-is-programming/</guid><pubDate>Tue, 22 Sep 2020 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;اگر می‌خواهید خیلی تازه وارد دنیای برنامه‌نویسی شوید، احتمالا کمی راجب آن اطلاع دارید، هر نرم افزار یا سخت افزار نیازمند یک برنامه‌نویس است که به نحوی منطق‌های خیلی ساده یا پیچیده را پیاده سازی کند.&lt;/p&gt;
 &lt;br /&gt;
 &lt;p&gt;حال اگر رباتیک است یا وب‌سایت، همه نیازمند برنامه‌نویسانی است که آن‌ها را کد زده و پیاده‌سازی کنند.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[سرویس جدید مشاوره با احسان گازار]]></title><description><![CDATA[…]]></description><link>https://fa.ehsangazar.com/consulting-service/</link><guid isPermaLink="false">https://fa.ehsangazar.com/consulting-service/</guid><pubDate>Sun, 20 Sep 2020 19:20:00 GMT</pubDate><content:encoded>&lt;p&gt;به نظر می‌رسد وقت آن رسیده است که سرویس جدید به سایت اضافه کنم تحت عنوان &lt;a href=&quot;/consult&quot;&gt;مشاوره&lt;/a&gt;.&lt;/p&gt;
 &lt;br /&gt;
@@ -143,7 +143,7 @@
 &lt;p&gt;کسی که تازه می‌خواهد وارد دنیای برنامه‌نویسی شود&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/what-is-programming&quot;&gt;برنامه‌نویسی چیست؟&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/what-are-the-different-types-of-programming&quot;&gt;انواع زبان‌های برنامه‌نویسی چیست؟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/what-are-the-different-types-of-programming&quot;&gt;پرکاربردترین زبان‌های برنامه‌نویسی کدام‌ها هستند؟&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;h1&gt;Junior&lt;/h1&gt;
 &lt;p&gt;کسی که مقدمات را یاد گرفته است اما هنوز تجربه‌ی کاری حرفه‌ای ندارد&lt;/p&gt;
@@ -165,7 +165,9 @@
 &lt;p&gt;محتویات این بخش به زودی آپدیت می‌شود&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[انواع شغل‌های رایج دنیای برنامه‌نویسی چیست؟]]></title><link>https://fa.ehsangazar.com/what-are-the-different-types-of-jobs/</link><guid isPermaLink="false">https://fa.ehsangazar.com/what-are-the-different-types-of-jobs/</guid><pubDate>Thu, 17 Sep 2020 15:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[انواع زبان‌های برنامه‌نویسی چیست؟]]></title><link>https://fa.ehsangazar.com/what-are-the-different-types-of-programming/</link><guid isPermaLink="false">https://fa.ehsangazar.com/what-are-the-different-types-of-programming/</guid><pubDate>Thu, 17 Sep 2020 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[انواع شغل‌های رایج دنیای برنامه‌نویسی چیست؟]]></title><link>https://fa.ehsangazar.com/what-are-the-different-types-of-jobs/</link><guid isPermaLink="false">https://fa.ehsangazar.com/what-are-the-different-types-of-jobs/</guid><pubDate>Thu, 17 Sep 2020 15:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[پرکاربردترین زبان‌های برنامه‌نویسی کدام‌ها هستند؟]]></title><description><![CDATA[هر ساله StackOverFlow…]]></description><link>https://fa.ehsangazar.com/what-are-the-different-types-of-programming/</link><guid isPermaLink="false">https://fa.ehsangazar.com/what-are-the-different-types-of-programming/</guid><pubDate>Thu, 17 Sep 2020 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;هر ساله StackOverFlow لیستی از پرکاربردترین زبان‌های برنامه‌نویسی ارائه میده که میتونید عکسی از آن را در پایین ببینید.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
@@ -196,7 +198,11 @@
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[معرفی سرویس‌های هیجان انگیز AWS مثل AWS DeepRacer, Amazon Braket, AWS Amplify, Elasticsearch Service, Amazon SageMaker و IoT Core]]></title><description><![CDATA[سرویس‌هایی که بعضی بسیار پرکاربرد هستند و بعضی بسیار هیجان انگیز برای مثال ElasticSearch سرویسی است که سایت‌های با Scale…]]></description><link>https://fa.ehsangazar.com/amazon-web-services-concepts-amplify-braket-deepracer-sagemaker-elasticsearch-iot/</link><guid isPermaLink="false">https://fa.ehsangazar.com/amazon-web-services-concepts-amplify-braket-deepracer-sagemaker-elasticsearch-iot/</guid><pubDate>Thu, 17 Sep 2020 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;سرویس‌هایی که بعضی بسیار پرکاربرد هستند و بعضی بسیار هیجان انگیز&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;هر کدام از این زبان‌ها کاربردی دارند و خب در ویدئوهای آتی بیشتر بررسی‌شان خواهیم کرد.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;اما مطمئنا برای شروع برنامه‌نویسی بهتر است با یکی از زبان‌های پر کاربرد مثل JavaScript, HTML, CSS یا Python و PHP شروع کنید.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[معرفی سرویس‌های هیجان انگیز AWS مثل AWS DeepRacer, Amazon Braket, AWS Amplify, Elasticsearch Service, Amazon SageMaker و IoT Core]]></title><description><![CDATA[سرویس‌هایی که بعضی بسیار پرکاربرد هستند و بعضی بسیار هیجان انگیز برای مثال ElasticSearch سرویسی است که سایت‌های با Scale…]]></description><link>https://fa.ehsangazar.com/amazon-web-services-concepts-amplify-braket-deepracer-sagemaker-elasticsearch-iot/</link><guid isPermaLink="false">https://fa.ehsangazar.com/amazon-web-services-concepts-amplify-braket-deepracer-sagemaker-elasticsearch-iot/</guid><pubDate>Thu, 17 Sep 2020 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;سرویس‌هایی که بعضی بسیار پرکاربرد هستند و بعضی بسیار هیجان انگیز&lt;/p&gt;
 &lt;br /&gt;
 &lt;p&gt;برای مثال ElasticSearch سرویسی است که سایت‌های با Scale بالای زیادی از آن با AWS یا سرورهای مجزا استفاده می‌کنند و کارایی آن در جستجو‌های بزرگ بسیار کاربردی است.&lt;/p&gt;
 &lt;br /&gt;
