@@ -437,9 +437,10 @@ button.dropdown-toggle.btn.btn-dropdown:focus {
   border-radius: 3px;
   margin-right: 1.25em;
   overflow: hidden;
-  height: 70px;
-  width: 70px;
+  height: auto;
+  max-width: 80px;
   margin-bottom: 0;
+  flex: 0 0 100%;
 }
 .post-card.-tiny .card__content {
   align-items: center;
