@@ -5,5 +5,7 @@ description: انواع شغل‌های رایج دنیای برنامه‌نو�
 cover: cover.jpg
 comment: true
 homepage: false
+videoSourceURL: https://www.youtube.com/embed/L5ctwIJ5F74
+videoTitle: 'انواع شغل‌های رایج دنیای برنامه‌نویسی چیست؟'
 category: programming-world
 ---
