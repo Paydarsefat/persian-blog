@@ -135,6 +135,13 @@ const Footer = ({ location }) => {
                   <OutboundLink
                     rel="noopener noreferrer"
                     target="_blank"
+                    href="https://www.instagram.com/gazar_in_persian"
+                  >
+                    <i className="fab fa-instagram"></i>
+                  </OutboundLink>
+                  <OutboundLink
+                    rel="noopener noreferrer"
+                    target="_blank"
                     href="https://www.youtube.com/channel/UC-NKQJ0bsHTXS_PzYCSvVUQ"
                   >
                     <i className="fab fa-youtube"></i>
