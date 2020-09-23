@@ -1,10 +1,10 @@
 ---
 title: پرکاربردترین زبان‌های برنامه‌نویسی کدام‌ها هستند؟
-date: '2020-09-17 15:00:00'
+date: '2020-09-23 13:00:00'
 description: پرکاربردترین زبان‌های برنامه‌نویسی کدام‌ها هستند؟
 cover: cover.jpg
 comment: true
-homepage: false
+homepage: true
 videoSourceURL: https://www.youtube.com/embed/L5ctwIJ5F74
 videoTitle: 'پرکاربردترین زبان‌های برنامه‌نویسی کدام‌ها هستند؟'
 category: programming-world
