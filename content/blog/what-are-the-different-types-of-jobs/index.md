@@ -4,7 +4,7 @@ date: '2020-09-17 15:00:00'
 description: انواع شغل‌های رایج دنیای برنامه‌نویسی چیست؟
 cover: cover.jpg
 comment: true
-homepage: false
+homepage: true
 videoSourceURL: https://www.youtube.com/embed/ulVvNqsaZms
 videoTitle: 'انواع شغل‌های رایج دنیای برنامه‌نویسی چیست؟'
 category: programming-world
