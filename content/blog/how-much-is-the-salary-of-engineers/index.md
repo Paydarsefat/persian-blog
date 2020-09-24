@@ -5,7 +5,7 @@ description: حقوق برنامه‌نویسان در عناوین مختلف �
 cover: cover.jpg
 comment: true
 homepage: true
-videoSourceURL: https://www.youtube.com/embed/ulVvNqsaZms
+videoSourceURL: https://www.youtube.com/embed/EQ5euF1HAtY
 videoTitle: 'حقوق برنامه‌نویسان در عناوین مختلف میانگین چقدر هست؟'
 category: programming-world
 ---
