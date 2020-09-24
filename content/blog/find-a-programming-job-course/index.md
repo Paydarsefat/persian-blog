@@ -72,12 +72,13 @@ category: programming-world
 
 - [برنامه‌نویسی چیست؟](/what-is-programming)
 - [پرکاربردترین زبان‌های برنامه‌نویسی کدام‌ها هستند؟](/what-are-the-different-types-of-programming)
+- [انواع شغل‌های رایج دنیای برنامه‌نویسی چیست؟](/what-are-the-different-types-of-jobs)
+- [حقوق برنامه‌نویسان در عناوین مختلف میانگین چقدر هست؟](/how-much-is-the-salary-of-engineers)
+- [مصاحبه با مهدی صفری](/chat-with-mahdi-safari)
 
-- # Junior
+* # Junior
 
   کسی که مقدمات را یاد گرفته است اما هنوز تجربه‌ی کاری حرفه‌ای ندارد
-
-- [مصاحبه با مهدی صفری](/chat-with-mahdi-safari)
 
 - # Mid-Level
 
