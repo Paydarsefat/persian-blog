@@ -77,7 +77,7 @@ const About = ({ location }) => {
                     <OutboundLink
                       rel="noopener noreferrer"
                       target="_blank"
-                      href="https://www.linkedin.com/in/gazar"
+                      href="https://www.linkedin.com/company/fa-ehsangazar-com"
                     >
                       {` `}لینکداین‌ام{` `}
                     </OutboundLink>

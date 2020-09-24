@@ -121,13 +121,6 @@ const Footer = ({ location }) => {
                   <OutboundLink
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="https://twitter.com/ehsangazar"
-                  >
-                    <i className="fab fa-twitter"></i>
-                  </OutboundLink>
-                  <OutboundLink
-                    rel="noopener noreferrer"
-                    target="_blank"
                     href="https://t.me/fa_ehsangazar_com"
                   >
                     <i className="fab fa-telegram"></i>
@@ -138,6 +131,13 @@ const Footer = ({ location }) => {
                     href="https://www.instagram.com/gazar_in_persian"
                   >
                     <i className="fab fa-instagram"></i>
+                  </OutboundLink>
+                  <OutboundLink
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://www.linkedin.com/company/fa-ehsangazar-com"
+                  >
+                    <i className="fab fa-linkedin"></i>
                   </OutboundLink>
                   <OutboundLink
                     rel="noopener noreferrer"
