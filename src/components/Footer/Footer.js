@@ -197,6 +197,25 @@ const Footer = ({ location }) => {
                   من، یا ایمیلی به me@ehsangazar.com بفرستید.
                 </p>
               </div>
+              <div className="col-12 space-up">
+                <div className="center-line-title">
+                  <h5>سایر</h5>
+                </div>
+                <p className="contact-method">
+                  <ul>
+                    <li>
+                      - برنامه‌ی انتشار یا{' '}
+                      <OutboundLink
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://trello.com/b/RttI3QMi/editorial-calendar-persian-blog"
+                      >
+                        Editorial Calendar
+                      </OutboundLink>
+                    </li>
+                  </ul>
+                </p>
+              </div>
             </div>
             <div className="col-12 col-lg-8">
               <div className="col-12">
