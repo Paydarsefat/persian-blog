@@ -5,10 +5,12 @@ description: چطور وارد مسیر FrontEnd Developer شدن شویم؟
 cover: cover.jpg
 comment: true
 homepage: true
+videoSourceURL: https://www.youtube.com/embed/CbDmpcmswrg
+videoTitle: 'چطور وارد مسیر Backend Developer شدن شویم؟'
 category: programming-world
 ---
 
-رشته‌ای از برنامه‌نویسی که خب شروعی خوب برای یادگیری هم هست و الان خیلی‌ها ابزار علاقه می‌کنند FrontEnd Developer شدن هست.
+رشته‌ای از برنامه‌نویسی که خب شروعی خوب برای یادگیری هم هست و الان خیلی‌ها ابزار علاقه‌میککند Backend Developer شدن هست.
 
 <br />
 
