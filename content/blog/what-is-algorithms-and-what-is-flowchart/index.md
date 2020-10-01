@@ -1,6 +1,6 @@
 ---
 title: الگوریتم‌ چیست و flowchart یا فلوچارت چیست؟
-date: '2020-09-25 09:00:00'
+date: '2020-10-01 09:00:00'
 description: الگوریتم‌ چیست و flowchart یا فلوچارت چیست؟
 cover: cover.jpg
 comment: true
