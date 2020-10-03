@@ -7,7 +7,7 @@ videoTitle: 'معرفی سیستم Contentful و روش استفاده از پن
 cover: cover.jpg
 comment: true
 homepage: true
-category: tips
+category: programming-world
 ---
 
 یه محصول خیلی جالب به اسم

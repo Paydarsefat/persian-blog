@@ -7,7 +7,7 @@ videoTitle: 'چطور با github pages سایت static را هاست کنیم'
 cover: cover.png
 comment: true
 homepage: true
-category: technology
+category: programming-world
 ---
 
 خب از جمله تکنولوژی هایی که من در دوره مقدماتی معرفی کردم محتوای همین ویدئو نیز هست. که از Github Static Pages استفاده کردم.

@@ -7,7 +7,7 @@ videoTitle: 'معرفی Git و سایت‌های BitBucket, Github و GitLab'
 cover: cover.jpg
 comment: true
 homepage: true
-category: git
+category: programming-world
 ---
 
 در این ویدئو نگاه مختصری به سه وب‌سایت که میتوانیم Git ها رو هاست کنیم می اندازیم.

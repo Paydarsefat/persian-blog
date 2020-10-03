@@ -6,7 +6,7 @@ videoTitle: 'آشنایی با زبان Markdown'
 cover: cover.jpg
 comment: true
 homepage: true
-category: technology
+category: programming-world
 ---
 
 در این ویدئو راجب یکی از کاربردی ترین تکنولوژی‌های ورود محتوا در وب صحبت می‌کنم.

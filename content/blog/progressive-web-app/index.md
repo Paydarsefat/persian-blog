@@ -5,7 +5,7 @@ description: 'Progressive Web App یا PWA چیست؟ و چگونه آن را ب
 cover: cover.png
 comment: true
 homepage: true
-category: FrontEnd
+category: programming-world
 ---
 
 یکی از مهم ترین مسائلی که در دنیای برنامه نویسی با آن روبرو هستیم پیاده سازی سایتی است که بهترین تجربه‌ی کاربری را داشته باشد و یکی از اسم‌هایی که امروزه می‌شنویم Progressive Web App یا PWA است. شاید بدانید که مثلا VS Code یا Slack یا حتی طی خبری تازه Microsoft 360 به همین طریق نوشته شده و در اصل یک PWA هستند.

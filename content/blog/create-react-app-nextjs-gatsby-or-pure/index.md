@@ -5,7 +5,7 @@ description: 'کدام Framework را بین Create React App, NextJS یا Gatsb
 cover: cover.jpg
 comment: true
 homepage: true
-category: tips
+category: programming-world
 ---
 
 سه فریم ورک معروف برای React عبارت اند از NextJSو Create React App و Gatsby. و سوالی که در ابتدای پروژه پیش میاد این هست که باید از کدوم استفاده کنیم.

@@ -5,7 +5,7 @@ description: 'چطور می‌توان یک برنامه‌نویس ارشد Fro
 cover: cover.jpg
 comment: true
 homepage: true
-category: FrontEnd
+category: programming-world
 videoSourceURL: https://www.youtube.com/embed/RDUmfhjLg5U
 videoTitle: 'چطور می‌توان یک برنامه‌نویس ارشد FrontEnd شد'
 ---

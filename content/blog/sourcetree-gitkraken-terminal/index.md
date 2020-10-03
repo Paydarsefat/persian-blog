@@ -7,7 +7,7 @@ videoTitle: 'برنامه نویسی - آموزش - آشنایی با SourceTree
 cover: cover.jpg
 comment: true
 homepage: true
-category: git
+category: programming-world
 ---
 
 خب خیلی وقت‌ها پیش می‌آید که شما باید بین یکی از تکنولوژی ها انتخاب کنید. برای کار با گیت هم شما نیاز دارید که وسیله‌ای را انتخاب کنید.

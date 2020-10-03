@@ -6,7 +6,7 @@ videoTitle: 'معرفی Git و سایت‌های BitBucket, Github و GitLab'
 cover: cover.jpg
 comment: true
 homepage: true
-category: git
+category: programming-world
 description: 'معرفی Git و سایت‌های BitBucket, Github و GitLab'
 ---
 

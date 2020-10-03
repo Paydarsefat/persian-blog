@@ -5,7 +5,7 @@ description: 'مدل اندازه‌گیری و طراحی واکنش‌های �
 cover: cover.png
 comment: true
 homepage: true
-category: FrontEnd
+category: programming-world
 ---
 
 ![alt text](rail.png 'مدل اندازه‌گیری و طراحی واکنش‌های وب‌سایت RAIL')

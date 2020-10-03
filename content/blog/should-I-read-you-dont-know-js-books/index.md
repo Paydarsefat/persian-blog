@@ -4,7 +4,7 @@ date: '2020-09-18 09:00:00'
 cover: cover.jpg
 comment: true
 homepage: true
-category: tips
+category: programming-world
 description: "آیا می‌بایست کتاب‌های You Don't Know Js را بخوانم؟"
 ---
 

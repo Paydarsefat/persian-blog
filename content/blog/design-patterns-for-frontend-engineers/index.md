@@ -5,7 +5,7 @@ description: 'یادگیری Design Patterns برای FrontEnd Engineers'
 cover: cover.jpg
 comment: true
 homepage: true
-category: tips
+category: programming-world
 ---
 
 این مقاله برای بررسی Design Pattern ها و یادگیری آن‌ها برای FrontEnd Engineer هاست.

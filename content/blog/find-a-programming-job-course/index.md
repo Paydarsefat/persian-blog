@@ -76,6 +76,11 @@ category: programming-world
 - [حقوق برنامه‌نویسان در عناوین مختلف میانگین چقدر هست؟](/how-much-is-the-salary-of-engineers)
 - [چه رابطه‌ای بین شغل‌ها و تولید یک برنامه/وب‌سایت/بازی وجود دارد؟](/what-is-the-relation-between-jobs-and-producing-an-app)
 - [الگوریتم‌ چیست و flowchart یا فلوچارت چیست؟](/what-is-algorithms-and-what-is-flowchart)
+- [معرفی Git و سایت‌های BitBucket, Github و GitLab](/what-is-git-github-bitbucket-gitlab)
+- [برنامه نویسی - آموزش - آشنایی با SourceTree, GitKraken و کار مقدماتی با Terminal](/sourcetree-gitkraken-terminal/)
+- [آموزش کار با gitlab و gitkraken](/gitlab-gitkraken/)
+- [معرفی Git و سایت‌های BitBucket, Github و GitLab](/bitbucket-sourceree-git)
+- [آشنایی با زبان Markdown](/markdown-language)
 - [چطور وارد مسیر FrontEnd Developer شدن شویم؟](/how-to-be-frontend-developer)
 - [مصاحبه با مهدی صفری](/chat-with-mahdi-safari)
 
@@ -83,13 +88,25 @@ category: programming-world
 
   کسی که مقدمات را یاد گرفته است اما هنوز تجربه‌ی کاری حرفه‌ای ندارد
 
+- [چطور با github pages سایت static را هاست کنیم](/github-pages-static-html)
+
 - # Mid-Level
 
   کسی که حداقل یک‌سال تجربه‌ی کاری و انجام پروژه دارد و حال می‌خواهد پیشرفت کند و به سمت Senior شدن برود
 
+- [با CI/CD در برنامه‌نویسی آشنا شوید](/what-is-ci-cd)
+- [معرفی سیستم Contentful و روش استفاده از پنل و API های آن](/introduction-to-contentful)
+- [یادگیری Design Patterns برای FrontEnd Engineers](/design-patterns-for-frontend-engineers)
+- [کدام Framework را بین Create React App, NextJS یا Gatsby برای توسعه‌ی این محصول استفاده کنم؟](/create-react-app-nextjs-gatsby-or-pure)
+- [چطور می‌توان یک برنامه‌نویس ارشد FrontEnd شد](/how-to-be-a-senior-frontend-developer)
+- [آیا می‌بایست کتاب‌های You Don't Know Js را بخوانم؟](/should-I-read-you-dont-know-js-books)
+
 - # Senior-Level
 
   کسی که حداقل سه سال سابقه‌ی کار حرفه‌ای دارد، مدت‌هاست با افراد دیگر در تیم کار می‌کند. می‌تواند جواب سوالات خود را پیدا کند و حتی به سایرین نیز کمک کند
+
+- [Progressive Web App یا PWA چیست؟ و چگونه آن را برنامه‌نویسی کنیم](/progressive-web-app)
+- [مدل اندازه‌گیری و طراحی واکنش‌های وب‌سایت RAIL](/rail-response-time-design/)
 
 - # Lead-Level
 
