@@ -75,6 +75,8 @@ category: programming-world
 - [انواع شغل‌های رایج دنیای برنامه‌نویسی چیست؟](/what-are-the-different-types-of-jobs)
 - [حقوق برنامه‌نویسان در عناوین مختلف میانگین چقدر هست؟](/how-much-is-the-salary-of-engineers)
 - [چه رابطه‌ای بین شغل‌ها و تولید یک برنامه/وب‌سایت/بازی وجود دارد؟](/what-is-the-relation-between-jobs-and-producing-an-app)
+- [الگوریتم‌ چیست و flowchart یا فلوچارت چیست؟](/what-is-algorithms-and-what-is-flowchart)
+- [چطور وارد مسیر FrontEnd Developer شدن شویم؟](/how-to-be-frontend-developer)
 - [مصاحبه با مهدی صفری](/chat-with-mahdi-safari)
 
 * # Junior
