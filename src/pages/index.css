@@ -715,6 +715,17 @@ pre.language-javascript * {
 .direction-lessons div {
   padding: 10px 0;
 }
+.star {
+  background-image: url(http://localhost:8000/icons/star.png);
+  width: 25px;
+  height: 25px;
+  background-size: 25px;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  display: block;
+  float: right;
+  margin-top: 3px;
+}
 @media only screen and (max-width: 992px) {
   .comment__item__avatar {
     display: none;
