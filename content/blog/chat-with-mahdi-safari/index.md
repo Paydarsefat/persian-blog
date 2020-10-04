@@ -7,7 +7,7 @@ comment: true
 homepage: true
 videoSourceURL: https://www.youtube.com/embed/wLSFhfRgGzo
 videoTitle: 'مصاحبه با مهدی صفری'
-category: Gazar-TV
+category: programming-world
 ---
 
 مهدی صفری از دوستان خوب من و فردی با تجربه در بازار کار ایران است، او طی ۱۰ سال کار در استارتاپ‌های مختلف و حال شرکت
