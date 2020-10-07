@@ -109,6 +109,7 @@ category: programming-world
 
 - [Progressive Web App یا PWA چیست؟ و چگونه آن را برنامه‌نویسی کنیم](/progressive-web-app)
 - [مدل اندازه‌گیری و طراحی واکنش‌های وب‌سایت RAIL](/rail-response-time-design/)
+- [Sentry چیست و چطور باگ‌ها را در محیط production دیباگ کنیم؟](/what-is-sentry-how-to-find-bugs-in-production)
 
 - # Lead-Level
 
