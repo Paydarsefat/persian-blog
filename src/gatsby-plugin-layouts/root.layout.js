@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import MyApp from '../contexts/MyApp'
 import fetchHandler from '../utils/fetchHandler'
+import * as Sentry from '@sentry/react'
+import { Integrations } from '@sentry/tracing'
+import { useEffect } from 'react'
 
 const RootLayout = ({ children }) => {
   const [userData, setUserData] = useState({})
@@ -35,6 +38,18 @@ const RootLayout = ({ children }) => {
       setModalToShow('buyModal')
     }
   }
+
+  useEffect(() => {
+    Sentry.init({
+      dsn:
+        'https://2ca57d8719874c999d918938aedfc03c@o458568.ingest.sentry.io/5456307',
+      integrations: [new Integrations.BrowserTracing()],
+
+      // We recommend adjusting this value in production, or using tracesSampler
+      // for finer control
+      tracesSampleRate: 1.0,
+    })
+  }, [])
 
   return (
     <MyApp.Provider

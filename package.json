@@ -8,6 +8,8 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "@sentry/react": "^5.25.0",
+    "@sentry/tracing": "^5.25.0",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.2",
     "crypto-js": "^4.0.0",
