@@ -85,6 +85,8 @@ category: programming-world
 - <span class="star"></span> [مصاحبه با مهدی صفری - عضو هیئت مدیره‌ی شرکت کاربن](/chat-with-mahdi-safari)
 - <span class="star"></span> [مصاحبه با سینا شرف‌زاده - Technical Lead Alibaba Co
   ](/chat-with-sina-sharafzadeh-technical-lead-alibaba/)
+- <span class="star"></span> [گفتگو با مجتبی چنانی - برنامه‌نویس شرکت cubic در هامبورگ آلمان
+  ](/chat-with-mojtaba-chenani-software-engineer-cubic-germany/)
 
 * # Junior
 
