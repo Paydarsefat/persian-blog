@@ -2,7 +2,7 @@
 title: گفتگو با مجتبی چنانی - برنامه‌نویس شرکت cubic در هامبورگ آلمان
 date: '2020-10-12 10:00:00'
 description: گفتگو با مجتبی چنانی - برنامه‌نویس شرکت cubic در هامبورگ آلمان
-cover: cover.jpg
+cover: cover.png
 comment: true
 homepage: true
 videoSourceURL: https://www.youtube.com/embed/9FJc-fsnUzs
