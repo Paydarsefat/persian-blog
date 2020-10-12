@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 10 Oct 2020 01:27:02 GMT</lastBuildDate><item><title><![CDATA[چطور درخواست Fetch را در جاوا اسکریپت کنسل کنیم؟]]></title><description><![CDATA[یکی از مشکلات در JavaScript بعضا کنسل کردن Promise هاست! فرض کنید به دلیلی یکی از API ها برای دریافت اطلاعات Failed…]]></description><link>https://fa.ehsangazar.com/cancel-fetch/</link><guid isPermaLink="false">https://fa.ehsangazar.com/cancel-fetch/</guid><pubDate>Sat, 10 Oct 2020 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از مشکلات در JavaScript بعضا کنسل کردن Promise هاست! فرض کنید به دلیلی یکی از API ها برای دریافت اطلاعات Failed میشود به این دلیل که کاربر دیگر Authenticated نیست.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[احسان گازار]]></title><description><![CDATA[این سایت شخصی احسان گازار مدرس دوره‌های آموزشی فرانت‌اند یا FrtonEnd و ReactJs و سایر ابزارهای مرتبط است. شما می‌توانید مطلب آموزشی زیادی را در این وب‌سایت برای برنامه‌نویسی پیدا کنید.]]></description><link>https://fa.ehsangazar.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 12 Oct 2020 06:49:06 GMT</lastBuildDate><item><title><![CDATA[گفتگو با مجتبی چنانی - برنامه‌نویس شرکت cubic در هامبورگ آلمان]]></title><description><![CDATA[این ویدئو گفتگوی من با مجتبی چنانی است که در شرکت cubic در آلمان به عنوان Software Engineer…]]></description><link>https://fa.ehsangazar.com/chat-with-mojtaba-chenani-software-engineer-cubic-germany/</link><guid isPermaLink="false">https://fa.ehsangazar.com/chat-with-mojtaba-chenani-software-engineer-cubic-germany/</guid><pubDate>Mon, 12 Oct 2020 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;این ویدئو گفتگوی من با مجتبی چنانی است که در شرکت cubic در آلمان به عنوان Software Engineer مشغول به کار هست و تکنولوژی‌های هیجان انگیزی رو باهاشون کار میکنه، از جمله Kotlin, React Native و غیره.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;در این ویدئو سوالات زیادی مطرح می‌شوند از جمله آن که&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;چطور برنامه‌نویس شویم؟&lt;/li&gt;
+&lt;li&gt;چطور برنامه‌نویس اندروید شویم؟&lt;/li&gt;
+&lt;li&gt;چطور میشه به آلمان مهاجرت کرد؟&lt;/li&gt;
+&lt;li&gt;تفاوت کاری ایران و آلمان چیست؟&lt;/li&gt;
+&lt;li&gt;فرهنگ کاری چه فرق‌هایی داره؟&lt;/li&gt;
+&lt;li&gt;چطور رزومه بفرستیم؟&lt;/li&gt;
+&lt;li&gt;چطور مصاحبه کنیم؟&lt;/li&gt;
+&lt;li&gt;چطور کارها رو پیدا کنیم؟&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;p&gt;قطعا نکات زیادی در طول این گفتگو مطرح می‌شوند و جای یادگیری زیادی برای تمامی علاقه‌مندان دارد. امیدوارم از این گفتگو نهایت استفاده را بکنید.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;ضمنا مجتبی رو در لینکداین و توییتر دنبال کنید&lt;/p&gt;
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/chenani&quot;&gt;Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/mochenani&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;p&gt;اگر سوال یا نکته‌ای دارید، حتما در بخش کامنت‌ها بذارید و فراموش نکنید این سایت رو در
+&lt;a href=&quot;https://t.me/fa_ehsangazar_com&quot;&gt;تلگرام&lt;/a&gt;
+و
+&lt;a href=&quot;https://www.youtube.com/channel/UC-NKQJ0bsHTXS_PzYCSvVUQ&quot;&gt;یوتیوب&lt;/a&gt;
+دنبال کنید.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;ضمنا اگر دوست دارید گفتگوی من با شخص منتخب خودتان را بشنوید، حتما اسم او را برای من ارسال کنید.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[چطور درخواست Fetch را در جاوا اسکریپت کنسل کنیم؟]]></title><description><![CDATA[یکی از مشکلات در JavaScript بعضا کنسل کردن Promise هاست! فرض کنید به دلیلی یکی از API ها برای دریافت اطلاعات Failed…]]></description><link>https://fa.ehsangazar.com/cancel-fetch/</link><guid isPermaLink="false">https://fa.ehsangazar.com/cancel-fetch/</guid><pubDate>Sat, 10 Oct 2020 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;یکی از مشکلات در JavaScript بعضا کنسل کردن Promise هاست! فرض کنید به دلیلی یکی از API ها برای دریافت اطلاعات Failed میشود به این دلیل که کاربر دیگر Authenticated نیست.
 در نتیجه بهتر است که ریکوئست‌های دیگر کنسل شود و از ارسال آن‌ها جلوگیری شود.&lt;/p&gt;
 &lt;br /&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; signal &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; controller
@@ -456,6 +485,8 @@ Contentful…]]></description><link>https://fa.ehsangazar.com/introduction-to-co
 &lt;li&gt;&lt;span class=&quot;star&quot;&gt;&lt;/span&gt; &lt;a href=&quot;/chat-with-mahdi-safari&quot;&gt;مصاحبه با مهدی صفری - عضو هیئت مدیره‌ی شرکت کاربن&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class=&quot;star&quot;&gt;&lt;/span&gt; &lt;a href=&quot;/chat-with-sina-sharafzadeh-technical-lead-alibaba/&quot;&gt;مصاحبه با سینا شرف‌زاده - Technical Lead Alibaba Co
 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;star&quot;&gt;&lt;/span&gt; &lt;a href=&quot;/chat-with-mojtaba-chenani-software-engineer-cubic-germany/&quot;&gt;گفتگو با مجتبی چنانی - برنامه‌نویس شرکت cubic در هامبورگ آلمان
+&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;h1&gt;Junior&lt;/h1&gt;
 &lt;p&gt;کسی که مقدمات را یاد گرفته است اما هنوز تجربه‌ی کاری حرفه‌ای ندارد&lt;/p&gt;
@@ -872,26 +903,6 @@ Contentful…]]></description><link>https://fa.ehsangazar.com/introduction-to-co
 &lt;br /&gt;
 &lt;p&gt;این یکی از ویدئو‌های
 &lt;a href=&quot;/react-advanced-course&quot;&gt;آموزش آنلاین React پیشرفته&lt;/a&gt;
-هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[صدا کردن API در SSR برای NextJS با Dispatch در Redux]]></title><description><![CDATA[این ویدئو معرفی میکنه که چطور میشه در NextJs بیایم و Server Side Rendering داشته باشیم که خیلی راحت این موضوع در NextJs…]]></description><link>https://fa.ehsangazar.com/how-to-dispatch-api-redux-ssr-nextjs/</link><guid isPermaLink="false">https://fa.ehsangazar.com/how-to-dispatch-api-redux-ssr-nextjs/</guid><pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;این ویدئو معرفی میکنه که چطور میشه در NextJs بیایم و Server Side Rendering داشته باشیم&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;که خیلی راحت این موضوع در NextJs میتونه با getInitialProps هندل بشه&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;Home&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;getInitialProps&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; reduxStore &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;br /&gt;
-&lt;p&gt;و بعد اگر بخوایم می‌تونیم با دانشی که از Redux داریم بیایم و یک API رو صدا کنیم&lt;/p&gt;
-&lt;br /&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;Home&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;getInitialProps&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; reduxStore &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; reduxStore&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;dispatch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;GET_LIST_JOB_ACTION&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; job &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; reduxStore&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    loading&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; job&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;loading&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    jobs&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; job&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;jobs&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;br /&gt;
-&lt;p&gt;جزئیات بیشتر را می‌توانید در ویدئو ببینید.&lt;/p&gt;
-&lt;br /&gt;
-&lt;p&gt;این یکی از ویدئو‌های
-&lt;a href=&quot;/react-advanced-course&quot;&gt;آموزش آنلاین React پیشرفته&lt;/a&gt;
 هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[کار با Async Await در جاوا اسکریپت]]></title><description><![CDATA[ویژگی‌ای جدیدتری از Promise ها که در اصل در ورژن بعد از ES6 مطرح شد اسمش هست Async Await.
  در اصل همان Promise…]]></description><link>https://fa.ehsangazar.com/javascript-how-to-work-with-async-await/</link><guid isPermaLink="false">https://fa.ehsangazar.com/javascript-how-to-work-with-async-await/</guid><pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ویژگی‌ای جدیدتری از Promise ها که در اصل در ورژن بعد از ES6 مطرح شد اسمش هست Async Await.
 &lt;br /&gt;&lt;/p&gt;
@@ -922,6 +933,26 @@ Contentful…]]></description><link>https://fa.ehsangazar.com/introduction-to-co
 &lt;br /&gt;
 &lt;p&gt;این یکی از ویدئو‌های
 &lt;a href=&quot;/es6-es7-etc-babel-webpack-javascript-course&quot;&gt;دوره کامل آموزش جاوا اسکریپت ورژن ES6 به بعد&lt;/a&gt;
+هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[صدا کردن API در SSR برای NextJS با Dispatch در Redux]]></title><description><![CDATA[این ویدئو معرفی میکنه که چطور میشه در NextJs بیایم و Server Side Rendering داشته باشیم که خیلی راحت این موضوع در NextJs…]]></description><link>https://fa.ehsangazar.com/how-to-dispatch-api-redux-ssr-nextjs/</link><guid isPermaLink="false">https://fa.ehsangazar.com/how-to-dispatch-api-redux-ssr-nextjs/</guid><pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;این ویدئو معرفی میکنه که چطور میشه در NextJs بیایم و Server Side Rendering داشته باشیم&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;که خیلی راحت این موضوع در NextJs میتونه با getInitialProps هندل بشه&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;Home&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;getInitialProps&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; reduxStore &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;p&gt;و بعد اگر بخوایم می‌تونیم با دانشی که از Redux داریم بیایم و یک API رو صدا کنیم&lt;/p&gt;
+&lt;br /&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;Home&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;getInitialProps&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; reduxStore &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; reduxStore&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;dispatch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;GET_LIST_JOB_ACTION&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; job &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; reduxStore&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    loading&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; job&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;loading&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    jobs&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; job&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;jobs&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;p&gt;جزئیات بیشتر را می‌توانید در ویدئو ببینید.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;این یکی از ویدئو‌های
+&lt;a href=&quot;/react-advanced-course&quot;&gt;آموزش آنلاین React پیشرفته&lt;/a&gt;
 هست.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[معرفی State Management و آشنایی با Redux]]></title><description><![CDATA[مفهوم State Management…]]></description><link>https://fa.ehsangazar.com/introduction-to-redux-and-state-management/</link><guid isPermaLink="false">https://fa.ehsangazar.com/introduction-to-redux-and-state-management/</guid><pubDate>Mon, 07 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;مفهوم State Management یک تعریف کلی است از نگه‌داری وضعیت اپلیکیشن در هر لحظه. مفهومی که کمتر در فرانت‌اند وجود داشت ولی هم اکنون با استفاده از React و Redux بسیار پرکاربرد است.&lt;/p&gt;
 &lt;br /&gt;
 &lt;p&gt;اگر با React کار کرده باشید، می‌دانید که هر کامپوننت State خود را دارد و بر اساس آن Update می‌شود. حال اگر بخواهیم کل اپلیکیشن نیز State ای داشته باشد تا بتوانیم در سطح بالاتر کامپوننت‌ها را مدیریت کنیم و همچنین بتوانیم دیتا را از کامپوننتی به دیگیری بفرستیم، بهترین ابزار شناخته شده Redux است.&lt;/p&gt;
