@@ -6,6 +6,7 @@ import reactAdvancedImage from './../Footer/React-Advanced.png'
 import javaScriptImage from './../Footer/JavaScript.png'
 import awsConceptsImage from './../Footer/AWS-Concepts.png'
 import workImage from './../Footer/Work-Logo.png'
+import cleanCodeImg from './../Footer/Clean-Code.png'
 
 import MyApp from '../../contexts/MyApp'
 
@@ -59,6 +60,14 @@ const BuyModal = ({ showBuyModal, handleCloseBuyModal, isLoadingBuyModal }) => {
             title="چطور وارد دنیای برنامه‌نویسی شویم و چطور پیشرفت کنیم؟"
             description="در این دوره بسیاری از مهارت‌های کاریابی و پیشرفت شغلی را یاد خواهید گرفت"
             price="0"
+          />
+        )}
+        {app.process.processName === 'clean-code' && (
+          <TabsInModalToBuy
+            image={cleanCodeImg}
+            title="دوره آنلاین کد تمیز"
+            description="یه دوره تخصصی برای کسانی که علاقه مندند کد‌های تمیزتری بنویسند، بدانند چه چیزی را Refactor کنند و احتمالا برای شرکت‌های بهتری اپلای کنند."
+            price="110000"
           />
         )}
       </Modal.Body>

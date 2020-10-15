@@ -5,6 +5,7 @@ import reactAdvancedImage from './React-Advanced.png'
 import javaScriptImage from './../Footer/JavaScript.png'
 import awsConceptsImage from './../Footer/AWS-Concepts.png'
 import workImg from '../Footer/Work-Logo.png'
+import cleanCodeImg from '../Footer/Clean-Code.png'
 import { useQueryParam, StringParam } from 'use-query-params'
 import { Link } from 'gatsby'
 import { Button, Form, Alert } from 'react-bootstrap'
@@ -224,6 +225,19 @@ const Footer = ({ location }) => {
                     <h5>دوره‌ها</h5>
                   </div>
                   <div className="feature-post-block d-flex flex-wrap">
+                    <div className="col-12 post-card -tiny">
+                      <Link className="card__cover" to="/clean-code-course">
+                        <img src={cleanCodeImg} alt="دوره آنلاین کد تمیز" />
+                      </Link>
+                      <div className="card__content">
+                        <Link
+                          className="card__content-link"
+                          to="/clean-code-course"
+                        >
+                          دوره آنلاین کد تمیز
+                        </Link>
+                      </div>
+                    </div>
                     {features.workCourse && (
                       <div className="col-12 post-card -tiny">
                         <Link

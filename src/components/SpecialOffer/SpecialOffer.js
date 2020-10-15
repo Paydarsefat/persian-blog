@@ -7,6 +7,7 @@ import javaScriptImage from './../Footer/JavaScript.png'
 import reactAdvancedImage from './../Footer/React-Advanced.png'
 import awsConceptsImage from './../Footer/AWS-Concepts.png'
 import workImg from '../Footer/Work-Logo.png'
+import cleanCodeImg from '../Footer/Clean-Code.png'
 
 import MyApp from '../../contexts/MyApp'
 import RELEASES from '../../configs/handleFeatures'
@@ -27,7 +28,7 @@ const SpecialOffer = ({ location, features }) => {
     <>
       <div className="container">
         <div className="justify-content-md-center row">
-          <div className="col-8">
+          <div className="col-12 col-md-8">
             <p>
               شاید بهتر باشد این دوره‌ها را دوره‌های منتورشیپ بنامیم، چرا که من
               در تمام دوره‌ی یادگیریتان در کنارتان خواهم بود. تا بحال فکر
@@ -61,6 +62,54 @@ const SpecialOffer = ({ location, features }) => {
           </div>
         </div>
       </div>
+
+      <div className="row content-container">
+        <div className="col-12 col-md-4 col-lg-4 content-image">
+          <Link to="/clean-code-course">
+            <img src={cleanCodeImg} alt="دوره آنلاین کد تمیز" />
+          </Link>
+        </div>
+        <div className="col-12 col-md-8 col-lg-8 content">
+          <h1>دوره آنلاین کد تمیز</h1>
+          <p>
+            یه دوره تخصصی برای کسانی که علاقه مندند کد‌های تمیزتری بنویسند،
+            بدانند چه چیزی را Refactor کنند و احتمالا برای شرکت‌های بهتری اپلای
+            کنند.
+            <br />
+            شرکت‌های خوب اکثرا برنامه‌نویسان زیاد و با تجربه‌ای برایشان اپلای
+            میکنند و آن‌ها هم کد‌های تستی را به آن‌ها میدهند. برنامه‌نویسان زمان
+            خوبی برای اجرای اولیه می‌گذارند و سپس در طی جلسه‌ی بعدی که حضوری یا
+            آنلاین با مدیر بخش برنامه‌نویسان و یکی از برنامه‌نویسان حرفه‌ای
+            برگزار می‌شود نیاز جدیدی را در پروژه‌ی شما که توسط شما کد زده شده
+            است تعریف می‌کنند.
+            <br />
+            یعنی فرض کنید قرار است اطلاعات را از API بخوانید! آن‌ها از شما
+            می‌خواهند که اطلاعات بیشتری را نمایش دهید و یا تحلیل کرده و سپس
+            نمایش دهید
+            <br />
+            داشتن ساختار! دانستن کد تمیز باعث می‌شود در این جلسات با اطمینان
+            کد‌های کمی را تغییر دهید و نیازشان را پیاده ‌سازی کنید و در غیر این
+            صورت در دام تغییر میفتید و با استرس زیاد در جلسه مطمئنا نتیجه‌ای
+            نخواهید گرفت
+            <br />
+            این دوره بسیار کاربردی‌ است و نیازمند مرور هر چند ماه است تا مطالب
+            ملکه‌ی ذهنتان شود
+          </p>
+          <br />
+          <Link
+            className="btn btn-warning no-decoration margin-left-10"
+            to="/clean-code-course/"
+          >
+            مشاهده جزئیات
+          </Link>
+          <Button onClick={() => handleBuy('clean-code')} variant="info">
+            خرید دوره آنلاین کد تمیز
+          </Button>
+          <br />
+          <br />
+        </div>
+      </div>
+
       {features.workCourse && (
         <div className="row content-container">
           <div className="col-12 col-md-4 col-lg-4 content-image">

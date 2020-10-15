@@ -6,6 +6,7 @@ import JavaScriptCourse from './JavaScriptCourse'
 import WorkCourse from './WorkCourse'
 import ReactAdvancedCourse from './ReactAdvancedCourse'
 import ReactBasicCourse from './ReactBasicCourse'
+import CleanCodeCourse from './CleanCodeCourse'
 import SEO from '../components/SEO/SEO'
 import Video from '../components/Video/Video'
 import Comment from '../components/Comment/Comment'
@@ -32,6 +33,9 @@ const BlogPost = ({ data, location }) => {
   }
   if (location.pathname.includes('find-a-programming-job-course')) {
     return <WorkCourse location={location} data={data} />
+  }
+  if (location.pathname.includes('clean-code-course')) {
+    return <CleanCodeCourse location={location} data={data} />
   }
 
   return (

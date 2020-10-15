@@ -726,6 +726,12 @@ pre.language-javascript * {
   float: right;
   margin-top: 3px;
 }
+.footer-col a.card__content-link {
+  color: #333;
+}
+.footer-col a.card__content-link:hover {
+  color: #e49c85;
+}
 @media only screen and (max-width: 992px) {
   .comment__item__avatar {
     display: none;
