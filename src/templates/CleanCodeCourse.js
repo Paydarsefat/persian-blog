@@ -70,14 +70,6 @@ const CleanCodeCourse = ({ data, location }) => {
                 <h1>{post.frontmatter.title}</h1>
 
                 <br />
-                <img
-                  src={
-                    post.frontmatter.cover &&
-                    post.frontmatter.cover.childImageSharp.fluid.src
-                  }
-                  alt={post.frontmatter.title}
-                />
-                <br />
 
                 {post.frontmatter.videoSourceURL && (
                   <div className="content-video">
