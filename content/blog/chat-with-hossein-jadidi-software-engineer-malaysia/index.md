@@ -1,12 +1,12 @@
 ---
-title: مصاحبه با حسین جدیدی ۰ برنامه‌نویس Full Stack شرکت SEB در Kuala Lumpur, Malaysia
+title: مصاحبه با حسین جدیدی برنامه‌نویس Full Stack شرکت SEB در Kuala Lumpur, Malaysia
 date: '2020-10-19 10:00:00'
-description: مصاحبه با حسین جدیدی ۰ برنامه‌نویس Full Stack شرکت SEB در Kuala Lumpur, Malaysia
+description: مصاحبه با حسین جدیدی برنامه‌نویس Full Stack شرکت SEB در Kuala Lumpur, Malaysia
 cover: cover.png
 comment: true
 homepage: true
 videoSourceURL: https://www.youtube.com/embed/sKw88ftkaZU
-videoTitle: 'مصاحبه با حسین جدیدی ۰ برنامه‌نویس Full Stack شرکت SEB در Kuala Lumpur, Malaysia'
+videoTitle: 'مصاحبه با حسین جدیدی برنامه‌نویس Full Stack شرکت SEB در Kuala Lumpur, Malaysia'
 category: programming-world
 ---
 
