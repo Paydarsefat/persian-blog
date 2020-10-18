@@ -87,6 +87,8 @@ category: programming-world
   ](/chat-with-sina-sharafzadeh-technical-lead-alibaba/)
 - <span class="star"></span> [گفتگو با مجتبی چنانی - برنامه‌نویس شرکت cubic در هامبورگ آلمان
   ](/chat-with-mojtaba-chenani-software-engineer-cubic-germany/)
+- <span class="star"></span> [مصاحبه با حسین جدیدی ۰ برنامه‌نویس Full Stack شرکت SEB در Kuala Lumpur, Malaysia
+  ](/chat-with-hossein-jadidi-software-engineer-malaysia)
 
 * # Junior
 
